@@ -1,0 +1,30 @@
+/_site
+personal_site.tmproj
+
+# OS X
+.DS_Store
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# vim
+*.swp
+
+# git
+!.gitkeep
+
+# Minified
+*.min.js*A
+
+# npm
+node_modules/
+
+#sass-cache
+*.scssc
+.sass-cache/
+.sass-cache/*

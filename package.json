@@ -1,0 +1,10 @@
+{
+  "name": "content365",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "0.4.2",
+    "grunt-cli": "0.1.9",
+    "grunt-contrib-sass": "0.3.0",
+    "grunt-contrib-watch": "0.4.4"
+  }
+}

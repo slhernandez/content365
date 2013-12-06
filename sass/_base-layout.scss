@@ -1,0 +1,7 @@
+$background-color: #333;
+$background-gradient: radial-gradient(ellipse farthest-side at 20% 100%, rgb(80,90,106) 20%, rgba(80,90,106,0)), radial-gradient(ellipse farthest-side at 100% 75%, #fff, rgba(255,255,255,0) 80%), radial-gradient(ellipse farthest-side at 85% 60%, rgb(120,127,138) 10%, rgba(120,127,138,0)), radial-gradient(circle closest-corner at 50% 0, #fff, #afb4bc);
+
+
+body {
+  background: $background-color;
+}
