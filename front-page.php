@@ -10,7 +10,10 @@
 get_header(); ?>
 
 <div class="siteWrapper">
-  <p>This is the front-page.php file </p>
+  <section class="hero-container">
+    <h1 class="hero-heading">Providing Partners Comprehensive <span class="highlight">Content</span> Offerings To Attract And Engage Intent Driven Audiences</h1>
+    <span class="hero-overlay"></span>
+  </section>
 </div>
 
 <?php get_footer(); ?>

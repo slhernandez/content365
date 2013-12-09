@@ -131,6 +131,7 @@
 
 	a {
 		color: $site-wide-color;
+		@include font-bold();
 		display: inline-block;
 		text-decoration: none;
 		text-transform: uppercase;

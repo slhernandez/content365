@@ -56,16 +56,5 @@
 	@include clearfix;
 }
 
-/* Custom Styles - Global Site
- *
- * ====================================
- */
 
-$site-wide-color: #51575d;
 
-/* Max width for content365 site is 1200px */
-.siteWrapper {
-  margin: 0 auto;
-  max-width: 1200px;
-  width: 92.6%;
-}

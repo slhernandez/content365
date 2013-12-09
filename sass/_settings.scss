@@ -8,6 +8,9 @@ $gotham: "Gotham A", "Gotham B";
 $base-font: $gotham; 
 $header-font: $base-font; // you can refer to other variables
 
+$site-wide-color: #51575d;
+$highlight-color: #7ecd65;
+
 /* Supported Values for $layout:
   null | content-sidebar | content-sidebar-sidebar | sidebar-content | sidebar-content-sidebar | sidebar-sidebar-content
 */
