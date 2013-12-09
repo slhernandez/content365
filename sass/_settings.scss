@@ -3,7 +3,9 @@
 // yourself. This means that changes that should be small, such as tweaking the
 // coloring or the sizing, can be done in one place, not all over the stylesheet.
 
-$base-font: sans-serif;
+$gotham: "Gotham A", "Gotham B";
+
+$base-font: $gotham; 
 $header-font: $base-font; // you can refer to other variables
 
 /* Supported Values for $layout:

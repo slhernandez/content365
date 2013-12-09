@@ -49,6 +49,28 @@
 			</div>
 		</div>
 
+		<!--<div class="header-container clearfix">
+			<header>
+				<div class="header-content">
+					<h1 class="logo">
+						<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/dm_logo.png" alt="Demand Media Logo" title="Demand Media Logo"></a>
+					</h1>
+				</div>
+				<div class="nav-content">
+					<nav class="navContent">
+						<ul>
+							<li><a href="#">Content</a></li>
+							<li><a href="#">Solutions</a></li>
+							<li><a href="#">Contributors</a></li>
+							<li><a href="#">Tips & Tricks</a></li>
+							<li><a href="#">Contact</a></li>
+							<li><a href="#">Login</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header> -->
+		</div>
+
 		<div class="site-branding">
 			<!-- <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>-->
 			<!-- <h2 class="site-description"><?php bloginfo( 'description' ); ?></h2> -->
