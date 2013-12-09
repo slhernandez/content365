@@ -1,0 +1,168 @@
+/* =Menu
+----------------------------------------------- */
+
+.main-navigation {
+	clear: both;
+	display: block;
+	float: left;
+	width: 100%;
+
+	// first level
+	ul {
+		list-style: none;
+		margin: 0;
+		padding-left: 0;
+
+		li {
+			float: left;
+			position: relative;
+
+			a {
+				display: block;
+				text-decoration: none;
+			}
+
+			// link hover
+			&:hover {
+				> a { }
+				> ul { display: block; }
+			}
+
+		}
+
+		li.current_page_item, li.current-menu-item {
+			a {}
+		}
+
+		// second level
+		ul {
+			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+			display: none;
+			float: left;
+			position: absolute;
+				top: $vspacing;
+				left: 0;
+			z-index: 99999;
+
+			&:hover {
+				> a {};
+			}
+
+			li {
+				a {
+					width: 200px;
+					&:hover {};
+				}
+			}
+
+			// third level
+			ul {
+				left: 100%;
+				top: 0;
+			}
+
+		}
+	}
+
+}
+
+/* Small menu */
+.menu-toggle {
+	display: none;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .menu-toggle,
+  .main-navigation.toggled .nav-menu {
+    display: block;
+  }
+
+  .main-navigation ul {
+    display: none;
+  }
+}
+
+
+/* =Content365 Navigation
+----------------------------------------------- */
+
+.headerAndNavContainer {
+	display: table;
+	padding: 0;
+	width: 100%;
+	
+	.headerAndNavContent {
+
+		margin: 0 auto;
+		max-width: 1200px;
+
+		.headerAndNavContentInner {
+			display: table;
+			vertical-align: middle;
+			width: 100%;
+		}
+
+	}
+}
+
+.headerContainer {
+	max-width: none;
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	width: 32%;
+	padding: 20px 4% 20px 4%;
+}
+
+.navContent {
+	ul {
+		list-style: none;
+		margin: 0;
+		padding-left: 0;
+	}
+
+	li {
+		display: inline-block;
+		font-size: 12px;
+		margin: 5px 0 5px 0;
+		margin-left: 1.5em;
+	}
+
+	a {
+		color: $site-wide-color;
+		display: inline-block;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+}
+
+.headerContent, .navContent {
+	max-width: 600px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.headerContent h1.logo {
+	width: 100%;
+	min-width: 186px;
+	max-width: 292px;
+	float: left;
+	img {
+		display: block;
+	}
+}
+
+.headerContainer, .navContainer {
+	max-width: none;
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+}
+
+.navContainer {
+	width: 68%;
+	z-index: 1;
+}
+
