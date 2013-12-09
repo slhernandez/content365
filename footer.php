@@ -32,7 +32,7 @@
             <li><a href="#">Privacy Policy</a></li>
           </ul>
         </div>
-        
+
       </div>
     </div>
 

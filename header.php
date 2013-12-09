@@ -34,7 +34,16 @@
 						</div>
 					</div>
 					<div class="navContainer">
-						<nav class="navContent">
+						<div class="mobile-menu">
+							<p><a href="#">Menu</a></p>
+						</div>
+						<!--<div class="menu-icon">
+							<a href="#" class="icon-alone">
+								<span data-air-icon="&#xE9A1;"></span>
+								<span class="screen-reader-text">Menu</span>
+							</a>	
+						</div> -->
+						<nav class="navContent active">
 							<ul>
 								<li><a href="#">Content</a></li>
 								<li><a href="#">Solutions</a></li>
@@ -47,28 +56,6 @@
 					</div>
 				</div>
 			</div>
-		</div>
-
-		<!--<div class="header-container clearfix">
-			<header>
-				<div class="header-content">
-					<h1 class="logo">
-						<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/dm_logo.png" alt="Demand Media Logo" title="Demand Media Logo"></a>
-					</h1>
-				</div>
-				<div class="nav-content">
-					<nav class="navContent">
-						<ul>
-							<li><a href="#">Content</a></li>
-							<li><a href="#">Solutions</a></li>
-							<li><a href="#">Contributors</a></li>
-							<li><a href="#">Tips & Tricks</a></li>
-							<li><a href="#">Contact</a></li>
-							<li><a href="#">Login</a></li>
-						</ul>
-					</nav>
-				</div>
-			</header> -->
 		</div>
 
 		<div class="site-branding">

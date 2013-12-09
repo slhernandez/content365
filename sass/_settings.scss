@@ -16,3 +16,22 @@ $highlight-color: #7ecd65;
 */
 $layout: null !default;
 $vspacing: 1.5em;
+
+/* =Content365 Load icon fonts 
+----------------------------------------------- */
+
+[data-air-icon]:before {
+  font-family: "SSAir";
+  content: attr(data-air-icon);
+  speak: none;
+}
+
+.icon-alone {
+  display: inline-block;
+}
+
+.screen-reader-text {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
