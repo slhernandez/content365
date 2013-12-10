@@ -28,6 +28,15 @@ $vspacing: 1.5em;
 
 .icon-alone {
   display: inline-block;
+  text-decoration: none;
+}
+
+a.icon-alone {
+  color: $site-wide-color;
+}
+
+a.icon-alone:visited {
+  color: $site-wide-color;
 }
 
 .screen-reader-text {

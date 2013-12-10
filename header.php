@@ -34,15 +34,15 @@
 						</div>
 					</div>
 					<div class="navContainer">
-						<div class="mobile-menu">
+						<!--<div class="mobile-menu">
 							<p><a href="#">Menu</a></p>
-						</div>
-						<!--<div class="menu-icon">
+						</div>-->
+						<div class="menu-icon">
 							<a href="#" class="icon-alone">
-								<span data-air-icon="&#xE9A1;"></span>
+								<span data-air-icon="&#xEE06;"></span>
 								<span class="screen-reader-text">Menu</span>
 							</a>	
-						</div> -->
+						</div> 
 						<nav class="navContent active">
 							<ul>
 								<li><a href="#">Content</a></li>
