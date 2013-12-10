@@ -66,6 +66,63 @@
   }
 }
 
+/* =Content365 Content
+----------------------------------------------- */
+.our-content-container {
+  @include websiteWidth();
+  margin: 50px auto;
+  h1 {
+    text-transform: uppercase;
+    padding: 20px 0;
+  }
+
+  ul.content-items {
+    list-style: none;
+    margin: 0 0 50px 0;
+    li {
+      display: inline-block;
+      margin-left: 2em;
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: $site-wide-color;
+        @include font-book();
+        font-size: $font-size-18;
+        &:hover {
+          color: $highlight-color;
+          -webkit-transition:all .5s ease-in-out;
+          -moz-transition:all .5s ease-in-out;
+          transition:all .5s ease-in-out;
+        }
+      }
+
+      span {
+        margin-right: .5em;
+        font-size: $font-size-24;
+        position: relative;
+        top: 7px;
+        &:hover {
+          color: $highlight-color;
+          -webkit-transition:all .5s ease-in-out;
+          -moz-transition:all .5s ease-in-out;
+          transition:all .5s ease-in-out;
+        }
+      }
+
+    }
+
+  }
+
+  .content-showcase {
+    padding-bottom: 50px;
+  }
+}
+
 /* =Content365 Footer 
 ----------------------------------------------- */
 
@@ -73,9 +130,7 @@
   background: $site-wide-color;
 
   .footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    width: 92%;
+    @include websiteWidth();
     @include clearfix();
     .logo-container {
       float: left;

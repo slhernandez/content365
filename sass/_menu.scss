@@ -172,7 +172,7 @@
 }
 
 .navContent.active {
-	max-height: 600px;
+	max-height: 300px;
 	@include  tablet-portrait-and-up() {
 		height: auto; 
 	}

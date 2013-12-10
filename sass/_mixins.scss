@@ -13,3 +13,10 @@
         #{$property}: $value;
     }
 }
+
+/* Content365 website has a max-width of 1200px */
+@mixin websiteWidth() {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 92%;
+}

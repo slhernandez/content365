@@ -4,12 +4,13 @@ jQuery(document).ready(function($) {
   $('.mobile-menu a').on('click', function(e) {
     e.stopPropagation();
     e.preventDefault();
-    if ($('.navContent').hasClass('inactive')) {
-      $('.navContent').addClass('active').removeClass('inactive');
-    } else if ($('.navContent').hasClass('active')) {
-      $('.navContent').addClass('inactive').removeClass('active');
+    var $navContainer = $('.navContent');
+    if ($navContainer.hasClass('inactive')) {
+      $navContainer.addClass('active').removeClass('inactive');
+    } else if ($navContainer.hasClass('active')) {
+      $navContainer.addClass('inactive').removeClass('active');
     } else {
-      $('.navContent').addClass('inactive');
+      $navContainer.addClass('inactive');
     }
   });
 });
