@@ -15,6 +15,7 @@ module.exports = function(grunt) {
           'style.css':'sass/_mediaqueries.scss',
           'style.css':'sass/_infinitescroll.scss',
           'style.css':'sass/_layout.scss',
+          'style.css':'sass/_grids.scss',
           'style.css':'sass/_media.scss',
           'style.css':'sass/_menu.scss',
           'style.css':'sass/_mixins.scss',
