@@ -37,6 +37,12 @@ get_header(); ?>
 
   <section class="contributors">
     <div class="contributors-container">
+      <h1>Contributors</h1>
+      <div class="topics">
+        <div class="topic">
+          <a href="#"><span class="t-overlay"><span><img src=""></a>
+        </div>
+      </div>
     </div>
   </section>
 
