@@ -876,20 +876,37 @@ object {
 ----------------------------------------------- */
 .our-content-container {
   max-width: 1200px;
-  margin: 0 auto;
-  width: 92%;
+  width: 100%;
   margin: 50px auto; }
+  @media only screen and (min-width: 48.001em) {
+    .our-content-container {
+      width: 92%; } }
   .our-content-container h1 {
+    text-align: center;
     text-transform: uppercase;
     padding: 20px 0; }
+    @media only screen and (min-width: 48.001em) {
+      .our-content-container h1 {
+        text-align: left; } }
   .our-content-container ul.content-items {
     list-style: none;
     margin: 0 0 50px 0; }
     .our-content-container ul.content-items li {
-      display: inline-block;
-      margin-left: 2em; }
-      .our-content-container ul.content-items li:first-child {
-        margin-left: 0; }
+      display: block;
+      text-align: center;
+      padding: 15px 0;
+      border-bottom: 1px solid #EEE;
+      margin-left: 0; }
+      @media only screen and (min-width: 48.001em) {
+        .our-content-container ul.content-items li {
+          display: inline-block;
+          text-align: left;
+          border-bottom: none;
+          padding: 0;
+          margin-left: 2em; } }
+      @media only screen and (min-width: 48.001em) {
+        .our-content-container ul.content-items li:first-child {
+          margin-left: 0; } }
       .our-content-container ul.content-items li a {
         text-decoration: none;
         text-transform: uppercase;
@@ -898,6 +915,9 @@ object {
         font-weight: 400;
         font-style: normal;
         font-size: 1.125em; }
+        @media only screen and (min-width: 48.001em) and (max-width: 64em) {
+          .our-content-container ul.content-items li a {
+            font-size: 0.875em; } }
         .our-content-container ul.content-items li a:hover {
           color: #7ecd65;
           -webkit-transition: all .5s ease-in-out;
@@ -915,6 +935,35 @@ object {
           transition: all .5s ease-in-out; }
   .our-content-container .content-showcase {
     padding-bottom: 50px; }
+
+/* =Content365 Solutions 
+----------------------------------------------- */
+.solutions {
+  background: #51575d;
+  padding: 50px 0; }
+
+.solutions-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 92%;
+  margin: 50px auto; }
+  .solutions-container:before, .solutions-container:after {
+    content: "";
+    display: table; }
+  .solutions-container:after {
+    clear: both; }
+  .solutions-container h1 {
+    text-transform: uppercase;
+    padding: 20px 0;
+    text-align: center;
+    color: #FFF; }
+  .solutions-container .solution {
+    padding: 50px 0;
+    margin: 0 auto;
+    width: 80%; }
+    .solutions-container .solution img {
+      text-align: center;
+      width: 100%; }
 
 /* =Content365 Contributors
 ----------------------------------------------- */
@@ -976,6 +1025,52 @@ object {
       width: 90%;
       word-wrap: break-word; }
 
+/* =Content365 Tips And Tricks
+----------------------------------------------- */
+.tipsandtricks {
+  background: #7ecd65; }
+
+.tips-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 92%;
+  padding: 50px 0; }
+  .tips-container:before, .tips-container:after {
+    content: "";
+    display: table; }
+  .tips-container:after {
+    clear: both; }
+  .tips-container h1 {
+    color: #FFF;
+    text-transform: uppercase;
+    padding: 20px 0; }
+  .tips-container .tip-items {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0; }
+    .tips-container .tip-items:before, .tips-container .tip-items:after {
+      content: "";
+      display: table; }
+    .tips-container .tip-items:after {
+      clear: both; }
+    .tips-container .tip-items .tip-item {
+      cursor: pointer;
+      border-radius: 50px;
+      position: relative;
+      width: 30px;
+      height: 30px;
+      margin-right: 10em;
+      margin-bottom: 6.5em;
+      float: left;
+      background-color: #67b64c;
+      display: inline-block;
+      overflow: hidden; }
+      .tips-container .tip-items .tip-item:hover {
+        background: #3e6f2d;
+        -webkit-transition: all 500ms ease-in-out;
+        -moz-transition: all 500ms ease-in-out;
+        transition: all 500ms ease-in-out; }
+
 /* =Content365 Contact
 ----------------------------------------------- */
 .contact {
@@ -989,8 +1084,11 @@ object {
     padding: 20px 0 50px 0; }
 
 .contact-info {
-  width: 38%;
-  float: left; }
+  float: none; }
+  @media only screen and (min-width: 64.001em) {
+    .contact-info {
+      width: 38%;
+      float: left; } }
   .contact-info ul {
     list-style: none;
     margin: 0 0 50px 0; }
@@ -1022,9 +1120,12 @@ object {
           transition: all .5s ease-in-out; }
 
 .mail-info {
-  width: 60%;
-  float: right;
+  float: none;
   margin-right: 2%; }
+  @media only screen and (min-width: 64.001em) {
+    .mail-info {
+      width: 60%;
+      float: right; } }
 
 .wrap {
   max-width: 1200px;
@@ -1102,23 +1203,30 @@ form fieldset {
     font-family: "Gotham A", "Gotham B";
     font-weight: 500;
     font-style: normal; }
-  form fieldset.send {
-    display: inline-block; }
-    form fieldset.send .send-btn {
-      color: #FFF;
-      background: #7ecd65;
-      border: 1px solid #5ec13f;
-      font-size: 1.5em;
-      padding: 6px 45px; }
+  form fieldset.send .send-btn {
+    color: #FFF;
+    background: #7ecd65;
+    border: 1px solid #5ec13f;
+    font-size: 1.5em;
+    padding: 6px 45px; }
   form fieldset.reset {
-    margin-left: 1em;
-    display: inline-block; }
+    margin-left: 0;
+    margin-top: 20px; }
     form fieldset.reset .reset-btn {
       color: #51575d;
       background: #FFF;
       border: 1px solid #e6e6e6;
       font-size: 1.5em;
       padding: 6px 45px; }
+    @media only screen and (min-width: 30.001em) {
+      form fieldset.reset {
+        margin-top: 0;
+        margin-left: 1em; } }
+  form fieldset.reset, form fieldset.send {
+    display: block; }
+    @media only screen and (min-width: 30.001em) {
+      form fieldset.reset, form fieldset.send {
+        display: inline-block; } }
   form fieldset input[type="submit"]:hover,
   form fieldset input[type="submit"]:focus {
     border: 1px solid #bbb; }

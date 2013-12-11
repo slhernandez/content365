@@ -55,7 +55,7 @@ $mq-desktop   : 86.375em !default;
  
 // Everything above and including the mobile landscape width
 @mixin mobile-landscape-and-up {
-  @media only screen and (min-width : $mq-mobile-portrait + .001) {
+  @media only screen and (min-width : $mq-mobile-landscape + .001) {
     @content;
   }
 }
@@ -106,7 +106,7 @@ $mq-desktop   : 86.375em !default;
  
 // Everything larger than portrait tablet
 @mixin tablet-landscape-and-up {
-  @media only screen and (min-width : $mq-tablet-portrait + .001) {
+  @media only screen and (min-width : $mq-tablet-landscape + .001) {
     @content;
   }
 }

@@ -67,9 +67,17 @@
 /* =Content365 Content
 ----------------------------------------------- */
 .our-content-container {
-  @include websiteWidth();
+  max-width: 1200px;
+  @include tablet-portrait-and-up() {
+    width: 92%;
+  }
+  width: 100%;
   margin: 50px auto;
   h1 {
+    text-align: center;
+    @include tablet-portrait-and-up() {
+      text-align: left;
+    }
     text-transform: uppercase;
     padding: 20px 0;
   }
@@ -78,11 +86,23 @@
     list-style: none;
     margin: 0 0 50px 0;
     li {
-      display: inline-block;
-      margin-left: 2em;
+      display: block;
+      text-align: center;
+      padding: 15px 0;
+      border-bottom: 1px solid #EEE;
+      @include tablet-portrait-and-up() {
+        display: inline-block;
+        text-align: left;
+        border-bottom: none;
+        padding: 0;
+        margin-left: 2em;
+      }
+      margin-left: 0;
 
       &:first-child {
-        margin-left: 0;
+        @include tablet-portrait-and-up() {
+          margin-left: 0;
+        }
       }
 
       a {
@@ -91,6 +111,9 @@
         color: $site-wide-color;
         @include font-book();
         font-size: $font-size-18;
+        @include tablet-landscape-only() {
+          font-size: $font-size-14;
+        }
         &:hover {
           color: $highlight-color;
           -webkit-transition:all .5s ease-in-out;
@@ -117,6 +140,35 @@
   }
   .content-showcase {
     padding-bottom: 50px;
+  }
+}
+
+/* =Content365 Solutions 
+----------------------------------------------- */
+.solutions {
+  background: #51575d;
+  padding: 50px 0;
+}
+
+.solutions-container {
+  @include clearfix();
+  @include websiteWidth();
+  margin: 50px auto;
+  h1 {
+    text-transform: uppercase;
+    padding: 20px 0;
+    text-align: center;
+    color: #FFF;
+  }
+
+  .solution {
+    padding: 50px 0;
+    margin: 0 auto;
+    width: 80%;
+    img {
+      text-align: center;
+      width: 100%;
+    }
   }
 }
 
@@ -179,6 +231,49 @@
   }
 }
 
+/* =Content365 Tips And Tricks
+----------------------------------------------- */
+.tipsandtricks {
+  background: $tips-tricks-color;
+}
+
+.tips-container {
+  @include clearfix();
+  @include websiteWidth();
+  padding: 50px 0;
+  h1 {
+    color: #FFF;
+    text-transform: uppercase;
+    padding: 20px 0;
+  }  
+
+  .tip-items {
+    @include clearfix();
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+    .tip-item {
+      cursor: pointer;
+      border-radius: 50px;
+      position: relative;
+      width: 30px;
+      height: 30px;
+      margin-right: 10em;
+      margin-bottom: 6.5em;
+      float: left;
+      background-color: #67b64c;
+      display: inline-block;
+      overflow: hidden;
+      &:hover {
+        background: darken(#67b64c, 20%);
+        -webkit-transition: all 500ms ease-in-out;
+        -moz-transition: all 500ms ease-in-out;
+        transition: all 500ms ease-in-out;
+      }
+    }
+  }
+}
+
 /* =Content365 Contact
 ----------------------------------------------- */
 
@@ -197,8 +292,11 @@
 
 // float your columns and define their width
 .contact-info {
-  @include grid(6,4);
-  float: left;
+  @include tablet-landscape-and-up() {
+    @include grid(6,4);
+    float: left;
+  }
+  float: none;
 
   ul {
     list-style: none;
@@ -237,8 +335,11 @@
 }
 
 .mail-info {
-  @include grid(8,10);
-  float: right;
+  @include tablet-landscape-and-up() {
+    @include grid(8,10);
+    float: right;
+  }
+  float: none;
   margin-right: $flex-gutter;
 }
 
@@ -338,7 +439,6 @@ form fieldset {
       font-size: $font-size-24;
       padding: 6px 45px;
     }
-    display: inline-block;
   }
 
   &.reset {
@@ -349,8 +449,21 @@ form fieldset {
       font-size: $font-size-24;
       padding: 6px 45px;
     }
-    margin-left: 1em;
-    display: inline-block;
+    margin-left: 0;
+    margin-top: 20px;
+    @include mobile-landscape-and-up() {
+      margin-top: 0;
+      margin-left: 1em;
+    }
+  }
+
+
+  &.reset,
+  &.send {
+    @include mobile-landscape-and-up() {
+      display: inline-block;
+    }
+    display: block;
   }
 
   input[type="submit"]:hover,

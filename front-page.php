@@ -35,6 +35,15 @@ get_header(); ?>
     </div>
   </section> <!-- end of our-content -->
 
+  <section class="solutions">
+    <div class="solutions-container">
+      <h1>Unleash Your Content Strategy Using Demand Media's Platform To:</h1>
+      <div class="solution">
+        <img src="<?php bloginfo('template_directory'); ?>/images/content-strategy.png" alt="Solution" title="Solution">
+      </div>
+    </div>
+  </section> <!-- end of solutions -->
+
   <section class="contributors">
     <div class="contributors-container">
       <h1>Contributors</h1>
@@ -99,6 +108,38 @@ get_header(); ?>
     </div>
   </section> <!-- end of contributors -->
 
+  <section class="tipsandtricks">
+    <div class="tips-container">
+      <h1>Tips and Tricks</h1>
+      <div class="tip-items">
+        <div class="tip-item"></div>
+        <div class="tip-item"></div>
+        <div class="tip-item"></div>
+        <div class="tip-item"></div>
+        <div class="tip-item"></div>
+        <div class="tip-item"></div>
+        <div class="tip-item"></div>
+        <div class="tip-item"></div>
+        <div class="tip-item"></div>
+        <div class="tip-item"></div>
+        <div class="tip-item"></div>
+        <div class="tip-item"></div>
+        <div class="tip-item"></div>
+        <div class="tip-item"></div>
+        <div class="tip-item"></div>
+        <div class="tip-item"></div>
+        <div class="tip-item"></div>
+        <div class="tip-item"></div>
+        <div class="tip-item"></div>
+        <div class="tip-item"></div>
+        <div class="tip-item"></div>
+        <div class="tip-item"></div>
+        <div class="tip-item"></div>
+        <div class="tip-item"></div>
+      </div> 
+    </div>
+  </section>
+
   <section class="contact">
     <div class="contact-container wrap">
       <div class="contact-info">
@@ -141,7 +182,7 @@ get_header(); ?>
         </form>
       </div>
     </div>
-  </section>
+  </section> <!-- end of contact -->
 
 </div>
 

@@ -22,5 +22,7 @@ jQuery(document).ready(function($) {
     templateUrl + '/images/family2tablet1_opt.jpg'
     ,templateUrl + '/images/family1tablet2_opt.jpg'
     ,templateUrl + '/images/family3tablet2_opt.jpg'
-    ], { duration: 3000, fade: 750 } );
+  ], { duration: 3000, fade: 750 } );
+
+  
 });
