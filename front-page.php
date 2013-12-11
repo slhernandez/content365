@@ -112,7 +112,11 @@ get_header(); ?>
     <div class="tips-container">
       <h1>Tips and Tricks</h1>
       <div class="tip-items">
-        <div class="tip-item"></div>
+        <div class="tip-item">
+          <div class="tip show">
+            <p>Best way to engage your twitter audience is to ask them questions</p>
+          </div>
+        </div>
         <div class="tip-item"></div>
         <div class="tip-item"></div>
         <div class="tip-item"></div>

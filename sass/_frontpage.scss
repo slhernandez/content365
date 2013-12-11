@@ -213,6 +213,13 @@
       height: 100%;
       top: 0;
       left: 0;
+      &:hover {
+        background: transparent;
+        -webkit-transition: all .2s ease-in;
+        -moz-transition: all .2s ease-in;
+        -o-transition: all .2s ease-in;
+        transition: all .2s ease-in;
+      }
     }
 
     .topic .t-label {
@@ -263,14 +270,44 @@
       float: left;
       background-color: #67b64c;
       display: inline-block;
-      overflow: hidden;
       &:hover {
         background: darken(#67b64c, 20%);
         -webkit-transition: all 500ms ease-in-out;
         -moz-transition: all 500ms ease-in-out;
         transition: all 500ms ease-in-out;
       }
+      &:hover .tip {
+        opacity: 1;
+        //display: block;
+        -webkit-transition: all 500ms ease-in-out;
+        -moz-transition: all 500ms ease-in-out;
+        transition: all 500ms ease-in-out;
+      }
     }
+  }
+}
+
+.tip {
+  opacity: 0;
+  //display: none;
+  background-color: #FFF;
+  position: absolute;
+  top: 32px;
+  left: -135px;
+  width: 300px;
+  height: 300px;
+  border-radius: 200px;
+  z-index: 1;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+  p {
+    font-size: $font-size-20;
+    color: $site-wide-color;
+    position: absolute;
+    top: 38%;
+    text-align: center;
+    font-weight: bold;
   }
 }
 
@@ -488,21 +525,37 @@ form fieldset {
     @include websiteWidth();
     @include clearfix();
     .logo-container {
-      float: left;
+      @include mobile-landscape-and-up() {
+        float: left;
+        width: 32%;
+        text-align: left;
+      }
+      text-align: center;
       padding: 15px 0;
-      width: 32%;
+      float: none;
+      width: 100%;
     }
 
     .footer-menu {
-      float: left;
-      width: 68%;
+      @include mobile-landscape-and-up() {
+        float: left;
+        width: 68%;
+      }
+      float: none;
+      width: 100%;
       ul {
         margin: 0;
         padding: 25px 0;
         text-align: center;
         li {
-          display: inline-block;
-          margin-left: 2em;
+          @include mobile-landscape-and-up() {
+            display: inline-block;
+            margin-left: 2em;
+            margin-bottom: 0;
+          }
+          margin-left: 0;
+          margin-bottom: .4em;
+          display: block;
         }
 
         li a {

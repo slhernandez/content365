@@ -567,19 +567,19 @@ a:visited {
       overflow: visible; } }
 
 .navContent.active {
-  max-height: 300px;
-  -webkit-transition: all .3s linear;
-  -moz-transition: all .3s linear;
-  transition: all .3s linear; }
+  height: 300px;
+  -webkit-transition: all 250ms linear;
+  -moz-transition: all 250ms linear;
+  transition: all 250ms linear; }
   @media only screen and (min-width: 48.001em) {
     .navContent.active {
       height: auto; } }
 
 .navContent.inactive {
   height: 0;
-  -webkit-transition: all .3s linear;
-  -moz-transition: all .3s linear;
-  transition: all .3s linear; }
+  -webkit-transition: all 250ms linear;
+  -moz-transition: all 250ms linear;
+  transition: all 250ms linear; }
   @media only screen and (min-width: 48.001em) {
     .navContent.inactive {
       height: auto; } }
@@ -1010,6 +1010,12 @@ object {
       height: 100%;
       top: 0;
       left: 0; }
+      .contributors-container .topics .topic a .t-overlay:hover {
+        background: transparent;
+        -webkit-transition: all .2s ease-in;
+        -moz-transition: all .2s ease-in;
+        -o-transition: all .2s ease-in;
+        transition: all .2s ease-in; }
     .contributors-container .topics .topic .t-label {
       color: #FFF;
       cursor: pointer;
@@ -1063,13 +1069,38 @@ object {
       margin-bottom: 6.5em;
       float: left;
       background-color: #67b64c;
-      display: inline-block;
-      overflow: hidden; }
+      display: inline-block; }
       .tips-container .tip-items .tip-item:hover {
         background: #3e6f2d;
         -webkit-transition: all 500ms ease-in-out;
         -moz-transition: all 500ms ease-in-out;
         transition: all 500ms ease-in-out; }
+      .tips-container .tip-items .tip-item:hover .tip {
+        opacity: 1;
+        -webkit-transition: all 500ms ease-in-out;
+        -moz-transition: all 500ms ease-in-out;
+        transition: all 500ms ease-in-out; }
+
+.tip {
+  opacity: 0;
+  background-color: #FFF;
+  position: absolute;
+  top: 32px;
+  left: -135px;
+  width: 300px;
+  height: 300px;
+  border-radius: 200px;
+  z-index: 1;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out; }
+  .tip p {
+    font-size: 1.25em;
+    color: #51575d;
+    position: absolute;
+    top: 38%;
+    text-align: center;
+    font-weight: bold; }
 
 /* =Content365 Contact
 ----------------------------------------------- */
@@ -1247,18 +1278,34 @@ form fieldset {
     .site-footer .footer-content:after {
       clear: both; }
     .site-footer .footer-content .logo-container {
-      float: left;
+      text-align: center;
       padding: 15px 0;
-      width: 32%; }
+      float: none;
+      width: 100%; }
+      @media only screen and (min-width: 30.001em) {
+        .site-footer .footer-content .logo-container {
+          float: left;
+          width: 32%;
+          text-align: left; } }
     .site-footer .footer-content .footer-menu {
-      float: left;
-      width: 68%; }
+      float: none;
+      width: 100%; }
+      @media only screen and (min-width: 30.001em) {
+        .site-footer .footer-content .footer-menu {
+          float: left;
+          width: 68%; } }
       .site-footer .footer-content .footer-menu ul {
         margin: 0;
         padding: 25px 0;
         text-align: center; }
         .site-footer .footer-content .footer-menu ul li {
-          display: inline-block;
-          margin-left: 2em; }
+          margin-left: 0;
+          margin-bottom: .4em;
+          display: block; }
+          @media only screen and (min-width: 30.001em) {
+            .site-footer .footer-content .footer-menu ul li {
+              display: inline-block;
+              margin-left: 2em;
+              margin-bottom: 0; } }
         .site-footer .footer-content .footer-menu ul li a {
           color: #697178; }
