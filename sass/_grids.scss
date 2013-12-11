@@ -1,9 +1,9 @@
 
 //variables
-$num-of-modules: 14;
-$module-width: 78px;
-$gutter: 14px;
-$layout-width: 1274px;
+$num-of-modules: 15;
+$module-width: 60px;
+$gutter: 24px;
+$layout-width: 1200px;
 
 // create a flexible gutter
 $flex-gutter: percentage($gutter/$layout-width);
@@ -13,61 +13,6 @@ $flex-gutter: percentage($gutter/$layout-width);
   width: percentage((($module-width * $col-num)+($gutter * $gutter-num))/$layout-width);
 }
 
-// float your columns and define their width
-.sub {
-  @include grid(3,3);
-  float: right;
-}
-
-.main {
-  @include grid(11,9);
-  float: left;
-  margin-right: $flex-gutter;
-}
-
-// clear the floated elements and define the max-width
-.wrap { 
-  max-width: $layout-width;
-  margin: 0 auto;
-  &:after {
-      content: "."; 
-      display: block; 
-      height: 0; 
-      clear: both; 
-      visibility: hidden; 
-      font-size: 0;
-  }
-}
 
 
 
-
-
-
-
-//CSS for the sake of readability:
-
-.sub {
-  background: blue;
-  margin-bottom: 20px;
-  padding: 14px;
-  box-sizing: border-box;
-}
-
-.main {
-  background: purple;
-  margin-bottom: 20px;
-  padding: 14px;
-  box-sizing: border-box;
-}
-
-
-// Example Markup
-//<div class="wrap">
-//  <div class="main">
-//    Column 2 of 3
-//  </div>
-//    <div class="sub">
-//    Column 1 of 3
-//  </div>
-//</div>
