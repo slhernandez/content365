@@ -79,7 +79,7 @@
       text-align: left;
     }
     text-transform: uppercase;
-    padding: 20px 0;
+    padding: 100px 0 20px 0;
   }
 
   ul.content-items {
@@ -180,7 +180,7 @@
   margin: 50px auto;
   h1 {
     text-transform: uppercase;
-    padding: 20px 0;
+    padding: 100px 0 20px 0;
   }
 
   .topics {
@@ -247,7 +247,7 @@
 .tips-container {
   @include clearfix();
   @include websiteWidth();
-  padding: 50px 0;
+  padding: 100px 0;
   h1 {
     color: #FFF;
     text-transform: uppercase;

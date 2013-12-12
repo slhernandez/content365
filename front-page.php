@@ -15,7 +15,7 @@ get_header(); ?>
     <span class="hero-overlay"></span>
   </section> <!-- end of hero-container -->
 
-  <section class="our-content">
+  <section id="our-content" class="our-content">
     <div class="our-content-container">
       <h1>Our Content</h1>
       <ul class="content-items">
@@ -35,7 +35,7 @@ get_header(); ?>
     </div>
   </section> <!-- end of our-content -->
 
-  <section class="solutions">
+  <section id="solutions" class="solutions">
     <div class="solutions-container">
       <h1>Unleash Your Content Strategy Using Demand Media's Platform To:</h1>
       <div class="solution">
@@ -44,7 +44,7 @@ get_header(); ?>
     </div>
   </section> <!-- end of solutions -->
 
-  <section class="contributors">
+  <section id="contributors" class="contributors">
     <div class="contributors-container">
       <h1>Contributors</h1>
       <div class="topics">
@@ -108,7 +108,7 @@ get_header(); ?>
     </div>
   </section> <!-- end of contributors -->
 
-  <section class="tipsandtricks">
+  <section id="tipsandtricks" class="tipsandtricks">
     <div class="tips-container">
       <h1>Tips and Tricks</h1>
       <div class="tip-items">
@@ -144,7 +144,7 @@ get_header(); ?>
     </div>
   </section>
 
-  <section class="contact">
+  <section id="contact" class="contact">
     <div class="contact-container wrap">
       <div class="contact-info">
         <h1>Contact</h1>        

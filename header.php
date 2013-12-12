@@ -25,37 +25,39 @@ var templateUrl = '<?= get_bloginfo("template_url"); ?>';
 	<?php do_action( 'before' ); ?>
 	<header id="masthead" class="site-header" role="banner">
 
-		<div class="headerAndNavContainer">
+		<div class="headerAndNavContainer sticky">
 			<div class="headerAndNavContent">
 				<div class="headerAndNavContentInner">
 					<div class="headerContainer">
 						<div class="headerContent">
 							<h1 class="logo">
-								<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/dm_logo.png" alt="Demand Media Logo" title="Demand Media Logo"></a>
+								<a href="#hero" class="anchorLink"><img src="<?php bloginfo('template_directory'); ?>/images/dm_logo.png" alt="Demand Media Logo" title="Demand Media Logo"></a>
 							</h1>
 						</div>
 					</div>
-					<div class="navContainer">
-						<div class="mobile-menu">
-							<p><a href="#">Menu</a></p>
-						</div>
-						<!-- <div class="menu-icon">
-							<a href="#" class="icon-alone">
-								<span data-air-icon="&#xEE06;"></span>
-								<span class="screen-reader-text">Menu</span>
-							</a>	
-						</div> -->
-						<nav class="navContent active">
-							<ul>
-								<li><a href="#">Content</a></li>
-								<li><a href="#">Solutions</a></li>
-								<li><a href="#">Contributors</a></li>
-								<li><a href="#">Tips & Tricks</a></li>
-								<li><a href="#">Contact</a></li>
-								<li><a href="#">Login</a></li>
-							</ul>
-						</nav>
-					</div>
+					<div class="navHeading">
+						<div class="navContainer">
+							<div class="mobile-menu">
+								<p><a href="#">Menu</a></p>
+							</div>
+							<!-- <div class="menu-icon">
+								<a href="#" class="icon-alone">
+									<span data-air-icon="&#xEE06;"></span>
+									<span class="screen-reader-text">Menu</span>
+								</a>	
+							</div> -->
+							<nav class="navContent active">
+								<ul>
+									<li><a href="#our-content" class="anchorLink">Content</a></li>
+									<li><a href="#solutions" class="anchorLink">Solutions</a></li>
+									<li><a href="#contributors" class="anchorLink">Contributors</a></li>
+									<li><a href="#tipsandtricks" class="anchorLink">Tips & Tricks</a></li>
+									<li><a href="#contact" class="anchorLink">Contact</a></li>
+									<li><a href="#login" class="anchorLink">Login</a></li>
+								</ul>
+							</nav>
+						</div> <!-- end of navContainer -->
+					</div> <!-- end of navHeading -->
 				</div>
 			</div>
 		</div>

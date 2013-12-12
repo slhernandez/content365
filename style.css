@@ -501,9 +501,6 @@ a:visited {
 .headerAndNavContainer {
   display: table;
   padding: 0;
-  position: fixed;
-  z-index: 1;
-  background: white;
   width: 100%; }
   .headerAndNavContainer .headerAndNavContent {
     margin: 0 auto;
@@ -512,6 +509,13 @@ a:visited {
       display: table;
       vertical-align: middle;
       width: 100%; }
+  .headerAndNavContainer.sticky {
+    position: fixed;
+    z-index: 10;
+    background: white;
+    -webkit-transition: background 300ms ease-in-out;
+    -moz-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out; }
 
 .headerContainer {
   height: 100%;
@@ -561,6 +565,8 @@ a:visited {
   .navContent a:hover {
     color: #7ecd65;
     transition: all .5s ease-in-out; }
+  .navContent a.active {
+    color: #7ecd65; }
 
 .navContent {
   overflow: hidden;
@@ -571,6 +577,7 @@ a:visited {
 
 .navContent.active {
   height: 300px;
+  background: #51575d;
   -webkit-transition: all 250ms linear;
   -moz-transition: all 250ms linear;
   transition: all 250ms linear; }
@@ -607,37 +614,36 @@ a:visited {
   .headerContent h1.logo img {
     display: block; }
 
-.headerContainer, .navContainer {
+.headerContainer, .navHeading {
   display: block;
   height: 100%; }
   @media only screen and (min-width: 48.001em) {
-    .headerContainer, .navContainer {
+    .headerContainer, .navHeading {
       max-width: none;
       display: table-cell;
       vertical-align: middle; } }
 
-.navContainer {
+.navHeading {
   width: 100%;
-  background: #51575d;
   position: relative;
   z-index: 1; }
   @media only screen and (min-width: 48.001em) {
-    .navContainer {
-      background: #FFF;
+    .navHeading {
       width: 68%; } }
-  .navContainer .mobile-menu {
+  .navHeading .mobile-menu {
     display: block;
-    margin: 0; }
+    margin: 0;
+    background: #51575d; }
     @media only screen and (min-width: 48.001em) {
-      .navContainer .mobile-menu {
+      .navHeading .mobile-menu {
         display: none; } }
-    .navContainer .mobile-menu p {
+    .navHeading .mobile-menu p {
       text-align: right;
       padding: 10px 0;
       margin: 0;
       padding-right: 20px;
       text-transform: uppercase; }
-      .navContainer .mobile-menu p a {
+      .navHeading .mobile-menu p a {
         color: #FFF;
         text-decoration: none; }
 
@@ -887,7 +893,7 @@ object {
   .our-content-container h1 {
     text-align: center;
     text-transform: uppercase;
-    padding: 20px 0; }
+    padding: 100px 0 20px 0; }
     @media only screen and (min-width: 48.001em) {
       .our-content-container h1 {
         text-align: left; } }
@@ -982,7 +988,7 @@ object {
     clear: both; }
   .contributors-container h1 {
     text-transform: uppercase;
-    padding: 20px 0; }
+    padding: 100px 0 20px 0; }
   .contributors-container .topics {
     padding: 50px 0; }
     .contributors-container .topics:before, .contributors-container .topics:after {
@@ -1043,7 +1049,7 @@ object {
   max-width: 1200px;
   margin: 0 auto;
   width: 92%;
-  padding: 50px 0; }
+  padding: 100px 0; }
   .tips-container:before, .tips-container:after {
     content: "";
     display: table; }
