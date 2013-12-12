@@ -501,6 +501,9 @@ a:visited {
 .headerAndNavContainer {
   display: table;
   padding: 0;
+  position: fixed;
+  z-index: 1;
+  background: white;
   width: 100%; }
   .headerAndNavContainer .headerAndNavContent {
     margin: 0 auto;
