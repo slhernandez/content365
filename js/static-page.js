@@ -30,27 +30,40 @@ jQuery(document).ready(function($) {
   // Initiate scolling
   $('a.anchorLink').anchorAnimate();
 
+  // Transform the header navigation while scrolling
+  // ----------------------------------
   $('#our-content').waypoint( function(direction) {
 
       if (direction == 'down') {
         $('.headerAndNavContainer.sticky').css({
           background: 'rgba(255,255,255,0.7)', 
+          background: 'rgba(81, 87, 93, 0.9)', 
           'box-shadow': '0 1px 1px rgba(0,0,0,0.2)'
         });
+        $('.headerContent h1.logo img').css('width', '62%');
+        $('.headerAndNavContainer').css('height', '65px');
+        $('.headerContent h1.logo img.white-logo').css('display', 'block');
+        $('.headerContent h1.logo img.gray-logo').css('display', 'none');
         //$('.headerAndNavContainer.sticky').css('background', 'rgba(81, 87, 93, 0.7)');
-        //$('.navContent a').css('color', '#FFF');
       } else if (direction == 'up') {
         $('.headerAndNavContainer.sticky').css({
           background: 'rgba(255,255,255,1.0)',
           'box-shadow': 'none'
         });
-        //$('.navContent a').css('color', 'rgba(81, 87, 93, 1)');
+        $('.headerContent h1.logo img').css('width', '100%');
+        $('.headerContent h1.logo img.white-logo').css('display', 'none');
+        $('.headerContent h1.logo img.gray-logo').css('display', 'block');
         //$('.headerAndNavContainer.sticky').css('background', 'rgba(81, 87, 93, 1)');
       }
 
   });
 
+  $('#contributors').waypoint( function(direction) {
+      console.log('hey, you hit contributors... do something');
+  });
+
   // Mobile menu
+  // ----------------------------------
   $('.mobile-menu a').on('click', function(e) {
     e.stopPropagation();
     e.preventDefault();
@@ -65,6 +78,7 @@ jQuery(document).ready(function($) {
   });
 
   // Load backstretch image loader
+  // ----------------------------------
   $('.hero-container').backstretch( [ 
     templateUrl + '/images/family2tablet1_opt.jpg'
     ,templateUrl + '/images/family1tablet2_opt.jpg'
@@ -72,6 +86,7 @@ jQuery(document).ready(function($) {
   ], { duration: 3000, fade: 750 } );
 
   // WAYPOINT (scroll detection)
+  // ----------------------------------
   var navHeading = $('.navHeading');
   var nav = $('.navContainer');
   
@@ -101,4 +116,22 @@ jQuery(document).ready(function($) {
     offset: '35%'
   });
   
+  // Content selection 
+  // ----------------------------------
+
+  $('.content-items li a').on('click', function(e) {
+    e.preventDefault();
+
+    $('.content-items li a').each(function() {
+      $(this).removeClass('selected');
+    });
+    $(this).addClass('selected');
+    var contentSection = $(this).parent().attr('class');
+    console.log('contentSection ...', contentSection);
+    $('.showcase-all > section').removeClass('active').addClass('inactive');
+    $('.content-items section').removeClass('active').addClass('inactive');
+
+    $('.' + contentSection + '-section').removeClass('inactive').addClass('active');
+  });
+
 });

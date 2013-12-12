@@ -501,7 +501,11 @@ a:visited {
 .headerAndNavContainer {
   display: table;
   padding: 0;
-  width: 100%; }
+  width: 100%;
+  height: 85px;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out; }
   .headerAndNavContainer .headerAndNavContent {
     margin: 0 auto;
     max-width: 1200px; }
@@ -558,7 +562,7 @@ a:visited {
   text-transform: uppercase; }
   @media only screen and (min-width: 48.001em) {
     .navContent a {
-      color: #51575d; }
+      color: #b8bdc2; }
       .navContent a:hover {
         color: #7ecd65;
         transition: all .5s ease-in-out; } }
@@ -577,10 +581,12 @@ a:visited {
 
 .navContent.active {
   height: 300px;
-  background: #51575d;
   -webkit-transition: all 250ms linear;
   -moz-transition: all 250ms linear;
   transition: all 250ms linear; }
+  @media only screen and (max-width: 48.001em) {
+    .navContent.active {
+      background: #51575d; } }
   @media only screen and (min-width: 48.001em) {
     .navContent.active {
       height: auto; } }
@@ -612,7 +618,14 @@ a:visited {
     .headerContent h1.logo {
       float: left; } }
   .headerContent h1.logo img {
-    display: block; }
+    display: block;
+    -webkit-transition: all 250ms linear;
+    -moz-transition: all 250ms linear;
+    transition: all 250ms linear; }
+    .headerContent h1.logo img.gray-logo {
+      display: block; }
+    .headerContent h1.logo img.white-logo {
+      display: none; }
 
 .headerContainer, .navHeading {
   display: block;
@@ -840,13 +853,15 @@ object {
 .hero-container {
   background-color: #51575d;
   padding-bottom: 400px;
+  margin-top: 125px;
   position: relative; }
   @media only screen and (max-width: 30em) {
     .hero-container {
       padding-bottom: 350px; } }
   @media only screen and (min-width: 48.001em) {
     .hero-container {
-      padding-bottom: 600px; } }
+      padding-bottom: 600px;
+      margin-top: 0; } }
   .hero-container h1.hero-heading {
     font-family: "Gotham A", "Gotham B";
     font-weight: 700;
@@ -932,6 +947,10 @@ object {
           -webkit-transition: all .5s ease-in-out;
           -moz-transition: all .5s ease-in-out;
           transition: all .5s ease-in-out; }
+        .our-content-container ul.content-items li a.selected {
+          color: #7ecd65;
+          border-bottom: 2px solid #7ecd65;
+          padding-bottom: 5px; }
       .our-content-container ul.content-items li span {
         margin-right: .5em;
         font-size: 1.5em;
@@ -943,7 +962,115 @@ object {
           -moz-transition: all .5s ease-in-out;
           transition: all .5s ease-in-out; }
   .our-content-container .content-showcase {
+    position: relative;
     padding-bottom: 50px; }
+
+.all-section,
+.animated-gif-section,
+.infographics-section,
+.photography-section,
+.quiz-section,
+.text-section,
+.video-section {
+  padding: 20px 0;
+  margin: 20px auto;
+  width: 95%; }
+  .all-section:before, .all-section:after,
+  .animated-gif-section:before,
+  .animated-gif-section:after,
+  .infographics-section:before,
+  .infographics-section:after,
+  .photography-section:before,
+  .photography-section:after,
+  .quiz-section:before,
+  .quiz-section:after,
+  .text-section:before,
+  .text-section:after,
+  .video-section:before,
+  .video-section:after {
+    content: "";
+    display: table; }
+  .all-section:after,
+  .animated-gif-section:after,
+  .infographics-section:after,
+  .photography-section:after,
+  .quiz-section:after,
+  .text-section:after,
+  .video-section:after {
+    clear: both; }
+  .all-section.inactive,
+  .animated-gif-section.inactive,
+  .infographics-section.inactive,
+  .photography-section.inactive,
+  .quiz-section.inactive,
+  .text-section.inactive,
+  .video-section.inactive {
+    position: absolute;
+    opacity: 0.0;
+    -webkit-transition: opacity 500ms ease-in-out;
+    -moz-transition: opacity 500ms ease-in-out;
+    transition: opacity 500ms ease-in-out;
+    left: -9999px;
+    top: 0; }
+  .all-section.active,
+  .animated-gif-section.active,
+  .infographics-section.active,
+  .photography-section.active,
+  .quiz-section.active,
+  .text-section.active,
+  .video-section.active {
+    opacity: 1.0;
+    position: static;
+    -webkit-transition: opacity 500ms ease-in-out;
+    -moz-transition: opacity 500ms ease-in-out;
+    transition: opacity 500ms ease-in-out; }
+
+.showcase-image {
+  float: none;
+  width: 100%;
+  text-align: center; }
+  @media only screen and (min-width: 48.001em) {
+    .showcase-image {
+      float: left;
+      width: 60%; } }
+  .showcase-image img {
+    width: 100%; }
+    @media only screen and (min-width: 48.001em) {
+      .showcase-image img {
+        text-align: center;
+        width: 70%; } }
+
+.showcase-info {
+  float: none;
+  width: 100%;
+  text-align: center; }
+  @media only screen and (min-width: 48.001em) {
+    .showcase-info {
+      float: left;
+      width: 38%;
+      text-align: left; } }
+  .showcase-info h2 {
+    font-size: 1.75em;
+    margin-top: 25px;
+    text-transform: uppercase; }
+    @media only screen and (min-width: 48.001em) {
+      .showcase-info h2 {
+        margin-top: 0; } }
+  .showcase-info p {
+    font-size: 20px;
+    font-weight: 200; }
+
+.content-items section {
+  display: block; }
+  @media only screen and (min-width: 48.001em) {
+    .content-items section {
+      display: none; } }
+
+.showcase-all > section {
+  display: none; }
+  @media only screen and (min-width: 48.001em) {
+    .showcase-all > section {
+      display: block; } }
 
 /* =Content365 Solutions 
 ----------------------------------------------- */

@@ -31,7 +31,10 @@ var templateUrl = '<?= get_bloginfo("template_url"); ?>';
 					<div class="headerContainer">
 						<div class="headerContent">
 							<h1 class="logo">
-								<a href="#hero" class="anchorLink"><img src="<?php bloginfo('template_directory'); ?>/images/dm_logo.png" alt="Demand Media Logo" title="Demand Media Logo"></a>
+								<a href="#hero" class="anchorLink">
+									<img class="gray-logo" src="<?php bloginfo('template_directory'); ?>/images/dm_logo.png" alt="Demand Media Logo" title="Demand Media Logo">
+									<img class="white-logo" src="<?php bloginfo('template_directory'); ?>/images/dm_logo_white.png" alt="Demand Media Logo" title="Demand Media Logo">
+								</a>
 							</h1>
 						</div>
 					</div>
