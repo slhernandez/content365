@@ -84,6 +84,17 @@
 }
 
 
+/* =Content365 Full Bleed Hero in the Header 
+----------------------------------------------- */
+.h-container {
+	background-color: $site-wide-color;
+  background-image: url('images/Content365_Family_1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+
 /* =Content365 Navigation
 ----------------------------------------------- */
 
@@ -110,7 +121,8 @@
 	&.sticky {
 		position: fixed;
 		z-index: 10;
-		background: rgba(255,255,255,1.0);
+		//background: rgba(255,255,255,1.0);
+		background: rgba(255,255,255,0.0);
 		-webkit-transition: background 300ms ease-in-out;
 		-moz-transition: background 300ms ease-in-out;
 		transition: background 300ms ease-in-out;
@@ -119,7 +131,7 @@
 
 .headerContainer {
 	height: 100%;
-	padding: 20px 4% 20px 4%;
+	padding: 20px 4% 20px 0;
 	max-width: 600px;
 	display: block;
 	@include  tablet-portrait-and-up() {
@@ -137,7 +149,7 @@
 		padding-left: 0;
 		text-align: center;
 		@include  tablet-portrait-and-up() {
-			text-align: left;
+			text-align: right;
 		}
 	}
 
@@ -152,18 +164,20 @@
 			font-size: $font-size-12;
 		}
 		margin: 5px 0 5px 0;
+
 	}
 
 	a {
 		color: #FFF;
 		@include  tablet-portrait-and-up() {
-			color: lighten($site-wide-color, 40%);
+			//color: lighten($site-wide-color, 40%);
+			color: #FFF;
 			&:hover {
 				color: $highlight-color;	
 				transition:all .5s ease-in-out;
 			}
 		}
-		@include font-bold();
+		//@include font-bold();
 		display: inline-block;
 		text-decoration: none;
 		text-transform: uppercase;
@@ -173,6 +187,20 @@
 		}
 		&.active {
 			color: $highlight-color;
+		}
+		font-size: $font-size-18;
+		@include font-book();
+		-webkit-text-shadow: 0 1px 1px rgba(0,0,0,0.6);
+		-moz-text-shadow: 0 1px 1px rgba(0,0,0,0.6);
+		text-shadow: 0 1px 1px rgba(0,0,0,0.6);
+
+		&.login {
+			border: 1px solid #fff;
+			padding: 10px;
+			-webkit-border-radius: 8px;
+			-moz-border-radius: 8px;
+			border-radius: 8px;
+			box-shadow: 0 1px 1px rgba(0,0,0,0.3);
 		}
 	}
 }
@@ -214,7 +242,7 @@
 		display: block;
 	}
 	margin-left: auto;
-	margin-right: auto;
+	margin-right: 0;
 }
 
 .headerContent h1.logo {

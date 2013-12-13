@@ -32,7 +32,7 @@ var templateUrl = '<?= get_bloginfo("template_url"); ?>';
 						<div class="headerContent">
 							<h1 class="logo">
 								<a href="#hero" class="anchorLink">
-									<img class="gray-logo" src="<?php bloginfo('template_directory'); ?>/images/dm_logo.png" alt="Demand Media Logo" title="Demand Media Logo">
+									<img class="gray-logo" src="<?php bloginfo('template_directory'); ?>/images/dm_logo_white.png" alt="Demand Media Logo" title="Demand Media Logo">
 									<img class="white-logo" src="<?php bloginfo('template_directory'); ?>/images/dm_logo_white.png" alt="Demand Media Logo" title="Demand Media Logo">
 								</a>
 							</h1>
@@ -55,15 +55,20 @@ var templateUrl = '<?= get_bloginfo("template_url"); ?>';
 									<li><a href="#solutions" class="anchorLink">Solutions</a></li>
 									<li><a href="#contributors" class="anchorLink">Contributors</a></li>
 									<li><a href="#tipsandtricks" class="anchorLink">Tips & Tricks</a></li>
-									<li><a href="#contact" class="anchorLink">Contact</a></li>
-									<li><a href="#login" class="anchorLink">Login</a></li>
+									<!--<li><a href="#contact" class="anchorLink">Contact</a></li>-->
+									<li><a href="#login" class="anchorLink login">Login</a></li>
 								</ul>
 							</nav>
 						</div> <!-- end of navContainer -->
 					</div> <!-- end of navHeading -->
 				</div>
 			</div>
-		</div>
+		</div> <!-- end headerAndNavContainer -->
+
+		<!--<section class="hero-container">
+    <h1 class="hero-heading">Providing Partners Comprehensive <span class="highlight">Content</span> Offerings To Attract And Engage Intent Driven Audiences</h1>
+    <span class="hero-overlay"></span>
+	  </section> -->
 
 		<div class="site-branding">
 			<!-- <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>-->
@@ -76,6 +81,8 @@ var templateUrl = '<?= get_bloginfo("template_url"); ?>';
 
 			<!-- <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?> -->
 		</nav><!-- #site-navigation -->
+
+
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">

@@ -193,7 +193,7 @@ h2,
 h3,
 h4 {
   color: #51575d;
-  font-family: "Gotham A", "Gotham B";
+  font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-style: normal; }
 
@@ -218,14 +218,14 @@ input,
 select,
 textarea {
   color: #404040;
-  font-family: "Gotham A", "Gotham B";
+  font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-size: 1.6rem;
   line-height: 1.5; }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Gotham A", "Gotham B";
+  font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
   clear: both; }
 
 hr {
@@ -496,6 +496,15 @@ a:visited {
 
   .main-navigation ul {
     display: none; } }
+/* =Content365 Full Bleed Hero in the Header 
+----------------------------------------------- */
+.h-container {
+  background-color: #51575d;
+  background-image: url("images/Content365_Family_1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center; }
+
 /* =Content365 Navigation
 ----------------------------------------------- */
 .headerAndNavContainer {
@@ -516,14 +525,14 @@ a:visited {
   .headerAndNavContainer.sticky {
     position: fixed;
     z-index: 10;
-    background: white;
+    background: rgba(255, 255, 255, 0);
     -webkit-transition: background 300ms ease-in-out;
     -moz-transition: background 300ms ease-in-out;
     transition: background 300ms ease-in-out; }
 
 .headerContainer {
   height: 100%;
-  padding: 20px 4% 20px 4%;
+  padding: 20px 4% 20px 0;
   max-width: 600px;
   display: block; }
   @media only screen and (min-width: 48.001em) {
@@ -540,7 +549,7 @@ a:visited {
   text-align: center; }
   @media only screen and (min-width: 48.001em) {
     .navContent ul {
-      text-align: left; } }
+      text-align: right; } }
 .navContent li {
   display: block;
   padding: 10px 0;
@@ -554,15 +563,19 @@ a:visited {
       font-size: 0.75em; } }
 .navContent a {
   color: #FFF;
-  font-family: "Gotham A", "Gotham B";
-  font-weight: 700;
-  font-style: normal;
   display: inline-block;
   text-decoration: none;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-size: 1.125em;
+  font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+  -moz-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6); }
   @media only screen and (min-width: 48.001em) {
     .navContent a {
-      color: #b8bdc2; }
+      color: #FFF; }
       .navContent a:hover {
         color: #7ecd65;
         transition: all .5s ease-in-out; } }
@@ -571,6 +584,13 @@ a:visited {
     transition: all .5s ease-in-out; }
   .navContent a.active {
     color: #7ecd65; }
+  .navContent a.login {
+    border: 1px solid #fff;
+    padding: 10px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); }
 
 .navContent {
   overflow: hidden;
@@ -602,7 +622,7 @@ a:visited {
 
 .headerContent, .navContent {
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: 0; }
   @media only screen and (min-width: 48.001em) {
     .headerContent, .navContent {
       max-width: 600px;
@@ -852,18 +872,23 @@ object {
 ----------------------------------------------- */
 .hero-container {
   background-color: #51575d;
-  padding-bottom: 400px;
   margin-top: 125px;
-  position: relative; }
-  @media only screen and (max-width: 30em) {
-    .hero-container {
-      padding-bottom: 350px; } }
+  position: relative;
+  /*.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $site-wide-color;
+    opacity: .8;
+    z-index: 0;
+  }*/ }
   @media only screen and (min-width: 48.001em) {
     .hero-container {
-      padding-bottom: 600px;
       margin-top: 0; } }
   .hero-container h1.hero-heading {
-    font-family: "Gotham A", "Gotham B";
+    font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
     font-style: normal;
     color: #FFF;
@@ -886,15 +911,36 @@ object {
         margin: 220px 90px; } }
     .hero-container h1.hero-heading .highlight {
       color: #7ecd65; }
-  .hero-container .hero-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #51575d;
-    opacity: .8;
-    z-index: 0; }
+  .hero-container .marketing {
+    padding: 390px 10px 390px 10px;
+    max-width: 1200px;
+    width: 92%;
+    margin: 0 auto; }
+    .hero-container .marketing h1 {
+      color: #FFF;
+      font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 2.5em;
+      -webkit-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+      -moz-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6); }
+    .hero-container .marketing p {
+      font-size: 1.375em;
+      color: #FFF;
+      -webkit-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+      -moz-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+      width: 575px; }
+    .hero-container .marketing .contact-btn {
+      background: #7ecd65;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      border-radius: 8px;
+      text-decoration: none;
+      color: #FFF;
+      padding: 15px 20px 15px 20px;
+      font-size: 1.25em; }
 
 /* =Content365 Content
 ----------------------------------------------- */
@@ -914,7 +960,8 @@ object {
         text-align: left; } }
   .our-content-container ul.content-items {
     list-style: none;
-    margin: 0 0 50px 0; }
+    margin: 0 0 50px 0;
+    text-align: center; }
     .our-content-container ul.content-items li {
       display: block;
       text-align: center;
@@ -935,7 +982,7 @@ object {
         text-decoration: none;
         text-transform: uppercase;
         color: #51575d;
-        font-family: "Gotham A", "Gotham B";
+        font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-weight: 400;
         font-style: normal;
         font-size: 1.125em; }
@@ -972,7 +1019,7 @@ object {
 .quiz-section,
 .text-section,
 .video-section {
-  border: 1px solid #51575d;
+  border: 1px solid #EEE;
   padding: 50px 0;
   margin: 10px auto;
   width: 95%; }
@@ -1161,7 +1208,7 @@ object {
       cursor: pointer;
       position: absolute;
       font-size: 1.5em;
-      font-family: "Gotham A", "Gotham B";
+      font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: 500;
       font-style: normal;
       text-align: center;
@@ -1268,7 +1315,7 @@ object {
       .contact-info ul li a {
         text-decoration: none;
         color: #7ecd65;
-        font-family: "Gotham A", "Gotham B";
+        font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-weight: 400;
         font-style: normal;
         font-size: 1em; }
@@ -1326,7 +1373,7 @@ form fieldset {
   form fieldset label {
     color: #FFF;
     font-size: 1.25em;
-    font-family: "Gotham A", "Gotham B";
+    font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-style: normal;
     display: block;
@@ -1371,7 +1418,7 @@ form fieldset {
     -o-text-shadow: none;
     text-shadow: none;
     display: inline-block;
-    font-family: "Gotham A", "Gotham B";
+    font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 500;
     font-style: normal; }
   form fieldset.send .send-btn {

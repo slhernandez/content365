@@ -11,9 +11,14 @@ get_header(); ?>
 
 <div class="siteWrapper">
   <section class="hero-container">
-    <h1 class="hero-heading">Providing Partners Comprehensive <span class="highlight">Content</span> Offerings To Attract And Engage Intent Driven Audiences</h1>
-    <span class="hero-overlay"></span>
-  </section> <!-- end of hero-container -->
+    <!--<h1 class="hero-heading">Providing Partners Comprehensive <span class="highlight">Content</span> Offerings To Attract And Engage Intent Driven Audiences</h1>-->
+    <div class="marketing">
+      <h1>Comprehensive Content</h1>
+      <p>Providing Partners with offerings to attract and engage intent driven audience</p>
+      <div class="contact-btn-container"><a class="contact-btn" href="#">Contact</a></div>
+    </div>
+    <!--<span class="hero-overlay"></span>-->
+  </section>
 
   <section id="our-content" class="our-content">
     <div class="our-content-container">

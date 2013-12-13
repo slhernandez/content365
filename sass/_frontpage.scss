@@ -14,11 +14,11 @@
   //background-repeat: no-repeat;
   //background-position: top center;
   @include mobile-landscape-and-below() {
-    padding-bottom: 350px;
+    //padding-bottom: 350px;
   }
-  padding-bottom: 400px;
+  //padding-bottom: 400px;
   @include tablet-portrait-and-up() {
-    padding-bottom: 600px;
+    //padding-bottom: 600px;
     margin-top: 0;
   }
   margin-top: 125px;
@@ -54,7 +54,7 @@
 
   }
 
-  .hero-overlay {
+  /*.hero-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -63,6 +63,39 @@
     background-color: $site-wide-color;
     opacity: .8;
     z-index: 0;
+  }*/
+
+  .marketing {
+    padding: 390px 10px 390px 10px;
+    max-width: 1200px;
+    width: 92%;
+    margin: 0 auto;
+    h1 {
+      color: #FFF;
+      @include font-light();
+      font-size: $font-size-40;
+      -webkit-text-shadow: 0 1px 1px rgba(0,0,0,0.6);
+      -moz-text-shadow: 0 1px 1px rgba(0,0,0,0.6);
+      text-shadow: 0 1px 1px rgba(0,0,0,0.6);
+    }
+    p {
+      font-size: $font-size-22;
+      color: #FFF;
+      -webkit-text-shadow: 0 1px 1px rgba(0,0,0,0.6);
+      -moz-text-shadow: 0 1px 1px rgba(0,0,0,0.6);
+      text-shadow: 0 1px 1px rgba(0,0,0,0.6);
+      width: 575px;
+    }
+    .contact-btn {
+      background: $highlight-color;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      border-radius: 8px;
+      text-decoration: none; 
+      color: #FFF;
+      padding: 15px 20px 15px 20px;
+      font-size: $font-size-20;
+    }
   }
 }
 
@@ -87,6 +120,7 @@
   ul.content-items {
     list-style: none;
     margin: 0 0 50px 0;
+    text-align: center;
     li {
       display: block;
       text-align: center;
@@ -159,7 +193,7 @@
 .text-section,
 .video-section {
   @include clearfix();
-  border: 1px solid $site-wide-color;
+  border: 1px solid #EEE;
   padding: 50px 0;
   margin: 10px auto;
   width: 95%;

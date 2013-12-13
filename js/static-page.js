@@ -47,7 +47,7 @@ jQuery(document).ready(function($) {
         //$('.headerAndNavContainer.sticky').css('background', 'rgba(81, 87, 93, 0.7)');
       } else if (direction == 'up') {
         $('.headerAndNavContainer.sticky').css({
-          background: 'rgba(255,255,255,1.0)',
+          background: 'rgba(255,255,255,0.0)',
           'box-shadow': 'none'
         });
         $('.headerContent h1.logo img').css('width', '100%');
@@ -79,11 +79,17 @@ jQuery(document).ready(function($) {
 
   // Load backstretch image loader
   // ----------------------------------
-  $('.hero-container').backstretch( [ 
+  /*$('.hero-container').backstretch( [ 
     templateUrl + '/images/family2tablet1_opt.jpg'
     ,templateUrl + '/images/family1tablet2_opt.jpg'
     ,templateUrl + '/images/family3tablet2_opt.jpg'
-  ], { duration: 3000, fade: 750 } );
+  ], { duration: 3000, fade: 750 } );*/
+
+  $('.hero-container').backstretch( [ 
+    templateUrl + '/images/Content365_Family_1.jpg'
+    ,templateUrl + '/images/Content365_Family_2.jpg'
+    ,templateUrl + '/images/Content365_Family_3.jpg'
+  ], { duration: 6000, fade: 750 } );
 
   // WAYPOINT (scroll detection)
   // ----------------------------------
