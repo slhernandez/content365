@@ -29,7 +29,7 @@ get_header(); ?>
           <a href="#"><span aria-hidden="true" data-air-icon="&#xE8B0;"></span>Animated Gif</a>
           <section class="animated-gif-section inactive">
             <div class="showcase-image">
-              <img src="<?php bloginfo('template_directory'); ?>/images/content/animated-image.png" alt="animated example" title="animated example">
+              <img src="<?php bloginfo('template_directory'); ?>/images/content/madewell_g.gif" alt="animated example" title="animated example">
             </div>  
             <div class="showcase-info inactive">
               <h2>Animated Gifs</h2>
@@ -107,7 +107,7 @@ get_header(); ?>
 
           <section class="animated-gif-section inactive">
             <div class="showcase-image">
-              <img src="<?php bloginfo('template_directory'); ?>/images/content/animated-image.png" alt="animated example" title="animated example">
+              <img src="<?php bloginfo('template_directory'); ?>/images/content/madewell_g.gif" alt="animated example" title="animated example">
             </div>  
             <div class="showcase-info inactive">
               <h2>Animated Gifs</h2>

@@ -908,7 +908,7 @@ object {
   .our-content-container h1 {
     text-align: center;
     text-transform: uppercase;
-    padding: 100px 0 20px 0; }
+    padding: 20px 0 20px 0; }
     @media only screen and (min-width: 48.001em) {
       .our-content-container h1 {
         text-align: left; } }
@@ -972,8 +972,9 @@ object {
 .quiz-section,
 .text-section,
 .video-section {
-  padding: 20px 0;
-  margin: 20px auto;
+  border: 1px solid #51575d;
+  padding: 50px 0;
+  margin: 10px auto;
   width: 95%; }
   .all-section:before, .all-section:after,
   .animated-gif-section:before,
@@ -1024,6 +1025,9 @@ object {
     -webkit-transition: opacity 500ms ease-in-out;
     -moz-transition: opacity 500ms ease-in-out;
     transition: opacity 500ms ease-in-out; }
+
+.all-section {
+  border: none; }
 
 .showcase-image {
   float: none;
