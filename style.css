@@ -532,10 +532,10 @@ a:visited {
 
 .headerContainer {
   height: 100%;
-  padding: 20px 4% 20px 0;
+  padding: 20px 4% 20px 4%;
   max-width: 600px;
   display: block; }
-  @media only screen and (min-width: 48.001em) {
+  @media only screen and (min-width: 37.5em) {
     .headerContainer {
       max-width: none;
       display: table-cell;
@@ -546,16 +546,16 @@ a:visited {
   list-style: none;
   margin: 0;
   padding-left: 0;
-  text-align: center; }
-  @media only screen and (min-width: 48.001em) {
-    .navContent ul {
-      text-align: right; } }
+  text-align: center;
+  /*@include  tablet-portrait-and-up() {
+  	text-align: left;
+  }*/ }
 .navContent li {
   display: block;
   padding: 10px 0;
   font-size: 1em;
   margin: 5px 0 5px 0; }
-  @media only screen and (min-width: 48.001em) {
+  @media only screen and (min-width: 37.5em) {
     .navContent li {
       display: inline-block;
       padding: 0;
@@ -566,14 +566,14 @@ a:visited {
   display: inline-block;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 1.125em;
+  font-size: 1em;
   font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
   -webkit-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
   -moz-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6); }
-  @media only screen and (min-width: 48.001em) {
+  @media only screen and (min-width: 37.5em) {
     .navContent a {
       color: #FFF; }
       .navContent a:hover {
@@ -584,18 +584,21 @@ a:visited {
     transition: all .5s ease-in-out; }
   .navContent a.active {
     color: #7ecd65; }
+  @media only screen and (min-width: 51.563em) {
+    .navContent a {
+      font-size: 1.125em; } }
   .navContent a.login {
     border: 1px solid #fff;
-    padding: 10px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
+    padding: 5px 10px 5px 10px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); }
 
 .navContent {
   overflow: hidden;
   height: auto; }
-  @media only screen and (min-width: 48.001em) {
+  @media only screen and (min-width: 37.5em) {
     .navContent {
       overflow: visible; } }
 
@@ -604,10 +607,10 @@ a:visited {
   -webkit-transition: all 250ms linear;
   -moz-transition: all 250ms linear;
   transition: all 250ms linear; }
-  @media only screen and (max-width: 48.001em) {
+  @media only screen and (max-width: 37.5em) {
     .navContent.active {
       background: #51575d; } }
-  @media only screen and (min-width: 48.001em) {
+  @media only screen and (min-width: 37.5em) {
     .navContent.active {
       height: auto; } }
 
@@ -616,14 +619,14 @@ a:visited {
   -webkit-transition: all 250ms linear;
   -moz-transition: all 250ms linear;
   transition: all 250ms linear; }
-  @media only screen and (min-width: 48.001em) {
+  @media only screen and (min-width: 37.5em) {
     .navContent.inactive {
       height: auto; } }
 
 .headerContent, .navContent {
   margin-left: auto;
-  margin-right: 0; }
-  @media only screen and (min-width: 48.001em) {
+  margin-right: auto; }
+  @media only screen and (min-width: 37.5em) {
     .headerContent, .navContent {
       display: block; } }
 
@@ -633,7 +636,7 @@ a:visited {
   max-width: 292px;
   float: none;
   margin: 0 auto; }
-  @media only screen and (min-width: 48.001em) {
+  @media only screen and (min-width: 37.5em) {
     .headerContent h1.logo {
       float: left; } }
   .headerContent h1.logo img {
@@ -649,7 +652,7 @@ a:visited {
 .headerContainer, .navHeading {
   display: block;
   height: 100%; }
-  @media only screen and (min-width: 48.001em) {
+  @media only screen and (min-width: 37.5em) {
     .headerContainer, .navHeading {
       max-width: none;
       display: table-cell;
@@ -659,14 +662,13 @@ a:visited {
   width: 100%;
   position: relative;
   z-index: 1; }
-  @media only screen and (min-width: 48.001em) {
+  @media only screen and (min-width: 37.5em) {
     .navHeading {
       width: 68%; } }
   .navHeading .mobile-menu {
     display: block;
-    margin: 0;
-    background: #51575d; }
-    @media only screen and (min-width: 48.001em) {
+    margin: 0; }
+    @media only screen and (min-width: 37.5em) {
       .navHeading .mobile-menu {
         display: none; } }
     .navHeading .mobile-menu p {
@@ -871,7 +873,6 @@ object {
 ----------------------------------------------- */
 .hero-container {
   background-color: #51575d;
-  margin-top: 125px;
   position: relative;
   /*.hero-overlay {
     position: absolute;
@@ -911,7 +912,7 @@ object {
     .hero-container h1.hero-heading .highlight {
       color: #7ecd65; }
   .hero-container .marketing {
-    padding: 390px 10px 390px 10px;
+    padding: 300px 10px 300px 10px;
     max-width: 1200px;
     width: 92%;
     margin: 0 auto; }
@@ -926,7 +927,7 @@ object {
       -webkit-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
       -moz-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
       text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6); }
-      @media only screen and (min-width: 48.001em) {
+      @media only screen and (min-width: 37.5em) {
         .hero-container .marketing h1 {
           font-size: 2.5em; } }
     .hero-container .marketing p {
@@ -936,10 +937,14 @@ object {
       -webkit-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
       -moz-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
       text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
-      width: 575px; }
-      @media only screen and (min-width: 600em) {
+      width: 100%; }
+      @media only screen and (min-width: 37.5em) {
         .hero-container .marketing p {
-          font-size: 1.375em; } }
+          font-size: 1.375em;
+          width: 65%; } }
+      @media only screen and (min-width: 64.001em) {
+        .hero-container .marketing p {
+          width: 45%; } }
     .hero-container .marketing .contact-btn {
       background: #7ecd65;
       -webkit-border-radius: 8px;
@@ -1021,8 +1026,7 @@ object {
           -moz-transition: all .5s ease-in-out;
           transition: all .5s ease-in-out; }
   .our-content-container .content-showcase {
-    position: relative;
-    padding-bottom: 50px; }
+    position: relative; }
 
 .all-section,
 .animated-gif-section,

@@ -21,7 +21,7 @@
     //padding-bottom: 600px;
     margin-top: 0;
   }
-  margin-top: 125px;
+  //margin-top: 125px;
   position: relative;
 
   h1.hero-heading {
@@ -66,7 +66,7 @@
   }*/
 
   .marketing {
-    padding: 390px 10px 390px 10px;
+    padding: 300px 10px 300px 10px;
     max-width: 1200px;
     width: 92%;
     margin: 0 auto;
@@ -77,7 +77,7 @@
       color: #FFF;
       font-size: $font-size-30;
       @include font-light();
-      @include tablet-portrait-and-up() {
+      @include tablet-custom-600-up() {
         font-size: $font-size-40;
       }
       -webkit-text-shadow: 0 1px 1px rgba(0,0,0,0.6);
@@ -86,15 +86,19 @@
     }
     p {
       font-size: $font-size-18;
-      @include mobile-custom-600-up() {
+      @include tablet-custom-600-up() {
         font-size: $font-size-22;
+        width: 65%;
+      }
+      @include tablet-landscape-and-up() {
+        width: 45%;
       }
       color: #FFF;
       color: rgba(255,255,255,0.7);
       -webkit-text-shadow: 0 1px 1px rgba(0,0,0,0.6);
       -moz-text-shadow: 0 1px 1px rgba(0,0,0,0.6);
       text-shadow: 0 1px 1px rgba(0,0,0,0.6);
-      width: 575px;
+      width: 100%;
     }
     .contact-btn {
       background: $highlight-color;
@@ -193,7 +197,7 @@
   }
   .content-showcase {
     position: relative;
-    padding-bottom: 50px;
+    //padding-bottom: 50px;
   }
 }
 

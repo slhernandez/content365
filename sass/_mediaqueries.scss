@@ -3,18 +3,32 @@
 // $mq-tablet-portrait   : 768px !default;  -- changed because i want my blog content is around this wide, not 768. you should let content & design determine your breakpoints
 // $mq-tablet-landscape : 1024px !default;
 // $mq-desktop    : 1382px !default;
+// $mq-tablet-600-custom : 600px !default;
+// $mq-tablet-825-custom : 825px !default;
  
 $mq-mobile-portrait : 20em !default;
 $mq-mobile-landscape  : 30em !default;
 $mq-tablet-portrait : 48em !default;
 $mq-tablet-landscape  : 64em !default;
 $mq-desktop   : 86.375em !default;
-
-$mq-custom-600 : 600em !default;
+$mq-tablet-600-custom: 37.500em !default;
+$mq-tablet-825-custom: 51.563em !default;
 
 // Custom media queries for Content365 website.  Outside the norm for standard tablet and mobile sizes.
-@mixin mobile-custom-600-up {
-  @media only screen and (min-width : $mq-custom-600 ) {
+@mixin tablet-custom-600-up {
+  @media only screen and (min-width : $mq-tablet-600-custom) {
+    @content;
+  }
+}
+
+@mixin tablet-custom-600-below {
+  @media only screen and (max-width : $mq-tablet-600-custom) {
+    @content;
+  }
+}
+
+@mixin tablet-custom-825-up {
+  @media only screen and (min-width : $mq-tablet-825-custom) {
     @content;
   }
 }
