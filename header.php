@@ -55,7 +55,7 @@ var templateUrl = '<?= get_bloginfo("template_url"); ?>';
 									<li><a href="#solutions" class="anchorLink">Solutions</a></li>
 									<li><a href="#contributors" class="anchorLink">Contributors</a></li>
 									<li><a href="#tipsandtricks" class="anchorLink">Tips & Tricks</a></li>
-									<!--<li><a href="#contact" class="anchorLink">Contact</a></li>-->
+									<li><a href="#blog" class="anchorLink">Blog</a></li>
 									<li><a href="#login" class="anchorLink login">Login</a></li>
 								</ul>
 							</nav>

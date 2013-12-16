@@ -625,7 +625,6 @@ a:visited {
   margin-right: 0; }
   @media only screen and (min-width: 48.001em) {
     .headerContent, .navContent {
-      max-width: 600px;
       display: block; } }
 
 .headerContent h1.logo {
@@ -916,22 +915,31 @@ object {
     max-width: 1200px;
     width: 92%;
     margin: 0 auto; }
+    .hero-container .marketing .highlight {
+      color: #7ecd65; }
     .hero-container .marketing h1 {
       color: #FFF;
+      font-size: 1.875em;
       font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: 300;
       font-style: normal;
-      font-size: 2.5em;
       -webkit-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
       -moz-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
       text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6); }
+      @media only screen and (min-width: 48.001em) {
+        .hero-container .marketing h1 {
+          font-size: 2.5em; } }
     .hero-container .marketing p {
-      font-size: 1.375em;
+      font-size: 1.125em;
       color: #FFF;
+      color: rgba(255, 255, 255, 0.7);
       -webkit-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
       -moz-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
       text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
       width: 575px; }
+      @media only screen and (min-width: 600em) {
+        .hero-container .marketing p {
+          font-size: 1.375em; } }
     .hero-container .marketing .contact-btn {
       background: #7ecd65;
       -webkit-border-radius: 8px;
@@ -940,7 +948,11 @@ object {
       text-decoration: none;
       color: #FFF;
       padding: 15px 20px 15px 20px;
-      font-size: 1.25em; }
+      font-size: 1.25em;
+      font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); }
 
 /* =Content365 Content
 ----------------------------------------------- */
@@ -1089,7 +1101,7 @@ object {
     @media only screen and (min-width: 48.001em) {
       .showcase-image img {
         text-align: center;
-        width: 70%; } }
+        width: 90%; } }
 
 .showcase-info {
   float: none;

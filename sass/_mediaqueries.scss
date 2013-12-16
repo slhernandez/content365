@@ -9,6 +9,15 @@ $mq-mobile-landscape  : 30em !default;
 $mq-tablet-portrait : 48em !default;
 $mq-tablet-landscape  : 64em !default;
 $mq-desktop   : 86.375em !default;
+
+$mq-custom-600 : 600em !default;
+
+// Custom media queries for Content365 website.  Outside the norm for standard tablet and mobile sizes.
+@mixin mobile-custom-600-up {
+  @media only screen and (min-width : $mq-custom-600 ) {
+    @content;
+  }
+}
  
 // Both portrait and landscape
 @mixin mobile-only {

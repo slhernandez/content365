@@ -238,7 +238,7 @@
 
 .headerContent, .navContent {
 	@include  tablet-portrait-and-up() {
-		max-width: 600px;
+		//max-width: 600px;
 		display: block;
 	}
 	margin-left: auto;

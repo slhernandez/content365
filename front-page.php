@@ -13,9 +13,9 @@ get_header(); ?>
   <section class="hero-container">
     <!--<h1 class="hero-heading">Providing Partners Comprehensive <span class="highlight">Content</span> Offerings To Attract And Engage Intent Driven Audiences</h1>-->
     <div class="marketing">
-      <h1>Comprehensive Content</h1>
+      <h1>Comprehensive <span class="highlight">Content</span></h1>
       <p>Providing Partners with offerings to attract and engage intent driven audience</p>
-      <div class="contact-btn-container"><a class="contact-btn" href="#">Contact</a></div>
+      <div class="contact-btn-container"><a class="contact-btn" href="#">Get Started Today</a></div>
     </div>
     <!--<span class="hero-overlay"></span>-->
   </section>
