@@ -177,10 +177,21 @@ get_header(); ?>
 
   <section id="solutions" class="solutions">
     <div class="solutions-container">
-      <h1>Unleash Your Content Strategy Using Demand Media's Platform To:</h1>
+      <span class="solutions-overlay"></span>
+      <div class="solutions-content">
+        <h1>Solutions</h1>
+        <div class="content">
+          <h3>Unleash your content strategy using demand media's platform to:</h3>
+          <h2>Create</h2>
+          <p class="target-message">Content written by experts that attract and engage your target audience.</p>
+          <p class="secondary-message">Demand Media Studios employs network of contributors to create professional and engaging content in a myriad of innovative formats that captures your audience.</p>
+        </div>
+      </div>
+    
+      <!--<h1>Unleash Your Content Strategy Using Demand Media's Platform To:</h1>
       <div class="solution">
         <img src="<?php bloginfo('template_directory'); ?>/images/content-strategy.png" alt="Solution" title="Solution">
-      </div>
+      </div> -->
     </div>
   </section> <!-- end of solutions -->
 
@@ -251,45 +262,24 @@ get_header(); ?>
   <section id="tipsandtricks" class="tipsandtricks">
     <div class="tips-container">
       <h1>Tips and Tricks</h1>
-      <div class="tip-items">
-        <div class="tip-item">
-          <div class="tip show">
-            <p>Best way to engage your twitter audience is to ask them questions</p>
-          </div>
+      <div class="tipswrap">
+        <div class="col1of3">
+          <img src="<?php bloginfo('template_directory'); ?>/images/tips/mobile.png" alt="mobile" title="mobile">
+          <div class="t-num">78%</div>
+          <p>of consumers believe companies providing custom content are interested in building good relationships</p>
         </div>
-        <div class="tip-item">
-          <div class="tip show">
-            <p>Adding a text tip within the image performs better than just sharing images on Instagram</p>
-          </div>
+        <div class="col1of3">
+          <img src="<?php bloginfo('template_directory'); ?>/images/tips/picture.png" alt="picture" title="picture">
+          <div class="t-num picture-num">44%</div>
+          <p class="picture-copy">of people are more likely to engage with content on social media that contain pictures</p>
         </div>
-        <div class="tip-item">
-          <div class="tip show">
-            <p>Interesting content is a top 3 reason people follow brands on social media</p>
-          </div>
+          <div class="col1of3">
+          <img src="<?php bloginfo('template_directory'); ?>/images/tips/video.png" alt="video" title="video">
+          <div class="t-num video-num">2x</div>
+          <p class="video-copy">more times is spent by viewers on pages with videos on them</p>
         </div>
-        <div class="tip-item"></div>
-        <div class="tip-item"></div>
-        <div class="tip-item"></div>
-        <div class="tip-item"></div>
-        <div class="tip-item"></div>
-        <div class="tip-item"></div>
-        <div class="tip-item"></div>
-        <div class="tip-item"></div>
-        <div class="tip-item"></div>
-        <div class="tip-item"></div>
-        <div class="tip-item"></div>
-        <div class="tip-item"></div>
-        <div class="tip-item"></div>
-        <div class="tip-item"></div>
-        <div class="tip-item"></div>
-        <div class="tip-item"></div>
-        <div class="tip-item"></div>
-        <div class="tip-item"></div>
-        <div class="tip-item"></div>
-        <div class="tip-item"></div>
-        <div class="tip-item"></div>
-      </div> 
-    </div>
+      </div>
+    </div> <!-- end of tips-container -->
   </section>
 
   <section id="contact" class="contact">

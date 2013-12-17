@@ -92,6 +92,13 @@ jQuery(document).ready(function($) {
     ,templateUrl + '/images/Content365_Family_3.jpg'
   ], { duration: 6000, fade: 750 } );
 
+  $('.solutions-container').backstretch( [
+    templateUrl + '/images/solution/Create.jpg' 
+    ,templateUrl + '/images/solution/Distribute.jpg'
+    ,templateUrl + '/images/solution/Listen.jpg'
+    ,templateUrl + '/images/solution/Measure.jpg'
+  ], { duration: 6000, fade: 750 } );
+
   // WAYPOINT (scroll detection)
   // ----------------------------------
   var navHeading = $('.navHeading');

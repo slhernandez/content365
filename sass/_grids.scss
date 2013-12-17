@@ -1,9 +1,9 @@
 
 //variables
-$num-of-modules: 15;
-$module-width: 60px;
-$gutter: 24px;
-$layout-width: 1200px;
+$num-of-modules: 12;
+$module-width: 84px;
+$gutter: 14px;
+$layout-width: 1184px;
 
 // create a flexible gutter
 $flex-gutter: percentage($gutter/$layout-width);
@@ -12,6 +12,7 @@ $flex-gutter: percentage($gutter/$layout-width);
 @mixin grid($col-num, $gutter-num) {
   width: percentage((($module-width * $col-num)+($gutter * $gutter-num))/$layout-width);
 }
+
 
 
 
