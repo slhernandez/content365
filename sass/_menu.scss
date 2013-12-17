@@ -130,16 +130,33 @@
 }
 
 .headerContainer {
+	position: absolute;
+	top: 0;
+	left: 0;
 	height: 100%;
-	padding: 20px 4% 20px 4%;
 	max-width: 600px;
 	display: block;
+	padding: 10px;
 	@include tablet-custom-600-up() {
-	//@include  tablet-portrait-and-up() {
+		position: relative;
 		max-width: none;
+		padding: 20px 4% 20px 4%;
 		display: table-cell;
 		vertical-align: middle;
 		width: 32%;
+	}
+}
+
+.navContent {
+	ul {
+		li:last-child {
+			display: none;
+		}
+		@include tablet-custom-600-up() {
+			li:last-child {
+				display: inline-block;
+			}
+		}
 	}
 }
 
@@ -149,17 +166,13 @@
 		margin: 0;
 		padding-left: 0;
 		text-align: center;
-		/*@include  tablet-portrait-and-up() {
-			text-align: left;
-		}*/
 	}
 
 	li {
 		display: block;
-		padding: 10px 0;
+		padding: 5px 0;
 		font-size: $font-size-16;
 		@include tablet-custom-600-up() {
-		//@include  tablet-portrait-and-up() {
 			display: inline-block;
 			padding: 0;
 			margin-left: 1.5em;
@@ -171,16 +184,15 @@
 
 	a {
 		color: #FFF;
+
 		@include tablet-custom-600-up() {
-		//@include  tablet-portrait-and-up() {
-			//color: lighten($site-wide-color, 40%);
 			color: #FFF;
 			&:hover {
 				color: $highlight-color;	
 				transition:all .5s ease-in-out;
 			}
 		}
-		//@include font-bold();
+
 		display: inline-block;
 		text-decoration: none;
 		text-transform: uppercase;
@@ -214,41 +226,36 @@
 .navContent {
 	overflow: hidden;
 	@include tablet-custom-600-up() {
-	//@include  tablet-portrait-and-up() {
 		overflow: visible;
 	}
 	height: auto;
 }
 
 .navContent.active {
-	height: 300px;
+	//height: 300px;
 	@include tablet-custom-600-below() {
-	//@include tablet-portrait-and-below() {
-		background: $site-wide-color;
+		background: rgba(81, 87, 93, 0.7);
 	}
-	//@include  tablet-portrait-and-up() {
 	@include tablet-custom-600-up() {
 		height: auto; 
 	}
-	-webkit-transition: all 250ms linear;
-	-moz-transition: all 250ms linear;
-	transition: all 250ms linear;
+	//-webkit-transition: all 250ms linear;
+	//-moz-transition: all 250ms linear;
+	//transition: all 250ms linear;
 }
 
 .navContent.inactive {
 	height: 0;
 	@include tablet-custom-600-up() {
-	//@include  tablet-portrait-and-up() {
 		height: auto; 
 	}
-	-webkit-transition: all 250ms linear;
-	-moz-transition: all 250ms linear;
-	transition: all 250ms linear;
+	//-webkit-transition: all 250ms linear;
+	//-moz-transition: all 250ms linear;
+	//transition: all 250ms linear;
 }
 
 .headerContent, .navContent {
 	@include tablet-custom-600-up() {
-	//@include  tablet-portrait-and-up() {
 		//max-width: 600px;
 		display: block;
 	}
@@ -261,11 +268,8 @@
 	min-width: 186px;
 	max-width: 292px;
 	float: none;
+	float: left;
 	margin: 0 auto;
-	@include tablet-custom-600-up() {
-	//@include  tablet-portrait-and-up() {
-		float: left;
-	}
 	img {
 		display: block;
 		-webkit-transition: all 250ms linear;
@@ -284,7 +288,6 @@
 	display: block;
 	height: 100%;
 	@include tablet-custom-600-up() {
-	//@include  tablet-portrait-and-up() {
 		max-width: none;
 		display: table-cell;
 		vertical-align: middle;
@@ -296,7 +299,6 @@
 	//background: $site-wide-color;
 	position: relative;
 	@include tablet-custom-600-up() {
-	//@include  tablet-portrait-and-up() {
 		//background: #FFF;
 		width: 68%;
 	}
@@ -305,9 +307,9 @@
 	.mobile-menu {
 		display: block;
 		margin: 0;
-		//background: $site-wide-color;
+		padding: 10px;
+		background: rgba(81, 87, 93, 0.7); 
 		@include tablet-custom-600-up() {
-		//@include  tablet-portrait-and-up() {
 			display: none;
 		}
 

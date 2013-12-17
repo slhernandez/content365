@@ -531,28 +531,36 @@ a:visited {
     transition: background 300ms ease-in-out; }
 
 .headerContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
   height: 100%;
-  padding: 20px 4% 20px 4%;
   max-width: 600px;
-  display: block; }
+  display: block;
+  padding: 10px; }
   @media only screen and (min-width: 37.5em) {
     .headerContainer {
+      position: relative;
       max-width: none;
+      padding: 20px 4% 20px 4%;
       display: table-cell;
       vertical-align: middle;
       width: 32%; } }
+
+.navContent ul li:last-child {
+  display: none; }
+@media only screen and (min-width: 37.5em) {
+  .navContent ul li:last-child {
+    display: inline-block; } }
 
 .navContent ul {
   list-style: none;
   margin: 0;
   padding-left: 0;
-  text-align: center;
-  /*@include  tablet-portrait-and-up() {
-  	text-align: left;
-  }*/ }
+  text-align: center; }
 .navContent li {
   display: block;
-  padding: 10px 0;
+  padding: 5px 0;
   font-size: 1em;
   margin: 5px 0 5px 0; }
   @media only screen and (min-width: 37.5em) {
@@ -602,23 +610,15 @@ a:visited {
     .navContent {
       overflow: visible; } }
 
-.navContent.active {
-  height: 300px;
-  -webkit-transition: all 250ms linear;
-  -moz-transition: all 250ms linear;
-  transition: all 250ms linear; }
-  @media only screen and (max-width: 37.5em) {
-    .navContent.active {
-      background: #51575d; } }
-  @media only screen and (min-width: 37.5em) {
-    .navContent.active {
-      height: auto; } }
+@media only screen and (max-width: 37.5em) {
+  .navContent.active {
+    background: rgba(81, 87, 93, 0.7); } }
+@media only screen and (min-width: 37.5em) {
+  .navContent.active {
+    height: auto; } }
 
 .navContent.inactive {
-  height: 0;
-  -webkit-transition: all 250ms linear;
-  -moz-transition: all 250ms linear;
-  transition: all 250ms linear; }
+  height: 0; }
   @media only screen and (min-width: 37.5em) {
     .navContent.inactive {
       height: auto; } }
@@ -635,10 +635,8 @@ a:visited {
   min-width: 186px;
   max-width: 292px;
   float: none;
+  float: left;
   margin: 0 auto; }
-  @media only screen and (min-width: 37.5em) {
-    .headerContent h1.logo {
-      float: left; } }
   .headerContent h1.logo img {
     display: block;
     -webkit-transition: all 250ms linear;
@@ -667,7 +665,9 @@ a:visited {
       width: 68%; } }
   .navHeading .mobile-menu {
     display: block;
-    margin: 0; }
+    margin: 0;
+    padding: 10px;
+    background: rgba(81, 87, 93, 0.7); }
     @media only screen and (min-width: 37.5em) {
       .navHeading .mobile-menu {
         display: none; } }
