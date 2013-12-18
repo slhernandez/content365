@@ -15,7 +15,7 @@ get_header(); ?>
     <div class="marketing">
       <h1>Comprehensive <span class="highlight">Content</span></h1>
       <p>Providing Partners with offerings to attract and engage intent driven audience</p>
-      <div class="contact-btn-container"><a class="contact-btn" href="#">Get Started Today</a></div>
+      <div class="contact-btn-container"><a class="contact-btn anchorLink" href="#contact">Get Started Today</a></div>
     </div>
     <!--<span class="hero-overlay"></span>-->
   </section>
