@@ -396,10 +396,18 @@
       position: absolute;
       top: 47%;
       &.next {
-        right: 5%
+        right: 5%;
+        -webkit-transform: rotate(270deg); 
+        -moz-transform: rotate(270deg); 
+        -o-transform: rotate(270deg); 
+        transform: rotate(270deg); 
       }
       &.prev {
         left: 5%; 
+        -webkit-transform: rotate(90deg); 
+        -moz-transform: rotate(90deg); 
+        -o-transform: rotate(90deg); 
+        transform: rotate(90deg); 
       }
       span:hover,
       span:active {

@@ -116,7 +116,7 @@ jQuery(document).ready(function($) {
                           templateUrl + '/images/solution/Measure.jpg' ];
 
   var $solutionsContainer = $('.solutions-container');
-  $solutionsContainer.backstretch( solution_images );
+  $solutionsContainer.backstretch( solution_images);
   $solutionsContainer.backstretch("pause");
 
   // Setup next and previous links for solution slideshow
@@ -183,7 +183,7 @@ jQuery(document).ready(function($) {
   
   sections.waypoint({
     handler: setActive,
-    offset: '25%'
+    offset: '35%'
   });
   
   // Content selection 

@@ -31,10 +31,10 @@ get_header(); ?>
           </section>
         </li>
         <li class="animated-gif">
-          <a href="#"><span aria-hidden="true" data-air-icon="&#xE8B0;"></span>Animated Gif</a>
+          <a href="#"><span aria-hidden="true" data-icon="c"></span>Animated Gif</a>
           <section class="animated-gif-section inactive">
             <div class="showcase-image">
-              <img src="<?php bloginfo('template_directory'); ?>/images/content/madewell_g.gif" alt="animated example" title="animated example">
+              <img src="<?php bloginfo('template_directory'); ?>/images/content/clean_and_press_Jeremygif.gif" alt="animated example" title="animated example">
             </div>  
             <div class="showcase-info inactive">
               <h2>Animated Gifs</h2>
@@ -43,7 +43,7 @@ get_header(); ?>
           </section>
         </li>
         <li class="infographics">
-          <a href="#"><span aria-hidden="true" data-air-icon="&#xF601;"></span> Infographics</a>
+          <a href="#"><span aria-hidden="true" data-icon="j"></span> Infographics</a>
           <section class="infographics-section inactive">
             <div class="showcase-image">
               <img src="<?php bloginfo('template_directory'); ?>/images/content/infographics-image.png" alt="infographics example" title="infographics example">
@@ -55,7 +55,7 @@ get_header(); ?>
           </section> 
         </li>
         <li class="photography">
-          <a href="#"><span aria-hidden="true" data-air-icon="&#x1F4F7;"></span>Photography</a>
+          <a href="#"><span aria-hidden="true" data-icon="b"></span>Photography</a>
           <section class="photography-section inactive">
             <div class="showcase-image">
               <img src="<?php bloginfo('template_directory'); ?>/images/content/photography-image.png" alt="photography example" title="photography example">
@@ -67,7 +67,7 @@ get_header(); ?>
           </section>
         </li>
         <li class="quiz">
-          <a href="#"><span aria-hidden="true" data-air-icon="&#xE399;"></span>Quiz</a>
+          <a href="#"><span aria-hidden="true" data-icon="f"></span>Quiz</a>
           <section class="quiz-section inactive">
             <div class="showcase-image">
               <img src="<?php bloginfo('template_directory'); ?>/images/content/quiz-image.png" alt="quiz example" title="quiz example">
@@ -79,7 +79,7 @@ get_header(); ?>
           </section>
         </li>
         <li class="text">
-          <a href="#"><span aria-hidden="true" data-air-icon="&#xEC00;"></span>Text</a>
+          <a href="#"><span aria-hidden="true" data-icon="g"></span>Text</a>
            <section class="text-section inactive">
             <div class="showcase-image">
               <img src="<?php bloginfo('template_directory'); ?>/images/content/text-image.png" alt="text example" title="text example">
@@ -91,7 +91,7 @@ get_header(); ?>
           </section>
         </li>
         <li class="video">
-          <a href="#"><span aria-hidden="true" data-air-icon="&#x1F4F9;"></span>Video</a>
+          <a href="#"><span aria-hidden="true" data-icon="d"></span>Video</a>
           <section class="video-section inactive">
             <div class="showcase-image">
               <img src="<?php bloginfo('template_directory'); ?>/images/content/video-image.png" alt="video example" title="video example">
@@ -112,7 +112,7 @@ get_header(); ?>
 
           <section class="animated-gif-section inactive">
             <div class="showcase-image">
-              <img src="<?php bloginfo('template_directory'); ?>/images/content/madewell_g.gif" alt="animated example" title="animated example">
+              <img src="<?php bloginfo('template_directory'); ?>/images/content/clean_and_press_Jeremygif.gif" alt="animated example" title="animated example">
             </div>  
             <div class="showcase-info inactive">
               <h2>Animated Gifs</h2>
@@ -194,12 +194,10 @@ get_header(); ?>
         </ul>
         <ul class="sol-nav">
           <li class="next">
-            <span aria-hidden="true" data-air-icon="&#x25BB;"></span>
-            <span class="screen-reader-text">Previous</span>
+            <span aria-hidden="true" data-icon="l"></span>
           </li>
           <li class="prev">
-            <span aria-hidden="true" data-air-icon="&#x25C5;"></span>
-            <span class="screen-reader-text">Previous</span>
+            <span aria-hidden="true" data-icon="l"></span>
           </li>
         </ul>
       </div>
@@ -298,10 +296,10 @@ get_header(); ?>
       <div class="contact-info">
         <h1>Contact</h1>        
         <ul>
-          <li><a href="#"><span aria-hidden="true" data-air-icon="&#x1F4D1;"></span>1655 26th Street Santa Monica, CA 90404</a></li> 
-          <li><a href="#"><span aria-hidden="true" data-air-icon="&#x1F4DE;"></span>310 394 6400</a></li> 
-          <li><a href="#"><span aria-hidden="true" data-air-icon="&#xE350;"></span>content365@demandmedia.com</a></li> 
-          <li><a href="#"><span aria-hidden="true" data-air-icon="&#x1F310;"></span>demandmedia.com</a></li> 
+          <li><a href="#"><span aria-hidden="true" data-icon="k"></span>1655 26th Street Santa Monica, CA 90404</a></li> 
+          <li><a href="#"><span aria-hidden="true" data-icon="a"></span>310 394 6400</a></li> 
+          <li><a href="#"><span aria-hidden="true" data-icon="e"></span>content365@demandmedia.com</a></li> 
+          <li><a href="#"><span aria-hidden="true" data-icon="i"></span>demandmedia.com</a></li> 
         </ul>
         <div class="map">
           <img src="<?php bloginfo('template_directory'); ?>/images/map.png" alt="address" title="address">

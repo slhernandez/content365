@@ -81,6 +81,10 @@ function content365_scripts() {
 
 	wp_enqueue_style('ss-air');
 
+	wp_register_style('streamline-icons', get_template_directory_uri() . '/iconfonts/styles.css' );
+
+	wp_enqueue_style('streamline-icons');
+
 	wp_enqueue_style( 'content365-style', get_stylesheet_uri() );
 
 	wp_enqueue_style( 'gothamfont', 'http://cloud.typography.com/6676432/688122/css/fonts.css' );

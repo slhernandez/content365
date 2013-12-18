@@ -28,6 +28,12 @@ $vspacing: 1.5em;
   speak: none;
 }
 
+/*[data-icon]:before {
+  font-family: "";
+  content: attr(data-icon);
+  speak: none;
+}*/
+
 .icon-alone {
   display: inline-block;
   text-decoration: none;
@@ -46,3 +52,4 @@ a.icon-alone:visited {
   top: -9999px;
   left: -9999px;
 }
+
