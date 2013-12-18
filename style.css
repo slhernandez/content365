@@ -1170,11 +1170,12 @@ object {
     z-index: 1; }
     .solutions-container .solutions-content h1 {
       text-transform: uppercase;
-      padding: 50px 20px 50px 20px;
+      padding: 50px 20px 20px 20px;
       color: #FFF; }
     .solutions-container .solutions-content .content {
       color: #FFF;
       max-width: 600px;
+      min-height: 610px;
       margin: 0 auto;
       width: 70%; }
       .solutions-container .solutions-content .content h3 {
@@ -1201,40 +1202,47 @@ object {
         text-align: center;
         line-height: 1.4em;
         margin: 10px 0 25px 0; }
-      .solutions-container .solutions-content .content ul.pages {
-        list-style: none;
-        text-align: center;
-        margin: 50px 0 20px 0;
-        padding: 20px 0; }
-        .solutions-container .solutions-content .content ul.pages li {
-          display: inline-block;
-          margin-right: 2em;
-          height: 50px;
-          width: 50px;
-          background: #7ecd65;
-          border-radius: 50px; }
-          .solutions-container .solutions-content .content ul.pages li a {
-            font-size: 1.75em;
-            text-decoration: none;
-            color: white;
-            padding: 0;
-            margin: 0;
-            position: relative;
-            top: 4px;
-            font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
-            font-weight: 300;
-            font-style: normal; }
-    .solutions-container .solutions-content ul.sol-nav {
-      list-style: none; }
-      .solutions-container .solutions-content ul.sol-nav li {
-        color: #FFF;
-        font-size: 2.75em;
-        position: absolute;
-        top: 47%; }
-        .solutions-container .solutions-content ul.sol-nav li.next {
-          right: 5%; }
-        .solutions-container .solutions-content ul.sol-nav li.prev {
-          left: 5%; }
+  .solutions-container ul.pages {
+    list-style: none;
+    text-align: center;
+    margin: 20px 0 20px 0;
+    padding: 20px 0; }
+    .solutions-container ul.pages li {
+      display: inline-block;
+      margin-right: 2em;
+      height: 50px;
+      width: 50px;
+      background: #7ecd65;
+      border-radius: 50px; }
+      .solutions-container ul.pages li a {
+        font-size: 1.75em;
+        text-decoration: none;
+        color: white;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        top: 4px;
+        font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 300;
+        font-style: normal; }
+  .solutions-container ul.sol-nav {
+    list-style: none; }
+    .solutions-container ul.sol-nav li {
+      color: #FFF;
+      cursor: pointer;
+      font-size: 2.75em;
+      position: absolute;
+      top: 47%; }
+      .solutions-container ul.sol-nav li.next {
+        right: 5%; }
+      .solutions-container ul.sol-nav li.prev {
+        left: 5%; }
+      .solutions-container ul.sol-nav li span:hover,
+      .solutions-container ul.sol-nav li span:active {
+        color: rgba(255, 255, 255, 0.6);
+        -webkit-transistion: all 300ms linear;
+        -moz-transistion: all 300ms linear;
+        transistion: all 300ms linear; }
   .solutions-container .solution {
     padding: 50px 0;
     margin: 0 auto;

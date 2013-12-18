@@ -1,3 +1,18 @@
+window.solutionHeading = ["Listen", "Create", "Distribute", "Measure"];
+
+window.solutionTgtMsg = ["To what content your audience wants", 
+                      "Content written by experts that attract and engage your target audience", 
+                      "Your content strategically to create search + social traffic", 
+                      "Your content marketing ROI"]
+
+window.solutionSecondaryMsg = ["Demand's proprietary algorithm analyzes millions of user-intent data to suggest titles optimized to perform on desktop and mobile.",
+                            "Demand Media Studios employs network of contributors to create professional and engaging content in a myriad of innovative formats that captures your audience.",
+                            "Demand Media's network of sites and digitally native talent allow our partners to reach new audiences.",
+                            "Demand Media Analytics team monitors and tests core metrics to optimize content performance."]
+
+
+
+
 jQuery.fn.anchorAnimate = function(settings) {
 
   settings = jQuery.extend({
@@ -22,6 +37,8 @@ jQuery.fn.anchorAnimate = function(settings) {
 }
 
 jQuery(document).ready(function($) {
+
+  var _this = this;
 
   // Prepend an anchor tag for one-page scrolling.
   // This anchor tag is specifically for the hero image.
@@ -78,7 +95,7 @@ jQuery(document).ready(function($) {
     }*/
   });
 
-  // Load backstretch image loader
+  // Load Backstretch image loader
   // ----------------------------------
   /*$('.hero-container').backstretch( [ 
     templateUrl + '/images/family2tablet1_opt.jpg'
@@ -92,12 +109,51 @@ jQuery(document).ready(function($) {
     ,templateUrl + '/images/Content365_Family_3.jpg'
   ], { duration: 6000, fade: 750 } );
 
-  $('.solutions-container').backstretch( [
-    templateUrl + '/images/solution/Create.jpg' 
-    ,templateUrl + '/images/solution/Distribute.jpg'
-    ,templateUrl + '/images/solution/Listen.jpg'
-    ,templateUrl + '/images/solution/Measure.jpg'
-  ], { duration: 6000, fade: 750 } );
+
+  var solution_images = [ templateUrl + '/images/solution/Listen.jpg',
+                          templateUrl + '/images/solution/Create.jpg',
+                          templateUrl + '/images/solution/Distribute.jpg',
+                          templateUrl + '/images/solution/Measure.jpg' ];
+
+  var $solutionsContainer = $('.solutions-container');
+  $solutionsContainer.backstretch( solution_images );
+  $solutionsContainer.backstretch("pause");
+
+  // Setup next and previous links for solution slideshow
+  $('.next').on('click', function(e) {
+    e.preventDefault();
+    $('.solutions-container').data('backstretch').next();
+    var currentSlide = $('.solutions-container').data("backstretch").index;
+    var $numItem = $('.pages li')[currentSlide];
+    highlightPageNum($($numItem));
+  });
+
+  $('.prev').on('click', function(e) {
+    e.preventDefault();
+    $('.solutions-container').data('backstretch').prev(); 
+    var currentSlide = $('.solutions-container').data("backstretch").index;
+    var $numItem = $('.pages li')[currentSlide];
+    highlightPageNum($($numItem));
+  });
+
+  // Setup click events for page links
+  $('.pages li').on('click', function(e) {
+    e.preventDefault();
+    var screen = $(this).find('a').data('screen');
+    console.log('screen ...', screen);
+    $('.solutions-container').backstretch("show", screen);
+    highlightPageNum($(this));
+  });
+
+  function highlightPageNum(numItem) {
+    // change background color of li
+    numItem.parent().find('li').each(function(item) {
+      $(this).css('background', '#7ecd65');
+      $(this).find('a').css('color', '#FFF');
+    });
+    numItem.css('background', '#FFF');
+    numItem.find('a').css('color', '#7ecd65');
+  }
 
   // WAYPOINT (scroll detection)
   // ----------------------------------
@@ -127,7 +183,7 @@ jQuery(document).ready(function($) {
   
   sections.waypoint({
     handler: setActive,
-    offset: '35%'
+    offset: '25%'
   });
   
   // Content selection 
@@ -149,3 +205,35 @@ jQuery(document).ready(function($) {
   });
 
 });
+
+jQuery(window).on("backstretch.show", function (e, instance) { 
+  var imageItem = instance.images[instance.index];
+  if (instance.$container.attr('class') === 'solutions-container') {
+
+    jQuery('.content').find('h2').animate({opacity:0}, 20, function() {
+      jQuery(this).text(solutionHeading[instance.index]).animate({opacity:1});
+    });
+
+    jQuery('.content').find('.target-message').animate({opacity:0}, 20, function() {
+      jQuery(this).text(solutionTgtMsg[instance.index]).animate({opacity:1});
+    });
+
+    jQuery('.content').find('.secondary-message').animate({opacity:0}, 20, function() {
+      jQuery(this).text(solutionSecondaryMsg[instance.index]).animate({opacity:1});
+    });
+
+  }
+});
+
+
+
+
+
+
+
+
+
+
+
+
+

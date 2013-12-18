@@ -182,16 +182,16 @@ get_header(); ?>
         <h1>Solutions</h1>
         <div class="content">
           <h3>Unleash your content strategy using demand media's platform to:</h3>
-          <h2>Create</h2>
-          <p class="target-message">Content written by experts that attract and engage your target audience.</p>
-          <p class="secondary-message">Demand Media Studios employs network of contributors to create professional and engaging content in a myriad of innovative formats that captures your audience.</p>
-          <ul class="pages">
-           <li><a href="#">1</a></li> 
-           <li><a href="#">2</a></li> 
-           <li><a href="#">3</a></li> 
-           <li><a href="#">4</a></li> 
-          </ul>
+          <h2></h2>
+          <p class="target-message"></p>
+          <p class="secondary-message"></p>
         </div>
+        <ul class="pages">
+         <li><a href="#" data-screen="0">1</a></li> 
+         <li><a href="#" data-screen="1">2</a></li> 
+         <li><a href="#" data-screen="2">3</a></li> 
+         <li><a href="#" data-screen="3">4</a></li> 
+        </ul>
         <ul class="sol-nav">
           <li class="next">
             <span aria-hidden="true" data-air-icon="&#x25BB;"></span>
