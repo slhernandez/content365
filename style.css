@@ -1201,6 +1201,17 @@ object {
         text-align: center;
         line-height: 1.4em;
         margin: 10px 0 25px 0; }
+    .solutions-container .solutions-content ul.sol-nav {
+      list-style: none; }
+      .solutions-container .solutions-content ul.sol-nav li {
+        color: #FFF;
+        font-size: 2.75em;
+        position: absolute;
+        top: 47%; }
+        .solutions-container .solutions-content ul.sol-nav li.next {
+          right: 5%; }
+        .solutions-container .solutions-content ul.sol-nav li.prev {
+          left: 5%; }
   .solutions-container .solution {
     padding: 50px 0;
     margin: 0 auto;

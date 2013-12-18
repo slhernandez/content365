@@ -185,13 +185,24 @@ get_header(); ?>
           <h2>Create</h2>
           <p class="target-message">Content written by experts that attract and engage your target audience.</p>
           <p class="secondary-message">Demand Media Studios employs network of contributors to create professional and engaging content in a myriad of innovative formats that captures your audience.</p>
+          <ul class="pages">
+           <li><a href="#">1</a></li> 
+           <li><a href="#">2</a></li> 
+           <li><a href="#">3</a></li> 
+           <li><a href="#">4</a></li> 
+          </ul>
         </div>
+        <ul class="sol-nav">
+          <li class="next">
+            <span aria-hidden="true" data-air-icon="&#x25BB;"></span>
+            <span class="screen-reader-text">Previous</span>
+          </li>
+          <li class="prev">
+            <span aria-hidden="true" data-air-icon="&#x25C5;"></span>
+            <span class="screen-reader-text">Previous</span>
+          </li>
+        </ul>
       </div>
-    
-      <!--<h1>Unleash Your Content Strategy Using Demand Media's Platform To:</h1>
-      <div class="solution">
-        <img src="<?php bloginfo('template_directory'); ?>/images/content-strategy.png" alt="Solution" title="Solution">
-      </div> -->
     </div>
   </section> <!-- end of solutions -->
 

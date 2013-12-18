@@ -318,11 +318,13 @@
   .solutions-content {
     @include websiteWidth();
     z-index: 1; 
+
     h1 {
       text-transform: uppercase;
       padding: 50px 20px 50px 20px;
       color: #FFF;
     }
+
     .content {
       color: #FFF;
       max-width: 600px;    
@@ -357,6 +359,23 @@
         margin: 10px 0 25px 0;
       }
     }
+
+    ul.sol-nav {
+      list-style: none;
+      li {
+        color: #FFF;
+        font-size: $font-size-44;
+        position: absolute;
+        top: 47%;
+        &.next {
+          right: 5%
+        }
+        &.prev {
+          left: 5%; 
+        }
+      }
+    }
+
   }
 
 
