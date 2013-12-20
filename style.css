@@ -1322,6 +1322,7 @@ object {
     .contributors-container .topics .topic {
       position: relative;
       width: 100%;
+      height: 100%;
       margin-right: .5em;
       margin-bottom: .5em;
       float: left;
@@ -1330,10 +1331,13 @@ object {
       overflow: hidden; }
       @media only screen and (min-width: 30.001em) {
         .contributors-container .topics .topic {
-          max-width: 275px;
-          max-height: 275px;
-          width: 100%;
-          height: 100%; } }
+          width: 31%; } }
+      @media only screen and (min-width: 37.501em) and (max-width: 56.25em) {
+        .contributors-container .topics .topic {
+          width: 23%; } }
+      @media only screen and (min-width: 56.25em) {
+        .contributors-container .topics .topic {
+          width: 15%; } }
     .contributors-container .topics .topic a {
       text-decoration: none;
       -webkit-transition: all .2s ease-in;
@@ -1347,6 +1351,9 @@ object {
       height: 100%;
       top: 0;
       left: 0; }
+      @media only screen and (min-width: 56.25em) {
+        .contributors-container .topics .topic a .t-overlay {
+          height: 96%; } }
       .contributors-container .topics .topic a .t-overlay:hover {
         background: transparent;
         -webkit-transition: all .2s ease-in;
@@ -1360,14 +1367,15 @@ object {
       color: #FFF;
       cursor: pointer;
       position: absolute;
-      font-size: 1.5em;
+      font-size: 1em;
       font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: 500;
       font-style: normal;
       text-align: center;
       text-transform: uppercase;
       z-index: 1;
-      margin: 115px 0 0 20px;
+      top: 40%;
+      left: 7%;
       width: 90%;
       word-wrap: break-word; }
 

@@ -225,7 +225,7 @@ get_header(); ?>
           <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/crafts_380.jpg" alt="crafts" title="crafts"></a>
         </div>
         <div class="topic">
-          <p class="t-label">Parenting/Family</p>
+          <p class="t-label">Parenting & Family</p>
           <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/ParentingFamily_380.jpg" alt="parenting and family" title="parenting and family"></a>
         </div>
         <div class="topic">

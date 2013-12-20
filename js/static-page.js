@@ -203,6 +203,15 @@ jQuery(document).ready(function($) {
     $('.' + contentSection + '-section').removeClass('inactive').addClass('active');
   });
 
+  // Click event for contributor tiles.
+  $('.topic').on('click', function(e) {
+    e.stopPropagation();
+    e.preventDefault();
+    var topic = $(this).find('p').text().replace(/\s+/g, '');
+    console.log('topic is ...', topic);
+
+  });
+
 });
 
 jQuery(window).on("backstretch.show", function (e, instance) { 
