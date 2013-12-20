@@ -26,7 +26,7 @@ jQuery.fn.anchorAnimate = function(settings) {
       var locationHref = window.location.href
       var elementClick = jQuery(caller).attr("href")
       
-      var destination = jQuery(elementClick).offset().top - 20;
+      var destination = jQuery(elementClick).offset().top - 0;
       jQuery("html:not(:animated),body:not(:animated)").animate({ scrollTop: destination}, settings.speed, function() {
         window.location.hash = elementClick
       });
