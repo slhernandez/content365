@@ -210,59 +210,59 @@ get_header(); ?>
       <div class="topics">
         <div class="topic">
           <p class="t-label">Pets</p>
-          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/pets.jpg" alt="pets" title="pets"></a>
+          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/Pets_380.jpg" alt="pets" title="pets"></a>
         </div>
         <div class="topic">
           <p class="t-label">Real Estate</p>
-          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/real-estate.jpg" alt="real estate" title ="real estate"></a>
+          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/RealEstate_380.jpg" alt="real estate" title ="real estate"></a>
         </div>
         <div class="topic">
           <p class="t-label">Personal Finance</p>
-          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/personal-finance.jpg" alt="finance" title="finance"></a>
+          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/PersonalFinance_380.jpg" alt="finance" title="finance"></a>
         </div>
         <div class="topic">
           <p class="t-label">Crafts</p>
-          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/crafts.jpg" alt="crafts" title="crafts"></a>
+          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/crafts_380.jpg" alt="crafts" title="crafts"></a>
         </div>
         <div class="topic">
           <p class="t-label">Parenting/Family</p>
-          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/parenting-family.jpg" alt="parenting and family" title="parenting and family"></a>
+          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/ParentingFamily_380.jpg" alt="parenting and family" title="parenting and family"></a>
         </div>
         <div class="topic">
           <p class="t-label">Home DIY & Design</p>
-          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/home-diy-design.jpg" alt="home and design" title="home and design"></a>
+          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/HomeDIYDesign_380.jpg" alt="home and design" title="home and design"></a>
         </div>
         <div class="topic">
           <p class="t-label">Make Up/Hair</p>
-          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/makeup.jpg" alt="make up and hair" title="make up and hair"></a>
+          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/MakeupHair_380.jpg" alt="make up and hair" title="make up and hair"></a>
         </div>
         <div class="topic">
           <p class="t-label">Fashion</p>
-          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/fashion.jpg" alt="fashion" title="fashion"></a>
+          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/fashion_380.jpg" alt="fashion" title="fashion"></a>
         </div>
         <div class="topic">
           <p class="t-label">Food</p>
-          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/food.jpg" alt="food" title="food"></a>
+          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/food_380.jpg" alt="food" title="food"></a>
         </div>
         <div class="topic">
           <p class="t-label">Nutrition</p>
-          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/nutrition.jpg" alt="nutrition" title="nutrition"></a>
+          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/nutrition_380.jpg" alt="nutrition" title="nutrition"></a>
         </div>
         <div class="topic">
           <p class="t-label">Legal</p>
-          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/legal.jpg" alt="legal" title="legal"></a>
+          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/legal_380.jpg" alt="legal" title="legal"></a>
         </div>
         <div class="topic">
           <p class="t-label">Health</p>
-          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/health.jpg" alt="health" title="health"></a>
+          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/health_380.jpg" alt="health" title="health"></a>
         </div>
         <div class="topic">
           <p class="t-label">Fitness</p>
-          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/fitness.jpg" alt="topic" title="topic"></a>
+          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/fitness_380.jpg" alt="topic" title="topic"></a>
         </div>
         <div class="topic">
           <p class="t-label">Tech</p>
-          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/tech.jpg" alt="tech" title="tech"></a>
+          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/Tech_380.jpg" alt="tech" title="tech"></a>
         </div>
       </div>
     </div>

@@ -107,7 +107,7 @@ jQuery(document).ready(function($) {
     templateUrl + '/images/Content365_Family_1.jpg'
     ,templateUrl + '/images/Content365_Family_2.jpg'
     ,templateUrl + '/images/Content365_Family_3.jpg'
-  ], { duration: 6000, fade: 750 } );
+  ], { duration: 30000, fade: 750 } );
 
 
   var solution_images = [ templateUrl + '/images/solution/Listen.jpg',
@@ -197,7 +197,6 @@ jQuery(document).ready(function($) {
     });
     $(this).addClass('selected');
     var contentSection = $(this).parent().attr('class');
-    console.log('contentSection ...', contentSection);
     $('.showcase-all > section').removeClass('active').addClass('inactive');
     $('.content-items section').removeClass('active').addClass('inactive');
 
