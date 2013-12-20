@@ -12,6 +12,7 @@ $mq-tablet-portrait : 48em !default;
 $mq-tablet-landscape  : 64em !default;
 $mq-desktop   : 86.375em !default;
 $mq-tablet-600-custom: 37.500em !default;
+$mq-tablet-675-custom: 42.188em !default;
 $mq-tablet-825-custom: 51.563em !default;
 
 // Custom media queries for Content365 website.  Outside the norm for standard tablet and mobile sizes.
@@ -29,6 +30,19 @@ $mq-tablet-825-custom: 51.563em !default;
 
 @mixin tablet-custom-825-up {
   @media only screen and (min-width : $mq-tablet-825-custom) {
+    @content;
+  }
+}
+
+@mixin tablet-custom-675-up {
+  @media only screen and (min-width : $mq-tablet-675-custom) {
+    @content;
+  }
+}
+
+// Larger than mobile portrait but less than or equal to 675px  
+@mixin mobile-custom675-only {
+  @media only screen and (min-width : $mq-mobile-portrait + .001) and (max-width : $mq-tablet-825-custom) {
     @content;
   }
 }

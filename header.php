@@ -41,7 +41,7 @@ var templateUrl = '<?= get_bloginfo("template_url"); ?>';
 					<div class="navHeading">
 						<div class="navContainer">
 							<div class="mobile-menu">
-								<p><a href="#">Menu</a></p>
+								<p><a href="#"><span aria-hidden="true" data-icon="h"></span></a></p>
 							</div>
 							<!-- <div class="menu-icon">
 								<a href="#" class="icon-alone">

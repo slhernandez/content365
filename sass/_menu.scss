@@ -307,7 +307,7 @@
 	.mobile-menu {
 		display: block;
 		margin: 0;
-		padding: 10px;
+		//padding: 10px;
 		background: rgba(81, 87, 93, 0.7); 
 		@include tablet-custom-600-up() {
 			display: none;
@@ -317,6 +317,12 @@
 			a {
 				color: #FFF;
 				text-decoration: none;
+				span {
+					@include tablet-custom-600-below {
+					color: lighten($site-wide-color, 40%);
+					font-size: 32px;
+					}
+				}
 			}
 			text-align: right;
 			padding: 10px 0;
