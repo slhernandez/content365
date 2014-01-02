@@ -14,7 +14,7 @@ get_header(); ?>
     <!--<h1 class="hero-heading">Providing Partners Comprehensive <span class="highlight">Content</span> Offerings To Attract And Engage Intent Driven Audiences</h1>-->
     <div class="marketing">
       <h1>Comprehensive <span class="highlight">Content</span></h1>
-      <p>Providing Partners with offerings to attract and engage intent driven audience</p>
+      <p>Providing Partners with offerings to attract and engage intent-driven audience</p>
       <div class="contact-btn-container"><a class="contact-btn anchorLink" href="#contact">Get Started Today</a></div>
     </div>
     <!--<span class="hero-overlay"></span>-->
@@ -181,7 +181,7 @@ get_header(); ?>
       <div class="solutions-content">
         <h1>Solutions</h1>
         <div class="content">
-          <h3>Unleash your content strategy using demand media's platform to:</h3>
+          <h3>Unleash your content strategy using the Demand Media Platform to:</h3>
           <h2></h2>
           <p class="target-message"></p>
           <p class="secondary-message"></p>
@@ -207,71 +207,99 @@ get_header(); ?>
   <section id="contributors" class="contributors">
     <div class="contributors-container">
       <h1>Contributors</h1>
-      <div class="topics">
-        <div class="topic">
-          <p class="t-label">Pets</p>
-          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/Pets_380.jpg" alt="pets" title="pets"></a>
+      <div class="contributor-showcase">
+
+        <div class="pets-contributors">
+          <h1>Pets<h1>
+          <div class="contributor-meta">
+            <h3>Community Offerings</h3>
+            <p>50+ animal/pet experts</p>
+            <p>100+ pet writers</p>
+            <p>All are qualified vets, vet techs, breed/animal nutrition specialists, or trainers</p>
+          </div>
+          <div class="contributor-bios">
+            <div class="col1of3">
+              <img src="<?php bloginfo('template_directory'); ?>/images/contributors/bios/pets_jena.png" alt="Jena Questen" title="Jena Questen">
+              <p class="bio"><span class="bio-name">Dr.Jena Question</span>travels and teaches holistic animal health and behavior, from horses to dogs and cats, and is also a well-known koi fish expert.</p>
+            </div>
+            <div class="col1of3">
+              <img src="<?php bloginfo('template_directory'); ?>/images/contributors/bios/pets_jenn.png" alt="Jenn Fadal" title="Jenn Fadal">
+              <p class="bio"><span class="bio-name">Jenn Fadal</span>cut her leash to corporate life in 2005 and opened a holistic pet market in Tampa called Wag. Since then, Fadal has worked with Better TV as their pet expert, and is the Pet Wellness Expert for Datime TV.</p>
+            </div>
+            <div class="col1of3">
+              <img src="<?php bloginfo('template_directory'); ?>/images/contributors/bios/pets_ben.png" alt="Ben Team" title="Ben Team">
+              <p class="bio"><span class="bio-name">Ben Team</span>covers animals, trees and outdoor recreation. He is an expert on caring for reptiles and amphibians.</p>
+            </div>
+          </div>
         </div>
-        <div class="topic">
-          <p class="t-label">Real Estate</p>
-          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/RealEstate_380.jpg" alt="real estate" title ="real estate"></a>
+
+        <div class="topics">
+          <div class="topic">
+            <p class="t-label">Pets</p>
+            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/Pets_380.jpg" alt="pets" title="pets"></a>
+          </div>
+          <div class="topic">
+            <p class="t-label">Real Estate</p>
+            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/RealEstate_380.jpg" alt="real estate" title ="real estate"></a>
+          </div>
+          <div class="topic">
+            <p class="t-label">Personal Finance</p>
+            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/PersonalFinance_380.jpg" alt="finance" title="finance"></a>
+          </div>
+          <div class="topic">
+            <p class="t-label">Crafts</p>
+            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/crafts_380.jpg" alt="crafts" title="crafts"></a>
+          </div>
+          <div class="topic">
+            <p class="t-label">Parenting & Family</p>
+            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/ParentingFamily_380.jpg" alt="parenting and family" title="parenting and family"></a>
+          </div>
+          <div class="topic">
+            <p class="t-label">Home DIY & Design</p>
+            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/HomeDIYDesign_380.jpg" alt="home and design" title="home and design"></a>
+          </div>
+          <div class="topic">
+            <p class="t-label">Make Up/Hair</p>
+            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/MakeupHair_380.jpg" alt="make up and hair" title="make up and hair"></a>
+          </div>
+          <div class="topic">
+            <p class="t-label">Fashion</p>
+            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/fashion_380.jpg" alt="fashion" title="fashion"></a>
+          </div>
+          <div class="topic">
+            <p class="t-label">Food</p>
+            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/food_380.jpg" alt="food" title="food"></a>
+          </div>
+          <div class="topic">
+            <p class="t-label">Nutrition</p>
+            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/nutrition_380.jpg" alt="nutrition" title="nutrition"></a>
+          </div>
+          <div class="topic">
+            <p class="t-label">Legal</p>
+            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/legal_380.jpg" alt="legal" title="legal"></a>
+          </div>
+          <div class="topic">
+            <p class="t-label">Health</p>
+            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/health_380.jpg" alt="health" title="health"></a>
+          </div>
+          <div class="topic">
+            <p class="t-label">Fitness</p>
+            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/fitness_380.jpg" alt="topic" title="topic"></a>
+          </div>
+          <div class="topic">
+            <p class="t-label">Tech</p>
+            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/Tech_380.jpg" alt="tech" title="tech"></a>
+          </div>
         </div>
-        <div class="topic">
-          <p class="t-label">Personal Finance</p>
-          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/PersonalFinance_380.jpg" alt="finance" title="finance"></a>
-        </div>
-        <div class="topic">
-          <p class="t-label">Crafts</p>
-          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/crafts_380.jpg" alt="crafts" title="crafts"></a>
-        </div>
-        <div class="topic">
-          <p class="t-label">Parenting & Family</p>
-          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/ParentingFamily_380.jpg" alt="parenting and family" title="parenting and family"></a>
-        </div>
-        <div class="topic">
-          <p class="t-label">Home DIY & Design</p>
-          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/HomeDIYDesign_380.jpg" alt="home and design" title="home and design"></a>
-        </div>
-        <div class="topic">
-          <p class="t-label">Make Up/Hair</p>
-          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/MakeupHair_380.jpg" alt="make up and hair" title="make up and hair"></a>
-        </div>
-        <div class="topic">
-          <p class="t-label">Fashion</p>
-          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/fashion_380.jpg" alt="fashion" title="fashion"></a>
-        </div>
-        <div class="topic">
-          <p class="t-label">Food</p>
-          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/food_380.jpg" alt="food" title="food"></a>
-        </div>
-        <div class="topic">
-          <p class="t-label">Nutrition</p>
-          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/nutrition_380.jpg" alt="nutrition" title="nutrition"></a>
-        </div>
-        <div class="topic">
-          <p class="t-label">Legal</p>
-          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/legal_380.jpg" alt="legal" title="legal"></a>
-        </div>
-        <div class="topic">
-          <p class="t-label">Health</p>
-          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/health_380.jpg" alt="health" title="health"></a>
-        </div>
-        <div class="topic">
-          <p class="t-label">Fitness</p>
-          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/fitness_380.jpg" alt="topic" title="topic"></a>
-        </div>
-        <div class="topic">
-          <p class="t-label">Tech</p>
-          <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/Tech_380.jpg" alt="tech" title="tech"></a>
-        </div>
+
       </div>
     </div>
   </section> <!-- end of contributors -->
 
-  <section id="tipsandtricks" class="tipsandtricks">
-    <div class="tips-container">
-      <h1>Tips and Tricks</h1>
-      <div class="tipswrap">
+  <section id="insights" class="insights">
+    <div class="insights-container">
+      <h1>Insights</h1>
+      <div class="insights-wrap">
         <div class="col1of3">
           <img src="<?php bloginfo('template_directory'); ?>/images/tips/mobile.png" alt="mobile" title="mobile">
           <div class="t-num">78%</div>

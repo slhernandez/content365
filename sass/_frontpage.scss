@@ -323,7 +323,7 @@
 
     h1 {
       text-transform: uppercase;
-      padding: 0 20px 20px 20px;
+      padding: 0 20px 0 20px;
       color: #FFF;
     }
 
@@ -335,12 +335,12 @@
       width: 70%;
       h3 {
         color: $highlight-color;
-        margin: 50px 0;
+        margin: 20px 0 40px 0;
         text-align: center;
         text-transform: uppercase;
         font-size: $font-size-16;
         @include tablet-custom-675-up {
-          font-size: $font-size-28;
+          font-size: $font-size-24;
         }
         @include mobile-custom675-only {
           font-size: $font-size-20;
@@ -350,7 +350,7 @@
         color: #FFF;
         font-size: $font-size-22;
         @include tablet-custom-675-up {
-          font-size: $font-size-44;
+          font-size: $font-size-64;
         }
         @include mobile-custom675-only {
           font-size: $font-size-30;
@@ -469,6 +469,37 @@
     padding: 20px 0 20px 0;
   }
 
+  .pets-contributors {
+    background: #f3f3f3;
+    h1 {
+      padding: 0 0 20px 0;
+    }
+  }
+
+  .contributor-meta {
+    h3 {
+      text-transform: none;
+      font-size: $font-size-14;
+    }
+    p {
+      padding: 0;
+      margin: 0;
+      @include font-light();
+      font-size: $font-size-12;
+      text-transform: none;
+    }
+  }
+
+  .contributor-bios {
+    @include clearfix();
+    padding: 20px;
+    .bio {
+      font-size: $font-size-16;
+      @include font-light();
+      text-transform: none;
+    }
+  }
+
   .topics {
     @include clearfix();
     padding: 50px 0;
@@ -548,11 +579,11 @@
 
 /* =Content365 Tips And Tricks
 ----------------------------------------------- */
-.tipsandtricks {
+.insights {
   background: $tips-tricks-color;
 }
 
-.tips-container {
+.insights-container {
   @include clearfix();
   @include websiteWidth();
   padding: 100px 0;
@@ -566,81 +597,25 @@
       padding: 20px 0;
     }
   }  
+}
 
-  .tip-items {
-    @include clearfix();
-    width: 80%;
-    margin: 0 auto;
-    padding: 50px 0;
-    .tip-item {
-      cursor: pointer;
-      border-radius: 50px;
-      position: relative;
-      width: 30px;
-      height: 30px;
-      margin-right: 10em;
-      margin-bottom: 6.5em;
-      float: left;
-      background-color: #67b64c;
-      display: inline-block;
-      &:hover {
-        background: darken(#67b64c, 20%);
-        -webkit-transition: all 500ms ease-in-out;
-        -moz-transition: all 500ms ease-in-out;
-        transition: all 500ms ease-in-out;
-      }
-      &:hover .tip {
-        opacity: 1;
-        //display: block;
-        -webkit-transition: all 500ms ease-in-out;
-        -moz-transition: all 500ms ease-in-out;
-        transition: all 500ms ease-in-out;
-      }
-    }
+.col1of3 {
+  float: none;
+  width: 100%;
+  @include tablet-custom-675-up {
+    @include grid(4,3);
+    float: left;
+  }
+  margin-right: $flex-gutter;
+  &:last-child {
+    margin-right: 0;
   }
 }
 
-.tip {
-  opacity: 0;
-  //display: none;
-  background-color: #FFF;
-  position: absolute;
-  top: 32px;
-  left: -135px;
-  width: 300px;
-  height: 300px;
-  border-radius: 200px;
-  z-index: 1;
-  -webkit-transition: all 500ms ease-in-out;
-  -moz-transition: all 500ms ease-in-out;
-  transition: all 500ms ease-in-out;
-  p {
-    font-size: $font-size-20;
-    color: $site-wide-color;
-    position: absolute;
-    top: 38%;
-    text-align: center;
-    font-weight: bold;
-  }
-}
-
-.tipswrap {
+.insights-wrap {
   margin: 0 auto;
   text-align: center;
   @include clearfix();
-
-  .col1of3 {
-    float: none;
-    width: 100%;
-    @include tablet-custom-675-up {
-      @include grid(4,3);
-      float: left;
-    }
-    margin-right: $flex-gutter;
-    &:last-child {
-      margin-right: 0;
-    }
-  }
 
   .col1of3 {
     @include mobile-portrait-and-below {
