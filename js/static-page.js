@@ -39,63 +39,298 @@ jQuery(document).ready(function($) {
   // Contributor information
   var contrib_info = {
     "Pets":{
+      "category": "Pets",
       "meta": ["50+ animal/pet experts", "100+ pet writers", "All are qualified vets, vet techs, breed/animal nutrition specialist, or trainers"],
-      "bios": {
-        "jena" : {
+      "bios": [
+         {
           "name": "Dr. Jena Question",
-          "img": "pets_jena.jpg",
+          "img": "pets_jena.png",
           "bio": "travels and teaches holistic animal health and behavior, from horses to dogs and cats, and is also a well-known koi fish expert."
         },
-        "jenn" : {
+        {
           "name": "Jenn Fadal",
           "img": "pets_jenn.png",
           "bio": "cut her leash to corporate life in 2005 and opened a holistic pet market in Tampa called Wag. Since then, Fadal has worked with Better TV as their pet expert, and is the Pet Wellness Expert for Datime TV."
         },
-        "ben" : {
+        {
           "name": "Ben Team",
           "img": "pets_ben.png",
           "bio": "covers animals, trees and outdoor recreation. He is an expert on caring for reptiles and amphibians."
         }
-      } 
+      ] 
     },
     "RealEstate": {
-
+      "category": "Real Estate",
+      "meta": ["75+ real estate experts", "40+ real estate writers", "All are qualified real estate agents, brokers, renters, property managers, etc..."],
+      "bios": [
+         {
+          "name": "Jack McLaughlin",
+          "img": "realestate_jack.png",
+          "bio": "has been a broker for over 30 years and hosts the internet radio show, 'My Broker Donates.'"
+        },
+        {
+          "name": "Herman Chan",
+          "img": "realestate_herman.png",
+          "bio": "is a real estate personality, broker, writer, speaker, and video blogger. You've seen him on HGTV, speaking circuits, radio and countless print outlets pontificating about all things home & garden."
+        },
+        {
+          "name": "Monica Dillon",
+          "img": "realestate_monica",
+          "bio": "has spent over a decade in real estate sales, investing and appraising. She specializes in energy efficiency building practices and renewable energy."
+        }
+      ] 
     },
     "PersonalFinance": {
-
+      "category": "Personal Finance",
+      "meta": ["100+ personal finance experts", "All are qualified CPAs, Certified Financial Planners, financial advisors, entrepreneurs, accountants, etc."],
+      "bios": [
+         {
+          "name": "Karen Lee",
+          "img": "finance_karen.png",
+          "bio": "has been a financial planner for over 24 years. She recently published her first book, 'It's just Money, So Why Does It Cause So Many Problems?', and she is a regular financial contributor on CNN."
+        },
+        {
+          "name": "Hunkar Ozyasar",
+          "img": "finance_hunkar.png",
+          "bio": "is the former high-yield bond strategist for Deutsche Bank. He has been quoted in publications including 'Financial Times' and the 'Wall Street Journal.'"
+        },
+        {
+          "name": "Lisa McQuerrey",
+          "img": "finance_lisa.png",
+          "bio": "has been a business writer since 1987. McQuerrey's work has garnered awards from the U.S. Small Business Administration, the International Association of Business Communicators and the Associated Press."
+        }
+      ] 
     },
     "Crafts": {
-
+      "category": "Crafts",
+      "meta": ["100+ craft experts", "All are qualified craft teachers, bloggers, etc."],
+      "bios": [
+         {
+          "name": "Tracy Metro",
+          "img": "crafts_tracy.png",
+          "bio": "has appeared on Oprah Winfery Network's Home Made Simple, TLC's Designing Spaces, HGTV's Posh Pets and the Today Show."
+        },
+        {
+          "name": "Linda Facci",
+          "img": "crafts_linda.png",
+          "bio": "has been featured on 2 television shows for HGTV, showcased in several magazines for her jewelry, home and craft projects, and was just recently featured in 'Design Sponge at Home book.'"
+        },
+        {
+          "name": "Deborah Stumm",
+          "img": "crafts_deborah.png",
+          "bio": "is the founder of Party Plan-It, Inc. and has been a frequent guest on the TODAY Show, NBC, CBS, FOX, CW, KUSI, and KTLA."
+        }
+      ] 
     },
     "Parenting&Family": {
-
+      "category": "Parenting and Family",
+      "meta": ["75+ parenting Talent", "40+ relationships Talent", "200+ writers", "Backgrounds in elementary and secondary education, tutoring, therapists, lifestyle bloggers, psychology and nursing."],
+      "bios": [
+         {
+          "name": "Dupe Aleru",
+          "img": "family_dupe.png",
+          "bio": "self-published author, teacher and former education reporter who founded Tutors for Tots, Tweens & Teens, LLC."
+        },
+        {
+          "name": "Dr. Cindy Bunin",
+          "img": "family_cindy.png",
+          "bio": "is a marriage and family therapist and child development specialist for over thirty years. She was honored as a 2004-2005 Who's Who in American Women."
+        },
+        {
+          "name": "Bill Corbett",
+          "img": "family_bill.png",
+          "bio": "is the author of the award-winning parenting book series, 'Love, Limits & Lessons,' and the executive producer and host of the television show, 'Creating Cooperative Kids.'"
+        }
+      ] 
     },
     "HomeDIY&Design": {
-
+      "category": "Home DIY and Design",
+      "meta": ["350+ Home & Garden Talent", "200+ writers", "All are certified carpenters, contractors, painters, interior designers, landscapers, gardeners, etc..."],
+      "bios": [
+         {
+          "name": "Kelli Ellis",
+          "img": "home_kelli.png",
+          "bio": "award-winning, celebrity interior designer with shows on HGTV, TLC and Bravo, Ellis has appeared on NBC, CBS and ABC. Ellis authored the Certified Design Psychology Coaching program through the nationally-accredited Spencer."
+        },
+        {
+          "name": "Leslie Ezelle",
+          "img": "home_leslie.png",
+          "bio": "is an acclaimed interior designer who was HGTV's first ever Design Star All-Stars winner. She is also a cancer survivor, and owner of Leslie Christiner Designs."
+        },
+        {
+          "name": "Nick Larocci",
+          "img": "home_nick.png",
+          "bio": "has over 25 years of experience in all mediums of construction. Unlike most construction professionals, larocci started in a shop with a very detailed concentration and graduated to less-demanding forms of the trade. In the course of owning several businesses, he was constantly directing projects that involved explanation and guidance."
+        }
+      ] 
     },
     "MakeUp/Hair": {
-
+      "category": "MakeUp/Hair",
+      "meta": ["500+ Beauty Talent", "75+ Style Writers", "All are makeup artists, hair stylists, colorists, dermatologists, or manicurists"],
+      "bios": [
+         {
+          "name": "Christina Farrell",
+          "img": "hair_christina.png",
+          "bio": "is founder of The Makeup Blogger. She has been on-air beauty expert for E! and TLC's, 'What Not To Wear.' Her artistry has been seen at movie premieres, as well as the Emmy and Oscar award ceremonies institute."
+        },
+        {
+          "name": "Michelle Saunders",
+          "img": "hair_michelle.png",
+          "bio": "is a highly sought-after celebrity manicurist who lives in Los Angeles. Her work has been featured in Vogue, Harper's Bazaar and Elle, and her celebrity clients include Jennifer Lopez, Kate Beckinsdale and Eva Longoria."
+        },
+        {
+          "name": "Chistopher Drummond",
+          "img": "hair_christopher.png",
+          "bio": "has been in the beauty industry for over 17 years. He is a celebrity makeup artist (JLO, Brooke Shields, January Jones, Jane Fonda), and owns a line of all-natural makeup, too. Drummond has over 85 YouTube tutorials and 800 blog posts."
+        }
+      ] 
     },
     "Fashion": {
-
+      "category": "Fashion",
+      "meta": ["450+ Fashion Telent", "75+ Style writers", "All are stylists, personal shoppers, designers, fashion reality TV contestants, buyers, planners, etc..."],
+      "bios": [
+         {
+          "name": "Danny Agnew",
+          "img": "fashion_danny.png",
+          "bio": "is the New York Editor of InsideHook. He founded LA-based clothing company, Kid Dangerous, in 2007. Agnew has also worked for 2009 GQ Best Menswear Designer in America, Billy Reid."
+        },
+        {
+          "name": "Brandhyze Stanley",
+          "img": "fashion_brandhyze.png",
+          "bio": "has been featured on numerous media outlets such as The View, The Early Show, The Today Show, and Essence Magazine to name a few. Author of the blog, Frugal-nomics: The Art of Resourceful Living; MTVStyle said that 'We're totally jealous of her great thrifty finds.'"
+        },
+        {
+          "name": "Stacey ",
+          "img": "fashion_stacey.png",
+          "bio": "spent five years as managing editor of the style and pop-culture magazine 'Savvy.' She traveled coast-to-coast covering all things fashion and beauty."
+        }
+      ] 
     },
     "Food": {
-
+      "category": "Food",
+      "meta": ["1000+ Food Talent", "100+ Food writers", "All are professional chefs, caterers, restaurant owners, food reality TV contestants, pastry chefs, etc..."],
+      "bios": [
+         {
+          "name": "Doreen Fang",
+          "img": "food_doreen.png",
+          "bio": "was a finalist on The Next Food Network Star. She is also the host of Dining with Doreen on ABC TV's 'The Morning Blend' in Las Vegas."
+        },
+        {
+          "name": "Melissa Randall",
+          "img": "food_melissa.png",
+          "bio": "is a baker in the Los Angeles area who owns the specialty baking business, 'Baking with Melissa.'"
+        },
+        {
+          "name": "Chef Plum",
+          "img": "food_chef.png",
+          "bio": "has 18 years of experience as a professional chef, is a graduate of CIA and has been featured on Network TV and The Food Network."
+        }
+      ] 
     },
     "Nutrition": {
-
+      "category": "Nutrition",
+      "meta": ["200+ Healthy Food Talent", "100+ Nutrition writers", "All are registered dietitians, nutrition consultants, professional chefs, gluten-free/vegan/dairy-free specialists."],
+      "bios": [
+         {
+          "name": "Diane Hoch",
+          "img": "nutrition_diane.png",
+          "bio": "is the CEO of the Food Evolution. She is a chef, nutritional counselor, and works actively with the Rockland Coalition for Better School Food, The Rockland Farm Alliance, and The Rockland County School Health and Wellness Coalition."
+        },
+        {
+          "name": "Stella Metsovas",
+          "img": "nutrition_stella.png",
+          "bio": "is a globally-recognized food, nutrition and health expert, based in California. She has been featured as a diet and nutrition expert in People, Glamour, Shape, Redbook, New York Times, Men's Health, AOL, Chicago Tribune, and many others."
+        },
+        {
+          "name": "Teresa Howes",
+          "img": "nutrition_teresa.png",
+          "bio": "is a contributing writer on Active.com, founder of Eat Drink and Be Skinny, has a Bachelor of Science in nutrition, MBA and 15 years of consulting experience in the weight loss and health industries."
+        }
+      ] 
     },
     "Legal": {
-
+      "category": "Legal",
+      "meta": ["", "", ""],
+      "bios": [
+         {
+          "name": "",
+          "img": "",
+          "bio": ""
+        },
+        {
+          "name": "",
+          "img": "",
+          "bio": ""
+        },
+        {
+          "name": "",
+          "img": "",
+          "bio": ""
+        }
+      ] 
     },
     "Health": {
-
+      "category": "Health",
+      "meta": ["", "", ""],
+      "bios": [
+         {
+          "name": "",
+          "img": "",
+          "bio": ""
+        },
+        {
+          "name": "",
+          "img": "",
+          "bio": ""
+        },
+        {
+          "name": "",
+          "img": "",
+          "bio": ""
+        }
+      ] 
     },
     "Fitness": {
-
+      "category": "Fitness",
+      "meta": ["", "", ""],
+      "bios": [
+         {
+          "name": "",
+          "img": "",
+          "bio": ""
+        },
+        {
+          "name": "",
+          "img": "",
+          "bio": ""
+        },
+        {
+          "name": "",
+          "img": "",
+          "bio": ""
+        }
+      ] 
     },
     "Tech": {
-
+      "category": "Tech",
+      "meta": ["", "", ""],
+      "bios": [
+         {
+          "name": "",
+          "img": "",
+          "bio": ""
+        },
+        {
+          "name": "",
+          "img": "",
+          "bio": ""
+        },
+        {
+          "name": "",
+          "img": "",
+          "bio": ""
+        }
+      ] 
     }
   } 
 
@@ -264,6 +499,9 @@ jQuery(document).ready(function($) {
     var topic = $(this).find('p').text().replace(/\s+/g, '');
     console.log('topic is ...', topic);
     console.log('contrib_info ...', contrib_info[topic]);
+
+    // Make sure that category contributors is alway empty/removed
+    $('.category-contributors').empty();
 
     // Load template for category contributors
     $('.category-contributors').append(_.template($('#category-contributors').html(), { info: contrib_info[topic] }));
