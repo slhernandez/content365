@@ -1310,34 +1310,72 @@ object {
   .contributors-container h1 {
     text-transform: uppercase;
     padding: 20px 0 20px 0; }
-  .contributors-container .pets-contributors {
-    background: #f3f3f3; }
-    .contributors-container .pets-contributors h1 {
-      padding: 0 0 20px 0; }
-  .contributors-container .contributor-meta h3 {
-    text-transform: none;
-    font-size: 0.875em; }
-  .contributors-container .contributor-meta p {
-    padding: 0;
-    margin: 0;
-    font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 0.75em;
-    text-transform: none; }
-  .contributors-container .contributor-bios {
+  .contributors-container .category-contributors.inactive,
+  .contributors-container .topics.inactive {
+    position: absolute;
+    opacity: 0.0;
+    -webkit-transition: opacity 500ms ease-in-out;
+    -moz-transition: opacity 500ms ease-in-out;
+    transition: opacity 500ms ease-in-out;
+    left: -9999px;
+    top: 0; }
+  .contributors-container .category-contributors.active,
+  .contributors-container .topics.active {
+    position: relative;
+    opacity: 1.0;
+    -webkit-transition: opacity 500ms ease-in-out;
+    -moz-transition: opacity 500ms ease-in-out;
+    transition: opacity 500ms ease-in-out; }
+  .contributors-container .category-contributors {
+    border: 1px solid #EEE;
     padding: 20px; }
+    .contributors-container .category-contributors h1 {
+      padding: 0 0 20px 0; }
+    .contributors-container .category-contributors .close-contributor-panel {
+      color: #51575d;
+      font-size: 1.75em;
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      text-decoration: none; }
+      .contributors-container .category-contributors .close-contributor-panel:hover {
+        color: #7ecd65;
+        -webkit-transition: all 300ms ease-in-out;
+        -moz-transition: all 300ms ease-in-out;
+        transition: all 300ms ease-in-out; }
+  .contributors-container .contributor-meta {
+    margin-bottom: 50px; }
+    .contributors-container .contributor-meta h3 {
+      text-transform: none; }
+    .contributors-container .contributor-meta p {
+      padding: 0;
+      margin: 0;
+      font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 1.375em;
+      text-transform: none; }
+  .contributors-container .contributor-bios {
+    padding: 20px;
+    text-align: center; }
     .contributors-container .contributor-bios:before, .contributors-container .contributor-bios:after {
       content: "";
       display: table; }
     .contributors-container .contributor-bios:after {
       clear: both; }
     .contributors-container .contributor-bios .bio {
-      font-size: 1em;
       font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: 300;
       font-style: normal;
-      text-transform: none; }
+      margin: 0 auto;
+      text-transform: none;
+      width: 75%; }
+      .contributors-container .contributor-bios .bio .bio-name {
+        color: #51575d;
+        font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        margin-right: 5px; }
   .contributors-container .topics {
     padding: 50px 0;
     width: 95%;

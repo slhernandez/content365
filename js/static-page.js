@@ -10,9 +10,6 @@ window.solutionSecondaryMsg = ["Demand's proprietary algorithm analyzes millions
                             "Demand Media's network of sites and digitally native talent allow our partners to reach new audiences.",
                             "Demand Media Analytics team monitors and tests core metrics to optimize content performance."]
 
-
-
-
 jQuery.fn.anchorAnimate = function(settings) {
 
   settings = jQuery.extend({
@@ -39,6 +36,68 @@ jQuery.fn.anchorAnimate = function(settings) {
 jQuery(document).ready(function($) {
 
   var _this = this;
+  // Contributor information
+  var contrib_info = {
+    "Pets":{
+      "meta": ["50+ animal/pet experts", "100+ pet writers", "All are qualified vets, vet techs, breed/animal nutrition specialist, or trainers"],
+      "bios": {
+        "jena" : {
+          "name": "Dr. Jena Question",
+          "img": "pets_jena.jpg",
+          "bio": "travels and teaches holistic animal health and behavior, from horses to dogs and cats, and is also a well-known koi fish expert."
+        },
+        "jenn" : {
+          "name": "Jenn Fadal",
+          "img": "pets_jenn.png",
+          "bio": "cut her leash to corporate life in 2005 and opened a holistic pet market in Tampa called Wag. Since then, Fadal has worked with Better TV as their pet expert, and is the Pet Wellness Expert for Datime TV."
+        },
+        "ben" : {
+          "name": "Ben Team",
+          "img": "pets_ben.png",
+          "bio": "covers animals, trees and outdoor recreation. He is an expert on caring for reptiles and amphibians."
+        }
+      } 
+    },
+    "RealEstate": {
+
+    },
+    "PersonalFinance": {
+
+    },
+    "Crafts": {
+
+    },
+    "Parenting&Family": {
+
+    },
+    "HomeDIY&Design": {
+
+    },
+    "MakeUp/Hair": {
+
+    },
+    "Fashion": {
+
+    },
+    "Food": {
+
+    },
+    "Nutrition": {
+
+    },
+    "Legal": {
+
+    },
+    "Health": {
+
+    },
+    "Fitness": {
+
+    },
+    "Tech": {
+
+    }
+  } 
 
   // Prepend an anchor tag for one-page scrolling.
   // This anchor tag is specifically for the hero image.
@@ -97,12 +156,6 @@ jQuery(document).ready(function($) {
 
   // Load Backstretch image loader
   // ----------------------------------
-  /*$('.hero-container').backstretch( [ 
-    templateUrl + '/images/family2tablet1_opt.jpg'
-    ,templateUrl + '/images/family1tablet2_opt.jpg'
-    ,templateUrl + '/images/family3tablet2_opt.jpg'
-  ], { duration: 3000, fade: 750 } );*/
-
   $('.hero-container').backstretch( [ 
     templateUrl + '/images/Content365_Family_1.jpg'
     ,templateUrl + '/images/Content365_Family_2.jpg'
@@ -207,9 +260,26 @@ jQuery(document).ready(function($) {
   $('.topic').on('click', function(e) {
     e.stopPropagation();
     e.preventDefault();
+    // Strip out any white space in the title
     var topic = $(this).find('p').text().replace(/\s+/g, '');
     console.log('topic is ...', topic);
+    console.log('contrib_info ...', contrib_info[topic]);
 
+    // Load template for category contributors
+    $('.category-contributors').append(_.template($('#category-contributors').html(), { info: contrib_info[topic] }));
+
+    // Display category contributors
+    $('.category-contributors').removeClass('inactive').addClass('active');
+    // Hide category grid
+    $(this).closest('.topics').removeClass('active').addClass('inactive');
+  });
+
+  // Click event for closing category contributor
+  $('#contributors').on('click', '.close-contributor-panel', function(e) {
+    e.stopPropagation();
+    e.preventDefault();
+    $(this).closest('.category-contributors').removeClass('active').addClass('inactive')
+    $('.topics').removeClass('inactive').addClass('active');
   });
 
 });

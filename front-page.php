@@ -209,31 +209,9 @@ get_header(); ?>
       <h1>Contributors</h1>
       <div class="contributor-showcase">
 
-        <div class="pets-contributors">
-          <h1>Pets<h1>
-          <div class="contributor-meta">
-            <h3>Community Offerings</h3>
-            <p>50+ animal/pet experts</p>
-            <p>100+ pet writers</p>
-            <p>All are qualified vets, vet techs, breed/animal nutrition specialists, or trainers</p>
-          </div>
-          <div class="contributor-bios">
-            <div class="col1of3">
-              <img src="<?php bloginfo('template_directory'); ?>/images/contributors/bios/pets_jena.png" alt="Jena Questen" title="Jena Questen">
-              <p class="bio"><span class="bio-name">Dr.Jena Question</span>travels and teaches holistic animal health and behavior, from horses to dogs and cats, and is also a well-known koi fish expert.</p>
-            </div>
-            <div class="col1of3">
-              <img src="<?php bloginfo('template_directory'); ?>/images/contributors/bios/pets_jenn.png" alt="Jenn Fadal" title="Jenn Fadal">
-              <p class="bio"><span class="bio-name">Jenn Fadal</span>cut her leash to corporate life in 2005 and opened a holistic pet market in Tampa called Wag. Since then, Fadal has worked with Better TV as their pet expert, and is the Pet Wellness Expert for Datime TV.</p>
-            </div>
-            <div class="col1of3">
-              <img src="<?php bloginfo('template_directory'); ?>/images/contributors/bios/pets_ben.png" alt="Ben Team" title="Ben Team">
-              <p class="bio"><span class="bio-name">Ben Team</span>covers animals, trees and outdoor recreation. He is an expert on caring for reptiles and amphibians.</p>
-            </div>
-          </div>
-        </div>
+        <div class="category-contributors inactive"></div>
 
-        <div class="topics">
+        <div class="topics active">
           <div class="topic">
             <p class="t-label">Pets</p>
             <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/Pets_380.jpg" alt="pets" title="pets"></a>
@@ -363,6 +341,31 @@ get_header(); ?>
     </div>
   </section> <!-- end of contact -->
 
-</div>
+</div> <!-- end of siteWrapper -->
+
+<script id="category-contributors" type="text/html">
+  <a href="#" class="close-contributor-panel"><span aria-hidden="true" data-icon="m"></span></a> 
+  <h1>Pets</h1>
+  <div class="contributor-meta">
+    <h3>Community Offerings</h3>
+    <p>50+ animal/pet experts</p>
+    <p>100+ pet writers</p>
+    <p>All are qualified vets, vet techs, breed/animal nutrition specialists, or trainers</p>
+  </div>
+  <div class="contributor-bios">
+    <div class="col1of3">
+      <img src="<?php bloginfo('template_directory'); ?>/images/contributors/bios/pets_jena.png" alt="Jena Questen" title="Jena Questen">
+      <p class="bio"><span class="bio-name">Dr.Jena Question</span>travels and teaches holistic animal health and behavior, from horses to dogs and cats, and is also a well-known koi fish expert.</p>
+    </div>
+    <div class="col1of3">
+      <img src="<?php bloginfo('template_directory'); ?>/images/contributors/bios/pets_jenn.png" alt="Jenn Fadal" title="Jenn Fadal">
+      <p class="bio"><span class="bio-name">Jenn Fadal</span>cut her leash to corporate life in 2005 and opened a holistic pet market in Tampa called Wag. Since then, Fadal has worked with Better TV as their pet expert, and is the Pet Wellness Expert for Datime TV.</p>
+    </div>
+    <div class="col1of3">
+      <img src="<?php bloginfo('template_directory'); ?>/images/contributors/bios/pets_ben.png" alt="Ben Team" title="Ben Team">
+      <p class="bio"><span class="bio-name">Ben Team</span>covers animals, trees and outdoor recreation. He is an expert on caring for reptiles and amphibians.</p>
+    </div>
+  </div>
+</script>
 
 <?php get_footer(); ?>

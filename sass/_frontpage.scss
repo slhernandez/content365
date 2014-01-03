@@ -464,28 +464,66 @@
   @include clearfix();
   @include websiteWidth();
   padding: 100px 0;
+
   h1 {
     text-transform: uppercase;
     padding: 20px 0 20px 0;
   }
+  .category-contributors,
+  .topics {
+    &.inactive {
+      position: absolute;
+      opacity: 0.0;
+      -webkit-transition: opacity 500ms ease-in-out;
+      -moz-transition: opacity 500ms ease-in-out;
+      transition: opacity 500ms ease-in-out;
+      left: -9999px;
+      top: 0;
+    }
+    &.active {
+      position: relative;
+      opacity: 1.0;
+      -webkit-transition: opacity 500ms ease-in-out;
+      -moz-transition: opacity 500ms ease-in-out;
+      transition: opacity 500ms ease-in-out;
+    } 
+  }
 
-  .pets-contributors {
-    background: #f3f3f3;
+  .category-contributors {
+    border: 1px solid #EEE;
+    padding: 20px;
+
     h1 {
       padding: 0 0 20px 0;
     }
+
+    .close-contributor-panel {
+      color: $site-wide-color;
+      font-size: $font-size-28;
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      text-decoration: none;
+      &:hover {
+        color: $highlight-color;
+        -webkit-transition: all 300ms ease-in-out;
+        -moz-transition: all 300ms ease-in-out;
+        transition: all 300ms ease-in-out;
+      }
+    }
+
   }
 
   .contributor-meta {
+    margin-bottom: 50px;
     h3 {
       text-transform: none;
-      font-size: $font-size-14;
     }
     p {
       padding: 0;
       margin: 0;
       @include font-light();
-      font-size: $font-size-12;
+      font-size: $font-size-22;
       text-transform: none;
     }
   }
@@ -493,10 +531,19 @@
   .contributor-bios {
     @include clearfix();
     padding: 20px;
+    text-align: center;
+
     .bio {
-      font-size: $font-size-16;
       @include font-light();
+      margin: 0 auto;
       text-transform: none;
+      width: 75%;
+
+      .bio-name {
+        color: $site-wide-color;
+        @include font-medium();
+        margin-right: 5px;
+      }
     }
   }
 
