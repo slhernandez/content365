@@ -1180,7 +1180,7 @@ object {
     z-index: 1; }
     .solutions-container .solutions-content h1 {
       text-transform: uppercase;
-      padding: 0 20px 0 20px;
+      padding: 0 20px 0 0;
       color: #FFF; }
     .solutions-container .solutions-content .content {
       color: #FFF;
@@ -1535,6 +1535,67 @@ object {
           font-size: 1.375em;
           max-width: 250px; } }
 
+/* =Content365 About Us 
+----------------------------------------------- */
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 92%;
+  padding: 100px 0; }
+  .about-container h1 {
+    color: #51575d;
+    text-transform: uppercase;
+    padding: 0;
+    text-align: center;
+    padding-bottom: 20px; }
+    @media only screen and (min-width: 30.001em) {
+      .about-container h1 {
+        text-align: left;
+        padding: 20px 0; } }
+  .about-container .about-intro {
+    margin: 0 auto 40px auto; }
+  .about-container h3 {
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: 300;
+    padding-bottom: 10px; }
+
+.about-icon {
+  padding: 20px 0 0 0;
+  text-align: center; }
+  .about-icon span {
+    font-size: 4em;
+    text-align: center; }
+
+.about-grid {
+  margin: 0 auto; }
+  @media only screen and (min-width: 37.5em) {
+    .about-grid {
+      border-bottom: 1px solid #afb4ba; } }
+  .about-grid:before, .about-grid:after {
+    content: "";
+    display: table; }
+  .about-grid:after {
+    clear: both; }
+  .about-grid:last-child {
+    border-bottom: none; }
+  .about-grid p {
+    text-align: center;
+    font-size: 1em; }
+
+[class*='col-'] {
+  float: left;
+  padding: 0 20px; }
+  @media only screen and (min-width: 37.5em) {
+    [class*='col-']:first-child {
+      border-right: 1px solid #afb4ba; } }
+
+.col-1-2 {
+  width: 100%; }
+  @media only screen and (min-width: 37.5em) {
+    .col-1-2 {
+      width: 50%; } }
+
 /* =Content365 Contact
 ----------------------------------------------- */
 .contact {
@@ -1592,7 +1653,7 @@ object {
       float: right; } }
 
 .wrap {
-  max-width: 1184px;
+  max-width: 1230px;
   width: 92%;
   margin: 0 auto; }
   .wrap:before, .wrap:after {

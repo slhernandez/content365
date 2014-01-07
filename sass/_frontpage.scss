@@ -323,7 +323,7 @@
 
     h1 {
       text-transform: uppercase;
-      padding: 0 20px 0 20px;
+      padding: 0 20px 0 0;
       color: #FFF;
     }
 
@@ -715,6 +715,74 @@
 
 }
 
+/* =Content365 About Us 
+----------------------------------------------- */
+.about-container {
+  @include websiteWidth();
+  padding: 100px 0;
+  h1 {
+    color: $site-wide-color;
+    text-transform: uppercase;
+    padding: 0;
+    text-align: center;
+    padding-bottom: 20px;
+    @include mobile-landscape-and-up {
+      text-align: left;
+      padding: 20px 0;
+    }
+  }  
+  .about-intro {
+    margin: 0 auto 40px auto;
+  }
+  h3 {
+    text-align: center;
+    font-size: $font-size-20;
+    font-weight: 300;
+    padding-bottom: 10px;
+  }
+}
+
+.about-icon {
+  padding: 20px 0 0 0;
+  text-align: center;
+  span {
+    font-size: $font-size-64;
+    text-align: center;
+  }
+}
+
+.about-grid {
+  @include tablet-custom-600-up() {
+    border-bottom: 1px solid #afb4ba;
+  }
+  @include clearfix();
+  margin: 0 auto; 
+  &:last-child {
+    border-bottom: none;
+  }
+  p {
+    text-align: center;
+    font-size: $font-size-16;
+  }
+}
+
+[class*='col-'] {
+  float: left;
+  padding: 0 20px;
+  &:first-child {
+    @include tablet-custom-600-up() {
+      border-right: 1px solid #afb4ba;
+    }
+  }
+}
+
+.col-1-2 {
+  width: 100%;
+  @include tablet-custom-600-up() {
+    width: 50%;
+  }
+}
+
 /* =Content365 Contact
 ----------------------------------------------- */
 
@@ -786,7 +854,7 @@
 
 // clear the floated elements and define the max-width
 .wrap { 
-  max-width: $layout-width;
+  max-width: 1230px;
   width: 92%;
   margin: 0 auto;
   @include clearfix();

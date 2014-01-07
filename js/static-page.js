@@ -351,7 +351,7 @@ jQuery(document).ready(function($) {
           background: 'rgba(81, 87, 93, 0.9)', 
           'box-shadow': '0 1px 1px rgba(0,0,0,0.2)'
         });
-        $('.headerContent h1.logo img').css('width', '62%');
+        $('.headerContent h1.logo img').css('width', '100%');
         $('.headerAndNavContainer').css('height', '65px');
         $('.headerContent h1.logo img.white-logo').css('display', 'none');
         $('.headerContent h1.logo img.gray-logo').css('display', 'block');
@@ -361,7 +361,7 @@ jQuery(document).ready(function($) {
           background: 'rgba(255,255,255,0.0)',
           'box-shadow': 'none'
         });
-        $('.headerContent h1.logo img').css('width', '80%');
+        $('.headerContent h1.logo img').css('width', '100%');
         $('.headerContent h1.logo img.white-logo').css('display', 'block');
         $('.headerContent h1.logo img.gray-logo').css('display', 'none');
         //$('.headerAndNavContainer.sticky').css('background', 'rgba(81, 87, 93, 1)');

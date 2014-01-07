@@ -206,7 +206,7 @@ get_header(); ?>
 
   <section id="contributors" class="contributors">
     <div class="contributors-container">
-      <h1>Contributors</h1>
+      <h1>Our Network</h1>
       <div class="contributor-showcase">
 
         <div class="category-contributors inactive"></div>
@@ -288,13 +288,44 @@ get_header(); ?>
           <div class="t-num picture-num">44%</div>
           <p class="picture-copy">of people are more likely to engage with content on social media that contain pictures</p>
         </div>
-          <div class="col1of3">
+        <div class="col1of3">
           <img src="<?php bloginfo('template_directory'); ?>/images/tips/video.png" alt="video" title="video">
           <div class="t-num video-num">2x</div>
           <p class="video-copy">more times is spent by viewers on pages with videos on them</p>
         </div>
       </div>
     </div> <!-- end of tips-container -->
+  </section>
+
+  <section id="about" class="about">
+    <div class="about-container">
+      <h1>About Us</h1>
+      <p class="about-intro">Demand Media Content Solutions offers brands and publishers a new way to reach high-value, intent-driven audiences. We work with top talent and industry experts to create high quality, informative and engaging content in a myriad of formats, which are served directly to your site and can be optimized from our technology platform.</p>
+      <div class="about-grid">
+        <div class="col-1-2">
+          <div class="about-icon"><span aria-hidden="true" data-icon="p"></span></div>
+          <h3>Insights</h3>
+          <p>Everything starts by listening to the consumer through our billions of proprietary signals.  We create content based on a rich data set of queues from the internet audience.</p>
+        </div>
+        <div class="col-1-2">
+          <div class="about-icon"><span aria-hidden="true" data-icon="o"></span></div>
+          <h3>Studio Network</h3>
+          <p>We have a network of thousands of highly qualified creators, talent and experts, who specialize in 22 niche categories, respectively.</p>
+        </div>
+      </div>
+      <div class="about-grid">
+        <div class="col-1-2">
+          <div class="about-icon"><span aria-hidden="true" data-icon="n"></span></div>
+          <h3>Content Formats</h3>
+          <p>We have a myriad of evolving content formats such as how-to articles and knowledge-based videos to help people in their daily lives. We've optimized those formats for social and mobile platforms, and evolved our formats to include photography, infographics and blogs.</p>
+        </div>
+        <div class="col-1-2">
+          <div class="about-icon"><span aria-hidden="true" data-icon="q"></span></div>
+          <h3>Services</h3>
+          <p>We have a seasoned publishing platform, inclusive of Demand Media's best-in-class SEO and social strategists.</p>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section id="contact" class="contact">
