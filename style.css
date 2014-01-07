@@ -1327,6 +1327,8 @@ object {
     -moz-transition: opacity 500ms ease-in-out;
     transition: opacity 500ms ease-in-out; }
   .contributors-container .category-contributors {
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(white), to(#f3f3f3));
+    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2);
     border: 1px solid #EEE;
     padding: 20px; }
     .contributors-container .category-contributors h1 {

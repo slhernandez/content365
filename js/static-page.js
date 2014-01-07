@@ -43,7 +43,7 @@ jQuery(document).ready(function($) {
       "meta": ["50+ animal/pet experts", "100+ pet writers", "All are qualified vets, vet techs, breed/animal nutrition specialist, or trainers"],
       "bios": [
          {
-          "name": "Dr. Jena Question",
+          "name": "Dr. Jena Questen",
           "img": "pets_jena.png",
           "bio": "travels and teaches holistic animal health and behavior, from horses to dogs and cats, and is also a well-known koi fish expert."
         },
@@ -75,7 +75,7 @@ jQuery(document).ready(function($) {
         },
         {
           "name": "Monica Dillon",
-          "img": "realestate_monica",
+          "img": "realestate_monica.png",
           "bio": "has spent over a decade in real estate sales, investing and appraising. She specializes in energy efficiency building practices and renewable energy."
         }
       ] 
@@ -250,85 +250,85 @@ jQuery(document).ready(function($) {
     },
     "Legal": {
       "category": "Legal",
-      "meta": ["", "", ""],
+      "meta": ["25+ Legal Talent", "Writers include 20 JDs and attorneys as well as 3 paralegals.", "Areas of expertise include civil litigation, family law, trusts and estates, corporate law, medical patents, legal research and social security/disability"],
       "bios": [
          {
-          "name": "",
-          "img": "",
-          "bio": ""
+          "name": "Robert Todd",
+          "img": "legal_robert.png",
+          "bio": "is an attorney in Clearwater, Florida, where he runs his own practice. Todd has more than 30 years of experience in resolving family disputes and other conflicts."
         },
         {
-          "name": "",
-          "img": "",
-          "bio": ""
+          "name": "Nic McGrue",
+          "img": "legal_nic.png",
+          "bio": "is a licensed attorney and licensed California Real Estate Broker. He has a Master of Law degree in Tax & Financial Services."
         },
         {
-          "name": "",
-          "img": "",
-          "bio": ""
+          "name": "Maggie Lourdes",
+          "img": "legal_maggie.png",
+          "bio": "is a full-time attorney in southeast Michigan. She also teaches law at Cleary University in Ann Arbor. Her writing has been featured in 'Realtor Magazine,' the N.Y. State Bar's 'Health Law Journal,' and more."
         }
       ] 
     },
     "Health": {
       "category": "Health",
-      "meta": ["", "", ""],
+      "meta": ["75+ Health Talent", "50+ Medical writers", "All are doctors, registered nurses, chiropractors, pharmacists, gynecologists, naturopathic physicians, EMTs, etc..."],
       "bios": [
          {
-          "name": "",
-          "img": "",
-          "bio": ""
+          "name": "Dr. Holly Lucille",
+          "img": "health_holly.png",
+          "bio": "is a licensed Naturopathic Doctor and a Registered Nurse with a passion for facilitating good education in an entertaining way, so people can own their own choices and take back their own healthcare."
         },
         {
-          "name": "",
-          "img": "",
-          "bio": ""
+          "name": "Dr. Alice Holland",
+          "img": "health_alice.png",
+          "bio": "has a Doctorate in Physcial Therapy from USC. Shw now runs Stride Strong Physcial Therapy, a runner's physical therapy clinic."
         },
         {
-          "name": "",
-          "img": "",
-          "bio": ""
+          "name": "Dr. Robert R. Pomahac",
+          "img": "health_robert.png",
+          "bio": "was named the Top Chiropractor in the country and the Top Sports Physician in Los Angeles. He is the only chiropractor in Los Angeles certified in Chiropractic BioPhysics, and the owner of MaxHealth Center in Los Angeles."
         }
       ] 
     },
     "Fitness": {
       "category": "Fitness",
-      "meta": ["", "", ""],
+      "meta": ["500+ Fitness Talent", "50+ Fitness Writers", "Backgrounds include personal trainers, yoga teachers, Pilates instructors, fitness models, etc..."],
       "bios": [
          {
-          "name": "",
-          "img": "",
-          "bio": ""
+          "name": "Robert Brace",
+          "img": "fitness_robert.png",
+          "bio": "has been dubbed a 'New York Top Fitness Guru' by the New York Daily News and a 'Top Celebrity Trainer' by Bloomberg Businessweek. Brace is a celebrity personal trainer and a star of the Food Network weight loss reality show, 'Fat Chef'."
         },
         {
-          "name": "",
-          "img": "",
-          "bio": ""
+          "name": "Juliet Kaska",
+          "img": "fitness_juliet.png",
+          "bio": "is one of the country's leading fitness experts and celebrity trainers. Kaska is a Master Pilates Teacher and also the creator of some of Hollywood's favority fitness programs, including the Bombshell Bride, Picture Perfect, Packin' Lite, and the Executive's Workout."
         },
         {
-          "name": "",
-          "img": "",
-          "bio": ""
+          "name": "Amber Nimedez ",
+          "img": "fitness_amber.png",
+          "bio": "has 10 years of experience training clients in Greece, Kuwait, Bahrain, Canada, London, Italy and France. She was one of Los Angeles' Top Trainers by the LA Times, won Ms. Fitness Hawaiian Islands, and is co-creater of The Numi Method."
         }
       ] 
     },
     "Tech": {
       "category": "Tech",
-      "meta": ["", "", ""],
+      "meta": ["200+ Tech Talent", "120+ Tech Writers", "All are computer technicians, IT technicians, web developers, Apple specialists, electronic gurus, social media experts, etc..."],
       "bios": [
          {
-          "name": "",
-          "img": "",
-          "bio": ""
+          "name": "Ali Rittenhouse",
+          "img": "tech_rittenhouse.png",
+          "bio": "is an online business coach, tech cheerleader and award-winning entrpreneur who was voted #36 in Startup Nation's 2012 Leading Moms in Business. Rittenhous is also a regular contributor on a Lifestyle Television Show."
         },
         {
-          "name": "",
-          "img": "",
-          "bio": ""
+          "name": "Rachel Youens",
+          "img": "tech_rachel.png",
+          "bio": "has worked in mobile for over 5 years. Youens has been featured in interviews on mobile development and marketing, published articles, worked for top mobile developers, attended AppNation, Tech Crunch and SXSW, and runs the sassiest app blog on the globe."
         },
         {
-          "name": "",
-          "img": "",
-          "bio": ""
+          "name": "David Nield",
+          "img": "tech_david.png",
+          "bio": "is an information technology journalist since 2002, writing about web technology, hardware and software. He is an experienced editor, proofreader and copywriter for online publications such as CNET, TechRadar and Gizmodo."
         }
       ] 
     }
@@ -395,7 +395,7 @@ jQuery(document).ready(function($) {
     templateUrl + '/images/Content365_Family_1.jpg'
     ,templateUrl + '/images/Content365_Family_2.jpg'
     ,templateUrl + '/images/Content365_Family_3.jpg'
-  ], { duration: 30000, fade: 750 } );
+  ], { duration: 3000, fade: 750 } );
 
 
   var solution_images = [ templateUrl + '/images/solution/Listen.jpg',

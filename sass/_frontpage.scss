@@ -490,6 +490,8 @@
   }
 
   .category-contributors {
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#f3f3f3));
+    box-shadow: 0 1px 0px rgba(0,0,0,0.2);
     border: 1px solid #EEE;
     padding: 20px;
 
