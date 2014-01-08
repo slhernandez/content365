@@ -56,7 +56,7 @@ var templateUrl = '<?= get_bloginfo("template_url"); ?>';
 									<li><a href="#contributors" class="anchorLink">Network</a></li>
 									<li><a href="#insights" class="anchorLink">Insights</a></li>
 									<li><a href="#about" class="anchorLink">About Us</a></li>
-									<!--<li><a href="#login" class="anchorLink login">Login</a></li> -->
+									<li><a href="#login" class="anchorLink login">Login</a></li>
 								</ul>
 							</nav>
 						</div> <!-- end of navContainer -->

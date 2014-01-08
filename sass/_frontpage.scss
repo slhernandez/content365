@@ -210,6 +210,10 @@
 .text-section,
 .video-section {
   @include clearfix();
+  @include mobile-only() {
+    border: none;
+    padding: 0;
+  }
   border: 1px solid #EEE;
   padding: 50px 0;
   margin: 10px auto;
@@ -230,6 +234,11 @@
     -moz-transition: opacity 500ms ease-in-out;
     transition: opacity 500ms ease-in-out;
   }
+}
+
+video {
+  max-width: 100%;
+  height: auto !important;
 }
 
 .all-section {
@@ -259,6 +268,7 @@
   text-align: center;
   @include tablet-portrait-and-up() {
     float: left;
+    padding-left: 1%;
     width: 38%;
     text-align: left;
   }

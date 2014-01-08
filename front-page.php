@@ -46,7 +46,7 @@ get_header(); ?>
           <a href="#"><span aria-hidden="true" data-icon="j"></span> Infographics</a>
           <section class="infographics-section inactive">
             <div class="showcase-image">
-              <img src="<?php bloginfo('template_directory'); ?>/images/content/infographics-image.png" alt="infographics example" title="infographics example">
+              <img src="<?php bloginfo('template_directory'); ?>/images/content/infographics-image.jpg" alt="infographics example" title="infographics example">
             </div>  
             <div class="showcase-info">
               <h2>Infographics</h2>
@@ -94,17 +94,10 @@ get_header(); ?>
           <a href="#"><span aria-hidden="true" data-icon="d"></span>Video</a>
           <section class="video-section inactive">
             <div class="showcase-image">
-              <!-- <img src="<?php bloginfo('template_directory'); ?>/images/content/video-image.png" alt="video example" title="video example"> -->
-              <video id="movie" width="320" height="240" preload controls>
-                <!-- <source src="pr6.webm" type="video/webm; codecs=vp8,vorbis" /> -->
-                <!-- <source src="pr6.ogv" type="video/ogg; codecs=theora,vorbis" /> -->
-                <source src="<?php bloginfo('template_directory'); ?>/images/content/BYB_2.mp4" />
-                <object width="320" height="240" type="application/x-shockwave-flash"
-                  data="flowplayer-3.2.1.swf">
-                  <param name="movie" value="flowplayer-3.2.1.swf" />
-                  <param name="allowfullscreen" value="true" />
-                  <param name="flashvars" value="config={'clip': {'url': 'http://wearehugh.com/dih5/pr6.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
-                </object>
+             <video id="movie" width="600" height="400" preload="none" muted loop> 
+                <!-- <source src="pr6.webm" type="video/webm; codecs=vp8,vorbis"> -->
+                <source src="<?php bloginfo('template_directory'); ?>/images/content/BYB_3.mp4" type="video/mp4; codecs=avc1.42E01E,mp4a.40.2"/>
+                <source src="<?php bloginfo('template_directory'); ?>/images/content/BYB_3.ogv"  type="video/ogg; codecs=theora,vorbis">
               </video>
             </div>  
             <div class="showcase-info">
@@ -133,7 +126,7 @@ get_header(); ?>
 
           <section class="infographics-section inactive">
             <div class="showcase-image">
-              <img src="<?php bloginfo('template_directory'); ?>/images/content/infographics-image.png" alt="infographics example" title="infographics example">
+              <img src="<?php bloginfo('template_directory'); ?>/images/content/infographics-image.jpg" alt="infographics example" title="infographics example">
             </div>  
             <div class="showcase-info">
               <h2>Infographics</h2>
@@ -173,17 +166,10 @@ get_header(); ?>
 
           <section class="video-section inactive">
             <div class="showcase-image">
-              <!-- <img src="<?php bloginfo('template_directory'); ?>/images/content/video-image.png" alt="video example" title="video example"> -->
-              <video id="movie" width="320" height="240" preload controls>
-                <!-- <source src="pr6.webm" type="video/webm; codecs=vp8,vorbis" /> -->
-                <!-- <source src="pr6.ogv" type="video/ogg; codecs=theora,vorbis" /> -->
-                <source src="<?php bloginfo('template_directory'); ?>/images/content/BYB_2.mp4" />
-                <object width="320" height="240" type="application/x-shockwave-flash"
-                  data="flowplayer-3.2.1.swf">
-                  <param name="movie" value="flowplayer-3.2.1.swf" />
-                  <param name="allowfullscreen" value="true" />
-                  <param name="flashvars" value="config={'clip': {'url': 'http://wearehugh.com/dih5/pr6.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
-                </object>
+              <video id="movie" width="600" height="400" preload="none" muted loop> 
+                <!-- <source src="pr6.webm" type="video/webm; codecs=vp8,vorbis"> -->
+                <source src="<?php bloginfo('template_directory'); ?>/images/content/BYB_3.mp4" type="video/mp4; codecs=avc1.42E01E,mp4a.40.2"/>
+                <source src="<?php bloginfo('template_directory'); ?>/images/content/BYB_3.ogv"  type="video/ogg; codecs=theora,vorbis">
               </video>
             </div>  
             <div class="showcase-info">

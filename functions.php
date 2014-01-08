@@ -77,10 +77,6 @@ add_action( 'widgets_init', 'content365_widgets_init' );
  */
 function content365_scripts() {
 
-	wp_register_style('ss-air', get_template_directory_uri() . '/webfonts/ss-air.css' );
-
-	wp_enqueue_style('ss-air');
-
 	wp_register_style('streamline-icons', get_template_directory_uri() . '/iconfonts/styles.css' );
 
 	wp_enqueue_style('streamline-icons');

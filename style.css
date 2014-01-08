@@ -1071,6 +1071,16 @@ object {
   .text-section:after,
   .video-section:after {
     clear: both; }
+  @media (max-width: 30em) {
+    .all-section,
+    .animated-gif-section,
+    .infographics-section,
+    .photography-section,
+    .quiz-section,
+    .text-section,
+    .video-section {
+      border: none;
+      padding: 0; } }
   .all-section.inactive,
   .animated-gif-section.inactive,
   .infographics-section.inactive,
@@ -1098,6 +1108,10 @@ object {
     -moz-transition: opacity 500ms ease-in-out;
     transition: opacity 500ms ease-in-out; }
 
+video {
+  max-width: 100%;
+  height: auto !important; }
+
 .all-section {
   border: none; }
 
@@ -1123,6 +1137,7 @@ object {
   @media only screen and (min-width: 48.001em) {
     .showcase-info {
       float: left;
+      padding-left: 1%;
       width: 38%;
       text-align: left; } }
   .showcase-info h2 {

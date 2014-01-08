@@ -482,6 +482,7 @@ jQuery(document).ready(function($) {
 
     $('.content-items li a').each(function() {
       $(this).removeClass('selected');
+      $('.content-showcase').find('video')[0].pause();
     });
     $(this).addClass('selected');
     var contentSection = $(this).parent().attr('class');
@@ -489,6 +490,12 @@ jQuery(document).ready(function($) {
     $('.content-items section').removeClass('active').addClass('inactive');
 
     $('.' + contentSection + '-section').removeClass('inactive').addClass('active');
+
+    // Check if video link has been selected. We want to play the video right away.
+    if ($(this).text() === 'Video') {
+      $('.content-showcase').find('video')[0].play();
+      $('li.video').find('video')[0].play();
+    }
   });
 
   // Click event for contributor tiles.
