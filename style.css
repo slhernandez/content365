@@ -1346,7 +1346,7 @@ object {
         -moz-transition: all 300ms ease-in-out;
         transition: all 300ms ease-in-out; }
   .contributors-container .contributor-meta {
-    margin-bottom: 50px; }
+    margin-bottom: 20px; }
     .contributors-container .contributor-meta h3 {
       text-transform: none; }
     .contributors-container .contributor-meta p {
@@ -1355,7 +1355,7 @@ object {
       font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: 300;
       font-style: normal;
-      font-size: 1.375em;
+      font-size: 1em;
       text-transform: none; }
   .contributors-container .contributor-bios {
     padding: 20px;
@@ -1365,13 +1365,16 @@ object {
       display: table; }
     .contributors-container .contributor-bios:after {
       clear: both; }
+    .contributors-container .contributor-bios img {
+      width: 60%; }
     .contributors-container .contributor-bios .bio {
       font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: 300;
       font-style: normal;
       margin: 0 auto;
       text-transform: none;
-      width: 75%; }
+      width: 75%;
+      font-size: 0.875em; }
       .contributors-container .contributor-bios .bio .bio-name {
         color: #51575d;
         font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;

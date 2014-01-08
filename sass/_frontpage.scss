@@ -517,7 +517,7 @@
   }
 
   .contributor-meta {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     h3 {
       text-transform: none;
     }
@@ -525,7 +525,7 @@
       padding: 0;
       margin: 0;
       @include font-light();
-      font-size: $font-size-22;
+      font-size: $font-size-16;
       text-transform: none;
     }
   }
@@ -535,12 +535,16 @@
     padding: 20px;
     text-align: center;
 
+    img {
+      width: 60%;
+    }
+
     .bio {
       @include font-light();
       margin: 0 auto;
       text-transform: none;
       width: 75%;
-
+      font-size: $font-size-14;
       .bio-name {
         color: $site-wide-color;
         @include font-medium();

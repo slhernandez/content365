@@ -94,7 +94,18 @@ get_header(); ?>
           <a href="#"><span aria-hidden="true" data-icon="d"></span>Video</a>
           <section class="video-section inactive">
             <div class="showcase-image">
-              <img src="<?php bloginfo('template_directory'); ?>/images/content/video-image.png" alt="video example" title="video example">
+              <!-- <img src="<?php bloginfo('template_directory'); ?>/images/content/video-image.png" alt="video example" title="video example"> -->
+              <video id="movie" width="320" height="240" preload controls>
+                <!-- <source src="pr6.webm" type="video/webm; codecs=vp8,vorbis" /> -->
+                <!-- <source src="pr6.ogv" type="video/ogg; codecs=theora,vorbis" /> -->
+                <source src="<?php bloginfo('template_directory'); ?>/images/content/BYB_2.mp4" />
+                <object width="320" height="240" type="application/x-shockwave-flash"
+                  data="flowplayer-3.2.1.swf">
+                  <param name="movie" value="flowplayer-3.2.1.swf" />
+                  <param name="allowfullscreen" value="true" />
+                  <param name="flashvars" value="config={'clip': {'url': 'http://wearehugh.com/dih5/pr6.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
+                </object>
+              </video>
             </div>  
             <div class="showcase-info">
               <h2>Video</h2>
@@ -162,7 +173,18 @@ get_header(); ?>
 
           <section class="video-section inactive">
             <div class="showcase-image">
-              <img src="<?php bloginfo('template_directory'); ?>/images/content/video-image.png" alt="video example" title="video example">
+              <!-- <img src="<?php bloginfo('template_directory'); ?>/images/content/video-image.png" alt="video example" title="video example"> -->
+              <video id="movie" width="320" height="240" preload controls>
+                <!-- <source src="pr6.webm" type="video/webm; codecs=vp8,vorbis" /> -->
+                <!-- <source src="pr6.ogv" type="video/ogg; codecs=theora,vorbis" /> -->
+                <source src="<?php bloginfo('template_directory'); ?>/images/content/BYB_2.mp4" />
+                <object width="320" height="240" type="application/x-shockwave-flash"
+                  data="flowplayer-3.2.1.swf">
+                  <param name="movie" value="flowplayer-3.2.1.swf" />
+                  <param name="allowfullscreen" value="true" />
+                  <param name="flashvars" value="config={'clip': {'url': 'http://wearehugh.com/dih5/pr6.mp4', 'autoPlay':false, 'autoBuffering':true}}" />
+                </object>
+              </video>
             </div>  
             <div class="showcase-info">
               <h2>Video</h2>
@@ -212,58 +234,72 @@ get_header(); ?>
         <div class="category-contributors inactive"></div>
 
         <div class="topics active">
+
           <div class="topic">
-            <p class="t-label">Pets</p>
-            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/Pets_380.jpg" alt="pets" title="pets"></a>
-          </div>
-          <div class="topic">
-            <p class="t-label">Real Estate</p>
-            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/RealEstate_380.jpg" alt="real estate" title ="real estate"></a>
-          </div>
-          <div class="topic">
-            <p class="t-label">Personal Finance</p>
-            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/PersonalFinance_380.jpg" alt="finance" title="finance"></a>
-          </div>
-          <div class="topic">
-            <p class="t-label">Crafts</p>
+            <p class="t-label">Arts & Crafts</p>
             <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/crafts_380.jpg" alt="crafts" title="crafts"></a>
           </div>
+
           <div class="topic">
-            <p class="t-label">Parenting & Family</p>
-            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/ParentingFamily_380.jpg" alt="parenting and family" title="parenting and family"></a>
+            <p class="t-label">Business & Finance</p>
+            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/PersonalFinance_380.jpg" alt="finance" title="finance"></a>
           </div>
-          <div class="topic">
-            <p class="t-label">Home DIY & Design</p>
-            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/HomeDIYDesign_380.jpg" alt="home and design" title="home and design"></a>
-          </div>
-          <div class="topic">
-            <p class="t-label">Make Up/Hair</p>
-            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/MakeupHair_380.jpg" alt="make up and hair" title="make up and hair"></a>
-          </div>
-          <div class="topic">
-            <p class="t-label">Fashion</p>
-            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/fashion_380.jpg" alt="fashion" title="fashion"></a>
-          </div>
-          <div class="topic">
-            <p class="t-label">Food</p>
-            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/food_380.jpg" alt="food" title="food"></a>
-          </div>
-          <div class="topic">
-            <p class="t-label">Nutrition</p>
-            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/nutrition_380.jpg" alt="nutrition" title="nutrition"></a>
-          </div>
-          <div class="topic">
-            <p class="t-label">Legal</p>
-            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/legal_380.jpg" alt="legal" title="legal"></a>
-          </div>
+
           <div class="topic">
             <p class="t-label">Health</p>
             <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/health_380.jpg" alt="health" title="health"></a>
           </div>
+
+          <div class="topic">
+            <p class="t-label">Fashion</p>
+            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/fashion_380.jpg" alt="fashion" title="fashion"></a>
+          </div>
+
           <div class="topic">
             <p class="t-label">Fitness</p>
             <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/fitness_380.jpg" alt="topic" title="topic"></a>
           </div>
+
+          <div class="topic">
+            <p class="t-label">Food</p>
+            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/food_380.jpg" alt="food" title="food"></a>
+          </div>
+
+          <div class="topic">
+            <p class="t-label">Home DIY & Design</p>
+            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/HomeDIYDesign_380.jpg" alt="home and design" title="home and design"></a>
+          </div>
+
+          <div class="topic">
+            <p class="t-label">Legal</p>
+            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/legal_380.jpg" alt="legal" title="legal"></a>
+          </div>
+
+          <div class="topic">
+            <p class="t-label">Make Up/Hair</p>
+            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/MakeupHair_380.jpg" alt="make up and hair" title="make up and hair"></a>
+          </div>
+
+          <div class="topic">
+            <p class="t-label">Nutrition</p>
+            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/nutrition_380.jpg" alt="nutrition" title="nutrition"></a>
+          </div>
+
+          <div class="topic">
+            <p class="t-label">Parenting & Family</p>
+            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/ParentingFamily_380.jpg" alt="parenting and family" title="parenting and family"></a>
+          </div>
+
+          <div class="topic">
+            <p class="t-label">Pets</p>
+            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/Pets_380.jpg" alt="pets" title="pets"></a>
+          </div>
+
+          <div class="topic">
+            <p class="t-label">Real Estate</p>
+            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/RealEstate_380.jpg" alt="real estate" title ="real estate"></a>
+          </div>
+          
           <div class="topic">
             <p class="t-label">Tech</p>
             <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/Tech_380.jpg" alt="tech" title="tech"></a>
@@ -335,7 +371,7 @@ get_header(); ?>
         <ul>
           <li><a href="#"><span aria-hidden="true" data-icon="k"></span>1655 26th Street Santa Monica, CA 90404</a></li> 
           <li><a href="#"><span aria-hidden="true" data-icon="a"></span>310 394 6400</a></li> 
-          <li><a href="#"><span aria-hidden="true" data-icon="e"></span>content365@demandmedia.com</a></li> 
+          <li><a href="#"><span aria-hidden="true" data-icon="e"></span>contentsolutions@demandmedia.com</a></li> 
           <li><a href="#"><span aria-hidden="true" data-icon="i"></span>demandmedia.com</a></li> 
         </ul>
         <div class="map">

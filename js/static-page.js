@@ -80,9 +80,9 @@ jQuery(document).ready(function($) {
         }
       ] 
     },
-    "PersonalFinance": {
+    "Business&Finance": {
       "category": "Personal Finance",
-      "meta": ["100+ personal finance experts", "All are qualified CPAs, Certified Financial Planners, financial advisors, entrepreneurs, accountants, etc."],
+      "meta": ["100+ personal finance experts", "170+ Fitness writers", "All are qualified CPAs, Certified Financial Planners, financial advisors, entrepreneurs, accountants, etc."],
       "bios": [
          {
           "name": "Karen Lee",
@@ -101,7 +101,7 @@ jQuery(document).ready(function($) {
         }
       ] 
     },
-    "Crafts": {
+    "Arts&Crafts": {
       "category": "Crafts",
       "meta": ["100+ craft experts", "All are qualified craft teachers, bloggers, etc."],
       "bios": [
