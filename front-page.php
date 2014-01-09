@@ -34,7 +34,22 @@ get_header(); ?>
           <a href="#"><span aria-hidden="true" data-icon="c"></span>Animated Gif</a>
           <section class="animated-gif-section inactive">
             <div class="showcase-image">
-              <img src="<?php bloginfo('template_directory'); ?>/images/content/clean_and_press_Jeremygif.gif" alt="animated example" title="animated example">
+              <div class="gif-grid">
+                <div class="col-1-2">
+                  <img src="<?php bloginfo('template_directory'); ?>/assets/gifs/Cut-Avocado.gif">
+                </div>
+                <div class="col-1-2">
+                  <img src="<?php bloginfo('template_directory'); ?>/assets/gifs/Remove-Seed.gif">
+                </div>
+              </div>
+              <div class="gif-grid">
+                <div class="col-1-2">
+                  <img src="<?php bloginfo('template_directory'); ?>/assets/gifs/ChalkboardPumpkin.gif">
+                </div>
+                <div class="col-1-2">
+                  <img src="<?php bloginfo('template_directory'); ?>/assets/gifs/DrilledPumpkin.gif">
+                </div>
+              </div>
             </div>  
             <div class="showcase-info inactive">
               <h2>Animated Gifs</h2>
@@ -96,8 +111,8 @@ get_header(); ?>
             <div class="showcase-image">
              <video id="movie" width="600" height="400" preload="none" muted loop> 
                 <!-- <source src="pr6.webm" type="video/webm; codecs=vp8,vorbis"> -->
-                <source src="<?php bloginfo('template_directory'); ?>/images/content/BYB_3.mp4" type="video/mp4; codecs=avc1.42E01E,mp4a.40.2"/>
-                <source src="<?php bloginfo('template_directory'); ?>/images/content/BYB_3.ogv"  type="video/ogg; codecs=theora,vorbis">
+                <source src="<?php bloginfo('template_directory'); ?>/assets/videos/BYB_3.mp4" type="video/mp4; codecs=avc1.42E01E,mp4a.40.2"/>
+                <source src="<?php bloginfo('template_directory'); ?>/assets/videos/BYB_3.ogv"  type="video/ogg; codecs=theora,vorbis">
               </video>
             </div>  
             <div class="showcase-info">
@@ -116,7 +131,23 @@ get_header(); ?>
 
           <section class="animated-gif-section inactive">
             <div class="showcase-image">
-              <img src="<?php bloginfo('template_directory'); ?>/images/content/clean_and_press_Jeremygif.gif" alt="animated example" title="animated example">
+              <!-- <img src="<?php bloginfo('template_directory'); ?>/images/content/clean_and_press_Jeremygif.gif" alt="animated example" title="animated example"> -->
+              <div class="gif-grid">
+                <div class="col-1-2">
+                  <img src="<?php bloginfo('template_directory'); ?>/assets/gifs/Cut-Avocado.gif">
+                </div>
+                <div class="col-1-2">
+                  <img src="<?php bloginfo('template_directory'); ?>/assets/gifs/Remove-Seed.gif">
+                </div>
+              </div>
+              <div class="gif-grid">
+                <div class="col-1-2">
+                  <img src="<?php bloginfo('template_directory'); ?>/assets/gifs/ChalkboardPumpkin.gif">
+                </div>
+                <div class="col-1-2">
+                  <img src="<?php bloginfo('template_directory'); ?>/assets/gifs/DrilledPumpkin.gif">
+                </div>
+              </div>
             </div>  
             <div class="showcase-info inactive">
               <h2>Animated Gifs</h2>
@@ -168,8 +199,8 @@ get_header(); ?>
             <div class="showcase-image">
               <video id="movie" width="600" height="400" preload="none" muted loop> 
                 <!-- <source src="pr6.webm" type="video/webm; codecs=vp8,vorbis"> -->
-                <source src="<?php bloginfo('template_directory'); ?>/images/content/BYB_3.mp4" type="video/mp4; codecs=avc1.42E01E,mp4a.40.2"/>
-                <source src="<?php bloginfo('template_directory'); ?>/images/content/BYB_3.ogv"  type="video/ogg; codecs=theora,vorbis">
+                <source src="<?php bloginfo('template_directory'); ?>/assets/videos/BYB_3.mp4" type="video/mp4; codecs=avc1.42E01E,mp4a.40.2"/>
+                <source src="<?php bloginfo('template_directory'); ?>/assets/videos/BYB_3.ogv"  type="video/ogg; codecs=theora,vorbis">
               </video>
             </div>  
             <div class="showcase-info">
@@ -228,12 +259,12 @@ get_header(); ?>
 
           <div class="topic">
             <p class="t-label">Business & Finance</p>
-            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/PersonalFinance_380.jpg" alt="finance" title="finance"></a>
+            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/PersonalFinance_380.jpg" alt="Business & Finance" title="Business & Finance"></a>
           </div>
 
           <div class="topic">
-            <p class="t-label">Health</p>
-            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/health_380.jpg" alt="health" title="health"></a>
+            <p class="t-label">Education</p>
+            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/education_380.jpg" alt="Education" title="Education"></a>
           </div>
 
           <div class="topic">
@@ -249,6 +280,11 @@ get_header(); ?>
           <div class="topic">
             <p class="t-label">Food</p>
             <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/food_380.jpg" alt="food" title="food"></a>
+          </div>
+
+          <div class="topic">
+            <p class="t-label">Health</p>
+            <a href="#"><span class="t-overlay"></span><img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/health_380.jpg" alt="health" title="health"></a>
           </div>
 
           <div class="topic">

@@ -428,7 +428,6 @@ jQuery(document).ready(function($) {
   $('.pages li').on('click', function(e) {
     e.preventDefault();
     var screen = $(this).find('a').data('screen');
-    console.log('screen ...', screen);
     $('.solutions-container').backstretch("show", screen);
     highlightPageNum($(this));
   });
@@ -479,6 +478,7 @@ jQuery(document).ready(function($) {
 
   $('.content-items li a').on('click', function(e) {
     e.preventDefault();
+    e.stopPropagation();
 
     $('.content-items li a').each(function() {
       $(this).removeClass('selected');
