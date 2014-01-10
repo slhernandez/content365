@@ -881,17 +881,7 @@ object {
 ----------------------------------------------- */
 .hero-container {
   background-color: #51575d;
-  position: relative;
-  /*.hero-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: $site-wide-color;
-    opacity: .8;
-    z-index: 0;
-  }*/ }
+  position: relative; }
   @media only screen and (min-width: 48.001em) {
     .hero-container {
       margin-top: 0; } }
@@ -920,10 +910,19 @@ object {
     .hero-container h1.hero-heading .highlight {
       color: #7ecd65; }
   .hero-container .marketing {
-    padding: 300px 10px 300px 10px;
+    padding: 100px 10px 100px 10px;
     max-width: 1200px;
     width: 92%;
     margin: 0 auto; }
+    @media only screen and (min-width: 30.001em) {
+      .hero-container .marketing {
+        padding: 150px 10px 150px 10px; } }
+    @media only screen and (min-width: 48.001em) {
+      .hero-container .marketing {
+        padding: 200px 10px 200px 10px; } }
+    @media only screen and (min-width: 64.001em) {
+      .hero-container .marketing {
+        padding: 300px 10px 300px 10px; } }
     .hero-container .marketing .highlight {
       color: #7ecd65; }
     .hero-container .marketing h1 {
@@ -1335,6 +1334,8 @@ video {
     display: table; }
   .contributors-container:after {
     clear: both; }
+  .contributors-container .contributor-showcase {
+    min-height: 658px; }
   .contributors-container h1 {
     text-transform: uppercase;
     padding: 20px 0 20px 0; }

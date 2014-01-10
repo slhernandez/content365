@@ -160,7 +160,7 @@ jQuery(document).ready(function($) {
         {
           "name": "Nick Larocci",
           "img": "home_nick.png",
-          "bio": "has over 25 years of experience in all mediums of construction. Unlike most construction professionals, larocci started in a shop with a very detailed concentration and graduated to less-demanding forms of the trade. In the course of owning several businesses, he was constantly directing projects that involved explanation and guidance."
+          "bio": "has over 25 years of experience in all mediums of construction. Unlike most construction professionals, larocci started in a shop with a very detailed concentration and graduated to less-demanding forms of the trade."
         }
       ] 
     },
@@ -264,7 +264,7 @@ jQuery(document).ready(function($) {
         },
         {
           "name": "Maggie Lourdes",
-          "img": "legal_maggie.png",
+          "img": "no_image.png",
           "bio": "is a full-time attorney in southeast Michigan. She also teaches law at Cleary University in Ann Arbor. Her writing has been featured in 'Realtor Magazine,' the N.Y. State Bar's 'Health Law Journal,' and more."
         }
       ] 
@@ -331,6 +331,28 @@ jQuery(document).ready(function($) {
           "bio": "is an information technology journalist since 2002, writing about web technology, hardware and software. He is an experienced editor, proofreader and copywriter for online publications such as CNET, TechRadar and Gizmodo."
         }
       ] 
+    },
+    "Education": {
+      "category": "Education",
+      "meta": ["200+ education experts", "90 education writers", "All are teachers, professors, tutors, or industry-specific professionals (scientists, mathematicians, etc...)"],
+      "bios": [
+        {
+          "name": "Dupe Aleru",
+          "img": "family_dupe.png",
+          "bio": "self-published author, teacher and former education reporter who founded Tutors for Tots, Tweens & Teens, LLC."
+        },
+        {
+          "name": "James Lincoln",
+          "img": "no_image.png", 
+          "bio": "is a UCLA physicist, high school educator and appears in many physics and science videos. He has a Masters degree in physics and a Masters degree in education."
+        },
+        {
+          "name": "Chelsea",
+          "img": "no_image.png",
+          "bio": "is an entrepreneur, parent and advocate for early childhood development. Duggan is the Founder and Director of Milestar Babies, a graduate of Northwestern and a member of the Chicago Women Entrepreneurs Network."
+        }
+      ]
+
     }
   } 
 
