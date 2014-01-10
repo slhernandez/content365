@@ -421,18 +421,19 @@ video {
     li {
       display: inline-block;
       margin-right: 2em;
-      height: 50px;
-      width: 50px;
-      background: $highlight-color;
+      height: 45px;
+      width: 45px;
+      background: transparent;
       border-radius: 50px;
+      border: 1px solid #FFF;
       a {
-        font-size: $font-size-28;
+        font-size: $font-size-20;
         text-decoration: none;
         color: $body-text-color;
         padding: 0;
         margin: 0;
         position: relative;
-        top: 4px;
+        top: 7px;
         @include font-light();
       }
     }
@@ -643,16 +644,16 @@ video {
       color: #FFF;
       cursor: pointer;
       position: absolute;
-      font-size: $font-size-16;
+      font-size: $font-size-18;
       @include font-medium();
       text-align: center;
       text-transform: uppercase;
       z-index: 1;
-      //margin: 115px 0 0 20px;
       top: 40%;
       left: 7%;
       width: 90%;
       word-wrap: break-word;      
+      text-shadow: 0 1px 1px rgba(0,0,0,0.3);
     }
   }
 }

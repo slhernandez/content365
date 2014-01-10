@@ -1273,18 +1273,19 @@ video {
     .solutions-container ul.pages li {
       display: inline-block;
       margin-right: 2em;
-      height: 50px;
-      width: 50px;
-      background: #7ecd65;
-      border-radius: 50px; }
+      height: 45px;
+      width: 45px;
+      background: transparent;
+      border-radius: 50px;
+      border: 1px solid #FFF; }
       .solutions-container ul.pages li a {
-        font-size: 1.75em;
+        font-size: 1.25em;
         text-decoration: none;
         color: white;
         padding: 0;
         margin: 0;
         position: relative;
-        top: 4px;
+        top: 7px;
         font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-weight: 300;
         font-style: normal; }
@@ -1467,7 +1468,7 @@ video {
       color: #FFF;
       cursor: pointer;
       position: absolute;
-      font-size: 1em;
+      font-size: 1.125em;
       font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: 500;
       font-style: normal;
@@ -1477,7 +1478,8 @@ video {
       top: 40%;
       left: 7%;
       width: 90%;
-      word-wrap: break-word; }
+      word-wrap: break-word;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); }
 
 /* =Content365 Tips And Tricks
 ----------------------------------------------- */

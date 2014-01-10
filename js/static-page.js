@@ -122,19 +122,19 @@ jQuery(document).ready(function($) {
         }
       ] 
     },
-    "Parenting&Family": {
-      "category": "Parenting and Family",
-      "meta": ["75+ parenting Talent", "40+ relationships Talent", "200+ writers", "Backgrounds in elementary and secondary education, tutoring, therapists, lifestyle bloggers, psychology and nursing."],
+    "Parenting": {
+      "category": "Parenting",
+      "meta": ["75+ parenting Talent", "100 parenting writers", "Experts are therapists, lifestyle bloggers, doulas, psychologists and nurses"],
       "bios": [
          {
-          "name": "Dupe Aleru",
-          "img": "family_dupe.png",
-          "bio": "self-published author, teacher and former education reporter who founded Tutors for Tots, Tweens & Teens, LLC."
+          "name": "Kathleen Sullivan",
+          "img": "no_image.png",
+          "bio": "knows what your baby needs even before he does. She is a doula in Los Angeles, and an active member of the National Association of Postpartum Care Services and the Child Birth and Postpartum Association."
         },
         {
-          "name": "Dr. Cindy Bunin",
-          "img": "family_cindy.png",
-          "bio": "is a marriage and family therapist and child development specialist for over thirty years. She was honored as a 2004-2005 Who's Who in American Women."
+          "name": "Tara West",
+          "img": "no_image.png",
+          "bio": "specializes in parenting topics. She's a regular contributor at SocialMoms.com and has been featured on Reading Rainbow."
         },
         {
           "name": "Bill Corbett",
@@ -143,8 +143,50 @@ jQuery(document).ready(function($) {
         }
       ] 
     },
-    "HomeDIY&Design": {
-      "category": "Home DIY and Design",
+    "Home": {
+      "category": "Home",
+      "meta": ["100+ Home Talent", "60 Home writers", "All are certified carpenters, contractors, painters, appliance experts or cleaning specialists."],
+      "bios": [
+        {
+          "name": "Nick Larocci",
+          "img": "home_nick.png",
+          "bio": "has over 25 years of experience in all mediums of construction. Unlike most construction professionals, larocci started in a shop with a very detailed concentration and graduated to less-demanding forms of the trade."
+        },
+        {
+          "name": "Monica D. Higgins",
+          "img": "no_image.png",
+          "bio": "is a remodeling expert who prevents and protects homeowners. Higgins's proven process and expert knowledge has been featured by HGTV, DIY Network, 'Entrepreneur Magazine,' Lowe's for Pros and BobVila.com."
+        },
+        {
+          "name": "Erick Nathan",
+          "img": "no_image.png",
+          "bio": "works for Master Floor Service, a family-run hardwood flooring business that started on the North Shore of Chicago. He opened a division in Los Angeles about 20 years ago, and has done luxury homes his entire career."
+        }
+      ]
+    },
+    "Garden": {
+      "category": "Garden",
+      "meta": ["130 Garden Talent", "100+ garden writers", "All are certified landscapers, gardeners, horticulturalists, etc..."],
+      "bios": [
+        {
+          "name": "Angela Price",
+          "img": "no_image.png",
+          "bio": "is the owner of Eden Condensed in Los Angeles, California. She does garden consultation and design, as well as maintenance and harvesting. She specializes in design and installation of small space gardens."
+        },
+        {
+          "name": "Nicholas Staddon",
+          "img": "no_image.png",
+          "bio": "has been with Monrovia Nursery for 20 years, and is the spokesperson for new plants. He is a frequent speaker at flower and garden shows, botanical gardens and gardening clubs."
+        },
+        {
+          "name": "Teca Thompson",
+          "img": "no_image.png",
+          "bio": "is an expert gardener and farm-to-table chef. She grows many of her own ingredients for the kitchen."
+        }
+      ]
+    },
+    "HomeDecor": {
+      "category": "Home Decor",
       "meta": ["350+ Home & Garden Talent", "200+ writers", "All are certified carpenters, contractors, painters, interior designers, landscapers, gardeners, etc..."],
       "bios": [
          {
@@ -158,36 +200,15 @@ jQuery(document).ready(function($) {
           "bio": "is an acclaimed interior designer who was HGTV's first ever Design Star All-Stars winner. She is also a cancer survivor, and owner of Leslie Christiner Designs."
         },
         {
-          "name": "Nick Larocci",
-          "img": "home_nick.png",
-          "bio": "has over 25 years of experience in all mediums of construction. Unlike most construction professionals, larocci started in a shop with a very detailed concentration and graduated to less-demanding forms of the trade."
+          "name": "Yvette Mullings",
+          "img": "no_image.png",
+          "bio": "is the owner and interior designer of Edgewater Design. Since setting up shop in Miami, she has worked with Sandals Resorts International, and collaborated on several projects throughout the Caribbean."
         }
       ] 
     },
-    "MakeUp/Hair": {
-      "category": "MakeUp/Hair",
-      "meta": ["500+ Beauty Talent", "75+ Style Writers", "All are makeup artists, hair stylists, colorists, dermatologists, or manicurists"],
-      "bios": [
-         {
-          "name": "Christina Farrell",
-          "img": "hair_christina.png",
-          "bio": "is founder of The Makeup Blogger. She has been on-air beauty expert for E! and TLC's, 'What Not To Wear.' Her artistry has been seen at movie premieres, as well as the Emmy and Oscar award ceremonies institute."
-        },
-        {
-          "name": "Michelle Saunders",
-          "img": "hair_michelle.png",
-          "bio": "is a highly sought-after celebrity manicurist who lives in Los Angeles. Her work has been featured in Vogue, Harper's Bazaar and Elle, and her celebrity clients include Jennifer Lopez, Kate Beckinsdale and Eva Longoria."
-        },
-        {
-          "name": "Chistopher Drummond",
-          "img": "hair_christopher.png",
-          "bio": "has been in the beauty industry for over 17 years. He is a celebrity makeup artist (JLO, Brooke Shields, January Jones, Jane Fonda), and owns a line of all-natural makeup, too. Drummond has over 85 YouTube tutorials and 800 blog posts."
-        }
-      ] 
-    },
-    "Fashion": {
-      "category": "Fashion",
-      "meta": ["450+ Fashion Telent", "75+ Style writers", "All are stylists, personal shoppers, designers, fashion reality TV contestants, buyers, planners, etc..."],
+    "Style": {
+      "category": "Style",
+      "meta": ["500+ Beauty Talent", "75+ Style writers", "All are makeup artists, hair stylists, colorists, dermatologists, or manicurists."],
       "bios": [
          {
           "name": "Danny Agnew",
@@ -195,14 +216,14 @@ jQuery(document).ready(function($) {
           "bio": "is the New York Editor of InsideHook. He founded LA-based clothing company, Kid Dangerous, in 2007. Agnew has also worked for 2009 GQ Best Menswear Designer in America, Billy Reid."
         },
         {
-          "name": "Brandhyze Stanley",
-          "img": "fashion_brandhyze.png",
-          "bio": "has been featured on numerous media outlets such as The View, The Early Show, The Today Show, and Essence Magazine to name a few. Author of the blog, Frugal-nomics: The Art of Resourceful Living; MTVStyle said that 'We're totally jealous of her great thrifty finds.'"
+          "name": "Christina Farrell",
+          "img": "hair_christina.png",
+          "bio": "is founder of The Makeup Blogger. She has been on-air beauty expert for E! and TLC's, 'What Not To Wear.' Her artistry has been seen at movie premieres, as well as the Emmy and Oscar award ceremonies institute."
         },
         {
-          "name": "Stacey ",
-          "img": "fashion_stacey.png",
-          "bio": "spent five years as managing editor of the style and pop-culture magazine 'Savvy.' She traveled coast-to-coast covering all things fashion and beauty."
+          "name": "Melanie Pace",
+          "img": "no_image.png",
+          "bio": "is a wardrobe stylist, fashion consultant, fashion correspondent and personal shopper. With degrees in fashion merchandising and business, she started her own styling and wardrobe consulting business in 2006."
         }
       ] 
     },
@@ -290,9 +311,9 @@ jQuery(document).ready(function($) {
         }
       ] 
     },
-    "Fitness": {
-      "category": "Fitness",
-      "meta": ["500+ Fitness Talent", "50+ Fitness Writers", "Backgrounds include personal trainers, yoga teachers, Pilates instructors, fitness models, etc..."],
+    "Fitness&Well-being": {
+      "category": "Fitness & Well-being",
+      "meta": ["500+ Fitness Talent", "250+ Fitness Writers", "Backgrounds include personal trainers, yoga teachers, Pilates instructors, fitness models, etc..."],
       "bios": [
          {
           "name": "Robert Brace",
@@ -352,7 +373,48 @@ jQuery(document).ready(function($) {
           "bio": "is an entrepreneur, parent and advocate for early childhood development. Duggan is the Founder and Director of Milestar Babies, a graduate of Northwestern and a member of the Chicago Women Entrepreneurs Network."
         }
       ]
-
+    },
+    "Family&Relationships": {
+      "category": "Family & Relationships",
+      "meta": ["50 relationships talent", "75+ relationship writers", "Experts include therapists, couples specialists, lifestyle bloggers, dating coaches, etiquette teachers, mediators and psychologists."],
+      "bios": [
+        {
+          "name": "Dr. Cindy Bunin",
+          "img": "family_cindy.png",
+          "bio": "is a marriage and family therapist and child development specialist for over thirty years. She was honored as a 2004-2005 Who's Who in American Women."
+        },
+        {
+          "name": "David Simonsen",
+          "img": "no_image.png",
+          "bio": "has been a practicing therapist for 12 years. He recently has appeared as a relationship expert on the Oprah Winfrey network, and also filmed a TV polot for the A&E network about stepfamilies. Simonsen has an M.S. in Marriage & Family Therapy."
+        },
+        {
+          "name": "Dr. Jennifer Jones, Ph.D.",
+          "img": "no_image.png",
+          "bio": "is a psychologist, speaker and writer specializing in love, sex and happiness. Dr. Jones received her education and training from UCLA Neuropsychiatric Institute, University of Oregon."
+        }
+      ]
+    },
+    "Travel": {
+      "category": "Travel",
+      "meta": ["30 Travel Talent", "60 Travel Writers", "Backgrounds in travel blogging, extensive travel experience, lifestyle review writers, etc..."],
+      "bios": [
+        {
+          "name": "Carolyn Paddock",
+          "img": "no_image.png",
+          "bio": "is a travel expert and the Founder and CEO of In-Flight Insider, the essential resource for traveling well. She has contributed her travel expertise to a range of national medial outlets, including The Washington Post, MSNBC.com, USA Today, CNBC.com, The Huffington Post and CNN."
+        },
+        {
+          "name": "Leslie Willmott",
+          "img": "no_image.png",
+          "bio": "has spent much of her career packing and unpacking a suitcase. She was the markting director for best-selling book, 'Smart Packing for Today\'s Traveler' and is the founder of Smart Women On The Go."
+        },
+        {
+          "name": "Wendy K. Leigh",
+          "img": "no_image.png",
+          "bio": "is a travel writer and photojournalist from Seattle. She is the Editor of 'Islands Amercia', a travel website for visiting islands within the United States. Leigh holds a Bachelor of Arts in English from the University of Washington."
+        }
+      ] 
     }
   } 
 
@@ -457,11 +519,9 @@ jQuery(document).ready(function($) {
   function highlightPageNum(numItem) {
     // change background color of li
     numItem.parent().find('li').each(function(item) {
-      $(this).css('background', '#7ecd65');
-      $(this).find('a').css('color', '#FFF');
+      $(this).css('background', 'transparent');
     });
-    numItem.css('background', '#FFF');
-    numItem.find('a').css('color', '#7ecd65');
+    numItem.css('background', '#555');
   }
 
   // WAYPOINT (scroll detection)
