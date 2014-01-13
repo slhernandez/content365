@@ -322,12 +322,14 @@ video {
 
 .solutions-container {
   @include clearfix();
-  //@include websiteWidth();
   width: 100%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 0;
+  @include tablet-custom-825-up {
+    padding: 100px 0;
+    height: 900px;
+  }
   position: relative;
-  height: 900px;
 
   .solutions-overlay {
     position: absolute;
@@ -339,6 +341,7 @@ video {
     height: 100%;
     z-index: -1;
   }
+  padding: 0;
 
   .solutions-content {
     @include websiteWidth();
@@ -353,7 +356,10 @@ video {
     .content {
       color: #FFF;
       max-width: 600px;    
-      min-height: 610px;
+      min-height: 480px;
+      @include tablet-portrait-and-up {
+        min-height: 610px;
+      }
       margin: 0 auto;
       width: 70%;
       h3 {
@@ -372,23 +378,23 @@ video {
       h2 {
         color: #FFF;
         font-size: $font-size-22;
-        @include tablet-custom-675-up {
+        @include tablet-portrait-and-up {
           font-size: $font-size-64;
         }
-        @include mobile-custom675-only {
-          font-size: $font-size-30;
-        }
+        //@include tablet-custom-675-up {
+        //  font-size: $font-size-30;
+        //}
         text-align: center;
         text-transform: uppercase; 
       }
       .target-message {
         font-size: $font-size-18;
-        @include tablet-custom-675-up {
+        @include tablet-portrait-and-up {
           font-size: $font-size-28;
         }
-        @include mobile-custom675-only {
-          font-size: $font-size-24;
-        }
+        //@include mobile-custom675-only {
+        //  font-size: $font-size-24;
+        //}
         font-weight: 500;
         text-transform: uppercase;
         line-height: 1.2em;
@@ -398,12 +404,12 @@ video {
       .secondary-message {
         font-weight: 300;
         font-size: $font-size-14;
-        @include tablet-custom-675-up {
+        @include tablet-portrait-and-up {
           font-size: $font-size-28;
         }
-        @include mobile-custom675-only {
-          font-size: $font-size-18;
-        }
+        //@include mobile-custom675-only {
+        //  font-size: $font-size-18;
+        //}
         text-align: center;
         line-height: 1.4em;
         margin: 10px 0 25px 0;

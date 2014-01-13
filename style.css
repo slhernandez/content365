@@ -1183,14 +1183,18 @@ video {
 .solutions-container {
   width: 100%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 0;
   position: relative;
-  height: 900px; }
+  padding: 0; }
   .solutions-container:before, .solutions-container:after {
     content: "";
     display: table; }
   .solutions-container:after {
     clear: both; }
+  @media only screen and (min-width: 51.563em) {
+    .solutions-container {
+      padding: 100px 0;
+      height: 900px; } }
   .solutions-container .solutions-overlay {
     position: absolute;
     background: rgba(81, 87, 93, 0.8);
@@ -1212,9 +1216,12 @@ video {
     .solutions-container .solutions-content .content {
       color: #FFF;
       max-width: 600px;
-      min-height: 610px;
+      min-height: 480px;
       margin: 0 auto;
       width: 70%; }
+      @media only screen and (min-width: 48.001em) {
+        .solutions-container .solutions-content .content {
+          min-height: 610px; } }
       .solutions-container .solutions-content .content h3 {
         color: #7ecd65;
         margin: 20px 0 40px 0;
@@ -1232,12 +1239,9 @@ video {
         font-size: 1.375em;
         text-align: center;
         text-transform: uppercase; }
-        @media only screen and (min-width: 42.188em) {
+        @media only screen and (min-width: 48.001em) {
           .solutions-container .solutions-content .content h2 {
             font-size: 4em; } }
-        @media only screen and (min-width: 20.001em) and (max-width: 51.563em) {
-          .solutions-container .solutions-content .content h2 {
-            font-size: 1.875em; } }
       .solutions-container .solutions-content .content .target-message {
         font-size: 1.125em;
         font-weight: 500;
@@ -1245,24 +1249,18 @@ video {
         line-height: 1.2em;
         margin: 10px 0 50px 0;
         text-align: center; }
-        @media only screen and (min-width: 42.188em) {
+        @media only screen and (min-width: 48.001em) {
           .solutions-container .solutions-content .content .target-message {
             font-size: 1.75em; } }
-        @media only screen and (min-width: 20.001em) and (max-width: 51.563em) {
-          .solutions-container .solutions-content .content .target-message {
-            font-size: 1.5em; } }
       .solutions-container .solutions-content .content .secondary-message {
         font-weight: 300;
         font-size: 0.875em;
         text-align: center;
         line-height: 1.4em;
         margin: 10px 0 25px 0; }
-        @media only screen and (min-width: 42.188em) {
+        @media only screen and (min-width: 48.001em) {
           .solutions-container .solutions-content .content .secondary-message {
             font-size: 1.75em; } }
-        @media only screen and (min-width: 20.001em) and (max-width: 51.563em) {
-          .solutions-container .solutions-content .content .secondary-message {
-            font-size: 1.125em; } }
   .solutions-container ul.pages {
     display: none;
     list-style: none;
