@@ -140,7 +140,7 @@
 	@include tablet-custom-600-up() {
 		position: relative;
 		max-width: none;
-		padding: 20px 4% 20px 4%;
+		padding: 5px 4% 5px 4%;
 		display: table-cell;
 		vertical-align: middle;
 		width: 32%;
@@ -219,6 +219,12 @@
 			-moz-border-radius: 4px;
 			border-radius: 4px;
 			box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+			&:hover {
+				border: 1px solid $highlight-color;
+				-webkit-transition: all 250ms linear;
+				-moz-transition: all 250ms linear;
+				transition: all 250ms linear;
+			}
 		}
 	}
 }
@@ -239,9 +245,6 @@
 	@include tablet-custom-600-up() {
 		height: auto; 
 	}
-	//-webkit-transition: all 250ms linear;
-	//-moz-transition: all 250ms linear;
-	//transition: all 250ms linear;
 }
 
 .navContent.inactive {

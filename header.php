@@ -33,7 +33,6 @@ var templateUrl = '<?= get_bloginfo("template_url"); ?>';
 							<h1 class="logo">
 								<a href="#hero" class="anchorLink">
 									<img class="gray-logo" src="<?php bloginfo('template_directory'); ?>/images/dm_logo_white.png" alt="Demand Media Logo" title="Demand Media Logo">
-									<img class="white-logo" src="<?php bloginfo('template_directory'); ?>/images/dm_logo_white.png" alt="Demand Media Logo" title="Demand Media Logo">
 								</a>
 							</h1>
 						</div>
@@ -56,7 +55,7 @@ var templateUrl = '<?= get_bloginfo("template_url"); ?>';
 									<li><a href="#contributors" class="anchorLink">Network</a></li>
 									<li><a href="#insights" class="anchorLink">Insights</a></li>
 									<li><a href="#about" class="anchorLink">About Us</a></li>
-									<li><a href="#login" class="anchorLink login">Login</a></li>
+									<li><a href="http://dm.dmpartnercontent.com" class="login">Login</a></li>
 								</ul>
 							</nav>
 						</div> <!-- end of navContainer -->
