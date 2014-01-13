@@ -22,6 +22,7 @@ module.exports = function(grunt) {
           'style.css':'sass/_navigation.scss',
           'style.css':'sass/_postformats.scss',
           'style.css':'sass/_reset.scss',
+          'style.css':'sass/_iconfonts.scss',
           'style.css':'sass/_settings.scss',
           'style.css':'sass/_typography.scss',
           'style.css':'sass/_widgets.scss',
