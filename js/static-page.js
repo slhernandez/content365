@@ -323,8 +323,8 @@ jQuery(document).ready(function($) {
         }
       ] 
     },
-    "Tech": {
-      "category": "Tech",
+    "Technology": {
+      "category": "Technology",
       "meta": ["200+ Tech Talent", "120+ Tech Writers", "All are computer technicians, IT technicians, web developers, Apple specialists, electronic gurus, social media experts, etc..."],
       "bios": [
          {
@@ -424,7 +424,7 @@ jQuery(document).ready(function($) {
           'box-shadow': '0 1px 1px rgba(0,0,0,0.2)'
         });
         $('.headerContent h1.logo img').css('width', '100%');
-        $('.headerAndNavContainer').css('height', '75px');
+        //$('.headerAndNavContainer').css('height', '75px');
         //$('.headerAndNavContainer.sticky').css('background', 'rgba(81, 87, 93, 0.7)');
       } else if (direction == 'up') {
         $('.headerAndNavContainer.sticky').css({

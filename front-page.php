@@ -14,7 +14,8 @@ get_header(); ?>
     <!--<h1 class="hero-heading">Providing Partners Comprehensive <span class="highlight">Content</span> Offerings To Attract And Engage Intent Driven Audiences</h1>-->
     <div class="marketing">
       <h1>Comprehensive <span class="highlight">Content</span></h1>
-      <p>Providing Partners with offerings to attract and engage intent-driven audience</p>
+      <p>Providing partners with offerings to attract and engage intent-driven audiences.</p>
+      <p class="sub-heading">Build your content foundation by leveraging our robust network of contributors.</p>
       <div class="contact-btn-container"><a class="contact-btn anchorLink" href="#contact">Get Started Today</a></div>
     </div>
     <!--<span class="hero-overlay"></span>-->
@@ -73,7 +74,7 @@ get_header(); ?>
           <a href="#"><span aria-hidden="true" data-icon="b"></span>Photography</a>
           <section class="photography-section inactive">
             <div class="showcase-image">
-              <img src="<?php bloginfo('template_directory'); ?>/images/content/photography-image.png" alt="photography example" title="photography example">
+              <img src="<?php bloginfo('template_directory'); ?>/images/content/photo_collage.jpg" alt="photography example" title="photography example">
             </div>  
             <div class="showcase-info">
               <h2>Photography</h2>
@@ -167,7 +168,7 @@ get_header(); ?>
 
           <section class="photography-section inactive">
             <div class="showcase-image">
-              <img src="<?php bloginfo('template_directory'); ?>/images/content/photography-image.png" alt="photography example" title="photography example">
+              <img src="<?php bloginfo('template_directory'); ?>/images/content/photo_collage.jpg" alt="photography example" title="photography example">
             </div>  
             <div class="showcase-info">
               <h2>Photography</h2>

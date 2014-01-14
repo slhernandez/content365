@@ -77,25 +77,21 @@ add_action( 'widgets_init', 'content365_widgets_init' );
  */
 function content365_scripts() {
 
-	wp_register_style('streamline-icons', get_template_directory_uri() . '/iconfonts/styles.css' );
-
-	wp_enqueue_style('streamline-icons');
-
 	wp_enqueue_style( 'content365-style', get_stylesheet_uri() );
 
 	wp_enqueue_style( 'gothamfont', 'http://cloud.typography.com/6676432/688122/css/fonts.css' );
 
-	wp_enqueue_script( 'content365-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
+	wp_enqueue_script( 'content365-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', false );
 
-	wp_enqueue_script( 'content365-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
+	wp_enqueue_script( 'content365-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', false );
 
-	wp_enqueue_script( 'content365-backstretch', get_template_directory_uri() . '/js/backstretch.min.js', array('jquery'), '201312008', true );
+	wp_enqueue_script( 'content365-backstretch', get_template_directory_uri() . '/js/backstretch.min.js', array('jquery'), '201312008', false );
 
-	wp_enqueue_script( 'content365-underscore', get_template_directory_uri() . '/js/underscore.min.js', array(), '201312008', true );
+	wp_enqueue_script( 'content365-underscore', get_template_directory_uri() . '/js/underscore.min.js', array(), '201312008', false );
 
-	wp_enqueue_script( 'content365-waypoints', get_template_directory_uri() . '/js/waypoints.min.js', array('jquery'), '201312008', true );
+	wp_enqueue_script( 'content365-waypoints', get_template_directory_uri() . '/js/waypoints.min.js', array('jquery'), '201312008', false );
 
-	wp_register_script( 'content365-static-page', get_template_directory_uri() . '/js/static-page.js', array('jquery'), '201312008', true );
+	wp_register_script( 'content365-static-page', get_template_directory_uri() . '/js/static-page.js', array('jquery'), '201312008', false );
 
 	wp_enqueue_script( 'content365-static-page' );
 

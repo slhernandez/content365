@@ -102,7 +102,7 @@
 	display: table;
 	padding: 0;
 	width: 100%;
-	height: 85px;
+	//height: 85px;
 	-webkit-transition: all 300ms ease-in-out;
 	-moz-transition: all 300ms ease-in-out;
 	transition: all 300ms ease-in-out;
@@ -140,7 +140,7 @@
 	@include tablet-custom-600-up() {
 		position: relative;
 		max-width: none;
-		padding: 5px 4% 5px 4%;
+		padding: 0 4% 0 4%;
 		display: table-cell;
 		vertical-align: middle;
 		width: 32%;
