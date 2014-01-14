@@ -10,30 +10,21 @@ window.solutionSecondaryMsg = ["Demand's proprietary algorithm analyzes millions
                             "Demand Media's network of sites and digitally native talent allow our partners to reach new audiences.",
                             "Demand Media Analytics team monitors and tests core metrics to optimize content performance."]
 
-jQuery.fn.anchorAnimate = function(settings) {
+jQuery(document).ready(function($) {
 
-  settings = jQuery.extend({
-    speed : 800 
-  }, settings); 
-  
-  return this.each(function(){
-    var caller = this
-    jQuery(caller).click(function (event) {  
-      event.preventDefault()
-      var locationHref = window.location.href
-      var elementClick = jQuery(caller).attr("href")
-      
-      var destination = jQuery(elementClick).offset().top - 0;
-      jQuery("html:not(:animated),body:not(:animated)").animate({ scrollTop: destination}, settings.speed, function() {
-        window.location.hash = elementClick
-      });
-      return false;
-    })
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 800);
+        return false;
+      }
+    }
   });
 
-}
-
-jQuery(document).ready(function($) {
 
   var _this = this;
   // Contributor information
@@ -422,9 +413,6 @@ jQuery(document).ready(function($) {
   // This anchor tag is specifically for the hero image.
   $('body').prepend('<a name="top" id="hero"></a>');
 
-  // Initiate scolling
-  $('a.anchorLink').anchorAnimate();
-
   // Transform the header navigation while scrolling
   // ----------------------------------
   $('#our-content').waypoint( function(direction) {
@@ -581,8 +569,6 @@ jQuery(document).ready(function($) {
     e.preventDefault();
     // Strip out any white space in the title
     var topic = $(this).find('p').text().replace(/\s+/g, '');
-    console.log('topic is ...', topic);
-    console.log('contrib_info ...', contrib_info[topic]);
 
     // Make sure that category contributors is alway empty/removed
     $('.category-contributors').empty();
