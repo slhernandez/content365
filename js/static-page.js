@@ -448,9 +448,9 @@ jQuery(document).ready(function($) {
 
   });
 
-  $('#contributors').waypoint( function(direction) {
-      console.log('hey, you hit contributors... do something');
-  });
+  //$('#contributors').waypoint( function(direction) {
+  //    console.log('hey, you hit contributors... do something');
+  //});
 
   // Mobile menu
   // ----------------------------------

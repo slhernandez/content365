@@ -622,7 +622,8 @@ video {
     }
 
     .topic a .t-overlay {
-      background: rgba(126, 205, 101, 0.8);
+      background: transparent;
+      cursor: pointer;
       position: absolute;
       width: 100%;
       height: 100%;
@@ -632,11 +633,29 @@ video {
       top: 0;
       left: 0;
       &:hover {
-        background: transparent;
+        background: rgba(126, 205, 101, 0.8);
         -webkit-transition: all .2s ease-in;
         -moz-transition: all .2s ease-in;
         -o-transition: all .2s ease-in;
         transition: all .2s ease-in;
+        .t-label {
+          opacity: 1.0;
+        }
+      }
+      .t-label {
+        opacity: 0;
+        color: #FFF;
+        position: absolute;
+        font-size: $font-size-16;
+        @include font-medium();
+        text-align: center;
+        text-transform: uppercase;
+        z-index: 1;
+        top: 40%;
+        left: 7%;
+        width: 90%;
+        word-wrap: break-word;      
+        text-shadow: 0 1px 1px rgba(0,0,0,0.3);
       }
     }
 
@@ -646,21 +665,6 @@ video {
       }
     }
 
-    .topic .t-label {
-      color: #FFF;
-      cursor: pointer;
-      position: absolute;
-      font-size: $font-size-18;
-      @include font-medium();
-      text-align: center;
-      text-transform: uppercase;
-      z-index: 1;
-      top: 40%;
-      left: 7%;
-      width: 90%;
-      word-wrap: break-word;      
-      text-shadow: 0 1px 1px rgba(0,0,0,0.3);
-    }
   }
 }
 
