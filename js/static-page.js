@@ -442,18 +442,29 @@ jQuery(document).ready(function($) {
 
   // Mobile menu
   // ----------------------------------
+  var $navContainer = $('.navContent');
   $('.mobile-menu a').on('click', function(e) {
     e.stopPropagation();
     e.preventDefault();
-    var $navContainer = $('.navContent');
     $navContainer.slideToggle("fast");
-    /*if ($navContainer.hasClass('inactive')) {
-      $navContainer.addClass('active').removeClass('inactive');
-    } else if ($navContainer.hasClass('active')) {
-      $navContainer.addClass('inactive').removeClass('active');
-    } else {
-      $navContainer.addClass('inactive');
-    }*/
+  });
+
+  // When you resize the browser, the menu will remain hidden. 
+  // Make sure to remove the hidden style when resized to desktop mode.
+  var resizeTimer; // Set resizeTimer to empty so it resets on page load
+  
+  function resizeFunction() {
+    var w = $(window).width();
+    if (w > 320 && $navContainer.is(':hidden')) {
+      $navContainer.removeAttr('style');
+    } 
+  } 
+
+  // On resize, run the function and reset the timeout
+  // 250 is the delay in milliseconds. 
+  $(window).resize(function() {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(resizeFunction, 250);
   });
 
   // Load Backstretch image loader
@@ -462,7 +473,7 @@ jQuery(document).ready(function($) {
     templateUrl + '/images/Content365_Family_1.jpg'
     ,templateUrl + '/images/Content365_Family_2.jpg'
     ,templateUrl + '/images/Content365_Family_3.jpg'
-  ], { duration: 3000, fade: 750 } );
+  ], { duration: 10000, fade: 750 } );
 
 
   var solution_images = [ templateUrl + '/images/solution/Listen.jpg',

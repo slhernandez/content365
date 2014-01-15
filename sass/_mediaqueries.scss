@@ -4,6 +4,7 @@
 // $mq-tablet-landscape : 1024px !default;
 // $mq-desktop    : 1382px !default;
 // $mq-tablet-600-custom : 600px !default;
+// $mq-tablet-760-custom : 760px !default;
 // $mq-tablet-825-custom : 825px !default;
 // $mq-desktop-900-custom: 900px !default;
  
@@ -13,6 +14,7 @@ $mq-tablet-portrait : 48em !default;
 $mq-tablet-landscape  : 64em !default;
 $mq-desktop   : 86.375em !default;
 $mq-tablet-600-custom: 37.500em !default;
+$mq-tablet-760-custom: 47.500em !default;
 $mq-tablet-675-custom: 42.188em !default;
 $mq-tablet-825-custom: 51.563em !default;
 $mq-desktop-900-custom: 56.250em !default;
@@ -26,6 +28,18 @@ $mq-desktop-900-custom: 56.250em !default;
 
 @mixin tablet-custom-600-below {
   @media only screen and (max-width : $mq-tablet-600-custom) {
+    @content;
+  }
+}
+
+@mixin tablet-custom-760-up {
+  @media only screen and (min-width : $mq-tablet-760-custom) {
+    @content;
+  }
+}
+
+@mixin tablet-custom-760-below {
+  @media only screen and (max-width : $mq-tablet-760-custom) {
     @content;
   }
 }

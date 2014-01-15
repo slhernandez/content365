@@ -136,8 +136,8 @@
 	height: 100%;
 	max-width: 600px;
 	display: block;
-	padding: 10px;
-	@include tablet-custom-600-up() {
+	padding: 0;
+	@include tablet-custom-760-up() {
 		position: relative;
 		max-width: none;
 		padding: 0 4% 0 4%;
@@ -150,9 +150,9 @@
 .navContent {
 	ul {
 		li:last-child {
-			display: none;
+			//display: none;
 		}
-		@include tablet-custom-600-up() {
+		@include tablet-custom-760-up() {
 			li:last-child {
 				display: inline-block;
 			}
@@ -161,31 +161,49 @@
 }
 
 .navContent {
+	display:none;
 	ul {
 		list-style: none;
 		margin: 0;
 		padding-left: 0;
 		text-align: center;
+		border-top: 1px solid rgba(255, 255, 255, 0.3);
+		@include tablet-custom-760-up() {
+			border-top: none;
+		}
 	}
 
 	li {
-		display: block;
-		padding: 5px 0;
-		font-size: $font-size-16;
-		@include tablet-custom-600-up() {
+		padding: 10px 0;
+		font-size: $font-size-14;
+		margin: 0;
+		width: 50%;
+		float: left;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+		border-right: 1px solid rgba(255, 255, 255, 0.3);
+		@include tablet-custom-760-up() {
 			display: inline-block;
 			padding: 0;
 			margin-left: 1.5em;
 			font-size: $font-size-12;
+			border-bottom: none;
+			border-right: none;
+			float: left;
+			width: 13%;
+			padding-top: 10px;
 		}
-		margin: 5px 0 5px 0;
+		&:last-child {
+			@include tablet-custom-760-up() {
+				padding-top: 5px;
+			}
+		}
 
 	}
 
 	a {
 		color: #FFF;
 
-		@include tablet-custom-600-up() {
+		@include tablet-custom-760-up() {
 			color: #FFF;
 			&:hover {
 				color: $highlight-color;	
@@ -213,14 +231,18 @@
 		text-shadow: 0 1px 1px rgba(0,0,0,0.6);
 
 		&.login {
-			border: 1px solid #fff;
-			padding: 5px 10px 5px 10px;
-			-webkit-border-radius: 4px;
-			-moz-border-radius: 4px;
-			border-radius: 4px;
-			box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+			@include tablet-custom-760-up() {
+				border: 1px solid #fff;
+				padding: 5px 10px 5px 10px;
+				-webkit-border-radius: 4px;
+				-moz-border-radius: 4px;
+				border-radius: 4px;
+				box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+			}
 			&:hover {
-				border: 1px solid $highlight-color;
+				@include tablet-custom-760-up() {
+					border: 1px solid $highlight-color;
+				}
 				-webkit-transition: all 250ms linear;
 				-moz-transition: all 250ms linear;
 				transition: all 250ms linear;
@@ -231,7 +253,7 @@
 
 .navContent {
 	overflow: hidden;
-	@include tablet-custom-600-up() {
+	@include tablet-custom-760-up() {
 		overflow: visible;
 	}
 	height: auto;
@@ -239,17 +261,17 @@
 
 .navContent.active {
 	//height: 300px;
-	@include tablet-custom-600-below() {
+	@include tablet-custom-760-below() {
 		background: rgba(81, 87, 93, 0.7);
 	}
-	@include tablet-custom-600-up() {
+	@include tablet-custom-760-up() {
 		height: auto; 
 	}
 }
 
 .navContent.inactive {
 	height: 0;
-	@include tablet-custom-600-up() {
+	@include tablet-custom-760-up() {
 		height: auto; 
 	}
 	//-webkit-transition: all 250ms linear;
@@ -258,7 +280,7 @@
 }
 
 .headerContent, .navContent {
-	@include tablet-custom-600-up() {
+	@include tablet-custom-760-up() {
 		//max-width: 600px;
 		display: block;
 	}
@@ -290,7 +312,7 @@
 .headerContainer, .navHeading {
 	display: block;
 	height: 100%;
-	@include tablet-custom-600-up() {
+	@include tablet-custom-760-up() {
 		max-width: none;
 		display: table-cell;
 		vertical-align: middle;
@@ -301,7 +323,7 @@
 	width: 100%;
 	//background: $site-wide-color;
 	position: relative;
-	@include tablet-custom-600-up() {
+	@include tablet-custom-760-up() {
 		//background: #FFF;
 		width: 68%;
 	}
@@ -312,19 +334,19 @@
 		margin: 0;
 		//padding: 10px;
 		background: rgba(81, 87, 93, 0.7); 
-		@include tablet-custom-600-up() {
+		@include tablet-custom-760-up() {
 			display: none;
 		}
 
 		p {
+			font-size: 32px;
 			a {
 				color: #FFF;
 				text-decoration: none;
 				span {
-					@include tablet-custom-600-below {
+					/*@include tablet-custom-600-below {
 					color: lighten($site-wide-color, 40%);
-					font-size: 32px;
-					}
+					}*/
 				}
 			}
 			text-align: right;

@@ -10,7 +10,7 @@
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, scale=1">
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
@@ -39,6 +39,7 @@ var templateUrl = '<?= get_bloginfo("template_url"); ?>';
 					</div>
 					<div class="navHeading">
 						<div class="navContainer">
+
 							<div class="mobile-menu">
 								<p><a href="#"><span aria-hidden="true" data-icon="h"></span></a></p>
 							</div>
@@ -57,7 +58,8 @@ var templateUrl = '<?= get_bloginfo("template_url"); ?>';
 									<li><a href="#about" class="anchorLink">About Us</a></li>
 									<li><a href="http://dm.dmpartnercontent.com" class="login">Login</a></li>
 								</ul>
-							</nav>
+							</nav> 
+
 						</div> <!-- end of navContainer -->
 					</div> <!-- end of navHeading -->
 				</div>
