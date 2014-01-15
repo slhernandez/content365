@@ -25,102 +25,13 @@ get_header(); ?>
     <div class="our-content-container">
       <h1>Our Content</h1>
       <ul class="content-items">
-        <li class="all">
-          <a href="#" class="selected">All</a>
-          <!--<section class="all-section active">
-            <img src="<?php bloginfo('template_directory'); ?>/images/content/all_content.png" alt="collage of all content" title="all content">
-          </section>-->
-        </li>
-        <li class="animated-gif">
-          <a href="#"><span aria-hidden="true" data-icon="c"></span>Animated Gif</a>
-          <!--<section class="animated-gif-section inactive">
-            <div class="showcase-image">
-              <div class="gif-grid">
-                <div class="col-1-2">
-                  <img src="<?php bloginfo('template_directory'); ?>/assets/gifs/Cut-Avocado.gif">
-                </div>
-                <div class="col-1-2">
-                  <img src="<?php bloginfo('template_directory'); ?>/assets/gifs/Remove-Seed.gif">
-                </div>
-              </div>
-              <div class="gif-grid">
-                <div class="col-1-2">
-                  <img src="<?php bloginfo('template_directory'); ?>/assets/gifs/ChalkboardPumpkin.gif">
-                </div>
-                <div class="col-1-2">
-                  <img src="<?php bloginfo('template_directory'); ?>/assets/gifs/DrilledPumpkin.gif">
-                </div>
-              </div>
-            </div>  
-            <div class="showcase-info inactive">
-              <h2>Animated Gifs</h2>
-              <p>Set your brand in motion with Animated GIFs.</p>
-            </div>
-          </section> -->
-        </li>
-        <li class="infographics">
-          <a href="#"><span aria-hidden="true" data-icon="j"></span> Infographics</a>
-          <!-- <section class="infographics-section inactive">
-            <div class="showcase-image">
-              <img src="<?php bloginfo('template_directory'); ?>/images/content/infographics-image.jpg" alt="infographics example" title="infographics example">
-            </div>  
-            <div class="showcase-info">
-              <h2>Infographics</h2>
-              <p>Educate your audiences with data visualization and awesome graphics.</p>
-            </div>
-          </section> -->
-        </li>
-        <li class="photography">
-          <a href="#"><span aria-hidden="true" data-icon="b"></span>Photography</a>
-          <!-- <section class="photography-section inactive">
-            <div class="showcase-image">
-              <img src="<?php bloginfo('template_directory'); ?>/images/content/photo_collage.jpg" alt="photography example" title="photography example">
-            </div>  
-            <div class="showcase-info">
-              <h2>Photography</h2>
-              <p>Increase your page views 5x with slide shows.</p>
-            </div>
-          </section> -->
-        </li>
-        <li class="quiz">
-          <a href="#"><span aria-hidden="true" data-icon="f"></span>Quiz</a>
-          <!--<section class="quiz-section inactive">
-            <div class="showcase-image">
-              <img src="<?php bloginfo('template_directory'); ?>/images/content/quiz-image.png" alt="quiz example" title="quiz example">
-            </div>  
-            <div class="showcase-info">
-              <h2>Quiz</h2>
-              <p>Get your community talking with quizzes, debates and polls.</p>
-            </div>
-          </section>-->
-        </li>
-        <li class="text">
-          <a href="#"><span aria-hidden="true" data-icon="g"></span>Text</a>
-           <!--<section class="text-section inactive">
-            <div class="showcase-image">
-              <img src="<?php bloginfo('template_directory'); ?>/images/content/text-image.png" alt="text example" title="text example">
-            </div>  
-            <div class="showcase-info">
-              <h2>Text</h2>
-              <p>Build your content foundation leveraging our robust network of contributors.</p>
-            </div>
-          </section> -->
-        </li>
-        <li class="video">
-          <a href="#"><span aria-hidden="true" data-icon="d"></span>Video</a>
-          <!-- <section class="video-section inactive">
-            <div class="showcase-image">
-             <video id="movie" width="600" height="400" preload="none" muted loop> 
-                <source src="<?php bloginfo('template_directory'); ?>/assets/videos/BYB_3.mp4" type="video/mp4; codecs=avc1.42E01E,mp4a.40.2"/>
-                <source src="<?php bloginfo('template_directory'); ?>/assets/videos/BYB_3.ogv"  type="video/ogg; codecs=theora,vorbis">
-              </video>
-            </div>  
-            <div class="showcase-info">
-              <h2>Video</h2>
-              <p>Tell your story with customized videos.</p>
-            </div>
-          </section> -->
-        </li>
+        <li class="all"><a href="#" class="selected">All</a></li>
+        <li class="animated-gif"><a href="#"><span aria-hidden="true" data-icon="c"></span>Animated Gif</a></li>
+        <li class="infographics"><a href="#"><span aria-hidden="true" data-icon="j"></span> Infographics</a></li>
+        <li class="photography"><a href="#"><span aria-hidden="true" data-icon="b"></span>Photography</a></li>
+        <li class="quiz"><a href="#"><span aria-hidden="true" data-icon="f"></span>Quiz</a></li>
+        <li class="text"><a href="#"><span aria-hidden="true" data-icon="g"></span>Text</a></li>
+        <li class="video"><a href="#"><span aria-hidden="true" data-icon="d"></span>Video</a></li>
       </ul>
       <div class="content-showcase">
         <div class="showcase-all">
@@ -131,13 +42,12 @@ get_header(); ?>
 
           <section class="animated-gif-section inactive">
             <div class="showcase-image">
-              <!-- <img src="<?php bloginfo('template_directory'); ?>/images/content/clean_and_press_Jeremygif.gif" alt="animated example" title="animated example"> -->
               <div class="gif-grid">
                 <div class="col-1-2">
-                  <img src="<?php bloginfo('template_directory'); ?>/assets/gifs/Cut-Avocado.gif">
+                  <img src="<?php bloginfo('template_directory'); ?>/assets/gifs/PistolSquat_Jeremy.gif">
                 </div>
                 <div class="col-1-2">
-                  <img src="<?php bloginfo('template_directory'); ?>/assets/gifs/Remove-Seed.gif">
+                  <img src="<?php bloginfo('template_directory'); ?>/assets/gifs/Cut-Avocado.gif">
                 </div>
               </div>
               <div class="gif-grid">
@@ -145,7 +55,7 @@ get_header(); ?>
                   <img src="<?php bloginfo('template_directory'); ?>/assets/gifs/ChalkboardPumpkin.gif">
                 </div>
                 <div class="col-1-2">
-                  <img src="<?php bloginfo('template_directory'); ?>/assets/gifs/DrilledPumpkin.gif">
+                  <img src="<?php bloginfo('template_directory'); ?>/assets/gifs/nails.gif">
                 </div>
               </div>
             </div>  
