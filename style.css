@@ -1584,7 +1584,6 @@ video {
       .contributors-container .topics .topic a .t-overlay .t-label {
         opacity: 1.0;
         color: #FFF;
-        position: absolute;
         font-size: 1em;
         font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-weight: 500;
@@ -1592,11 +1591,13 @@ video {
         text-align: center;
         text-transform: uppercase;
         z-index: 1;
-        top: 40%;
-        left: 7%;
-        width: 90%;
-        word-wrap: break-word;
-        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); }
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+        margin: 0;
+        position: relative;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%); }
     @media only screen and (max-width: 30em) {
       .contributors-container .topics .topic img {
         width: 100%; } }
@@ -1831,12 +1832,24 @@ video {
   padding: 14px;
   box-sizing: border-box; }
 
-form fieldset {
+/* override super simple contact form */
+.sscf-input-wrapper label {
+  width: 100% !important; }
+
+.sscf-report {
+  font-size: 1.5em;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 100px 0;
+  border: 1px solid rgba(255, 255, 255, 0.1); }
+
+form {
   margin: 0 0 20px 0;
   font-size: 14px; }
-  form fieldset.form-actions {
+  form.form-actions {
     margin: 0; }
-  form fieldset label {
+  form label {
     color: #FFF;
     font-size: 1.25em;
     font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1844,32 +1857,31 @@ form fieldset {
     font-style: normal;
     display: block;
     margin: 0 0 5px 0; }
-  form fieldset input.form-text,
-  form fieldset textarea {
+  form input,
+  form textarea {
     display: block;
-    width: 90%;
-    padding: 10px;
-    font-size: 1.125em;
+    width: 90% !important;
+    padding: 10px !important;
+    font-size: 1.125em !important;
     border: 1px solid #ddd;
     background: #f3f3f3;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    -o-border-radius: 0;
-    border-radius: 0;
-    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
-    -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
-    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05); }
-  form fieldset input.form-text:focus {
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+    border-radius: 0 !important;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05) !important;
+    -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05) !important;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05) !important; }
+  form input:focus {
     border: 1px solid #ccc;
     background: #fff; }
-  form fieldset textarea {
-    height: 150px; }
-  form fieldset select {
+  form textarea {
+    height: 150px !important; }
+  form select {
     min-width: 25%;
     margin: 0; }
-  form fieldset input[type="submit"] {
+  form #submit {
     margin: 0;
-    padding: 5px 15px;
     font-size: 1.125em;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -1886,35 +1898,37 @@ form fieldset {
     display: inline-block;
     font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 500;
-    font-style: normal; }
-  form fieldset.send .send-btn {
+    font-style: normal;
+    width: 200px !important; }
+  form #sscf-submit-wrapper #submit {
     color: #FFF;
     background: #7ecd65;
     border: 1px solid #5ec13f;
-    font-size: 1.5em;
-    padding: 6px 45px; }
-  form fieldset.reset {
+    font-size: 1.5em !important;
+    padding: 6px 45px;
+    text-transform: uppercase; }
+  form.reset {
     margin-left: 0;
     margin-top: 20px; }
-    form fieldset.reset .reset-btn {
+    form.reset .reset-btn {
       color: #51575d;
       background: #FFF;
       border: 1px solid #e6e6e6;
       font-size: 1.5em;
       padding: 6px 45px; }
     @media only screen and (min-width: 30.001em) {
-      form fieldset.reset {
+      form.reset {
         margin-top: 0;
         margin-left: 1em; } }
-  form fieldset.reset, form fieldset.send {
+  form.reset, form.send {
     display: block; }
     @media only screen and (min-width: 30.001em) {
-      form fieldset.reset, form fieldset.send {
+      form.reset, form.send {
         display: inline-block; } }
-  form fieldset input[type="submit"]:hover,
-  form fieldset input[type="submit"]:focus {
+  form input[type="submit"]:hover,
+  form input[type="submit"]:focus {
     border: 1px solid #bbb; }
-  form fieldset input[type="submit"]:active {
+  form input[type="submit"]:active {
     border: 1px solid #ccc; }
 
 /* =Content365 Footer 

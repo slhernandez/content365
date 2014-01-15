@@ -25,13 +25,13 @@
           <img src="<?php bloginfo('template_directory'); ?>/images/dm_logo_footer.png">
         </div>
 
-        <div class="footer-menu">
+        <!-- <div class="footer-menu">
           <ul>
             <li><a href="#">Trademark Guidelines</a></li>
             <li><a href="#">Terms and Conditions</a></li>
             <li><a href="#">Privacy Policy</a></li>
           </ul>
-        </div>
+        </div> -->
 
       </div>
     </div>

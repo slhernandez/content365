@@ -454,8 +454,9 @@ get_header(); ?>
         </div>
       </div>
       <div class="mail-info">
-        <h1>Mail Us</h1>        
-        <form>
+        <h1>Mail Us</h1> 
+        <?php echo do_shortcode('[contact]'); ?>
+        <!--<form>
           <fieldset>
             <label for="name">Your Name</label>
             <input type="text" id="name" class="form-text" placeholder="Enter your name"/>
@@ -478,7 +479,7 @@ get_header(); ?>
           <fieldset class="form-actions reset">
             <input type="submit" class="reset-btn" value="RESET" />
           </fieldset>
-        </form>
+        </form> -->
       </div>
     </div>
   </section> <!-- end of contact -->
