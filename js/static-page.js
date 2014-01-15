@@ -119,12 +119,12 @@ jQuery(document).ready(function($) {
       "bios": [
          {
           "name": "Kathleen Sullivan",
-          "img": "no_image.png",
+          "img": "parenting_kathleen.png",
           "bio": "knows what your baby needs even before he does. She is a doula in Los Angeles, and an active member of the National Association of Postpartum Care Services and the Child Birth and Postpartum Association."
         },
         {
           "name": "Tara West",
-          "img": "no_image.png",
+          "img": "parenting_tara.png",
           "bio": "specializes in parenting topics. She's a regular contributor at SocialMoms.com and has been featured on Reading Rainbow."
         },
         {
@@ -145,12 +145,12 @@ jQuery(document).ready(function($) {
         },
         {
           "name": "Monica D. Higgins",
-          "img": "no_image.png",
+          "img": "home_monica.png",
           "bio": "is a remodeling expert who prevents and protects homeowners. Higgins's proven process and expert knowledge has been featured by HGTV, DIY Network, 'Entrepreneur Magazine,' Lowe's for Pros and BobVila.com."
         },
         {
           "name": "Erick Nathan",
-          "img": "no_image.png",
+          "img": "home_erick.png",
           "bio": "works for Master Floor Service, a family-run hardwood flooring business that started on the North Shore of Chicago. He opened a division in Los Angeles about 20 years ago, and has done luxury homes his entire career."
         }
       ]
@@ -161,17 +161,17 @@ jQuery(document).ready(function($) {
       "bios": [
         {
           "name": "Angela Price",
-          "img": "no_image.png",
+          "img": "garden_angela.png",
           "bio": "is the owner of Eden Condensed in Los Angeles, California. She does garden consultation and design, as well as maintenance and harvesting. She specializes in design and installation of small space gardens."
         },
         {
           "name": "Nicholas Staddon",
-          "img": "no_image.png",
+          "img": "garden_nicholas.png",
           "bio": "has been with Monrovia Nursery for 20 years, and is the spokesperson for new plants. He is a frequent speaker at flower and garden shows, botanical gardens and gardening clubs."
         },
         {
           "name": "Teca Thompson",
-          "img": "no_image.png",
+          "img": "garden_teca.png",
           "bio": "is an expert gardener and farm-to-table chef. She grows many of her own ingredients for the kitchen."
         }
       ]
@@ -192,7 +192,7 @@ jQuery(document).ready(function($) {
         },
         {
           "name": "Yvette Mullings",
-          "img": "no_image.png",
+          "img": "decor_yvette.png",
           "bio": "is the owner and interior designer of Edgewater Design. Since setting up shop in Miami, she has worked with Sandals Resorts International, and collaborated on several projects throughout the Caribbean."
         }
       ] 
@@ -213,7 +213,7 @@ jQuery(document).ready(function($) {
         },
         {
           "name": "Melanie Pace",
-          "img": "no_image.png",
+          "img": "style_melanie.png",
           "bio": "is a wardrobe stylist, fashion consultant, fashion correspondent and personal shopper. With degrees in fashion merchandising and business, she started her own styling and wardrobe consulting business in 2006."
         }
       ] 
@@ -276,7 +276,7 @@ jQuery(document).ready(function($) {
         },
         {
           "name": "Maggie Lourdes",
-          "img": "no_image.png",
+          "img": "legal_maggie.png",
           "bio": "is a full-time attorney in southeast Michigan. She also teaches law at Cleary University in Ann Arbor. Her writing has been featured in 'Realtor Magazine,' the N.Y. State Bar's 'Health Law Journal,' and more."
         }
       ] 
@@ -355,12 +355,12 @@ jQuery(document).ready(function($) {
         },
         {
           "name": "James Lincoln",
-          "img": "no_image.png", 
+          "img": "education_james.png", 
           "bio": "is a UCLA physicist, high school educator and appears in many physics and science videos. He has a Masters degree in physics and a Masters degree in education."
         },
         {
           "name": "Chelsea",
-          "img": "no_image.png",
+          "img": "education_chelsea.png",
           "bio": "is an entrepreneur, parent and advocate for early childhood development. Duggan is the Founder and Director of Milestar Babies, a graduate of Northwestern and a member of the Chicago Women Entrepreneurs Network."
         }
       ]
@@ -376,12 +376,12 @@ jQuery(document).ready(function($) {
         },
         {
           "name": "David Simonsen",
-          "img": "no_image.png",
+          "img": "relationships_david.png",
           "bio": "has been a practicing therapist for 12 years. He recently has appeared as a relationship expert on the Oprah Winfrey network, and also filmed a TV polot for the A&E network about stepfamilies. Simonsen has an M.S. in Marriage & Family Therapy."
         },
         {
           "name": "Dr. Jennifer Jones, Ph.D.",
-          "img": "no_image.png",
+          "img": "relationships_jennifer.png",
           "bio": "is a psychologist, speaker and writer specializing in love, sex and happiness. Dr. Jones received her education and training from UCLA Neuropsychiatric Institute, University of Oregon."
         }
       ]
@@ -392,17 +392,17 @@ jQuery(document).ready(function($) {
       "bios": [
         {
           "name": "Carolyn Paddock",
-          "img": "no_image.png",
+          "img": "travel_carolyn.png",
           "bio": "is a travel expert and the Founder and CEO of In-Flight Insider, the essential resource for traveling well. She has contributed her travel expertise to a range of national medial outlets, including The Washington Post, MSNBC.com, USA Today, CNBC.com, The Huffington Post and CNN."
         },
         {
           "name": "Leslie Willmott",
-          "img": "no_image.png",
+          "img": "travel_leslie.png",
           "bio": "has spent much of her career packing and unpacking a suitcase. She was the markting director for best-selling book, 'Smart Packing for Today\'s Traveler' and is the founder of Smart Women On The Go."
         },
         {
           "name": "Wendy K. Leigh",
-          "img": "no_image.png",
+          "img": "travel_wendy.png",
           "bio": "is a travel writer and photojournalist from Seattle. She is the Editor of 'Islands Amercia', a travel website for visiting islands within the United States. Leigh holds a Bachelor of Arts in English from the University of Washington."
         }
       ] 
