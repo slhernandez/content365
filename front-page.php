@@ -27,13 +27,13 @@ get_header(); ?>
       <ul class="content-items">
         <li class="all">
           <a href="#" class="selected">All</a>
-          <section class="all-section active">
+          <!--<section class="all-section active">
             <img src="<?php bloginfo('template_directory'); ?>/images/content/all_content.png" alt="collage of all content" title="all content">
-          </section>
+          </section>-->
         </li>
         <li class="animated-gif">
           <a href="#"><span aria-hidden="true" data-icon="c"></span>Animated Gif</a>
-          <section class="animated-gif-section inactive">
+          <!--<section class="animated-gif-section inactive">
             <div class="showcase-image">
               <div class="gif-grid">
                 <div class="col-1-2">
@@ -56,11 +56,11 @@ get_header(); ?>
               <h2>Animated Gifs</h2>
               <p>Set your brand in motion with Animated GIFs.</p>
             </div>
-          </section>
+          </section> -->
         </li>
         <li class="infographics">
           <a href="#"><span aria-hidden="true" data-icon="j"></span> Infographics</a>
-          <section class="infographics-section inactive">
+          <!-- <section class="infographics-section inactive">
             <div class="showcase-image">
               <img src="<?php bloginfo('template_directory'); ?>/images/content/infographics-image.jpg" alt="infographics example" title="infographics example">
             </div>  
@@ -68,11 +68,11 @@ get_header(); ?>
               <h2>Infographics</h2>
               <p>Educate your audiences with data visualization and awesome graphics.</p>
             </div>
-          </section> 
+          </section> -->
         </li>
         <li class="photography">
           <a href="#"><span aria-hidden="true" data-icon="b"></span>Photography</a>
-          <section class="photography-section inactive">
+          <!-- <section class="photography-section inactive">
             <div class="showcase-image">
               <img src="<?php bloginfo('template_directory'); ?>/images/content/photo_collage.jpg" alt="photography example" title="photography example">
             </div>  
@@ -80,11 +80,11 @@ get_header(); ?>
               <h2>Photography</h2>
               <p>Increase your page views 5x with slide shows.</p>
             </div>
-          </section>
+          </section> -->
         </li>
         <li class="quiz">
           <a href="#"><span aria-hidden="true" data-icon="f"></span>Quiz</a>
-          <section class="quiz-section inactive">
+          <!--<section class="quiz-section inactive">
             <div class="showcase-image">
               <img src="<?php bloginfo('template_directory'); ?>/images/content/quiz-image.png" alt="quiz example" title="quiz example">
             </div>  
@@ -92,11 +92,11 @@ get_header(); ?>
               <h2>Quiz</h2>
               <p>Get your community talking with quizzes, debates and polls.</p>
             </div>
-          </section>
+          </section>-->
         </li>
         <li class="text">
           <a href="#"><span aria-hidden="true" data-icon="g"></span>Text</a>
-           <section class="text-section inactive">
+           <!--<section class="text-section inactive">
             <div class="showcase-image">
               <img src="<?php bloginfo('template_directory'); ?>/images/content/text-image.png" alt="text example" title="text example">
             </div>  
@@ -104,14 +104,13 @@ get_header(); ?>
               <h2>Text</h2>
               <p>Build your content foundation leveraging our robust network of contributors.</p>
             </div>
-          </section>
+          </section> -->
         </li>
         <li class="video">
           <a href="#"><span aria-hidden="true" data-icon="d"></span>Video</a>
-          <section class="video-section inactive">
+          <!-- <section class="video-section inactive">
             <div class="showcase-image">
              <video id="movie" width="600" height="400" preload="none" muted loop> 
-                <!-- <source src="pr6.webm" type="video/webm; codecs=vp8,vorbis"> -->
                 <source src="<?php bloginfo('template_directory'); ?>/assets/videos/BYB_3.mp4" type="video/mp4; codecs=avc1.42E01E,mp4a.40.2"/>
                 <source src="<?php bloginfo('template_directory'); ?>/assets/videos/BYB_3.ogv"  type="video/ogg; codecs=theora,vorbis">
               </video>
@@ -120,7 +119,7 @@ get_header(); ?>
               <h2>Video</h2>
               <p>Tell your story with customized videos.</p>
             </div>
-          </section>
+          </section> -->
         </li>
       </ul>
       <div class="content-showcase">
@@ -456,30 +455,6 @@ get_header(); ?>
       <div class="mail-info">
         <h1>Mail Us</h1> 
         <?php echo do_shortcode('[contact]'); ?>
-        <!--<form>
-          <fieldset>
-            <label for="name">Your Name</label>
-            <input type="text" id="name" class="form-text" placeholder="Enter your name"/>
-          </fieldset>
-          <fieldset>
-            <label for="email">Email Address</label>
-            <input type="email" id="email" class="form-text" placeholder="Enter your email"/>
-          </fieldset>
-          <fieldset>
-            <label for="subject">Subject</label>
-            <input type="text" id="subject" class="form-text" placeholder="Subject"/>
-          </fieldset>
-          <fieldset>
-            <label for="message">Message</label>
-            <textarea id="message" placeholder="Message"></textarea>
-          </fieldset>
-          <fieldset class="form-actions send">
-            <input type="submit" class="send-btn"  value="SEND" />
-          </fieldset>
-          <fieldset class="form-actions reset">
-            <input type="submit" class="reset-btn" value="RESET" />
-          </fieldset>
-        </form> -->
       </div>
     </div>
   </section> <!-- end of contact -->

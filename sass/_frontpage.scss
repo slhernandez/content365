@@ -143,19 +143,34 @@
     list-style: none;
     margin: 0;
     text-align: center;
+    border-top: 1px solid #CCC;
+    @include tablet-portrait-and-up() {
+      border-top: none;
+    }
     li {
-      display: block;
-      text-align: center;
-      padding: 15px 0;
-      border-bottom: 1px solid #EEE;
+      //display: block;
+      //text-align: center;
+      //padding: 15px 0;
+      //border-bottom: 1px solid #EEE;
       @include tablet-portrait-and-up() {
-        display: inline-block;
         text-align: left;
         border-bottom: none;
         padding: 0;
         margin-left: 2em;
+        border-bottom: none;
+        border-right: none;
+        width: inherit;
+        float: none;
       }
-      margin-left: 0;
+      //margin-left: 0;
+      display: inline-block;
+      text-align: center;
+      width: 50%;
+      float: left;
+      border-bottom: 1px solid #CCC;
+      border-right: 1px solid #CCC;
+      padding: 10px 0;
+
 
       &:first-child {
         @include tablet-portrait-and-up() {
@@ -168,9 +183,9 @@
         text-transform: uppercase;
         color: $site-wide-color;
         @include font-book();
-        font-size: $font-size-18;
-        @include tablet-landscape-only() {
-          font-size: $font-size-14;
+        font-size: $font-size-14;
+        @include tablet-portrait-and-up() {
+          font-size: $font-size-18;
         }
         &:hover {
           color: $highlight-color;
@@ -180,7 +195,9 @@
         }
         &.selected {
           color: $highlight-color;
-          border-bottom: 2px solid $highlight-color;
+          @include tablet-portrait-and-up() {
+            border-bottom: 2px solid $highlight-color;
+          }
           padding-bottom: 5px;
         }
       }
@@ -190,6 +207,10 @@
         font-size: $font-size-24;
         position: relative;
         top: 7px;
+        display: none;
+        @include tablet-portrait-and-up() {
+          display: inline-block;
+        }
         &:hover {
           color: $highlight-color;
           -webkit-transition:all .5s ease-in-out;
@@ -316,10 +337,10 @@ video {
 }
 
 .showcase-all > section {
-  @include tablet-portrait-and-up() {
-    display: block;
-  }
-  display: none;
+  //@include tablet-portrait-and-up() {
+  display: block;
+  //}
+  //display: none;
 }
 
 /* =Content365 Solutions 

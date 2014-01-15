@@ -1097,20 +1097,29 @@ object {
   .our-content-container ul.content-items {
     list-style: none;
     margin: 0;
-    text-align: center; }
+    text-align: center;
+    border-top: 1px solid #CCC; }
+    @media only screen and (min-width: 48.001em) {
+      .our-content-container ul.content-items {
+        border-top: none; } }
     .our-content-container ul.content-items li {
-      display: block;
+      display: inline-block;
       text-align: center;
-      padding: 15px 0;
-      border-bottom: 1px solid #EEE;
-      margin-left: 0; }
+      width: 50%;
+      float: left;
+      border-bottom: 1px solid #CCC;
+      border-right: 1px solid #CCC;
+      padding: 10px 0; }
       @media only screen and (min-width: 48.001em) {
         .our-content-container ul.content-items li {
-          display: inline-block;
           text-align: left;
           border-bottom: none;
           padding: 0;
-          margin-left: 2em; } }
+          margin-left: 2em;
+          border-bottom: none;
+          border-right: none;
+          width: inherit;
+          float: none; } }
       @media only screen and (min-width: 48.001em) {
         .our-content-container ul.content-items li:first-child {
           margin-left: 0; } }
@@ -1121,10 +1130,10 @@ object {
         font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 1.125em; }
-        @media only screen and (min-width: 48.001em) and (max-width: 64em) {
+        font-size: 0.875em; }
+        @media only screen and (min-width: 48.001em) {
           .our-content-container ul.content-items li a {
-            font-size: 0.875em; } }
+            font-size: 1.125em; } }
         .our-content-container ul.content-items li a:hover {
           color: #7ecd65;
           -webkit-transition: all .5s ease-in-out;
@@ -1132,13 +1141,19 @@ object {
           transition: all .5s ease-in-out; }
         .our-content-container ul.content-items li a.selected {
           color: #7ecd65;
-          border-bottom: 2px solid #7ecd65;
           padding-bottom: 5px; }
+          @media only screen and (min-width: 48.001em) {
+            .our-content-container ul.content-items li a.selected {
+              border-bottom: 2px solid #7ecd65; } }
       .our-content-container ul.content-items li span {
         margin-right: .5em;
         font-size: 1.5em;
         position: relative;
-        top: 7px; }
+        top: 7px;
+        display: none; }
+        @media only screen and (min-width: 48.001em) {
+          .our-content-container ul.content-items li span {
+            display: inline-block; } }
         .our-content-container ul.content-items li span:hover {
           color: #7ecd65;
           -webkit-transition: all .5s ease-in-out;
@@ -1282,10 +1297,7 @@ video {
       display: none; } }
 
 .showcase-all > section {
-  display: none; }
-  @media only screen and (min-width: 48.001em) {
-    .showcase-all > section {
-      display: block; } }
+  display: block; }
 
 /* =Content365 Solutions 
 ----------------------------------------------- */
