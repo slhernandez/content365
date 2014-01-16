@@ -338,7 +338,7 @@ jQuery(document).ready(function($) {
       "bios": [
          {
           "name": "Ali Rittenhouse",
-          "img": "tech_rittenhouse.png",
+          "img": "tech_rittenhous.png",
           "bio": "is an online business coach, tech cheerleader and award-winning entrpreneur who was voted #36 in Startup Nation's 2012 Leading Moms in Business. Rittenhous is also a regular contributor on a Lifestyle Television Show."
         },
         {
@@ -445,9 +445,9 @@ jQuery(document).ready(function($) {
 
   });
 
+  // Display an opaque background for the nav menu when 
+  // scrolling down. Remove it when scrolling up.
   $('.marketing h1').waypoint( function(direction) {
-      console.log('hey, you hit marketing... do something');
-      console.log('direction is ...', direction);
       if (direction == 'down') {
         $('.headerAndNavContainer').css('background', 'rgba(81, 87, 93, 0.7)');
       } else if (direction === 'up') {
@@ -570,10 +570,10 @@ jQuery(document).ready(function($) {
   $('.content-items li a').on('click', function(e) {
     e.preventDefault();
     e.stopPropagation();
+    $('.content-showcase').find('video')[0].pause();
 
     $('.content-items li a').each(function() {
       $(this).removeClass('selected');
-      $('.content-showcase').find('video')[0].pause();
     });
     $(this).addClass('selected');
     var contentSection = $(this).parent().attr('class');
@@ -585,7 +585,6 @@ jQuery(document).ready(function($) {
     // Check if video link has been selected. We want to play the video right away.
     if ($(this).text() === 'Video') {
       $('.content-showcase').find('video')[0].play();
-      $('li.video').find('video')[0].play();
     }
   });
 
@@ -614,6 +613,13 @@ jQuery(document).ready(function($) {
     e.preventDefault();
     $(this).closest('.category-contributors').removeClass('active').addClass('inactive')
     $('.topics').removeClass('inactive').addClass('active');
+  });
+
+  $('.animated-gif a').on('click', function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    // Inject animated-gif template and load gifs.
+    $('.animated-gif-section').append(_.template($('#animated-gif-template').html()));
   });
 
 });

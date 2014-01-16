@@ -43,30 +43,7 @@ get_header(); ?>
             <img src="<?php bloginfo('template_directory'); ?>/images/content/all_content.png" alt="collage of all content" title="all content">
           </section>
 
-          <section class="animated-gif-section inactive">
-            <div class="showcase-image">
-              <div class="gif-grid">
-                <div class="col-1-2">
-                  <img src="<?php bloginfo('template_directory'); ?>/assets/gifs/PistolSquat_Jeremy.gif">
-                </div>
-                <div class="col-1-2">
-                  <img src="<?php bloginfo('template_directory'); ?>/assets/gifs/Cut-Avocado.gif">
-                </div>
-              </div>
-              <div class="gif-grid">
-                <div class="col-1-2">
-                  <img src="<?php bloginfo('template_directory'); ?>/assets/gifs/ChalkboardPumpkin.gif">
-                </div>
-                <div class="col-1-2">
-                  <img src="<?php bloginfo('template_directory'); ?>/assets/gifs/nails.gif">
-                </div>
-              </div>
-            </div>  
-            <div class="showcase-info inactive">
-              <h2>Animated Gifs</h2>
-              <p>Set your brand in motion with Animated GIFs.</p>
-            </div>
-          </section>
+          <section class="animated-gif-section inactive"></section> 
 
           <section class="infographics-section inactive">
             <div class="showcase-image">
@@ -110,7 +87,7 @@ get_header(); ?>
 
           <section class="video-section inactive">
             <div class="showcase-image">
-              <video id="movie" width="600" height="400" preload="none" muted loop> 
+              <video id="movie" width="600" height="400" preload="none" loop> 
                 <!-- <source src="pr6.webm" type="video/webm; codecs=vp8,vorbis"> -->
                 <source src="<?php bloginfo('template_directory'); ?>/assets/videos/BYB_3.mp4" type="video/mp4; codecs=avc1.42E01E,mp4a.40.2"/>
                 <source src="<?php bloginfo('template_directory'); ?>/assets/videos/BYB_3.ogv"  type="video/ogg; codecs=theora,vorbis">
@@ -399,6 +376,31 @@ get_header(); ?>
         </p>
       </div>
     <% }); %>
+  </div>
+</script>
+
+<script id="animated-gif-template" type="text/html">
+  <div class="showcase-image">
+    <div class="gif-grid">
+      <div class="col-1-2">
+        <img src="<?php bloginfo('template_directory'); ?>/assets/gifs/PistolSquat_Jeremy.gif">
+      </div>
+      <div class="col-1-2">
+        <img src="<?php bloginfo('template_directory'); ?>/assets/gifs/Cut-Avocado.gif">
+      </div>
+    </div>
+    <div class="gif-grid">
+      <div class="col-1-2">
+        <img src="<?php bloginfo('template_directory'); ?>/assets/gifs/ChalkboardPumpkin.gif">
+      </div>
+      <div class="col-1-2">
+        <img src="<?php bloginfo('template_directory'); ?>/assets/gifs/nails.gif">
+      </div>
+    </div>
+  </div>  
+  <div class="showcase-info inactive">
+    <h2>Animated Gifs</h2>
+    <p>Set your brand in motion with Animated GIFs.</p>
   </div>
 </script>
 
