@@ -81,6 +81,8 @@ function content365_scripts() {
 
 	wp_enqueue_style( 'gothamfont', 'http://cloud.typography.com/6676432/688122/css/fonts.css' );
 
+	/*wp_enqueue_script( 'googlemaps', 'http://maps.googleapis.com/maps/api/js?sensor=false', array(), false );*/
+
 	wp_enqueue_script( 'content365-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', false );
 
 	wp_enqueue_script( 'content365-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', false );

@@ -311,7 +311,7 @@ get_header(); ?>
         <div class="col1of3">
           <img src="<?php bloginfo('template_directory'); ?>/images/tips/video.png" alt="video" title="video">
           <div class="t-num video-num">2x</div>
-          <p class="video-copy">more times is spent by viewers on pages with videos on them</p>
+          <p class="video-copy">the amount of more time spent by viewers on pages that have videos</p>
         </div>
       </div>
     </div> <!-- end of tips-container -->
@@ -353,13 +353,15 @@ get_header(); ?>
       <div class="contact-info">
         <h1>Contact</h1>        
         <ul>
-          <li><a href="#"><span aria-hidden="true" data-icon="k"></span>1655 26th Street Santa Monica, CA 90404</a></li> 
-          <li><a href="#"><span aria-hidden="true" data-icon="a"></span>310 394 6400</a></li> 
-          <li><a href="#"><span aria-hidden="true" data-icon="e"></span>contentsolutions@demandmedia.com</a></li> 
-          <li><a href="#"><span aria-hidden="true" data-icon="i"></span>demandmedia.com</a></li> 
+          <li><a href="http://goo.gl/rIf5Ud"><span aria-hidden="true" data-icon="k"></span>1655 26th Street Santa Monica, CA 90404</a></li> 
+          <li><a href="tel:1-310-394-6400"><span aria-hidden="true" data-icon="a"></span>310 394 6400</a></li> 
+          <li><a href="mailto:contentsolutions@demandmedia.com"><span aria-hidden="true" data-icon="e"></span>contentsolutions@demandmedia.com</a></li> 
+          <li><a href="http://demandmedia.com"><span aria-hidden="true" data-icon="i"></span>demandmedia.com</a></li> 
         </ul>
+        <!--<div id="map-canvas" height="300"></div>-->
         <div class="map">
-          <img src="<?php bloginfo('template_directory'); ?>/images/map.png" alt="address" title="address">
+          <!-- <img src="<?php bloginfo('template_directory'); ?>/images/map.png" alt="address" title="address"> -->
+          <img src="https://maps.googleapis.com/maps/api/staticmap?center=34.0296008,-118.46980680000001&zoom=15&size=380x250&markers=markers%3Dcolor%3Ared%7Clabel%3AD%7C%2034.0296008%2C-118.46980680000001&sensor=false&key=AIzaSyCfTw8JfNMW_6S-7gfOstaUtDEcX1QmSP4" alt="Demand Media">
         </div>
       </div>
       <div class="mail-info">

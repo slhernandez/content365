@@ -6,12 +6,13 @@ window.solutionTgtMsg = ["To what content your audience wants",
                       "Your content marketing ROI"]
 
 window.solutionSecondaryMsg = ["Demand's proprietary algorithm analyzes millions of user-intent data to suggest titles optimized to perform on desktop and mobile.",
-                            "Demand Media Studios employs network of contributors to create professional and engaging content in a myriad of innovative formats that captures your audience.",
+                            "Demand Media Studios employs a network of contributors to create professional and engaging content in a myriad of innovative formats that captures your audience.",
                             "Demand Media's network of sites and digitally native talent allow our partners to reach new audiences.",
                             "Demand Media Analytics team monitors and tests core metrics to optimize content performance."]
 
 jQuery(document).ready(function($) {
 
+  // Simple way to control one-page scrolling.
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -25,6 +26,14 @@ jQuery(document).ready(function($) {
     }
   });
 
+  // Initialize Google Maps display.
+
+  //var mapOptions = {
+  //  zoom: 4,
+  //  center: new google.maps.LatLng(34.0296008, -118.46980680000001)
+  //};
+
+  //var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
   var _this = this;
   // Contributor information
