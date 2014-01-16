@@ -16,7 +16,10 @@ get_header(); ?>
       <h1>Comprehensive <span class="highlight">Content</span></h1>
       <p>Providing partners with offerings to attract and engage intent-driven audiences.</p>
       <p class="sub-heading">Build your content foundation by leveraging our robust network of contributors.</p>
-      <div class="contact-btn-container"><a class="contact-btn anchorLink" href="#contact">Get Started Today</a></div>
+      <div class="action-items">
+        <div class="contact-btn-container"><a class="contact-btn anchorLink" href="#contact">Get Started Today</a></div>
+        <div class="login-btn-container"><a target="_blank" class="login-btn" href="http://dm.dmpartnercontent.com">Already a member</a></div>
+      </div>
     </div>
     <!--<span class="hero-overlay"></span>-->
   </section>
@@ -319,8 +322,12 @@ get_header(); ?>
 
   <section id="about" class="about">
     <div class="about-container">
+      <!--<div class="a-contact"><a href="#contact" class="anchorLink">Contact Us</a></div>-->
       <h1>About Us</h1>
-      <p class="about-intro">Demand Media Content Solutions offers brands and publishers a new way to reach high-value, intent-driven audiences. We work with top talent and industry experts to create high quality, informative and engaging content in a myriad of formats, which are served directly to your site and can be optimized from our technology platform.</p>
+      <div class="about-meta-container">
+        <p class="about-intro">Demand Media Content Solutions offers brands and publishers a new way to reach high-value, intent-driven audiences. We work with top talent and industry experts to create high quality, informative and engaging content in a myriad of formats, which are served directly to your site and can be optimized from our technology platform.</p>
+        <div class="a-contact"><a href="#contact" class="anchorLink">Contact Us</a></div>
+      </div>
       <div class="about-grid">
         <div class="col-1-2">
           <div class="about-icon"><span aria-hidden="true" data-icon="p"></span></div>

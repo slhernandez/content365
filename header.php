@@ -43,12 +43,6 @@ var templateUrl = '<?= get_bloginfo("template_url"); ?>';
 							<div class="mobile-menu">
 								<p><a href="#"><span aria-hidden="true" data-icon="h"></span></a></p>
 							</div>
-							<!-- <div class="menu-icon">
-								<a href="#" class="icon-alone">
-									<span data-air-icon="&#xEE06;"></span>
-									<span class="screen-reader-text">Menu</span>
-								</a>	
-							</div> -->
 							<nav class="navContent active">
 								<ul>
 									<li><a href="#our-content" class="anchorLink">Content</a></li>
@@ -56,7 +50,8 @@ var templateUrl = '<?= get_bloginfo("template_url"); ?>';
 									<li><a href="#contributors" class="anchorLink">Network</a></li>
 									<li><a href="#insights" class="anchorLink">Insights</a></li>
 									<li><a href="#about" class="anchorLink">About Us</a></li>
-									<li><a href="http://dm.dmpartnercontent.com" class="login">Login</a></li>
+									<li><a href="#contact" class="anchorLink n-contact">Contact</a></li>
+									<!--<li><a href="http://dm.dmpartnercontent.com" class="login">Login</a></li>-->
 								</ul>
 							</nav> 
 

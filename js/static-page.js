@@ -445,9 +445,15 @@ jQuery(document).ready(function($) {
 
   });
 
-  //$('#contributors').waypoint( function(direction) {
-  //    console.log('hey, you hit contributors... do something');
-  //});
+  $('.marketing h1').waypoint( function(direction) {
+      console.log('hey, you hit marketing... do something');
+      console.log('direction is ...', direction);
+      if (direction == 'down') {
+        $('.headerAndNavContainer').css('background', 'rgba(81, 87, 93, 0.7)');
+      } else if (direction === 'up') {
+        $('.headerAndNavContainer').css('background', 'rgba(81, 87, 93, 0.0)');
+      }
+  });
 
   // Mobile menu
   // ----------------------------------
