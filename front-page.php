@@ -13,12 +13,13 @@ get_header(); ?>
   <section class="hero-container">
     <!--<h1 class="hero-heading">Providing Partners Comprehensive <span class="highlight">Content</span> Offerings To Attract And Engage Intent Driven Audiences</h1>-->
     <div class="marketing">
-      <h1>Comprehensive <span class="highlight">Content</span></h1>
-      <p>Providing partners with offerings to attract and engage intent-driven audiences.</p>
-      <p class="sub-heading">Build your content foundation by leveraging our robust network of contributors.</p>
+      <h1>Let <span class="highlight">content</span> tell your story.</h1>
+      <p>Compelling storytelling can help build stronger relationships. Our diverse Content Solutions offerings help partners create unique story lines for varying needs.</p>
+      <!-- <p>Providing partners with offerings to attract and engage intent-driven audiences.</p> -->
+      <p class="sub-heading">Start leveraging our robust team of expert contributors to attract and engage your audience with content for real life.</p> 
       <div class="action-items">
-        <div class="contact-btn-container"><a class="contact-btn anchorLink" href="#contact">Get Started Today</a></div>
-        <div class="login-btn-container"><a target="_blank" class="login-btn" href="http://dm.dmpartnercontent.com">Already a member</a></div>
+        <div class="contact-btn-container"><a class="contact-btn anchorLink" href="#contact">Tell Me More</a></div>
+        <!--<div class="login-btn-container"><a target="_blank" class="login-btn" href="http://dm.dmpartnercontent.com">Already a member</a></div>-->
       </div>
     </div>
     <!--<span class="hero-overlay"></span>-->
@@ -29,12 +30,12 @@ get_header(); ?>
       <h1>Our Content</h1>
       <ul class="content-items">
         <li class="all"><a href="#" class="selected">All</a></li>
+        <li class="text"><a href="#"><span aria-hidden="true" data-icon="g"></span>Text</a></li>
+        <li class="video"><a href="#"><span aria-hidden="true" data-icon="d"></span>Video</a></li>
         <li class="animated-gif"><a href="#"><span aria-hidden="true" data-icon="c"></span>Animated Gif</a></li>
         <li class="infographics"><a href="#"><span aria-hidden="true" data-icon="j"></span> Infographics</a></li>
         <li class="photography"><a href="#"><span aria-hidden="true" data-icon="b"></span>Photography</a></li>
         <li class="quiz"><a href="#"><span aria-hidden="true" data-icon="f"></span>Quiz</a></li>
-        <li class="text"><a href="#"><span aria-hidden="true" data-icon="g"></span>Text</a></li>
-        <li class="video"><a href="#"><span aria-hidden="true" data-icon="d"></span>Video</a></li>
       </ul>
       <div class="content-showcase">
         <div class="showcase-all">
@@ -43,11 +44,35 @@ get_header(); ?>
             <img src="<?php bloginfo('template_directory'); ?>/images/content/all_content.png" alt="collage of all content" title="all content">
           </section>
 
+          <section class="text-section inactive">
+            <div class="showcase-image">
+              <img src="<?php bloginfo('template_directory'); ?>/images/content/text-image2.png" alt="text example" title="text example">
+            </div>  
+            <div class="showcase-info">
+              <h2>Text</h2>
+              <p>Build your content offerings with diverse formats, such as informational articles, blogs, recipes and more.</p>
+            </div>
+          </section>
+
+          <section class="video-section inactive">
+            <div class="showcase-image">
+              <video id="movie" width="600" height="400" preload="none" loop> 
+                <!-- <source src="pr6.webm" type="video/webm; codecs=vp8,vorbis"> -->
+                <source src="<?php bloginfo('template_directory'); ?>/assets/videos/BYB_3.mp4" type="video/mp4; codecs=avc1.42E01E,mp4a.40.2"/>
+                <source src="<?php bloginfo('template_directory'); ?>/assets/videos/BYB_3.ogv"  type="video/ogg; codecs=theora,vorbis">
+              </video>
+            </div>  
+            <div class="showcase-info">
+              <h2>Video</h2>
+              <p>Tell your story with customized videos.</p>
+            </div>
+          </section>
+
           <section class="animated-gif-section inactive"></section> 
 
           <section class="infographics-section inactive">
             <div class="showcase-image">
-              <img src="<?php bloginfo('template_directory'); ?>/images/content/infographics-image.jpg" alt="infographics example" title="infographics example">
+              <img src="<?php bloginfo('template_directory'); ?>/images/content/infographics-image2.jpg" alt="infographics example" title="infographics example">
             </div>  
             <div class="showcase-info">
               <h2>Infographics</h2>
@@ -72,30 +97,6 @@ get_header(); ?>
             <div class="showcase-info">
               <h2>Quiz</h2>
               <p>Get your community talking with quizzes, debates and polls.</p>
-            </div>
-          </section>
-
-          <section class="text-section inactive">
-            <div class="showcase-image">
-              <img src="<?php bloginfo('template_directory'); ?>/images/content/text-image.png" alt="text example" title="text example">
-            </div>  
-            <div class="showcase-info">
-              <h2>Text</h2>
-              <p>Build your content foundation leveraging our robust network of contributors.</p>
-            </div>
-          </section>
-
-          <section class="video-section inactive">
-            <div class="showcase-image">
-              <video id="movie" width="600" height="400" preload="none" loop> 
-                <!-- <source src="pr6.webm" type="video/webm; codecs=vp8,vorbis"> -->
-                <source src="<?php bloginfo('template_directory'); ?>/assets/videos/BYB_3.mp4" type="video/mp4; codecs=avc1.42E01E,mp4a.40.2"/>
-                <source src="<?php bloginfo('template_directory'); ?>/assets/videos/BYB_3.ogv"  type="video/ogg; codecs=theora,vorbis">
-              </video>
-            </div>  
-            <div class="showcase-info">
-              <h2>Video</h2>
-              <p>Tell your story with customized videos.</p>
             </div>
           </section>
 
@@ -135,7 +136,7 @@ get_header(); ?>
 
   <section id="contributors" class="contributors">
     <div class="contributors-container">
-      <h1>Our Network</h1>
+      <h1>Creative Community</h1>
       <div class="contributor-showcase">
 
         <div class="category-contributors inactive"></div>
@@ -302,7 +303,7 @@ get_header(); ?>
       <!--<div class="a-contact"><a href="#contact" class="anchorLink">Contact Us</a></div>-->
       <h1>About Us</h1>
       <div class="about-meta-container">
-        <p class="about-intro">Demand Media Content Solutions offers brands and publishers a new way to reach high-value, intent-driven audiences. We work with top talent and industry experts to create high quality, informative and engaging content in a myriad of formats, which are served directly to your site and can be optimized from our technology platform.</p>
+        <p class="about-intro">We create content for real life, because we deliver the right content, in the right format, right when people need it most. These formats range from step-by-step articles and knowledge-based videos to original photography, custom infographics, social tips, blogs and more.</p>
         <div class="a-contact"><a href="#contact" class="anchorLink">Contact Us</a></div>
       </div>
       <div class="about-grid">
@@ -338,13 +339,12 @@ get_header(); ?>
         <h1>Contact</h1>        
         <ul>
           <li><a href="http://goo.gl/rIf5Ud"><span aria-hidden="true" data-icon="k"></span>1655 26th Street Santa Monica, CA 90404</a></li> 
-          <li><a href="tel:1-310-394-6400"><span aria-hidden="true" data-icon="a"></span>310 394 6400</a></li> 
+          <!-- <li><a href="tel:1-310-394-6400"><span aria-hidden="true" data-icon="a"></span>310 394 6400</a></li> -->
           <li><a href="mailto:contentsolutions@demandmedia.com"><span aria-hidden="true" data-icon="e"></span>contentsolutions@demandmedia.com</a></li> 
           <li><a href="http://demandmedia.com"><span aria-hidden="true" data-icon="i"></span>demandmedia.com</a></li> 
         </ul>
         <!--<div id="map-canvas" height="300"></div>-->
         <div class="map">
-          <!-- <img src="<?php bloginfo('template_directory'); ?>/images/map.png" alt="address" title="address"> -->
           <img src="https://maps.googleapis.com/maps/api/staticmap?center=34.0296008,-118.46980680000001&zoom=15&size=380x250&markers=markers%3Dcolor%3Ared%7Clabel%3AD%7C%2034.0296008%2C-118.46980680000001&sensor=false&key=AIzaSyCfTw8JfNMW_6S-7gfOstaUtDEcX1QmSP4" alt="Demand Media">
         </div>
       </div>
@@ -361,7 +361,7 @@ get_header(); ?>
   <a href="#" class="close-contributor-panel"><span aria-hidden="true" data-icon="m"></span></a> 
   <h1><%- info.category %></h1>
   <div class="contributor-meta">
-    <h3>Community Offerings</h3>
+    <h3>Expert Contributors</h3>
     <% _.each(info.meta, function(item) { %>
       <p><%= item %></p>
     <% }); %>

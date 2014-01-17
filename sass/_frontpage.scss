@@ -161,11 +161,21 @@
   color: #FFF;
   padding: 15px 20px;
   font-size: $font-size-20;
+
   @include tablet-custom-600-below() {
     font-size: $font-size-16;  
   }
+
   @include font-light();
+
   text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+  &:hover,
+  &:active {
+    background: #58b43a;
+    -webkit-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    transition:all .5s ease-in-out;
+  }
 }
 
 @-webkit-keyframes pulse {
@@ -347,6 +357,7 @@ video {
   float: none;
   width: 100%;
   text-align: center;
+
   @include tablet-portrait-and-up() {
     float: left;
     width: 60%;
@@ -689,7 +700,8 @@ video {
       @include font-light();
       margin: 0 auto;
       text-transform: none;
-      width: 75%;
+      text-align: left;
+      width: 90%;
       font-size: $font-size-14;
       .bio-name {
         color: $site-wide-color;
@@ -969,7 +981,7 @@ video {
   .a-contact {
     float: left;
     text-align: center;
-    margin-top: 35px;
+    margin-top: 25px;
     width: 25%; 
     @include tablet-portrait-and-below() {
       float: none;

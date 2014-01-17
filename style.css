@@ -623,7 +623,8 @@ a:visited {
   height: 100%;
   max-width: 600px;
   display: block;
-  padding: 0; }
+  padding: 0;
+  z-index: 11; }
   @media only screen and (min-width: 47.5em) {
     .headerContainer {
       position: relative;
@@ -756,9 +757,14 @@ a:visited {
     .headerContent h1.logo img.white-logo {
       display: none; }
 
-.headerContainer, .navHeading {
-  display: block;
+.headerContainer {
+  height: 0; }
+
+.navHeading {
   height: 100%; }
+
+.headerContainer, .navHeading {
+  display: block; }
   @media only screen and (min-width: 47.5em) {
     .headerContainer, .navHeading {
       max-width: none;
@@ -1120,6 +1126,11 @@ object {
   @media only screen and (max-width: 37.5em) {
     .contact-btn {
       font-size: 1em; } }
+  .contact-btn:hover, .contact-btn:active {
+    background: #58b43a;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out; }
 
 @-webkit-keyframes pulse {
   0% {
@@ -1597,7 +1608,8 @@ video {
       font-style: normal;
       margin: 0 auto;
       text-transform: none;
-      width: 75%;
+      text-align: left;
+      width: 90%;
       font-size: 0.875em; }
       .contributors-container .contributor-bios .bio .bio-name {
         color: #51575d;
@@ -1862,7 +1874,7 @@ video {
   .about-meta-container .a-contact {
     float: left;
     text-align: center;
-    margin-top: 35px;
+    margin-top: 25px;
     width: 25%; }
     @media only screen and (max-width: 48.001em) {
       .about-meta-container .a-contact {

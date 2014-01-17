@@ -428,11 +428,10 @@ jQuery(document).ready(function($) {
 
       if (direction == 'down') {
         $('.headerAndNavContainer.sticky').css({
-          background: 'rgba(255,255,255,0.7)', 
           background: 'rgba(81, 87, 93, 0.9)', 
           'box-shadow': '0 1px 1px rgba(0,0,0,0.2)'
         });
-        $('.headerContent h1.logo img').css('width', '100%');
+        //$('.headerContent h1.logo img').css('width', '100%');
         //$('.headerAndNavContainer').css('height', '75px');
         //$('.headerAndNavContainer.sticky').css('background', 'rgba(81, 87, 93, 0.7)');
       } else if (direction == 'up') {
@@ -440,7 +439,7 @@ jQuery(document).ready(function($) {
           background: 'rgba(255,255,255,0.0)',
           'box-shadow': 'none'
         });
-        $('.headerContent h1.logo img').css('width', '100%');
+        //$('.headerContent h1.logo img').css('width', '100%');
       }
 
   });
@@ -619,6 +618,7 @@ jQuery(document).ready(function($) {
     e.preventDefault();
     e.stopPropagation();
     // Inject animated-gif template and load gifs.
+    $('.animated-gif-section').empty();
     $('.animated-gif-section').append(_.template($('#animated-gif-template').html()));
   });
 
