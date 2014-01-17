@@ -148,7 +148,7 @@ jQuery(document).ready(function($) {
       "meta": ["100+ Home Talent", "60 Home writers", "All are certified carpenters, contractors, painters, appliance experts or cleaning specialists."],
       "bios": [
         {
-          "name": "Nick Larocci",
+          "name": "Nick Iarocci",
           "img": "home_nick.png",
           "bio": "has over 25 years of experience in all mediums of construction. Unlike most construction professionals, larocci started in a shop with a very detailed concentration and graduated to less-demanding forms of the trade."
         },
@@ -337,7 +337,7 @@ jQuery(document).ready(function($) {
       "meta": ["200+ Tech Talent", "120+ Tech Writers", "All are computer technicians, IT technicians, web developers, Apple specialists, electronic gurus, social media experts, etc..."],
       "bios": [
          {
-          "name": "Ali Rittenhouse",
+          "name": "Ali Rittenhous",
           "img": "tech_rittenhous.png",
           "bio": "is an online business coach, tech cheerleader and award-winning entrpreneur who was voted #36 in Startup Nation's 2012 Leading Moms in Business. Rittenhous is also a regular contributor on a Lifestyle Television Show."
         },
@@ -358,7 +358,7 @@ jQuery(document).ready(function($) {
       "meta": ["200+ education experts", "90 education writers", "All are teachers, professors, tutors, or industry-specific professionals (scientists, mathematicians, etc...)"],
       "bios": [
         {
-          "name": "Dupe Aleru",
+          "name": "Dupe´ Aleru",
           "img": "family_dupe.png",
           "bio": "self-published author, teacher and former education reporter who founded Tutors for Tots, Tweens & Teens, LLC."
         },
@@ -368,7 +368,7 @@ jQuery(document).ready(function($) {
           "bio": "is a UCLA physicist, high school educator and appears in many physics and science videos. He has a Masters degree in physics and a Masters degree in education."
         },
         {
-          "name": "Chelsea",
+          "name": "Chelsea Duggan",
           "img": "education_chelsea.png",
           "bio": "is an entrepreneur, parent and advocate for early childhood development. Duggan is the Founder and Director of Milestar Babies, a graduate of Northwestern and a member of the Chicago Women Entrepreneurs Network."
         }
