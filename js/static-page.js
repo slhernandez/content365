@@ -40,7 +40,7 @@ jQuery(document).ready(function($) {
   var contrib_info = {
     "Pets":{
       "category": "Pets",
-      "meta": ["50+ animal/pet experts", "100+ pet writers", "All are qualified vets, vet techs, breed/animal nutrition specialist, or trainers"],
+      "meta": ["50+ animal/pet experts", "100+ pet writers", "All are qualified vets, vet techs, breed/animal nutrition specialist, or trainers."],
       "bios": [
          {
           "name": "Dr. Jena Questen",
@@ -50,7 +50,7 @@ jQuery(document).ready(function($) {
         {
           "name": "Jenn Fadal",
           "img": "pets_jenn.png",
-          "bio": "cut her leash to corporate life in 2005 and opened a holistic pet market in Tampa called Wag. Since then, Fadal has worked with Better TV as their pet expert, and is the Pet Wellness Expert for Datime TV."
+          "bio": "cut her leash to corporate life in 2005 and opened a holistic pet market in Tampa called Wag. Since then, Fadal has worked with Better TV as their pet expert, and is the Pet Wellness Expert for Daytime TV."
         },
         {
           "name": "Ben Team",
@@ -76,7 +76,7 @@ jQuery(document).ready(function($) {
         {
           "name": "Monica Dillon",
           "img": "realestate_monica.png",
-          "bio": "has spent over a decade in real estate sales, investing and appraising. She specializes in energy efficiency building practices and renewable energy."
+          "bio": "has spent over a decade in real estate sales, investing and appraising. She specializes in energy-efficient building practices and renewable energy."
         }
       ] 
     },
@@ -87,7 +87,7 @@ jQuery(document).ready(function($) {
          {
           "name": "Karen Lee",
           "img": "finance_karen.png",
-          "bio": "has been a financial planner for over 24 years. She recently published her first book, 'It's just Money, So Why Does It Cause So Many Problems?', and she is a regular financial contributor on CNN."
+          "bio": "has been a financial planner for over 24 years. She is the author of, 'It's just Money, So Why Does It Cause So Many Problems?', and she is a regular financial contributor on CNN."
         },
         {
           "name": "Hunkar Ozyasar",
@@ -108,12 +108,12 @@ jQuery(document).ready(function($) {
          {
           "name": "Tracy Metro",
           "img": "crafts_tracy.png",
-          "bio": "has appeared on Oprah Winfery Network's Home Made Simple, TLC's Designing Spaces, HGTV's Posh Pets and the Today Show."
+          "bio": "has appeared on Oprah Winfrey Network's Home Made Simple, TLC's Designing Spaces, HGTV's Posh Pets and the Today Show."
         },
         {
           "name": "Linda Facci",
           "img": "crafts_linda.png",
-          "bio": "has been featured on 2 television shows for HGTV, showcased in several magazines for her jewelry, home and craft projects, and was just recently featured in 'Design Sponge at Home book.'"
+          "bio": "has been featured on two television shows for HGTV, showcased in several magazines for her jewelry, home and craft projects, and was featured in 'Design Sponge at Home book.'"
         },
         {
           "name": "Deborah Stumm",
@@ -124,7 +124,7 @@ jQuery(document).ready(function($) {
     },
     "Parenting": {
       "category": "Parenting",
-      "meta": ["75+ parenting Talent", "100 parenting writers", "Experts are therapists, lifestyle bloggers, doulas, psychologists and nurses"],
+      "meta": ["75+ parenting experts", "100 parenting writers", "Experts are therapists, lifestyle bloggers, doulas, psychologists and nurses."],
       "bios": [
          {
           "name": "Kathleen Sullivan",
@@ -145,7 +145,7 @@ jQuery(document).ready(function($) {
     },
     "Home": {
       "category": "Home",
-      "meta": ["100+ Home Talent", "60 Home writers", "All are certified carpenters, contractors, painters, appliance experts or cleaning specialists."],
+      "meta": ["100+ home DIY experts", "60 Home writers", "All are certified carpenters, contractors, painters, appliance experts or cleaning specialists."],
       "bios": [
         {
           "name": "Nick Iarocci",
@@ -166,7 +166,7 @@ jQuery(document).ready(function($) {
     },
     "Garden": {
       "category": "Garden",
-      "meta": ["130 Garden Talent", "100+ garden writers", "All are certified landscapers, gardeners, horticulturalists, etc..."],
+      "meta": ["130 Garden experts", "100+ garden writers", "All are certified landscapers, gardeners, horticulturalists, etc..."],
       "bios": [
         {
           "name": "Angela Price",
@@ -186,18 +186,18 @@ jQuery(document).ready(function($) {
       ]
     },
     "HomeDecor": {
-      "category": "Home Decor",
-      "meta": ["350+ Home & Garden Talent", "200+ writers", "All are certified carpenters, contractors, painters, interior designers, landscapers, gardeners, etc..."],
+      "category": "Home Décor",
+      "meta": ["350+ Interior Design experts", "200+ home décor writers", "All are interior designers, professional organizers, etc..."],
       "bios": [
          {
           "name": "Kelli Ellis",
           "img": "home_kelli.png",
-          "bio": "award-winning, celebrity interior designer with shows on HGTV, TLC and Bravo, Ellis has appeared on NBC, CBS and ABC. Ellis authored the Certified Design Psychology Coaching program through the nationally-accredited Spencer."
+          "bio": "is an award-winning, celebrity interior designer with shows on HGTV, TLC and Bravo. Ellis has appeared on NBC, CBS and ABC. Ellis authored the Certified Design Psychology Coaching program through the nationally-accredited Spencer Institute."
         },
         {
           "name": "Leslie Ezelle",
           "img": "home_leslie.png",
-          "bio": "is an acclaimed interior designer who was HGTV's first ever Design Star All-Stars winner. She is also a cancer survivor, and owner of Leslie Christiner Designs."
+          "bio": "is an acclaimed interior designer who was HGTV's first ever Design Star All-Stars winner. She is also a cancer survivor, and owner of Leslie Christine Designs."
         },
         {
           "name": "Yvette Mullings",
@@ -208,7 +208,7 @@ jQuery(document).ready(function($) {
     },
     "Style": {
       "category": "Style",
-      "meta": ["500+ Beauty Talent", "75+ Style writers", "All are makeup artists, hair stylists, colorists, dermatologists, or manicurists."],
+      "meta": ["500+ style experts", "75+ Style writers", "All are makeup artists, hair stylists, colorists, dermatologists, or manicurists."],
       "bios": [
          {
           "name": "Danny Agnew",
@@ -218,7 +218,7 @@ jQuery(document).ready(function($) {
         {
           "name": "Christina Farrell",
           "img": "hair_christina.png",
-          "bio": "is founder of The Makeup Blogger. She has been on-air beauty expert for E! and TLC's, 'What Not To Wear.' Her artistry has been seen at movie premieres, as well as the Emmy and Oscar award ceremonies institute."
+          "bio": "is the founder of The Makeup Blogger. She has been an on-air beauty expert for E! and TLC's, 'What Not To Wear.' Her artistry has been seen at movie premieres, as well as the Emmy and Oscar award ceremonies."
         },
         {
           "name": "Melanie Pace",
@@ -250,7 +250,7 @@ jQuery(document).ready(function($) {
     },
     "Nutrition": {
       "category": "Nutrition",
-      "meta": ["200+ Healthy Food Talent", "100+ Nutrition writers", "All are registered dietitians, nutrition consultants, professional chefs, gluten-free/vegan/dairy-free specialists."],
+      "meta": ["200+ healthy food experts", "100+ Nutrition writers", "All are registered dietitians, nutrition consultants, professional chefs, gluten-free/vegan/dairy-free specialists."],
       "bios": [
          {
           "name": "Diane Hoch",
@@ -271,7 +271,7 @@ jQuery(document).ready(function($) {
     },
     "Legal": {
       "category": "Legal",
-      "meta": ["25+ Legal Talent", "Writers include 20 JDs and attorneys as well as 3 paralegals.", "Areas of expertise include civil litigation, family law, trusts and estates, corporate law, medical patents, legal research and social security/disability"],
+      "meta": ["25+ Legal experts", "Writers include 20 JDs and attorneys as well as 3 paralegals.", "Areas of expertise include civil litigation, family law, trusts and estates, corporate law, medical patents, legal research and social security/disability"],
       "bios": [
          {
           "name": "Robert Todd",
@@ -292,17 +292,17 @@ jQuery(document).ready(function($) {
     },
     "Health": {
       "category": "Health",
-      "meta": ["75+ Health Talent", "50+ Medical writers", "All are doctors, registered nurses, chiropractors, pharmacists, gynecologists, naturopathic physicians, EMTs, etc..."],
+      "meta": ["75+ Health experts", "50+ Medical writers", "All are doctors, registered nurses, chiropractors, pharmacists, gynecologists, naturopathic physicians, EMTs, etc..."],
       "bios": [
          {
           "name": "Dr. Holly Lucille",
           "img": "health_holly.png",
-          "bio": "is a licensed Naturopathic Doctor and a Registered Nurse with a passion for facilitating good education in an entertaining way, so people can own their own choices and take back their own healthcare."
+          "bio": "is a licensed Naturopathic Doctor and a Registered Nurse with a passion for facilitating good education in an entertaining way."
         },
         {
           "name": "Dr. Alice Holland",
           "img": "health_alice.png",
-          "bio": "has a Doctorate in Physcial Therapy from USC. Shw now runs Stride Strong Physcial Therapy, a runner's physical therapy clinic."
+          "bio": "has a Doctorate in Physcial Therapy from USC. She now runs Stride Strong Physcial Therapy, a runner's physical therapy clinic."
         },
         {
           "name": "Dr. Robert R. Pomahac",
@@ -313,7 +313,7 @@ jQuery(document).ready(function($) {
     },
     "Fitness&Well-being": {
       "category": "Fitness & Well-being",
-      "meta": ["500+ Fitness Talent", "250+ Fitness Writers", "Backgrounds include personal trainers, yoga teachers, Pilates instructors, fitness models, etc..."],
+      "meta": ["500+ Fitness experts", "250+ Fitness Writers", "Backgrounds include personal trainers, yoga teachers, Pilates instructors, fitness models, etc..."],
       "bios": [
          {
           "name": "Robert Brace",
@@ -323,12 +323,12 @@ jQuery(document).ready(function($) {
         {
           "name": "Juliet Kaska",
           "img": "fitness_juliet.png",
-          "bio": "is one of the country's leading fitness experts and celebrity trainers. Kaska is a Master Pilates Teacher and also the creator of some of Hollywood's favority fitness programs, including the Bombshell Bride, Picture Perfect, Packin' Lite, and the Executive's Workout."
+          "bio": "is one of the country's leading fitness experts and celebrity trainers. Kaska is a Master Pilates Teacher and also the creator of some of Hollywood's favorite fitness programs, including the Bombshell Bride, Picture Perfect, Packin' Lite, and the Executive's Workout."
         },
         {
           "name": "Amber Nimedez ",
           "img": "fitness_amber.png",
-          "bio": "has 10 years of experience training clients in Greece, Kuwait, Bahrain, Canada, London, Italy and France. She was one of Los Angeles' Top Trainers by the LA Times, won Ms. Fitness Hawaiian Islands, and is co-creater of The Numi Method."
+          "bio": "has 10 years of experience training clients in Greece, Kuwait, Bahrain, Canada, London, Italy and France. She was voted one of Los Angeles' Top Trainers by the LA Times, won Ms. Fitness Hawaiian Islands, and is co-creater of The Numi Method."
         }
       ] 
     },
@@ -360,7 +360,7 @@ jQuery(document).ready(function($) {
         {
           "name": "Dupe´ Aleru",
           "img": "family_dupe.png",
-          "bio": "self-published author, teacher and former education reporter who founded Tutors for Tots, Tweens & Teens, LLC."
+          "bio": "is a self-published author, teacher and former education reporter who founded Tutors for Tots, Tweens & Teens, LLC."
         },
         {
           "name": "James Lincoln",
@@ -376,17 +376,17 @@ jQuery(document).ready(function($) {
     },
     "Family&Relationships": {
       "category": "Family & Relationships",
-      "meta": ["50 relationships talent", "75+ relationship writers", "Experts include therapists, couples specialists, lifestyle bloggers, dating coaches, etiquette teachers, mediators and psychologists."],
+      "meta": ["50 relationship experts", "75+ relationship writers", "Experts include therapists, couples specialists, lifestyle bloggers, dating coaches, etiquette teachers, mediators and psychologists."],
       "bios": [
         {
           "name": "Dr. Cindy Bunin",
           "img": "family_cindy.png",
-          "bio": "is a marriage and family therapist and child development specialist for over thirty years. She was honored as a 2004-2005 Who's Who in American Women."
+          "bio": "has been a marriage and family therapist and child development specialist for over thirty years. She was honored as a 2004-2005 Who's Who in American Women."
         },
         {
-          "name": "David Simonsen",
+          "name": "David Simonsen, Ph.D.",
           "img": "relationships_david.png",
-          "bio": "has been a practicing therapist for 12 years. He recently has appeared as a relationship expert on the Oprah Winfrey network, and also filmed a TV polot for the A&E network about stepfamilies. Simonsen has an M.S. in Marriage & Family Therapy."
+          "bio": "has been a practicing therapist for 12 years. He appeared as a relationship expert on the Oprah Winfrey network, and also filmed a TV pilot for the A&E network about stepfamilies. Simonsen has an M.S. in Marriage & Family Therapy."
         },
         {
           "name": "Dr. Jennifer Jones, Ph.D.",
@@ -407,12 +407,12 @@ jQuery(document).ready(function($) {
         {
           "name": "Leslie Willmott",
           "img": "travel_leslie.png",
-          "bio": "has spent much of her career packing and unpacking a suitcase. She was the markting director for best-selling book, 'Smart Packing for Today\'s Traveler' and is the founder of Smart Women On The Go."
+          "bio": "has spent much of her career packing and unpacking a suitcase. She was the marketing director for best-selling book, 'Smart Packing for Today\'s Traveler' and is the founder of Smart Women On The Go."
         },
         {
           "name": "Wendy K. Leigh",
           "img": "travel_wendy.png",
-          "bio": "is a travel writer and photojournalist from Seattle. She is the Editor of 'Islands Amercia', a travel website for visiting islands within the United States. Leigh holds a Bachelor of Arts in English from the University of Washington."
+          "bio": "is a travel writer and photojournalist from Seattle. She is the Editor of 'Islands America', a travel website for visiting islands within the United States. Leigh holds a Bachelor of Arts in English from the University of Washington."
         }
       ] 
     }
