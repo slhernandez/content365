@@ -743,7 +743,7 @@ a:visited {
 .headerContent h1.logo {
   width: 100%;
   min-width: 186px;
-  max-width: 292px;
+  max-width: 262px;
   float: none;
   float: left;
   margin: 0 auto; }
@@ -1407,10 +1407,17 @@ video {
     margin: 0 auto;
     width: 92%;
     z-index: 1; }
+    @media (max-width: 20em) {
+      .solutions-container .solutions-content {
+        min-height: 230px; } }
     .solutions-container .solutions-content h1 {
       text-transform: uppercase;
       padding: 0 20px 0 0;
       color: #FFF; }
+      @media (max-width: 20em) {
+        .solutions-container .solutions-content h1 {
+          padding: 15px 20px 10px 0;
+          font-size: 1em; } }
     .solutions-container .solutions-content .content {
       color: #FFF;
       max-width: 600px;
@@ -1423,6 +1430,9 @@ video {
       @media only screen and (min-width: 48.001em) {
         .solutions-container .solutions-content .content {
           min-height: 610px; } }
+      @media (max-width: 20em) {
+        .solutions-container .solutions-content .content {
+          width: 80%; } }
       .solutions-container .solutions-content .content h3 {
         color: #7ecd65;
         margin: 20px 0 40px 0;
@@ -1435,6 +1445,10 @@ video {
         @media only screen and (min-width: 20.001em) and (max-width: 51.563em) {
           .solutions-container .solutions-content .content h3 {
             font-size: 0.875em; } }
+        @media (max-width: 20em) {
+          .solutions-container .solutions-content .content h3 {
+            margin: 0 0 25px 0;
+            font-size: 0.635em; } }
       .solutions-container .solutions-content .content h2 {
         color: #FFF;
         font-size: 1.375em;
@@ -1450,6 +1464,10 @@ video {
         line-height: 1.2em;
         margin: 10px 0 50px 0;
         text-align: center; }
+        @media (max-width: 20em) {
+          .solutions-container .solutions-content .content .target-message {
+            font-size: 0.75em;
+            margin: 10px 0 10px 0; } }
         @media only screen and (min-width: 48.001em) {
           .solutions-container .solutions-content .content .target-message {
             font-size: 1.75em; } }
@@ -1459,6 +1477,9 @@ video {
         text-align: center;
         line-height: 1.4em;
         margin: 10px 0 25px 0; }
+        @media (max-width: 20em) {
+          .solutions-container .solutions-content .content .secondary-message {
+            display: none; } }
         @media only screen and (min-width: 48.001em) {
           .solutions-container .solutions-content .content .secondary-message {
             font-size: 1.75em; } }
@@ -1502,6 +1523,9 @@ video {
       font-size: 2.75em;
       position: absolute;
       top: 47%; }
+      @media (max-width: 20em) {
+        .solutions-container ul.sol-nav li {
+          font-size: 1.75em; } }
       .solutions-container ul.sol-nav li.next {
         right: 5%;
         -webkit-transform: rotate(270deg);

@@ -457,11 +457,18 @@ video {
 
   .solutions-content {
     @include websiteWidth();
+    @include mobile-portrait-and-below() {
+      min-height: 230px;
+    }
     z-index: 1; 
 
     h1 {
       text-transform: uppercase;
       padding: 0 20px 0 0;
+      @include mobile-portrait-and-below() {
+        padding: 15px 20px 10px 0;
+        font-size: $font-size-16;
+      }
       color: #FFF;
     }
 
@@ -476,6 +483,9 @@ video {
         min-height: 610px;
       }
       margin: 0 auto;
+      @include mobile-portrait-and-below() {
+        width: 80%;
+      }
       width: 70%;
       h3 {
         color: $highlight-color;
@@ -488,6 +498,10 @@ video {
         }
         @include mobile-custom675-only {
           font-size: $font-size-14;
+        }
+        @include mobile-portrait-and-below() {
+          margin: 0 0 25px 0;
+          font-size: $font-size-10;
         }
       }
       h2 {
@@ -503,6 +517,10 @@ video {
         text-transform: uppercase; 
       }
       .target-message {
+        @include mobile-portrait-and-below() {
+          font-size: $font-size-12;
+          margin: 10px 0 10px 0; 
+        }
         font-size: $font-size-18;
         @include tablet-portrait-and-up {
           font-size: $font-size-28;
@@ -517,6 +535,9 @@ video {
         text-align: center;
       }
       .secondary-message {
+        @include mobile-portrait-and-below() {
+          display: none;
+        }
         font-weight: 300;
         font-size: $font-size-14;
         @include tablet-portrait-and-up {
@@ -573,6 +594,9 @@ video {
     li {
       color: #FFF;
       cursor: pointer;
+      @include mobile-portrait-and-below() {
+        font-size: $font-size-28;
+      }
       font-size: $font-size-44;
       position: absolute;
       top: 47%;
