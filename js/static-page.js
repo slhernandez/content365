@@ -484,9 +484,9 @@ jQuery(document).ready(function($) {
   // Load Backstretch image loader
   // ----------------------------------
   $('.hero-container').backstretch( [ 
-    templateUrl + '/images/Content365_Family_1.jpg'
-    ,templateUrl + '/images/Content365_Family_2.jpg'
-    ,templateUrl + '/images/Content365_Family_3.jpg'
+    templateUrl + '/images/Content365_Family_1_opt.jpg'
+    ,templateUrl + '/images/Content365_Family_2_opt.jpg'
+    ,templateUrl + '/images/Content365_Family_3_opt.jpg'
   ], { duration: 10000, fade: 750 } );
 
 

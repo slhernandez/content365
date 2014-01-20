@@ -41,12 +41,12 @@ get_header(); ?>
         <div class="showcase-all">
 
           <section class="all-section active">
-            <img src="<?php bloginfo('template_directory'); ?>/images/content/all_content.png" alt="collage of all content" title="all content">
+            <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="collage of all content" title="all content" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/content/all_content.png">
           </section>
 
           <section class="text-section inactive">
             <div class="showcase-image">
-              <img src="<?php bloginfo('template_directory'); ?>/images/content/text-image2.png" alt="text example" title="text example">
+              <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="text example" title="text example" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/content/text-image2.png">
             </div>  
             <div class="showcase-info">
               <h2>Text</h2>
@@ -73,7 +73,7 @@ get_header(); ?>
 
           <section class="infographics-section inactive">
             <div class="showcase-image">
-              <img src="<?php bloginfo('template_directory'); ?>/images/content/infographics-image2.jpg" alt="infographics example" title="infographics example">
+              <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="infographics example" title="infographics example" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/content/infographics-image2.jpg">
             </div>  
             <div class="showcase-info">
               <h2>Infographics</h2>
@@ -83,7 +83,7 @@ get_header(); ?>
 
           <section class="photography-section inactive">
             <div class="showcase-image">
-              <img src="<?php bloginfo('template_directory'); ?>/images/content/photo_collage.jpg" alt="photography example" title="photography example">
+              <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="photography example" title="photography example" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/content/photo_collage.jpg">
             </div>  
             <div class="showcase-info">
               <h2>Photography</h2>
@@ -93,7 +93,7 @@ get_header(); ?>
 
           <section class="quiz-section inactive">
             <div class="showcase-image">
-              <img src="<?php bloginfo('template_directory'); ?>/images/content/quiz-image.png" alt="quiz example" title="quiz example">
+              <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="quiz example" title="quiz example" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/content/quiz-image.png">
             </div>  
             <div class="showcase-info">
               <h2>Quiz</h2>
@@ -147,28 +147,28 @@ get_header(); ?>
           <div class="topic">
             <a href="#">
               <span class="t-overlay"><p class="t-label">Arts & Crafts</p></span>
-              <img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/crafts_380.jpg" alt="crafts" title="crafts">
+              <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="crafts" title="crafts" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/crafts_380.jpg">
             </a>
           </div>
 
           <div class="topic">
             <a href="#">
               <span class="t-overlay"><p class="t-label">Business & Finance</p></span>
-              <img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/PersonalFinance_380.jpg" alt="Business & Finance" title="Business & Finance">
+              <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Business & Finance" title="Business & Finance" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/PersonalFinance_380.jpg">
             </a>
           </div>
 
           <div class="topic">
             <a href="#">
               <span class="t-overlay"><p class="t-label">Education</p></span>
-              <img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/education_380.jpg" alt="Education" title="Education">
+              <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Education" title="Education" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/education_380.jpg">
             </a>
           </div>
 
           <div class="topic">
             <a href="#">
               <span class="t-overlay"><p class="t-label">Family & Relationships</p></span>
-              <img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/relationships_380.jpg" alt="Family & Relationships" title="Family & Relationships">
+              <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Family & Relationships" title="Family & Relationships" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/relationships_380.jpg">
             </a>
           </div>
 
@@ -176,97 +176,97 @@ get_header(); ?>
             
             <a href="#">
               <span class="t-overlay"><p class="t-label">Fitness & Well-being</p></span>
-              <img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/fitness_380.jpg" alt="Fitness & Well-being" title="Fitness & Well-being">
+              <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Fitness & Well-being" title="Fitness & Well-being" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/fitness_380.jpg">
             </a>
           </div>
 
           <div class="topic">
             <a href="#">
               <span class="t-overlay"><p class="t-label">Food</p></span>
-              <img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/food_380.jpg" alt="food" title="food">
+              <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="food" title="food" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/food_380.jpg">
             </a>
           </div>
 
           <div class="topic">
             <a href="#">
               <span class="t-overlay"><p class="t-label">Garden</p></span>
-              <img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/garden_380.jpg" alt="Garden" title="Garden">
+              <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Garden" title="Garden" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/garden_380.jpg">
             </a>
           </div>
 
           <div class="topic">
             <a href="#">
               <span class="t-overlay"><p class="t-label">Health</p></span>
-              <img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/health_380.jpg" alt="health" title="health">
+              <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="health" title="health" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/health_380.jpg">
             </a>
           </div>
 
           <div class="topic">
             <a href="#">
               <span class="t-overlay"><p class="t-label">Home</p></span>
-              <img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/HomeDIYDesign_380.jpg" alt="home" title="home"></a>
+              <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="home" title="home" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/HomeDIYDesign_380.jpg"></a>
           </div>
 
           <div class="topic">
             <a href="#">
               <span class="t-overlay"><p class="t-label">Home Decor</p></span>
-              <img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/decor_380.jpg" alt="Home Decor" title="Home Decor">
+              <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Home Decor" title="Home Decor" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/decor_380.jpg">
             </a>
           </div>
 
           <div class="topic">
             <a href="#">
               <span class="t-overlay"><p class="t-label">Legal</p></span>
-              <img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/legal_380.jpg" alt="legal" title="legal">
+              <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="legal" title="legal" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/legal_380.jpg">
             </a>
           </div>
 
           <div class="topic">
             <a href="#">
               <span class="t-overlay"><p class="t-label">Nutrition</p></span>
-              <img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/nutrition_380.jpg" alt="nutrition" title="nutrition">
+              <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="nutrition" title="nutrition" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/nutrition_380.jpg">
             </a>
           </div>
 
           <div class="topic">
             <a href="#">
               <span class="t-overlay"><p class="t-label">Parenting</p></span>
-              <img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/family_380.jpg" alt="parenting" title="parenting">
+              <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="parenting" title="parenting" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/family_380.jpg">
             </a>
           </div>
 
           <div class="topic">
             <a href="#">
               <span class="t-overlay"><p class="t-label">Pets</p></span>
-              <img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/Pets_380.jpg" alt="pets" title="pets">
+              <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="pets" title="pets" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/Pets_380.jpg">
             </a>
           </div>
 
           <div class="topic">
             <a href="#">
               <span class="t-overlay"><p class="t-label">Real Estate</p></span>
-              <img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/RealEstate_380.jpg" alt="real estate" title ="real estate">
+              <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="real estate" title ="real estate" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/RealEstate_380.jpg">
             </a>
           </div>
           
           <div class="topic">
             <a href="#">
               <span class="t-overlay"><p class="t-label">Style</p></span>
-              <img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/fashion_380.jpg" alt="style" title="style">
+              <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="style" title="style" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/fashion_380.jpg">
             </a>
           </div>
 
            <div class="topic">
             <a href="#">
               <span class="t-overlay"><p class="t-label">Technology</p></span>
-              <img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/Tech_380.jpg" alt="tech" title="tech">
+              <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="tech" title="tech" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/Tech_380.jpg">
             </a>
           </div>
 
           <div class="topic">
             <a href="#">
               <span class="t-overlay"><p class="t-label">Travel</p></span>
-              <img src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/travel_380.jpg" alt="Travel" title="Travel">
+              <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Travel" title="Travel" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/travel_380.jpg">
             </a>
           </div>
 
@@ -281,17 +281,17 @@ get_header(); ?>
       <h1>Insights</h1>
       <div class="insights-wrap">
         <div class="col1of3">
-          <img src="<?php bloginfo('template_directory'); ?>/images/tips/mobile.png" alt="mobile" title="mobile">
+          <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="mobile" title="mobile" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/tips/mobile.png">
           <div class="t-num">78%</div>
           <p>of consumers believe companies providing custom content are interested in building good relationships</p>
         </div>
         <div class="col1of3">
-          <img src="<?php bloginfo('template_directory'); ?>/images/tips/picture.png" alt="picture" title="picture">
+          <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="picture" title="picture" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/tips/picture.png">
           <div class="t-num picture-num">44%</div>
           <p class="picture-copy">of people are more likely to engage with content on social media that contain pictures</p>
         </div>
         <div class="col1of3">
-          <img src="<?php bloginfo('template_directory'); ?>/images/tips/video.png" alt="video" title="video">
+          <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="video" title="video" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/tips/video.png">
           <div class="t-num video-num">2x</div>
           <p class="video-copy">the amount of more time spent by viewers on pages that have videos</p>
         </div>
