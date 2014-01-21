@@ -59,7 +59,7 @@ get_header(); ?>
               <video id="movie" width="600" height="400" preload="none" loop> 
                 <!-- <source src="pr6.webm" type="video/webm; codecs=vp8,vorbis"> -->
                 <source src="<?php bloginfo('template_directory'); ?>/assets/videos/BYB_3.mp4" type="video/mp4; codecs=avc1.42E01E,mp4a.40.2"/>
-                <source src="<?php bloginfo('template_directory'); ?>/assets/videos/BYB_2.oggvorbis.ogg"  type="video/ogg; codecs=theora,vorbis">
+                <source src="<?php bloginfo('template_directory'); ?>/assets/videos/BYB_3.webmsd.webm" type="video/webm"/>
                 <source src="<?php bloginfo('template_directory'); ?>/assets/videos/BYB_3.oggtheora.ogv"  type="video/ogv; codecs=theora,vorbis">
               </video>
             </div>  
