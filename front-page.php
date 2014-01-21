@@ -209,7 +209,7 @@ get_header(); ?>
 
           <div class="topic">
             <a href="#">
-              <span class="t-overlay"><p class="t-label">Home Decor</p></span>
+              <span class="t-overlay"><p class="t-label">Home Décor</p></span>
               <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Home Decor" title="Home Decor" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/contributors/updated/decor_380.jpg">
             </a>
           </div>

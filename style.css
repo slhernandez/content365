@@ -1564,11 +1564,19 @@ video {
     display: table; }
   .contributors-container:after {
     clear: both; }
+  @media only screen and (max-width: 30em) {
+    .contributors-container {
+      width: 100%;
+      padding: 0; } }
   .contributors-container .contributor-showcase {
     min-height: 658px; }
   .contributors-container h1 {
     text-transform: uppercase;
     padding: 20px 0 20px 0; }
+    @media only screen and (max-width: 30em) {
+      .contributors-container h1 {
+        font-size: 1em;
+        margin-left: 10px; } }
   .contributors-container .category-contributors.inactive,
   .contributors-container .topics.inactive {
     position: absolute;
@@ -1650,6 +1658,9 @@ video {
       display: table; }
     .contributors-container .topics:after {
       clear: both; }
+    @media only screen and (max-width: 30em) {
+      .contributors-container .topics {
+        padding: 0; } }
     .contributors-container .topics .topic {
       position: relative;
       width: 100%;
@@ -1660,6 +1671,9 @@ video {
       background-color: #fff;
       display: inline-block;
       overflow: hidden; }
+      @media only screen and (max-width: 30em) {
+        .contributors-container .topics .topic {
+          width: 47%; } }
       @media only screen and (min-width: 30.001em) {
         .contributors-container .topics .topic {
           width: 31%; } }
@@ -1680,7 +1694,7 @@ video {
       cursor: pointer;
       position: absolute;
       width: 100%;
-      height: 100%;
+      height: 96%;
       top: 0;
       left: 0; }
       @media only screen and (min-width: 56.25em) {

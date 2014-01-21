@@ -640,6 +640,10 @@ video {
 .contributors-container {
   @include clearfix();
   @include websiteWidth();
+  @include mobile-landscape-and-below() {
+    width: 100%; 
+    padding: 0;
+  }
   padding: 50px 0;
 
   .contributor-showcase {
@@ -647,6 +651,10 @@ video {
   }
 
   h1 {
+    @include mobile-landscape-and-below() {
+      font-size: $font-size-16;
+      margin-left: 10px;
+    }
     text-transform: uppercase;
     padding: 20px 0 20px 0;
   }
@@ -737,13 +745,19 @@ video {
 
   .topics {
     @include clearfix();
+    @include mobile-landscape-and-below() {
+      padding: 0;
+    }
     padding: 50px 0;
     width: 95%;
     margin: 0 auto;
     .topic {
       position: relative;
       width: 100%;
-        height: 100%;
+      height: 100%;
+      @include mobile-landscape-and-below() {
+        width: 47%;
+      }
       @include mobile-landscape-and-up {
         width: 31%;
       }
@@ -774,7 +788,7 @@ video {
       cursor: pointer;
       position: absolute;
       width: 100%;
-      height: 100%;
+      height: 96%;
       @include desktop-custom-900-up {
         height: 96%;
       }
