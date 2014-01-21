@@ -185,7 +185,7 @@ jQuery(document).ready(function($) {
         }
       ]
     },
-    "HomeDecor": {
+    "HomeDécor": {
       "category": "Home Décor",
       "meta": ["350+ Interior Design experts", "200+ home décor writers", "All are interior designers, professional organizers, etc..."],
       "bios": [
@@ -543,7 +543,7 @@ jQuery(document).ready(function($) {
       if (direction == 'down') nav.css({ 'height':'auto' });
       else nav.css({ 'height':'auto' });
     },
-    offset: 15
+    offset: 15 
   });
   
   var sections = $("section[id]");    
@@ -560,7 +560,7 @@ jQuery(document).ready(function($) {
   
   sections.waypoint({
     handler: setActive,
-    offset: '35%'
+    offset: '5%'
   });
   
   // Content selection 

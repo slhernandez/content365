@@ -73,6 +73,9 @@
     }
     h1 {
       color: #FFF;
+      @include mobile-landscape-and-below() {
+        font-size: $font-size-20;
+      }
       font-size: $font-size-30;
       @include font-light();
       @include tablet-custom-600-up() {
@@ -84,6 +87,9 @@
     }
     p {
       font-size: $font-size-18;
+      @include mobile-landscape-and-below() {
+        font-size: $font-size-14;
+      }
       margin: 0 0 10px 0;
       @include tablet-custom-600-up() {
         font-size: $font-size-22;
@@ -101,6 +107,9 @@
     }
     .sub-heading {
       font-size: $font-size-16;
+      @include mobile-landscape-and-below() {
+        font-size: $font-size-12;
+      }
       font-weight: 300;
       font-style: italic;
       padding-bottom: 15px;
@@ -159,6 +168,10 @@
   border-radius: 4px;
   text-decoration: none; 
   color: #FFF;
+  @include mobile-landscape-and-below() {
+    padding: 10px;
+    font-size: $font-size-14;
+  }
   padding: 15px 20px;
   font-size: $font-size-20;
 
@@ -815,12 +828,19 @@ video {
         text-shadow: 0 1px 1px rgba(0,0,0,0.3);
         margin: 0;
         @include vertical-align();
+        @include mobile-landscape-and-below() {
+          position: static;
+          -webkit-transform: none;
+          -ms-transform: none;
+          transform: none;
+        } 
       }
     }
 
     .topic img {
       @include mobile-landscape-and-below {
         width: 100%;
+        top: 0%;
       }
     }
 
