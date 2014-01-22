@@ -446,7 +446,7 @@ jQuery(document).ready(function($) {
 
   // Display an opaque background for the nav menu when 
   // scrolling down. Remove it when scrolling up.
-  $('.marketing h1').waypoint( function(direction) {
+  $('.marketing h2').waypoint( function(direction) {
       if (direction == 'down') {
         $('.headerAndNavContainer').css('background', 'rgba(81, 87, 93, 0.7)');
       } else if (direction === 'up') {
@@ -484,9 +484,9 @@ jQuery(document).ready(function($) {
   // Load Backstretch image loader
   // ----------------------------------
   $('.hero-container').backstretch( [ 
-    templateUrl + '/images/Content365_Family_1_opt.jpg'
-    ,templateUrl + '/images/Content365_Family_2_opt.jpg'
-    ,templateUrl + '/images/Content365_Family_3_opt.jpg'
+    templateUrl + '/images/Content365_Family_1_opt.jpg',
+    templateUrl + '/images/Content365_Family_2_opt.jpg',
+    templateUrl + '/images/Content365_Family_3_opt.jpg'
   ], { duration: 10000, fade: 750 } );
 
 

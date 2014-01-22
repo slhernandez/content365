@@ -996,7 +996,7 @@ object {
   @media only screen and (min-width: 48.001em) {
     .hero-container {
       margin-top: 0; } }
-  .hero-container h1.hero-heading {
+  .hero-container h2.hero-heading {
     font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -1010,15 +1010,15 @@ object {
     text-transform: uppercase;
     z-index: 1; }
     @media only screen and (max-width: 30em) {
-      .hero-container h1.hero-heading {
+      .hero-container h2.hero-heading {
         font-size: 1.625em;
         margin: 50px 30px;
         margin: 40px 30px; } }
     @media only screen and (min-width: 48.001em) {
-      .hero-container h1.hero-heading {
+      .hero-container h2.hero-heading {
         font-size: 2.125em;
         margin: 220px 90px; } }
-    .hero-container h1.hero-heading .highlight {
+    .hero-container h2.hero-heading .highlight {
       color: #7ecd65; }
   .hero-container .marketing {
     padding: 100px 10px 100px 10px;
@@ -1036,7 +1036,7 @@ object {
         padding: 300px 10px 300px 10px; } }
     .hero-container .marketing .highlight {
       color: #7ecd65; }
-    .hero-container .marketing h1 {
+    .hero-container .marketing h2 {
       color: #FFF;
       font-size: 1.875em;
       font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1046,10 +1046,10 @@ object {
       -moz-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
       text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6); }
       @media only screen and (max-width: 30em) {
-        .hero-container .marketing h1 {
+        .hero-container .marketing h2 {
           font-size: 1.25em; } }
       @media only screen and (min-width: 37.5em) {
-        .hero-container .marketing h1 {
+        .hero-container .marketing h2 {
           font-size: 2.5em; } }
     .hero-container .marketing p {
       font-size: 1.125em;
@@ -1169,12 +1169,12 @@ object {
   @media only screen and (min-width: 48.001em) {
     .our-content-container {
       width: 92%; } }
-  .our-content-container h1 {
+  .our-content-container h2 {
     text-align: center;
     text-transform: uppercase;
     padding: 20px 0 20px 0; }
     @media only screen and (min-width: 48.001em) {
-      .our-content-container h1 {
+      .our-content-container h2 {
         text-align: left; } }
   .our-content-container ul.content-items {
     list-style: none;
@@ -1423,12 +1423,12 @@ video {
     @media (max-width: 20em) {
       .solutions-container .solutions-content {
         min-height: 230px; } }
-    .solutions-container .solutions-content h1 {
+    .solutions-container .solutions-content h2 {
       text-transform: uppercase;
       padding: 0 20px 0 0;
       color: #FFF; }
       @media (max-width: 20em) {
-        .solutions-container .solutions-content h1 {
+        .solutions-container .solutions-content h2 {
           padding: 15px 20px 10px 0;
           font-size: 1em; } }
     .solutions-container .solutions-content .content {
@@ -1583,11 +1583,11 @@ video {
       padding: 0; } }
   .contributors-container .contributor-showcase {
     min-height: 658px; }
-  .contributors-container h1 {
+  .contributors-container h2 {
     text-transform: uppercase;
     padding: 20px 0 20px 0; }
     @media only screen and (max-width: 30em) {
-      .contributors-container h1 {
+      .contributors-container h2 {
         font-size: 1em;
         margin-left: 10px; } }
   .contributors-container .category-contributors.inactive,
@@ -1611,7 +1611,7 @@ video {
     box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2);
     border: 1px solid #EEE;
     padding: 20px; }
-    .contributors-container .category-contributors h1 {
+    .contributors-container .category-contributors h2 {
       padding: 0 0 20px 0; }
     .contributors-container .category-contributors .close-contributor-panel {
       color: #51575d;
@@ -1750,7 +1750,7 @@ video {
         width: 100%;
         top: 0%; } }
 
-/* =Content365 Tips And Tricks
+/* =Content365 Insights 
 ----------------------------------------------- */
 .insights {
   background: #7ecd65; }
@@ -1765,13 +1765,13 @@ video {
     display: table; }
   .insights-container:after {
     clear: both; }
-  .insights-container h1 {
+  .insights-container h2 {
     color: #FFF;
     text-transform: uppercase;
     padding: 0;
     text-align: center; }
     @media only screen and (min-width: 30.001em) {
-      .insights-container h1 {
+      .insights-container h2 {
         text-align: left;
         padding: 20px 0; } }
 
@@ -1845,14 +1845,14 @@ video {
   margin: 0 auto;
   width: 92%;
   padding: 50px 0; }
-  .about-container h1 {
+  .about-container h2 {
     color: #51575d;
     text-transform: uppercase;
     padding: 0;
     text-align: center;
     padding-bottom: 20px; }
     @media only screen and (min-width: 30.001em) {
-      .about-container h1 {
+      .about-container h2 {
         text-align: left;
         padding: 20px 0; } }
   .about-container .about-intro {
@@ -1952,7 +1952,7 @@ video {
 
 .contact-container {
   padding: 50px 0; }
-  .contact-container h1 {
+  .contact-container h2 {
     color: #FFF;
     text-transform: uppercase;
     padding: 20px 0 50px 0; }

@@ -24,7 +24,7 @@
   //margin-top: 125px;
   position: relative;
 
-  h1.hero-heading {
+  h2.hero-heading {
     @include font-bold();
     color: #FFF;
     font-size: $font-size-28;
@@ -71,7 +71,7 @@
     .highlight {
       color: $highlight-color;
     }
-    h1 {
+    h2 {
       color: #FFF;
       @include mobile-landscape-and-below() {
         font-size: $font-size-20;
@@ -218,7 +218,7 @@
   width: 100%;
   margin: 0 auto;
   padding: 50px 0;
-  h1 {
+  h2 {
     text-align: center;
     @include tablet-portrait-and-up() {
       text-align: left;
@@ -475,7 +475,7 @@ video {
     }
     z-index: 1; 
 
-    h1 {
+    h2 {
       text-transform: uppercase;
       padding: 0 20px 0 0;
       @include mobile-portrait-and-below() {
@@ -663,7 +663,7 @@ video {
     min-height: 658px;
   }
 
-  h1 {
+  h2 {
     @include mobile-landscape-and-below() {
       font-size: $font-size-16;
       margin-left: 10px;
@@ -697,7 +697,7 @@ video {
     border: 1px solid #EEE;
     padding: 20px;
 
-    h1 {
+    h2 {
       padding: 0 0 20px 0;
     }
 
@@ -847,7 +847,7 @@ video {
   }
 }
 
-/* =Content365 Tips And Tricks
+/* =Content365 Insights 
 ----------------------------------------------- */
 .insights {
   background: $tips-tricks-color;
@@ -857,7 +857,7 @@ video {
   @include clearfix();
   @include websiteWidth();
   padding: 50px 0;
-  h1 {
+  h2 {
     color: #FFF;
     text-transform: uppercase;
     padding: 0;
@@ -941,7 +941,7 @@ video {
 .about-container {
   @include websiteWidth();
   padding: 50px 0;
-  h1 {
+  h2 {
     color: $site-wide-color;
     text-transform: uppercase;
     padding: 0;
@@ -1065,7 +1065,7 @@ video {
 
 .contact-container {
   padding: 50px 0;
-  h1 {
+  h2 {
     color: #FFF;
     text-transform: uppercase;
     padding: 20px 0 50px 0;

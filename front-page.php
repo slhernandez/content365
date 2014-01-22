@@ -13,7 +13,7 @@ get_header(); ?>
   <section class="hero-container">
     <!--<h1 class="hero-heading">Providing Partners Comprehensive <span class="highlight">Content</span> Offerings To Attract And Engage Intent Driven Audiences</h1>-->
     <div class="marketing">
-      <h1>Let <span class="highlight">content</span> tell your story.</h1>
+      <h2>Let <span class="highlight">content</span> tell your story.</h2>
       <p>Compelling storytelling can help build stronger relationships. Our diverse Content Solutions offerings help partners create unique story lines for varying needs.</p>
       <!-- <p>Providing partners with offerings to attract and engage intent-driven audiences.</p> -->
       <p class="sub-heading">Start leveraging our robust team of expert contributors to attract and engage your audience with content for real life.</p> 
@@ -27,7 +27,7 @@ get_header(); ?>
 
   <section id="our-content" class="our-content">
     <div class="our-content-container">
-      <h1>Our Content</h1>
+      <h2>Our Content</h2>
       <ul class="content-items">
         <li class="all"><a href="#" class="selected">All</a></li>
         <li class="text"><a href="#"><span aria-hidden="true" data-icon="g"></span>Text</a></li>
@@ -46,7 +46,7 @@ get_header(); ?>
 
           <section class="text-section inactive">
             <div class="showcase-image">
-              <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="text example" title="text example" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/content/text-image2.png">
+              <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="text example" title="text example" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/content/text-image3.png">
             </div>  
             <div class="showcase-info">
               <h2>Text</h2>
@@ -110,7 +110,7 @@ get_header(); ?>
     <div class="solutions-container">
       <span class="solutions-overlay"></span>
       <div class="solutions-content">
-        <h1>Solutions</h1>
+        <h2>Solutions</h2>
         <div class="content">
           <h3>Unleash your content strategy using the Demand Media Platform to:</h3>
           <h2></h2>
@@ -137,7 +137,7 @@ get_header(); ?>
 
   <section id="contributors" class="contributors">
     <div class="contributors-container">
-      <h1>Creative Community</h1>
+      <h2>Creative Community</h2>
       <div class="contributor-showcase">
 
         <div class="category-contributors inactive"></div>
@@ -278,7 +278,7 @@ get_header(); ?>
 
   <section id="insights" class="insights">
     <div class="insights-container">
-      <h1>Insights</h1>
+      <h2>Insights</h2>
       <div class="insights-wrap">
         <div class="col1of3">
           <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="mobile" title="mobile" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/tips/mobile.png">
@@ -302,7 +302,7 @@ get_header(); ?>
   <section id="about" class="about">
     <div class="about-container">
       <!--<div class="a-contact"><a href="#contact" class="anchorLink">Contact Us</a></div>-->
-      <h1>About Us</h1>
+      <h2>About Us</h2>
       <div class="about-meta-container">
         <p class="about-intro">We create content for real life, because we deliver the right content, in the right format, right when people need it most. These formats range from step-by-step articles and knowledge-based videos to original photography, custom infographics, social tips, blogs and more.</p>
         <div class="a-contact"><a href="#contact" class="anchorLink">Contact Us</a></div>
@@ -337,7 +337,7 @@ get_header(); ?>
   <section id="contact" class="contact">
     <div class="contact-container wrap">
       <div class="contact-info">
-        <h1>Contact</h1>        
+        <h2>Contact</h2>        
         <ul>
           <li><a href="http://goo.gl/rIf5Ud"><span aria-hidden="true" data-icon="k"></span>1655 26th Street Santa Monica, CA 90404</a></li> 
           <!-- <li><a href="tel:1-310-394-6400"><span aria-hidden="true" data-icon="a"></span>310 394 6400</a></li> -->
@@ -350,7 +350,7 @@ get_header(); ?>
         </div>
       </div>
       <div class="mail-info">
-        <h1>Mail Us</h1> 
+        <h2>Mail Us</h2> 
         <?php echo do_shortcode('[contact]'); ?>
       </div>
     </div>
@@ -360,7 +360,7 @@ get_header(); ?>
 
 <script id="category-contributors" type="text/html">
   <a href="#" class="close-contributor-panel"><span aria-hidden="true" data-icon="m"></span></a> 
-  <h1><%- info.category %></h1>
+  <h2><%- info.category %></h2>
   <div class="contributor-meta">
     <h3>Expert Contributors</h3>
     <% _.each(info.meta, function(item) { %>

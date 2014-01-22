@@ -11,6 +11,12 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:url" content="http://contentsolutions.demandstudios.com/">
+<meta property="og:description" content="Let content tell your story. Compelling storytelling can help build stronger relationships. Our diverse Content Solutons offerings help partners create unique story lines for varying needs.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Content Solutions - Demand Studios">
+<meta property="og:site_name" content="Content Solutions - Demand Studios">
+<meta property="og:image" content="<?php bloginfo('template_directory'); ?>/images/og_image_200.png">
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
@@ -34,7 +40,7 @@ var templateUrl = '<?= get_bloginfo("template_url"); ?>';
 						<div class="headerContent">
 							<h1 class="logo">
 								<a href="#hero" class="anchorLink">
-									<img class="gray-logo" src="<?php bloginfo('template_directory'); ?>/images/dm_logo_white.png" alt="Demand Media Logo" title="Demand Media Logo">
+									<img class="gray-logo" src="<?php bloginfo('template_directory'); ?>/images/dm_logo_white.png" alt="Content Solutions" title="Content Solutions">
 								</a>
 							</h1>
 						</div>
@@ -53,7 +59,6 @@ var templateUrl = '<?= get_bloginfo("template_url"); ?>';
 									<li><a href="#insights" class="anchorLink">Insights</a></li>
 									<li><a href="#about" class="anchorLink">About Us</a></li>
 									<li><a href="#contact" class="anchorLink n-contact">Contact</a></li>
-									<!--<li><a href="http://dm.dmpartnercontent.com" class="login">Login</a></li>-->
 								</ul>
 							</nav> 
 
