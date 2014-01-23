@@ -428,6 +428,7 @@ jQuery(document).ready(function($) {
 
       if (direction == 'down') {
         $('.headerAndNavContainer.sticky').css({
+          background: '#51575D', 
           background: 'rgba(81, 87, 93, 0.9)', 
           'box-shadow': '0 1px 1px rgba(0,0,0,0.2)'
         });
