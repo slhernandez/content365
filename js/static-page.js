@@ -481,13 +481,12 @@ jQuery(document).ready(function($) {
     resizeTimer = setTimeout(resizeFunction, 250);
   });
 
-  // Load Backstretch image loader
-  // ----------------------------------
-  $('.hero-container').backstretch( [ 
-    templateUrl + '/images/Content365_Family_1_opt.jpg',
-    templateUrl + '/images/Content365_Family_2_opt.jpg',
-    templateUrl + '/images/Content365_Family_3_opt.jpg'
-  ], { duration: 10000, fade: 750 } );
+  var hero_images = [ templateUrl + '/images/Content365_Family_1_opt.jpg',
+                     templateUrl + '/images/Content365_Family_2_opt.jpg',
+                     templateUrl + '/images/Content365_Family_3_opt.jpg' ];
+
+  var $heroContainer = $('.hero-container');
+  $heroContainer.backstretch( hero_images, { "duration": "10000", "fade": "750" });
 
 
   var solution_images = [ templateUrl + '/images/solution/Listen.jpg',
