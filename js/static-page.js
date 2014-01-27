@@ -74,9 +74,9 @@ jQuery(document).ready(function($) {
           "bio": "is a real estate personality, broker, writer, speaker, and video blogger. You've seen him on HGTV, speaking circuits, radio and countless print outlets pontificating about all things home & garden."
         },
         {
-          "name": "Monica Dillon",
-          "img": "realestate_monica.png",
-          "bio": "has spent over a decade in real estate sales, investing and appraising. She specializes in energy-efficient building practices and renewable energy."
+          "name": "Karina Hernandez",
+          "img": "realestate_karina.png",
+          "bio": "has been writing on real estate-related topics since 2009. She has worked full-time as a licensed real estate salesperson in San Diego since 2004."
         }
       ] 
     },

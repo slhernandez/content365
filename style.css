@@ -1921,7 +1921,8 @@ video {
       background: transparent;
       border: none;
       padding-bottom: 20px;
-      padding-right: 15px; } }
+      padding-right: 15px;
+      padding-left: 0; } }
   .about-meta-container .about-intro {
     float: left;
     width: 75%; }
