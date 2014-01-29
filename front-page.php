@@ -41,7 +41,7 @@ get_header(); ?>
         <div class="showcase-all">
 
           <section class="all-section active">
-            <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="collage of all content" title="all content" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/content/all_content.png">
+            <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="collage of all content" title="all content" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/content/all_content.jpg">
           </section>
 
           <section class="text-section inactive">
