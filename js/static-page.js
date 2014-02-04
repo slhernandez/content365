@@ -12,15 +12,26 @@ window.solutionSecondaryMsg = ["Demand's proprietary algorithm analyzes millions
 
 jQuery(document).ready(function($) {
 
+  function calculateBodyMarginTop() {
+    var margintop =  $('body').css('margin-top');
+    var extractnum = margintop.match(/\d+/);
+    return parseInt(extractnum);
+  }
+
+  // calculate margintop only once
+  var body_margin_top = calculateBodyMarginTop();
+
   // Simple way to control one-page scrolling.
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 800);
+        if (body_margin_top > 0) {
+          $('html,body').animate({ scrollTop: target.offset().top - body_margin_top }, 800);
+        } else {
+          $('html,body').animate({ scrollTop: target.offset().top }, 800);
+        }
         return false;
       }
     }
@@ -545,6 +556,8 @@ jQuery(document).ready(function($) {
     },
     offset: 15 
   });
+
+  
   
   var sections = $("section[id]");    
   var navigation_links = $("nav a");
@@ -560,7 +573,7 @@ jQuery(document).ready(function($) {
   
   sections.waypoint({
     handler: setActive,
-    offset: '5%'
+    offset: '10%'
   });
   
   // Content selection 
