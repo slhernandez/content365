@@ -27,6 +27,7 @@ module.exports = function(grunt) {
           'style.css':'sass/_typography.scss',
           'style.css':'sass/_widgets.scss',
           'style.css':'sass/_frontpage.scss',
+          'style.css':'sass/_page.scss',
           'style.css':'sass/style.scss'
         }
       }

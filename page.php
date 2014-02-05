@@ -12,24 +12,16 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
 
-			<?php while ( have_posts() ) : the_post(); ?>
+<?php echo '<h1>' . is_page('work/experian') . '</h1>'; ?>
+<?php
+	if ( is_page( 'experian' ) ) {
+		get_template_part('content', 'experian');
+	} elseif ( is_page('sfgate') ) {
+		get_template_part('content', 'sfgate');
+	} elseif ( is_page('work') ) {
+		get_template_part('content', 'work');
+	}
+?>
 
-				<?php get_template_part( 'content', 'page' ); ?>
-
-				<?php
-					// If comments are open or we have at least one comment, load up the comment template
-					if ( comments_open() || '0' != get_comments_number() ) :
-						comments_template();
-					endif;
-				?>
-
-			<?php endwhile; // end of the loop. ?>
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
-
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
