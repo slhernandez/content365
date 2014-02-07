@@ -5,7 +5,7 @@
 .showcase-hero {
   background-color: $site-wide-color;
   width: 100%;
-  background-image: url('images/work/experian/Experian-overlay-1@2x.png');
+  background-image: url('images/work/experian/ExperianFeature.png');
   //background-image: url('images/work/experian/Experian-overlay-2.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -81,6 +81,19 @@
    -webkit-animation: pulse 1.5s infinite ease-in-out;
 }
 
+.showcase-headline {
+  color: #0095D3;
+  background: #f3f3f3;
+  background-image: -webkit-linear-gradient(top,#fff 0,#f2f5f7 99%);
+  background-image: -moz-linear-gradient(top,#fff 0,#f2f5f7 99%);
+  background-image: -ms-linear-gradient(top,#fff 0,#f2f5f7 99%);
+  font-size: 3em;
+  text-align: center;
+  padding: 30px 0;
+  border-top: 1px solid #EEE;
+  border-bottom: 1px solid #EEE;
+}
+
 
 .showcase-container {
   width: 92%;
@@ -89,19 +102,7 @@
   padding: 50px 0;
   h2 {
     text-transform: uppercase;
-    padding: 20px 0;
-  }
-  .showcase-headline {
-    color: $site-wide-color;
-    background: #f3f3f3;
-    background-image: -webkit-linear-gradient(top,#fff 0,#f2f5f7 99%);
-    background-image: -moz-linear-gradient(top,#fff 0,#f2f5f7 99%);
-    background-image: -ms-linear-gradient(top,#fff 0,#f2f5f7 99%);
-    font-size: 3em;
-    text-align: center;
-    padding: 30px 0;
-    border-top: 1px solid #EEE;
-    border-bottom: 1px solid #EEE;
+    padding: 20px 0 40px 0;
   }
   
   .showcase-icon {

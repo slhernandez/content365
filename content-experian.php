@@ -1,17 +1,16 @@
 <div class="siteWrapper showcase">
   <section class="showcase-hero">
-    <!--<img src="<?php bloginfo('template_directory'); ?>/images/work/experian/Experian-overlay-2@2x.png" alt="Experian Showcase" title="Experian Showcase">-->
     <div class="showcase-copy">
       <p>showcase</p>
       <h1>Experian</h1>
-      <div class="partner-btn-container"><a target="_blank" class="partner-btn" href="http://experian.com">Explore</a></div>
+      <div class="partner-btn-container"><a target="_blank" class="partner-btn" href="http://www.freecreditscore.com/blog/video-what-is-the-safest-way-to-check-your-credit/">Explore</a></div>
     </div>
   </section>
 
   <section class="showcase-display">
+    <h2 class="showcase-headline">Experian</h2>
     <div class="showcase-container">
       <h2>Experian Consumer Services</h2>
-      <!--<h2 class="showcase-headline">Experian Consumer Services</h2>-->
       <ul class="showcase-items">
         <li class="all"><a href="#" class="selected"><span class="showcase-icon" aria-hidden="true" data-icon="s"></span>All</a></li>
         <li class="resource-articles"><a href="#"><span class="showcase-icon" aria-hidden="true" data-icon="g"></span>Resource Articles</a></li>

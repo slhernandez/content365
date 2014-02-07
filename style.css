@@ -2261,7 +2261,7 @@ form {
 .showcase-hero {
   background-color: #51575d;
   width: 100%;
-  background-image: url("images/work/experian/Experian-overlay-1@2x.png");
+  background-image: url("images/work/experian/ExperianFeature.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center; }
@@ -2321,6 +2321,18 @@ form {
 .partner-btn:focus {
   -webkit-animation: pulse 1.5s infinite ease-in-out; }
 
+.showcase-headline {
+  color: #0095D3;
+  background: #f3f3f3;
+  background-image: -webkit-linear-gradient(top, white 0, #f2f5f7 99%);
+  background-image: -moz-linear-gradient(top, white 0, #f2f5f7 99%);
+  background-image: -ms-linear-gradient(top, white 0, #f2f5f7 99%);
+  font-size: 3em;
+  text-align: center;
+  padding: 30px 0;
+  border-top: 1px solid #EEE;
+  border-bottom: 1px solid #EEE; }
+
 .showcase-container {
   width: 92%;
   max-width: 1200px;
@@ -2328,18 +2340,7 @@ form {
   padding: 50px 0; }
   .showcase-container h2 {
     text-transform: uppercase;
-    padding: 20px 0; }
-  .showcase-container .showcase-headline {
-    color: #51575d;
-    background: #f3f3f3;
-    background-image: -webkit-linear-gradient(top, white 0, #f2f5f7 99%);
-    background-image: -moz-linear-gradient(top, white 0, #f2f5f7 99%);
-    background-image: -ms-linear-gradient(top, white 0, #f2f5f7 99%);
-    font-size: 3em;
-    text-align: center;
-    padding: 30px 0;
-    border-top: 1px solid #EEE;
-    border-bottom: 1px solid #EEE; }
+    padding: 20px 0 40px 0; }
   .showcase-container .showcase-icon {
     font-size: 1.5em;
     margin-right: .5em;
