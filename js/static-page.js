@@ -18,8 +18,7 @@ jQuery(document).ready(function($) {
   // Simple way to control one-page scrolling.
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      var target = $(this.hash); target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
         if (body_margin_top > 0) {
           // Always take into account body_margin_top (i.e. there may be a Yahoo! toolbar present)
@@ -35,6 +34,18 @@ jQuery(document).ready(function($) {
   // Save context of this for callbacks
   var _this = this;
 
+  // Check if the page that is loaded is a separate static page (i.e. showcase)
+  if (isPage()) {
+    $('.headerAndNavContainer.sticky').css({ position: 'absolute' });
+  }
+
+  if (isErrorPage()) {
+    $('.headerAndNavContainer.sticky').css({ 
+        position: 'static',
+        background: '#51575D'
+    });
+  }
+
   // Prepend an anchor tag for one-page scrolling.
   // This anchor tag is specifically for the hero image.
   $('body').prepend('<a name="top" id="hero"></a>');
@@ -42,18 +53,18 @@ jQuery(document).ready(function($) {
   // Transform the header navigation while scrolling
   // ----------------------------------
   $('#our-content').waypoint( function(direction) {
-      if (direction == 'down') {
-        $('.headerAndNavContainer.sticky').css({
-          background: '#51575D', 
-          background: 'rgba(81, 87, 93, 0.9)', 
-          'box-shadow': '0 1px 1px rgba(0,0,0,0.2)'
-        });
-      } else if (direction == 'up') {
-        $('.headerAndNavContainer.sticky').css({
-          background: 'rgba(255,255,255,0.0)',
-          'box-shadow': 'none'
-        });
-      }
+    if (direction == 'down') {
+      $('.headerAndNavContainer.sticky').css({
+        background: '#51575D', 
+        background: 'rgba(81, 87, 93, 0.9)', 
+        'box-shadow': '0 1px 1px rgba(0,0,0,0.2)'
+      });
+    } else if (direction == 'up') {
+      $('.headerAndNavContainer.sticky').css({
+        background: 'rgba(255,255,255,0.0)',
+        'box-shadow': 'none'
+      });
+    }
   });
 
   // Display an opaque background for the nav menu when 
@@ -101,6 +112,9 @@ jQuery(document).ready(function($) {
   $heroContainer.backstretch( hero_images, { "duration": "10000", "fade": "750" });
 
 
+  // -------------------------------------
+  // Solutions Section - Slideshow w/ next/prev
+  // -------------------------------------
   var solution_images = [ templateUrl + '/images/solution/Listen.jpg',
                           templateUrl + '/images/solution/Create.jpg',
                           templateUrl + '/images/solution/Distribute.jpg',
@@ -185,6 +199,7 @@ jQuery(document).ready(function($) {
     $('.content-items li a').each(function() {
       $(this).removeClass('selected');
     });
+
     $(this).addClass('selected');
     var contentSection = $(this).parent().attr('class');
     $('.showcase-all > section').removeClass('active').addClass('inactive');
@@ -225,6 +240,7 @@ jQuery(document).ready(function($) {
     $('.topics').removeClass('inactive').addClass('active');
   });
 
+  // Anitmated GIF click event located in the Our Content section.
   $('.animated-gif a').on('click', function(e) {
     e.preventDefault();
     e.stopPropagation();
@@ -233,36 +249,73 @@ jQuery(document).ready(function($) {
     $('.animated-gif-section').append(_.template($('#animated-gif-template').html()));
   });
 
-});
-
-jQuery(window).on("backstretch.show", function (e, instance) { 
-  var imageItem = instance.images[instance.index];
-  if (instance.$container.attr('class') === 'solutions-container') {
-
-    jQuery('.content').find('h2').animate({opacity:0}, 20, function() {
-      jQuery(this).text(CONFIG.solutionCopy['solutionHeading'][instance.index]).animate({opacity:1});
+  // On-click event for showcase navigation (i.e. experian page)
+  $('.showcase-items li a').on('click', function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    $('.showcase-items li a').each(function() {
+      $(this).removeClass('selected');
     });
 
-    jQuery('.content').find('.target-message').animate({opacity:0}, 20, function() {
-      jQuery(this).text(CONFIG.solutionCopy['solutionTgtMsg'][instance.index]).animate({opacity:1});
-    });
+    $(this).addClass('selected');
+    var contentSection = $(this).parent().attr('class');
+    console.log('contentSection ... ', contentSection);
+    $('.showcase-all > section').removeClass('active').addClass('inactive');
 
-    jQuery('.content').find('.secondary-message').animate({opacity:0}, 20, function() {
-      jQuery(this).text(CONFIG.solutionCopy['solutionSecondaryMsg'][instance.index]).animate({opacity:1});
-    });
+    $('.' + contentSection + '-showcase-section').removeClass('inactive').addClass('active');
+    return;
+  });
 
+  // Check if body tag has class attribute named page
+  function isPage() {
+    return $('body').hasClass('page');
   }
+
+  function isErrorPage() {
+    return $('body').hasClass('error404');
+  }
+
+  // This handles the slideshow for the solution section
+  $('#solutions').on("backstretch.show", function (e, instance) { 
+    var imageitem = instance.images[instance.index];
+    if (instance.$container.attr('class') === 'solutions-container') {
+      $('.content').find('h2').animate({opacity:0}, 20, function() {
+        $(this).text(CONFIG.solutionCopy['solutionHeading'][instance.index]).animate({opacity:1});
+      });
+
+      $('.content').find('.target-message').animate({opacity:0}, 20, function() {
+        $(this).text(CONFIG.solutionCopy['solutionTgtMsg'][instance.index]).animate({opacity:1});
+      });
+
+      $('.content').find('.secondary-message').animate({opacity:0}, 20, function() {
+        $(this).text(CONFIG.solutionCopy['solutionSecondaryMsg'][instance.index]).animate({opacity:1});
+      });
+    }
+  });
+
+  function redirectHome(location) {
+    var urlRedirect = window.location.origin; 
+    urlRedirect = urlRedirect + '/content365/' + location;
+    //console.log('urlRedirect ... ', urlRedirect);
+    window.location.href = urlRedirect;
+  }
+
+  // navigation click events for static pages (i.e. experian)
+  $('#page .navContent li').on('click', function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    // Re-direct to homepage
+    redirectHome($(this).find('a').attr('href'));
+  });
+
+  $('#page .logo a').on('click', function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    var href = $(this).attr('href');
+    redirectHome($(this).attr('href'));
+  });
+
 });
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -10,45 +10,42 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-			<section class="error-404 not-found">
-				<header class="page-header">
-					<h1 class="page-title"><?php _e( 'Oops! That page can&rsquo;t be found.', 'content365' ); ?></h1>
-				</header><!-- .page-header -->
+			<div class="siteWrapper">
+				<section class="error-404 not-found">
+					<header class="page-header">
+						<h1 class="page-title"><?php _e( 'Page can&rsquo;t be found!', 'content365' ); ?></h1>
+						<p>Sorry, but the page you were looking for could not be found. You might be interested in...</p>
+					</header><!-- .page-header -->
 
-				<div class="page-content">
-					<p><?php _e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'content365' ); ?></p>
+					<div class="page-content dm-sites">
+						<a href="http://contentsolutions.demandstudios.com"><div class="contentsolutions-site">
+							<span class="e-overlay"></span>
+							<div class="e-marketing">
+								<h2>Content Solutions</h2>
+								<p>Let content tell your story</p>
+							</div>
+							<img src="<?php bloginfo('template_directory'); ?>/images/error404/cs-home.jpg" alt="Content Solutions" title="Content Solutions" />
+						</div></a>
+						<a href="http://demandmedia.com"><div class="demandmedia-site">
+							<span class="e-overlay"></span>
+							<div class="e-marketing">
+								<h2>Demand Media</h2>
+								<p>Content for real life.</p>
+							</div>
+							<img src="<?php bloginfo('template_directory'); ?>/images/error404/dm-home.jpg" alt="Demand Media" title="Demand Media" />
+						</div></a>
+						<a href="http://demandstudios.com"><div class="demandstudios-site">
+							<span class="e-overlay"></span>
+							<div class="e-marketing">
+								<h2>Demand Studios</h2>
+								<p>Create. Engage. Stand Out.</p>
+							</div>
+							<img src="<?php bloginfo('template_directory'); ?>/images/error404/ds-home.jpg" alt="Demand Studios" title="Demand Studios" />
+						</div></a>
+					</div><!-- .page-content -->
 
-					<?php get_search_form(); ?>
-
-					<?php the_widget( 'WP_Widget_Recent_Posts' ); ?>
-
-					<?php if ( content365_categorized_blog() ) : // Only show the widget if site has multiple categories. ?>
-					<div class="widget widget_categories">
-						<h2 class="widgettitle"><?php _e( 'Most Used Categories', 'content365' ); ?></h2>
-						<ul>
-						<?php
-							wp_list_categories( array(
-								'orderby'    => 'count',
-								'order'      => 'DESC',
-								'show_count' => 1,
-								'title_li'   => '',
-								'number'     => 10,
-							) );
-						?>
-						</ul>
-					</div><!-- .widget -->
-					<?php endif; ?>
-
-					<?php
-					/* translators: %1$s: smiley */
-					$archive_content = '<p>' . sprintf( __( 'Try looking in the monthly archives. %1$s', 'content365' ), convert_smilies( ':)' ) ) . '</p>';
-					the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$archive_content" );
-					?>
-
-					<?php the_widget( 'WP_Widget_Tag_Cloud' ); ?>
-
-				</div><!-- .page-content -->
-			</section><!-- .error-404 -->
+				</section><!-- .error-404 -->
+			</div> <!-- end of siteWrapper -->
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

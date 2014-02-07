@@ -276,9 +276,9 @@ get_header(); ?>
     </div>
   </section> <!-- end of contributors -->
 
-  <section id="insights" class="insights">
+  <section id="trending" class="insights">
     <div class="insights-container">
-      <h2>Insights</h2>
+      <h2>Trending</h2>
       <div class="insights-wrap">
         <div class="col1of3">
           <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="mobile" title="mobile" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/tips/mobile.png">

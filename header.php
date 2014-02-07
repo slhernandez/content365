@@ -56,7 +56,7 @@ var templateUrl = '<?= get_bloginfo("template_url"); ?>';
 									<li><a href="#our-content" class="anchorLink">Content</a></li>
 									<li><a href="#solutions" class="anchorLink">Solutions</a></li>
 									<li><a href="#contributors" class="anchorLink">Community</a></li>
-									<li><a href="#insights" class="anchorLink">Insights</a></li>
+									<li><a href="#trending" class="anchorLink">Trending</a></li>
 									<li><a href="#about" class="anchorLink">About Us</a></li>
 									<li><a href="#contact" class="anchorLink n-contact">Contact</a></li>
 								</ul>
