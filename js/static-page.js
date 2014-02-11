@@ -163,10 +163,13 @@ jQuery(document).ready(function($) {
   var nav = $('.navContainer');
   
   navHeading.waypoint({
-    handler: function(event, direction) {
+    handler: function(direction) {
       nav.toggleClass('sticky', direction=='down');
-      if (direction == 'down') nav.css({ 'height':'auto' });
-      else nav.css({ 'height':'auto' });
+      if (direction == 'down') {
+        nav.css({ 'height':'auto' }); 
+      } else { 
+        nav.css({ 'height':'auto' });
+      }
     },
     offset: 15 
   });
@@ -174,10 +177,11 @@ jQuery(document).ready(function($) {
   var sections = $("section[id]");    
   var navigation_links = $("nav a");
   
-  function setActive(event, direction) {
-    var active_section;
-    active_section = $(this);
-    if (direction === "up") active_section = active_section.prev();
+  function setActive(direction) {
+    var active_section = $(this);
+    if (direction === "up") {
+      active_section = active_section.prev();
+    }
     var active_link = $('nav a[href="#' + active_section.attr("id") + '"]');
     navigation_links.removeClass("active");
     active_link.addClass("active");

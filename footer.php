@@ -22,16 +22,16 @@
       <div class="footer-content">
 
         <div class="logo-container">
-          <img src="<?php bloginfo('template_directory'); ?>/images/dm_logo_footer.png">
+          <a href="http://demandmedia.com"><img src="<?php bloginfo('template_directory'); ?>/images/dm_logo_footer.png"></a>
         </div>
 
-        <!-- <div class="footer-menu">
+        <div class="footer-menu">
           <ul>
-            <li><a href="#">Trademark Guidelines</a></li>
-            <li><a href="#">Terms and Conditions</a></li>
-            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="http://www.demandmedia.com/trademark-guidelines/">Trademark Guidelines</a></li>
+            <li><a href="http://www.demandmedia.com/terms-of-use/">Terms and Conditions</a></li>
+            <li><a href="http://www.demandmedia.com/privacy-policy/">Privacy Policy</a></li>
           </ul>
-        </div> -->
+        </div>
 
       </div>
     </div>

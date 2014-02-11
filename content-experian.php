@@ -10,7 +10,7 @@
   <section class="showcase-display">
     <h2 class="showcase-headline">Experian</h2>
     <div class="showcase-container">
-      <h2>Experian Consumer Services</h2>
+      <h2 class="sc-title">Experian Consumer Services</h2>
       <ul class="showcase-items">
         <li class="all"><a href="#" class="selected"><span class="showcase-icon" aria-hidden="true" data-icon="s"></span>All</a></li>
         <li class="resource-articles"><a href="#"><span class="showcase-icon" aria-hidden="true" data-icon="g"></span>Resource Articles</a></li>
@@ -22,57 +22,243 @@
       <div class="content-showcase">
         <div class="showcase-all">
           <section class="all-showcase-section active">
-            <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="collage of all content" title="all content" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/ExperianMosaic.png">
+            <div class="s-container">
+              <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Experian Showcase" title="Experian Showcase" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/experian_content_mosaic_2.jpg">
+            </div>
           </section>
 
-          <section class="resource-articles-showcase-section inactive">
-            <div class="showcase-image">
-              <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="text example" title="text example" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/resources.jpg">
-            </div>  
-            <div class="showcase-info">
-              <h2>Resource Articles</h2>
-              <p>Build your content offerings with diverse formats, such as informational articles, blogs, recipes and more.</p>
-            </div>
+          <section class="resource-articles-showcase-section inactive plus">
+            <div class="showcase-row bg">
+              <div class="s-container">
+                <div class="showcase-image">
+                  <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="How Soon is Too Soon to Take Out a Second Mortgage?" title="How Soon is Too Soon to Take Out a Second Mortgage?" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/ResourceArticle.png">
+                </div>  
+                <div class="showcase-info">
+                  <h2><a href="http://www.freecreditscore.com/">freecreditscore.com™</a></h2>
+                  <a href="http://www.freecreditscore.com/blog/how-soon-is-too-soon-to-take-out-a-second-mortgage/"><p>How Soon is Too Soon to Take Out a Second Mortgage?</p></a>
+                  <a href="http://www.freecreditscore.com/blog/how-soon-is-too-soon-to-take-out-a-second-mortgage/" class="view-link">View Article</a>
+                </div>
+              </div>
+            </div> <!-- end of showcase-row -->
+            <div class="showcase-row alt">
+              <div class="s-container">
+                <div class="showcase-info">
+                  <h2><a href="http://www.freecreditreport.com/">freecreditreport.com™</a></h2>
+                  <a href="http://www.freecreditreport.com/blog/how-to-get-approved-for-an-fha-loan/"><p>How to Get Approved for an HFA Loan</p></a>
+                  <a href="http://www.freecreditreport.com/blog/how-to-get-approved-for-an-fha-loan/" class="view-link">View Article</a>
+                </div>
+                <div class="showcase-image">
+                  <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="How to Get Approved for an HFA Loan" title="How to Get Approved for an HFA Loan" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/ResourceArticle2.png">
+                </div>  
+              </div>
+            </div> <!-- end of showcase-row -->
           </section> 
 
-          <section class="blog-showcase-section inactive">
-            <div class="showcase-image">
-              <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="text example" title="text example" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/blog.jpg">
-            </div>  
-            <div class="showcase-info">
-              <h2>Blog</h2>
-              <p>freecreditscore.com™ Blog: Credit Score VS. Credit Report - What's the Difference?</p>
-            </div>
+          <section class="blog-showcase-section inactive plus">
+
+            <div class="showcase-row bg">
+              <div class="s-container">
+                <div class="showcase-image">
+                  <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Credit Score VS. Credit Report - What's the Difference?" title="Credit Score VS. Credit Report - What's the Difference?" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/BlogArticle_opt.jpg">
+                </div>  
+                <div class="showcase-info">
+                  <h2><a href="http://www.freecreditscore.com/">freecreditscore.com™</a></h2>
+                  <a href="http://www.freecreditscore.com/blog/credit-score-vs-credit-report-whats-the-difference/"><p>Credit Score VS. Credit Report - What's the Difference?</p></a>
+                  <a href="http://www.freecreditscore.com/blog/credit-score-vs-credit-report-whats-the-difference/" class="view-link">View Post</a>
+                </div>
+              </div>
+            </div> <!-- end of showcase-row -->
+
+            <div class="showcase-row alt">
+              <div class="s-container">
+                <div class="showcase-info">
+                  <h2><a href="">freecreditreport.com™</a></h2>
+                  <a href="http://www.freecreditreport.com/blog/who-can-legally-access-my-credit-reports/"><p>Who Can Legally Access My Credit Reports?</p></a>
+                  <a href="http://www.freecreditreport.com/blog/who-can-legally-access-my-credit-reports/" class="view-link">View Post</a>
+                </div>
+                <div class="showcase-image">
+                  <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Who Can Legally Access My Credit Reports?" title="Who Can Legally Access My Credit Reports?" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/BlogArticle2_opt.jpg">
+                </div>  
+              </div>
+            </div> <!-- end of showcase-row -->
+
+
           </section>
 
-          <section class="tips-showcase-section inactive">
-            <div class="showcase-image">
-              <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="text example" title="text example" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/tips.jpg">
-            </div>  
-            <div class="showcase-info">
-              <h2>Tips</h2>
-              <p>Build your content offerings with diverse formats, such as informational articles, blogs, recipes and more.</p>
+          <section class="tips-showcase-section inactive plus">
+
+
+
+            <div class="showcase-row bg">
+              <div class="s-container">
+                <div class="showcase-image">
+                  <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Avoid the Dangers of 0% Interest Credit Cards" title="Avoid the Dangers of 0% Interest Credit Cards" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/TipsArticle.png">
+                </div>  
+                <div class="showcase-info">
+                  <h2><a href="http://www.freecreditscore.com/">freecreditscore.com™</a></h2>
+                  <a href="http://www.freecreditscore.com/blog/avoid-the-dangers-of-0-interest-credit-cards/"><p>Avoid the Dangers of 0% Interest Credit Cards</p></a>
+                  <a href="http://www.freecreditscore.com/blog/avoid-the-dangers-of-0-interest-credit-cards/" class="view-link">View Tip</a>
+                </div>
+              </div>
             </div>
+
+
+            <div class="showcase-row alt">
+              <div class="s-container">
+                <div class="showcase-info">
+                  <h2><a href="http://www.freecreditreport.com/">freecreditreport.com™</a></h2>
+                  <a href="http://www.freecreditreport.com/blog/how-to-protect-from-online-hackers-credit-card-identity-theft/"><p>How to Protect from Online Hackers & Credit Card Identity Theft</p></a>
+                  <a href="http://www.freecreditreport.com/blog/how-to-protect-from-online-hackers-credit-card-identity-theft/" class="view-link">View Tip</a>
+                </div>
+                <div class="showcase-image">
+                  <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="How to Protect from Online Hackers & Credit Card Identity Theft" title="How to Protect from Online Hackers & Credit Card Identity Theft" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/TipsArticle2.png">
+                </div>  
+              </div>
+            </div>
+
+            <div class="showcase-row bg pad">
+              <div class="s-container">
+                <div class="showcase-image">
+                  <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Options for Establishing Your Credit Profile" title="Options for Establishing Your Credit Profile" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/TipsArticle3.png">
+                </div>  
+                <div class="showcase-info">
+                  <h2><a href="http://www.freecreditreport.com/">freecreditreport.com™</a></h2>
+                  <a href="http://www.freecreditreport.com/blog/options-for-establishing-your-credit-profile/"><p>Options for Establishing Your Credit Profile</p></a>
+                  <a href="http://www.freecreditreport.com/blog/options-for-establishing-your-credit-profile/" class="view-link">View Tip</a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="showcase-row alt">
+              <div class="s-container">
+                <div class="showcase-info">
+                  <h2><a href="http://www.freecreditscore.com/">freecreditscore.com™</a></h2>
+                  <a href="http://www.freecreditscore.com/blog/real-estate-open-house-ideas/"><p>Real Estate Open House Ideas</p></a>
+                  <a href="http://www.freecreditscore.com/blog/real-estate-open-house-ideas/" class="view-link">View Tip</a>
+                </div>
+                <div class="showcase-image">
+                  <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Real Estate Open House Ideas" title="Real Estate Open House Ideas" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/TipsArticle4.png">
+                </div>  
+              </div>
+            </div>
+
+
           </section> 
 
-          <section class="infographics-showcase-section inactive">
-            <div class="showcase-image">
-              <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="infographics example" title="infographics example" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/infographic.jpg">
-            </div>  
-            <div class="showcase-info">
-              <h2>Infographics</h2>
-              <p>Educate your audiences with data visualization and awesome graphics.</p>
+          <section class="infographics-showcase-section inactive plus">
+
+
+            <div class="showcase-row bg">
+              <div class="s-container">
+                <div class="showcase-image">
+                  <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Credit Report – A Reader’s Guide" title="Credit Report – A Reader’s Guide" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/infographic.png">
+                </div>  
+                <div class="showcase-info">
+                  <h2><a href="http://www.freecreditscore.com/">freecreditscore.com™</a></h2>
+                  <a href="http://www.freecreditscore.com/blog/infographic-fighting-online-fraud/"><p>Credit Report – A Reader’s Guide</p></a>
+                  <a href="http://www.freecreditscore.com/blog/infographic-fighting-online-fraud/" class="view-link">View Infographic</a>
+                </div>
+              </div>
             </div>
+
+            <div class="showcase-row alt">
+              <div class="s-container">
+                <div class="showcase-info">
+                  <h2><a href="http://www.freecreditscore.com/">freecreditscore.com™</a></h2>
+                  <a href="http://www.freecreditscore.com/blog/infographic-setting-retirement-clock/"><p>Setting Your Retirement Clock</p></a>
+                  <a href="http://www.freecreditscore.com/blog/infographic-setting-retirement-clock/" class="view-link">View Infographic</a>
+                </div>
+                <div class="showcase-image">
+                  <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Setting Your Retirement Clock" title="Setting Your Retirement Clock" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/infographic2.png">
+                </div>  
+              </div>
+            </div>
+
+             <div class="showcase-row bg pad">
+              <div class="s-container">
+                <div class="showcase-image">
+                  <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Dollars and Sense: Emergency Fund 101" title="Dollars and Sense: Emergency Fund 101" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/infographic3.png">
+                </div>  
+                <div class="showcase-info">
+                  <h2><a href="http://www.freecreditscore.com/">freecreditscore.com™</a></h2>
+                  <a href="http://www.freecreditscore.com/blog/infographic-dollars-and-sense-emergency-fund-101/"><p>Dollars and Sense: Emergency Fund 101</p></a>
+                  <a href="http://www.freecreditscore.com/blog/infographic-dollars-and-sense-emergency-fund-101/" class="view-link">View Infographic</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="showcase-row alt">
+              <div class="s-container">
+                <div class="showcase-info">
+                  <h2><a href="http://www.freecreditscore.com/">freecreditscore.com™</a></h2>
+                  <a href="http://www.freecreditscore.com/blog/infographic-fighting-online-fraud/"><p>Fighting Online Fraud</p></a>
+                  <a href="http://www.freecreditscore.com/blog/infographic-fighting-online-fraud/" class="view-link">View Infographic</a>
+                </div>
+                <div class="showcase-image">
+                  <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Fighting Online Fraud" title="Fighting Online Fraud" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/infographic4.png">
+                </div>  
+              </div>
+            </div>
+
           </section>
 
-          <section class="video-showcase-section inactive">
-            <div class="showcase-image">
-              <iframe width="560" height="315" src="//www.youtube.com/embed/aoOQhelpDz4" frameborder="0" allowfullscreen></iframe>
-            </div>  
-            <div class="showcase-info">
-              <h2>Video</h2>
-              <p>Tell your story with customized videos.</p>
+          <section class="video-showcase-section inactive plus">
+
+
+
+            <div class="showcase-row bg pad-bottom">
+              <div class="s-container">
+                <div class="showcase-image">
+                  <iframe width="560" height="315" src="//www.youtube.com/embed/aoOQhelpDz4" frameborder="0" allowfullscreen></iframe>
+                </div>  
+                <div class="showcase-info">
+                  <h2><a href="http://www.freecreditscore.com/">freecreditscore.com™</a></h2>
+                  <a href="http://www.freecreditscore.com/blog/video-what-is-the-safest-way-to-check-your-credit/"><p>What is the Safest Way to Check Your Credit?</p></a>
+                  <a href="http://www.freecreditscore.com/blog/video-what-is-the-safest-way-to-check-your-credit/" class="view-link">View Video</a>
+                </div>
+              </div>
             </div>
+
+            <div class="showcase-row alt pad-bottom">
+              <div class="s-container">
+                <div class="showcase-info">
+                  <h2><a href="http://www.freecreditscore.com/">freecreditscore.com™</a></h2>
+                  <a href="http://www.freecreditscore.com/blog/video-what-is-a-good-versus-excellent-credit-score/"><p>What is a Good Versus Excellent Credit Score?</p></a>
+                  <a href="http://www.freecreditscore.com/blog/video-what-is-a-good-versus-excellent-credit-score/" class="view-link">View Video</a>
+                </div>
+                <div class="showcase-image">
+                  <iframe width="560" height="315" src="//www.youtube.com/embed/fKZDoXDUmbA" frameborder="0" allowfullscreen></iframe>
+                </div>  
+              </div>
+            </div>
+
+            <div class="showcase-row bg pad pad-bottom">
+              <div class="s-container">
+                <div class="showcase-image">
+                  <iframe width="560" height="315" src="//www.youtube.com/embed/_G9-6k4M_tY" frameborder="0" allowfullscreen></iframe>
+                </div>  
+                <div class="showcase-info">
+                  <h2><a href="http://www.freecreditscore.com/">freecreditscore.com™</a></h2>
+                  <a href="http://www.freecreditscore.com/blog/video-how-do-i-report-or-claim-fraud/"><p>How Do I Report or Claim Fraud?</p></a>
+                  <a href="http://www.freecreditscore.com/blog/video-how-do-i-report-or-claim-fraud/" class="view-link">View Video</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="showcase-row alt pad-bottom">
+              <div class="s-container">
+                <div class="showcase-info">
+                  <h2><a href="http://www.freecreditscore.com/">freecreditscore.com™</a></h2>
+                  <a href="http://www.freecreditscore.com/blog/video-how-can-your-credit-score-get-damaged/"><p>How Can Your Credit Score Get Damaged?</p></a>
+                  <a href="http://www.freecreditscore.com/blog/video-how-can-your-credit-score-get-damaged/" class="view-link">View Video</a>
+                </div>
+                <div class="showcase-image">
+                  <iframe width="560" height="315" src="//www.youtube.com/embed/xIhF5x5oPH8" frameborder="0" allowfullscreen></iframe>
+                </div>  
+              </div>
+            </div>
+
           </section>
 
         </div>

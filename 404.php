@@ -19,27 +19,30 @@ get_header(); ?>
 
 					<div class="page-content dm-sites">
 						<a href="http://contentsolutions.demandstudios.com"><div class="contentsolutions-site">
-							<span class="e-overlay"></span>
-							<div class="e-marketing">
-								<h2>Content Solutions</h2>
-								<p>Let content tell your story</p>
-							</div>
+							<span class="e-overlay">
+								<div class="e-marketing">
+									<h2>Content Solutions</h2>
+									<p>Let content tell your story</p>
+								</div>
+							</span>
 							<img src="<?php bloginfo('template_directory'); ?>/images/error404/cs-home.jpg" alt="Content Solutions" title="Content Solutions" />
 						</div></a>
 						<a href="http://demandmedia.com"><div class="demandmedia-site">
-							<span class="e-overlay"></span>
-							<div class="e-marketing">
-								<h2>Demand Media</h2>
-								<p>Content for real life.</p>
-							</div>
+							<span class="e-overlay">
+								<div class="e-marketing">
+									<h2>Demand Media</h2>
+									<p>Content for real life.</p>
+								</div>
+							</span>
 							<img src="<?php bloginfo('template_directory'); ?>/images/error404/dm-home.jpg" alt="Demand Media" title="Demand Media" />
 						</div></a>
 						<a href="http://demandstudios.com"><div class="demandstudios-site">
-							<span class="e-overlay"></span>
-							<div class="e-marketing">
-								<h2>Demand Studios</h2>
-								<p>Create. Engage. Stand Out.</p>
-							</div>
+							<span class="e-overlay">
+								<div class="e-marketing">
+									<h2>Demand Studios</h2>
+									<p>Create. Engage. Stand Out.</p>
+								</div>
+							</span>
 							<img src="<?php bloginfo('template_directory'); ?>/images/error404/ds-home.jpg" alt="Demand Studios" title="Demand Studios" />
 						</div></a>
 					</div><!-- .page-content -->
