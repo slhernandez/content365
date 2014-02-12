@@ -8,10 +8,14 @@ $gotham: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font: $gotham; 
 $header-font: $base-font; // you can refer to other variables
 
+// Font Colors
 $site-wide-color: #51575d;
 $highlight-color: #7ecd65;
 $tips-tricks-color: #7ecd65;
 $body-text-color: #FFF;
+
+// Partner Colors
+$experian-color: #0095D3;
 
 /* Supported Values for $layout:
   null | content-sidebar | content-sidebar-sidebar | sidebar-content | sidebar-content-sidebar | sidebar-sidebar-content

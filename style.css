@@ -2281,11 +2281,14 @@ form {
   padding: 250px 10px 250px 10px;
   width: 45%; }
   .showcase-copy h1 {
-    color: #0095D3;
+    color: #0095d3;
     font-size: 3.5em;
     font-weight: 300;
     text-align: center;
     text-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.3); }
+  .showcase-copy .partner-logo {
+    text-align: center;
+    padding: 15px 0 10px 0; }
   .showcase-copy p {
     color: #FFF;
     font-size: 1.375em;
@@ -2301,9 +2304,9 @@ form {
     text-align: center; }
 
 .partner-btn {
-  background: #bbb;
+  background: #0095d3;
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0095d3), to(#00658f));
-  background-image: -moz-linear-gradient(0 100% 90deg, #bbbbbb, white);
+  background-image: -moz-linear-gradient(0 100% 90deg, #0095d3, #00658f);
   color: #FFF !important;
   text-decoration: none;
   font-size: 1.25em;
@@ -2333,7 +2336,7 @@ form {
   -webkit-animation: pulse 1.5s infinite ease-in-out; }
 
 .showcase-headline {
-  color: #0095D3;
+  color: #0095d3;
   background: #f3f3f3;
   background-image: -webkit-linear-gradient(top, white 0, #f2f5f7 99%);
   background-image: -moz-linear-gradient(top, white 0, #f2f5f7 99%);
@@ -2341,6 +2344,16 @@ form {
   font-size: 3em;
   text-align: center;
   padding: 30px 0;
+  border-top: 1px solid #EEE;
+  border-bottom: 1px solid #EEE; }
+
+.partner-logo-headline {
+  text-align: center;
+  padding: 30px 0;
+  background: #f3f3f3;
+  background-image: -webkit-linear-gradient(top, white 0, #f2f5f7 99%);
+  background-image: -moz-linear-gradient(top, white 0, #f2f5f7 99%);
+  background-image: -ms-linear-gradient(top, white 0, #f2f5f7 99%);
   border-top: 1px solid #EEE;
   border-bottom: 1px solid #EEE; }
 
@@ -2359,14 +2372,14 @@ form {
     top: 7px; }
 
 .showcase-info h2 {
-  font-size: 1.375em;
+  font-size: 1.125em;
   text-transform: none;
-  padding-bottom: 20px; }
+  padding-bottom: 0; }
   .showcase-info h2 a {
     text-decoration: none;
-    color: #51575d; }
+    color: #0095d3; }
     .showcase-info h2 a:hover {
-      color: #0095D3;
+      color: #0095d3;
       -webkit-transition: all .5s ease-in-out;
       -moz-transition: all .5s ease-in-out;
       transition: all .5s ease-in-out; }
@@ -2375,21 +2388,67 @@ form {
   color: #51575d;
   text-decoration: none; }
   .showcase-info a:hover {
-    color: #0095D3;
+    color: #0095d3;
     text-decoration: underline;
     -webkit-transition: all .7s ease-in-out;
     -moz-transition: all .7s ease-in-out;
     transition: all .7s ease-in-out; }
 
 .showcase-info .view-link {
-  text-decoration: normal; }
+  text-decoration: normal;
+  background: #0095D3;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0095d3), to(#00658f));
+  background-image: -moz-linear-gradient(0 100% 90deg, #0095d3, #00658f);
+  color: #FFF !important;
+  text-decoration: none;
+  font-size: 1.125em;
+  padding: 13px 20px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); }
+  @media only screen and (max-width: 37.5em) {
+    .showcase-info .view-link {
+      font-size: 0.875em; } }
+  .showcase-info .view-link:hover {
+    text-decoration: none;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#00a1e4), to(#0095d3));
+    background-image: -moz-linear-gradient(0 100% 90deg, #00a1e4, #0095d3);
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out; }
 
 .showcase-image .i-graphic {
   width: 70%; }
 
-.showcase-image img {
-  position: relative;
-  top: 7px; }
+.showcase-image {
+  position: relative; }
+  .showcase-image .f-overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid rgba(76, 76, 76, 0.3);
+    position: absolute;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-transition: background-color .15s;
+    -moz-transition: background-color .15s;
+    transition: background-color .15s;
+    min-width: 300px;
+    max-width: 350px;
+    bottom: 15px;
+    left: 10%;
+    padding: 15px;
+    z-index: 10; }
+  .showcase-image .feature-text {
+    font-weight: 300;
+    font-size: 1em;
+    color: #FFF; }
+  .showcase-image img {
+    position: relative;
+    top: 8px; }
 
 .showcase-items {
   background: #FFF;
@@ -2424,16 +2483,16 @@ form {
       font-size: 1.125em;
       text-decoration: none; }
       .showcase-items li a:hover {
-        color: #0095D3;
+        color: #0095d3;
         -webkit-transition: all .5s ease-in-out;
         -moz-transition: all .5s ease-in-out;
         transition: all .5s ease-in-out; }
       .showcase-items li a.selected {
-        color: #0095D3;
+        color: #0095d3;
         padding-bottom: 5px; }
         @media only screen and (min-width: 48.001em) {
           .showcase-items li a.selected {
-            border-bottom: 2px solid #0095D3; } }
+            border-bottom: 2px solid #0095d3; } }
 
 .s-container {
   width: 92%;
@@ -2444,9 +2503,27 @@ form {
     display: table; }
   .s-container:after {
     clear: both; }
+  .s-container .showcase-info {
+    padding-left: 2%; }
 
 .showcase-display .content-showcase {
   border-top: 1px solid #EEE; }
+
+.quote-container {
+  width: 80%;
+  margin: 30px auto 80px auto; }
+  .quote-container .quote {
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 15px;
+    padding: 0; }
+  .quote-container .author {
+    margin-bottom: 50px; }
+    .quote-container .author strong {
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 700; }
 
 .pad-bottom {
   padding-bottom: 100px; }
@@ -2459,6 +2536,8 @@ form {
   background-image: -moz-linear-gradient(top, white, #f3f3f3);
   background-image: -ms-linear-gradient(top, white, #f3f3f3);
   background-image: -o-linear-gradient(top, white, #f3f3f3); }
+  .showcase-row.bg .showcase-image {
+    text-align: left; }
 
 .showcase-row.pad {
   padding-top: 100px; }
@@ -2477,6 +2556,8 @@ form {
 
 .showcase-row.alt {
   padding-top: 100px; }
+  .showcase-row.alt .showcase-image {
+    text-align: right; }
 
 .all-showcase-section img {
   border: 1px solid #EEE;
