@@ -41,28 +41,30 @@
             <div class="showcase-row bg">
               <div class="s-container">
                 <div class="showcase-image">
-                  <!--<div class="f-overlay">
-                    <div class="feature-text">"Having equity means that your home is worth more than the amount you owe on it. However, just because there’s no waiting period doesn’t mean that it’s a good option for you."</div>
-                  </div>-->
                   <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="How Soon is Too Soon to Take Out a Second Mortgage?" title="How Soon is Too Soon to Take Out a Second Mortgage?" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/article1u.png">
                 </div>  
                 <div class="showcase-info">
                   <h2><a href="http://www.freecreditscore.com/" target="_blank">freecreditscore.com™</a></h2>
-                  <a href="http://www.freecreditscore.com/blog/how-soon-is-too-soon-to-take-out-a-second-mortgage/" target="_blank"><p>Resource Article: How Soon is Too Soon to Take Out a Second Mortgage? </p></a>
+                  <a href="http://www.freecreditscore.com/blog/how-soon-is-too-soon-to-take-out-a-second-mortgage/" target="_blank"><p>Article: How Soon is Too Soon to Take Out a Second Mortgage? </p></a>
                   <a href="http://www.freecreditscore.com/blog/how-soon-is-too-soon-to-take-out-a-second-mortgage/" target="_blank" class="view-link">View Article</a>
                 </div>
               </div>
             </div> <!-- end of showcase-row -->
             <div class="showcase-row alt">
               <div class="s-container">
-                <div class="showcase-info">
+                <div class="showcase-info desktop">
                   <h2><a href="http://www.freecreditreport.com/" target="_blank">freecreditreport.com™</a></h2>
-                  <a href="http://www.freecreditreport.com/blog/how-to-get-approved-for-an-fha-loan/" target="_blank"><p>Resource Article: How to Get Approved for an HFA Loan</p></a>
+                  <a href="http://www.freecreditreport.com/blog/how-to-get-approved-for-an-fha-loan/" target="_blank"><p>Article: How to Get Approved for an FHA Loan</p></a>
                   <a href="http://www.freecreditreport.com/blog/how-to-get-approved-for-an-fha-loan/" target="_blank" class="view-link">View Article</a>
                 </div>
                 <div class="showcase-image">
                   <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="How to Get Approved for an HFA Loan" title="How to Get Approved for an HFA Loan" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/article2u.png">
                 </div>  
+                <div class="showcase-info mobile">
+                  <h2><a href="http://www.freecreditreport.com/" target="_blank">freecreditreport.com™</a></h2>
+                  <a href="http://www.freecreditreport.com/blog/how-to-get-approved-for-an-fha-loan/" target="_blank"><p>Article: How to Get Approved for an FHA Loan</p></a>
+                  <a href="http://www.freecreditreport.com/blog/how-to-get-approved-for-an-fha-loan/" target="_blank" class="view-link">View Article</a>
+                </div>
               </div>
             </div> <!-- end of showcase-row -->
           </section> 
@@ -84,7 +86,7 @@
 
             <div class="showcase-row alt">
               <div class="s-container">
-                <div class="showcase-info">
+                <div class="showcase-info desktop">
                   <h2><a href="http://freecreditreport.com" target="_blank">freecreditreport.com™</a></h2>
                   <a href="http://www.freecreditreport.com/blog/who-can-legally-access-my-credit-reports/" target="_blank"><p>Blog: Who Can Legally Access My Credit Reports?</p></a>
                   <a href="http://www.freecreditreport.com/blog/who-can-legally-access-my-credit-reports/" target="_blank" class="view-link">View Post</a>
@@ -92,6 +94,11 @@
                 <div class="showcase-image">
                   <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Who Can Legally Access My Credit Reports?" title="Who Can Legally Access My Credit Reports?" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/blog2u.png">
                 </div>  
+                <div class="showcase-info mobile">
+                  <h2><a href="http://freecreditreport.com" target="_blank">freecreditreport.com™</a></h2>
+                  <a href="http://www.freecreditreport.com/blog/who-can-legally-access-my-credit-reports/" target="_blank"><p>Blog: Who Can Legally Access My Credit Reports?</p></a>
+                  <a href="http://www.freecreditreport.com/blog/who-can-legally-access-my-credit-reports/" target="_blank" class="view-link">View Post</a>
+                </div>
               </div>
             </div> <!-- end of showcase-row -->
 
@@ -118,7 +125,7 @@
 
             <div class="showcase-row alt">
               <div class="s-container">
-                <div class="showcase-info">
+                <div class="showcase-info desktop">
                   <h2><a href="http://www.freecreditreport.com/" target="_blank">freecreditreport.com™</a></h2>
                   <a href="http://www.freecreditreport.com/blog/how-to-protect-from-online-hackers-credit-card-identity-theft/" target="_blank"><p>Tips: How to Protect from Online Hackers & Credit Card Identity Theft</p></a>
                   <a href="http://www.freecreditreport.com/blog/how-to-protect-from-online-hackers-credit-card-identity-theft/" target="_blank" class="view-link">View Tip</a>
@@ -126,6 +133,11 @@
                 <div class="showcase-image">
                   <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="How to Protect from Online Hackers & Credit Card Identity Theft" title="How to Protect from Online Hackers & Credit Card Identity Theft" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/Tips2.png">
                 </div>  
+                <div class="showcase-info mobile">
+                  <h2><a href="http://www.freecreditreport.com/" target="_blank">freecreditreport.com™</a></h2>
+                  <a href="http://www.freecreditreport.com/blog/how-to-protect-from-online-hackers-credit-card-identity-theft/" target="_blank"><p>Tips: How to Protect from Online Hackers & Credit Card Identity Theft</p></a>
+                  <a href="http://www.freecreditreport.com/blog/how-to-protect-from-online-hackers-credit-card-identity-theft/" target="_blank" class="view-link">View Tip</a>
+                </div>
               </div>
             </div>
 
@@ -145,14 +157,19 @@
 
             <div class="showcase-row alt">
               <div class="s-container">
-                <div class="showcase-info">
+                <div class="showcase-info desktop">
                   <h2><a href="http://www.freecreditscore.com/" target="_blank">freecreditscore.com™</a></h2>
                   <a href="http://www.freecreditscore.com/blog/real-estate-open-house-ideas/" target="_blank"><p>Tips: Real Estate Open House Ideas</p></a>
                   <a href="http://www.freecreditscore.com/blog/real-estate-open-house-ideas/" target="_blank" class="view-link">View Tip</a>
                 </div>
-                <div class="showcase-image">
+                <div class="showcase-image mobile">
                   <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Real Estate Open House Ideas" title="Real Estate Open House Ideas" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/Tips4.png">
                 </div>  
+                <div class="showcase-info mobile">
+                  <h2><a href="http://www.freecreditscore.com/" target="_blank">freecreditscore.com™</a></h2>
+                  <a href="http://www.freecreditscore.com/blog/real-estate-open-house-ideas/" target="_blank"><p>Tips: Real Estate Open House Ideas</p></a>
+                  <a href="http://www.freecreditscore.com/blog/real-estate-open-house-ideas/" target="_blank" class="view-link">View Tip</a>
+                </div>
               </div>
             </div>
 
@@ -177,7 +194,7 @@
 
             <div class="showcase-row alt">
               <div class="s-container">
-                <div class="showcase-info">
+                <div class="showcase-info desktop">
                   <h2><a href="http://www.freecreditscore.com/" target="_blank">freecreditscore.com™</a></h2>
                   <a href="http://www.freecreditscore.com/blog/infographic-setting-retirement-clock/" target="_blank"><p>Infographic: Setting Your Retirement Clock</p></a>
                   <a href="http://www.freecreditscore.com/blog/infographic-setting-retirement-clock/" target="_blank" class="view-link">View Infographic</a>
@@ -185,6 +202,11 @@
                 <div class="showcase-image">
                   <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Setting Your Retirement Clock" title="Setting Your Retirement Clock" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/info2.png">
                 </div>  
+                <div class="showcase-info mobile">
+                  <h2><a href="http://www.freecreditscore.com/" target="_blank">freecreditscore.com™</a></h2>
+                  <a href="http://www.freecreditscore.com/blog/infographic-setting-retirement-clock/" target="_blank"><p>Infographic: Setting Your Retirement Clock</p></a>
+                  <a href="http://www.freecreditscore.com/blog/infographic-setting-retirement-clock/" target="_blank" class="view-link">View Infographic</a>
+                </div>
               </div>
             </div>
 
@@ -203,7 +225,7 @@
 
             <div class="showcase-row alt">
               <div class="s-container">
-                <div class="showcase-info">
+                <div class="showcase-info desktop">
                   <h2><a href="http://www.freecreditscore.com/" target="_blank">freecreditscore.com™</a></h2>
                   <a href="http://www.freecreditscore.com/blog/infographic-fighting-online-fraud/" target="_blank"><p>Infographic: Fighting Online Fraud</p></a>
                   <a href="http://www.freecreditscore.com/blog/infographic-fighting-online-fraud/" target="_blank" class="view-link">View Infographic</a>
@@ -211,6 +233,11 @@
                 <div class="showcase-image">
                   <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Fighting Online Fraud" title="Fighting Online Fraud" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/info4.png">
                 </div>  
+                <div class="showcase-info mobile">
+                  <h2><a href="http://www.freecreditscore.com/" target="_blank">freecreditscore.com™</a></h2>
+                  <a href="http://www.freecreditscore.com/blog/infographic-fighting-online-fraud/" target="_blank"><p>Infographic: Fighting Online Fraud</p></a>
+                  <a href="http://www.freecreditscore.com/blog/infographic-fighting-online-fraud/" target="_blank" class="view-link">View Infographic</a>
+                </div>
               </div>
             </div>
 
@@ -235,7 +262,7 @@
 
             <div class="showcase-row alt pad-bottom">
               <div class="s-container">
-                <div class="showcase-info">
+                <div class="showcase-info desktop">
                   <h2><a href="http://www.freecreditscore.com/" target="_blank">freecreditscore.com™</a></h2>
                   <a href="http://www.freecreditscore.com/blog/video-what-is-a-good-versus-excellent-credit-score/" target="_blank"><p>Video: What is a Good Versus Excellent Credit Score?</p></a>
                   <a href="http://www.freecreditscore.com/blog/video-what-is-a-good-versus-excellent-credit-score/" target="_blank" class="view-link">View Video</a>
@@ -243,6 +270,11 @@
                 <div class="showcase-image">
                   <iframe width="560" height="315" src="//www.youtube.com/embed/fKZDoXDUmbA" frameborder="0" allowfullscreen></iframe>
                 </div>  
+                <div class="showcase-info mobile">
+                  <h2><a href="http://www.freecreditscore.com/" target="_blank">freecreditscore.com™</a></h2>
+                  <a href="http://www.freecreditscore.com/blog/video-what-is-a-good-versus-excellent-credit-score/" target="_blank"><p>Video: What is a Good Versus Excellent Credit Score?</p></a>
+                  <a href="http://www.freecreditscore.com/blog/video-what-is-a-good-versus-excellent-credit-score/" target="_blank" class="view-link">View Video</a>
+                </div>
               </div>
             </div>
 
@@ -261,7 +293,7 @@
 
             <div class="showcase-row alt pad-bottom">
               <div class="s-container">
-                <div class="showcase-info">
+                <div class="showcase-info desktop">
                   <h2><a href="http://www.freecreditscore.com/" target="_blank">freecreditscore.com™</a></h2>
                   <a href="http://www.freecreditscore.com/blog/video-how-can-your-credit-score-get-damaged/" target="_blank"><p>Video: How Can Your Credit Score Get Damaged?</p></a>
                   <a href="http://www.freecreditscore.com/blog/video-how-can-your-credit-score-get-damaged/" target="_blank" class="view-link">View Video</a>
@@ -269,6 +301,11 @@
                 <div class="showcase-image">
                   <iframe width="560" height="315" src="//www.youtube.com/embed/xIhF5x5oPH8" frameborder="0" allowfullscreen></iframe>
                 </div>  
+                <div class="showcase-info mobile">
+                  <h2><a href="http://www.freecreditscore.com/" target="_blank">freecreditscore.com™</a></h2>
+                  <a href="http://www.freecreditscore.com/blog/video-how-can-your-credit-score-get-damaged/" target="_blank"><p>Video: How Can Your Credit Score Get Damaged?</p></a>
+                  <a href="http://www.freecreditscore.com/blog/video-how-can-your-credit-score-get-damaged/" target="_blank" class="view-link">View Video</a>
+                </div>
               </div>
             </div>
 

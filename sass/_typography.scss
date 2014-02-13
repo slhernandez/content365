@@ -1,4 +1,7 @@
+$gotham: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;;
 
+$base-font: $gotham; 
+$header-font: $base-font; // you can refer to other variables
 
 /* Mixins for various font weights */
 

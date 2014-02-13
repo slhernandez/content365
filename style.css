@@ -2278,8 +2278,17 @@ form {
   background-position: top center; }
 
 .showcase-copy {
-  padding: 250px 10px 250px 10px;
-  width: 45%; }
+  padding: 60px 10px 60px 10px;
+  width: 100%; }
+  @media only screen and (min-width: 30.001em) and (max-width: 48em) {
+    .showcase-copy {
+      padding: 150px 10px 150px 10px; } }
+  @media only screen and (min-width: 48.001em) {
+    .showcase-copy {
+      padding: 250px 10px 250px 10px; } }
+  @media only screen and (min-width: 48.001em) {
+    .showcase-copy {
+      width: 45%; } }
   .showcase-copy h1 {
     color: #0095d3;
     font-size: 3.5em;
@@ -2356,15 +2365,24 @@ form {
   background-image: -ms-linear-gradient(top, white 0, #f2f5f7 99%);
   border-top: 1px solid #EEE;
   border-bottom: 1px solid #EEE; }
+  .partner-logo-headline img {
+    width: 65%; }
+    @media only screen and (min-width: 30.001em) {
+      .partner-logo-headline img {
+        width: inherit; } }
 
 .showcase-container {
   padding: 50px 0 0 0; }
   .showcase-container h2.sc-title {
+    font-size: 1.25em;
     width: 92%;
     max-width: 1200px;
     margin: 0 auto;
     text-transform: uppercase;
     padding: 20px 0 40px 0; }
+    @media only screen and (min-width: 30.001em) {
+      .showcase-container h2.sc-title {
+        font-size: 1.5em; } }
   .showcase-container .showcase-icon {
     font-size: 1.5em;
     margin-right: .5em;
@@ -2448,19 +2466,25 @@ form {
     color: #FFF; }
   .showcase-image img {
     position: relative;
-    top: 8px; }
+    top: 7px; }
+
+.showcase-row.alt .showcase-image img {
+  top: 8px; }
 
 .showcase-items {
   background: #FFF;
   list-style: none;
   margin: 0;
   text-align: center;
-  padding-bottom: 50px; }
+  padding-bottom: 0; }
   .showcase-items:before, .showcase-items:after {
     content: "";
     display: table; }
   .showcase-items:after {
     clear: both; }
+  @media only screen and (min-width: 48.001em) {
+    .showcase-items {
+      padding-bottom: 50px; } }
   .showcase-items li {
     display: inline-block;
     margin: 0 25px; }
@@ -2480,8 +2504,11 @@ form {
           border-left: 1px solid #EEE; } }
     .showcase-items li a {
       color: #51575d;
-      font-size: 1.125em;
+      font-size: 1em;
       text-decoration: none; }
+      @media only screen and (min-width: 30.001em) {
+        .showcase-items li a {
+          font-size: 1.125em; } }
       .showcase-items li a:hover {
         color: #0095d3;
         -webkit-transition: all .5s ease-in-out;
@@ -2505,19 +2532,50 @@ form {
     clear: both; }
   .s-container .showcase-info {
     padding-left: 2%; }
+    .s-container .showcase-info p {
+      font-size: 1em;
+      font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      font-style: normal; }
+      @media only screen and (min-width: 48.001em) {
+        .s-container .showcase-info p {
+          font-size: 1.375em; } }
+
+.showcase-row.alt .s-container .showcase-info.mobile {
+  display: block; }
+  @media only screen and (min-width: 48.001em) {
+    .showcase-row.alt .s-container .showcase-info.mobile {
+      display: none; } }
+.showcase-row.alt .s-container .showcase-info.desktop {
+  display: none; }
+  @media only screen and (min-width: 48.001em) {
+    .showcase-row.alt .s-container .showcase-info.desktop {
+      display: block; } }
 
 .showcase-display .content-showcase {
-  border-top: 1px solid #EEE; }
+  border-top: none; }
+  @media only screen and (min-width: 48.001em) {
+    .showcase-display .content-showcase {
+      border-top: 1px solid #EEE; } }
 
 .quote-container {
-  width: 80%;
-  margin: 30px auto 80px auto; }
+  width: 90%;
+  margin: 30px auto 30px auto; }
+  @media only screen and (min-width: 30.001em) {
+    .quote-container {
+      width: 80%; } }
+  @media only screen and (min-width: 30.001em) {
+    .quote-container {
+      margin: 30px auto 80px auto; } }
   .quote-container .quote {
-    font-size: 1.5em;
+    font-size: 1.125em;
     font-style: italic;
     font-weight: 500;
     margin-bottom: 15px;
     padding: 0; }
+    @media only screen and (min-width: 30.001em) {
+      .quote-container .quote {
+        font-size: 1.5em; } }
   .quote-container .author {
     margin-bottom: 50px; }
     .quote-container .author strong {
@@ -2525,7 +2583,7 @@ form {
       letter-spacing: 1px;
       font-weight: 700; }
 
-.pad-bottom {
+.video-showcase-section .pad-bottom {
   padding-bottom: 100px; }
 
 .showcase-row.bg {
@@ -2540,10 +2598,17 @@ form {
     text-align: left; }
 
 .showcase-row.pad {
-  padding-top: 100px; }
+  padding-top: 10px; }
+  @media only screen and (min-width: 48.001em) {
+    .showcase-row.pad {
+      padding-top: 100px; } }
 
 .showcase-row {
+  padding-bottom: 50px;
   border-bottom: 1px solid #EEE; }
+  @media only screen and (min-width: 48.001em) {
+    .showcase-row {
+      padding-bottom: 0; } }
   .showcase-row:before, .showcase-row:after {
     content: "";
     display: table; }
@@ -2555,9 +2620,20 @@ form {
   margin: 0 auto; }
 
 .showcase-row.alt {
-  padding-top: 100px; }
+  padding-top: 0;
+  padding-bottom: 50px; }
+  @media only screen and (min-width: 48.001em) {
+    .showcase-row.alt {
+      padding-top: 100px; } }
+  @media only screen and (min-width: 48.001em) {
+    .showcase-row.alt {
+      padding-bottom: 0; } }
   .showcase-row.alt .showcase-image {
     text-align: right; }
+
+@media only screen and (min-width: 48.001em) {
+  .showcase-row.alt.pad-bottom {
+    padding-bottom: 100px; } }
 
 .all-showcase-section img {
   border: 1px solid #EEE;
@@ -2634,4 +2710,7 @@ form {
 .all-showcase-section {
   text-align: center; }
   .all-showcase-section img {
-    width: 80%; }
+    width: 100%; }
+    @media only screen and (min-width: 30.001em) {
+      .all-showcase-section img {
+        width: 80%; } }

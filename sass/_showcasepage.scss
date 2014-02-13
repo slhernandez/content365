@@ -9,15 +9,22 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
-  //background-attachment: fixed;
 }
 
 .showcase-copy {
-  padding: 250px 10px 250px 10px;
-  width: 45%;
+  padding: 60px 10px 60px 10px;
+  @include tablet-portrait-only() {
+    padding: 150px 10px 150px 10px;
+  }
+  @include tablet-portrait-and-up () {
+    padding: 250px 10px 250px 10px;
+  }
+  width: 100%;
+  @include tablet-portrait-and-up {
+    width: 45%;
+  }
 
   h1 {
-    //color: #FFF;
     color: $experian-color;
     font-size: 3.5em;
     font-weight: 300;
@@ -107,14 +114,21 @@
   background-image: -ms-linear-gradient(top,#fff 0,#f2f5f7 99%);
   border-top: 1px solid #EEE;
   border-bottom: 1px solid #EEE;
+  img {
+    width: 65%;
+    @include mobile-landscape-and-up {
+      width: inherit;
+    }
+  }
 }
 
 .showcase-container {
-  //width: 92%;
-  //max-width: 1200px;
-  //margin: 0 auto;
   padding: 50px 0 0 0;
   h2.sc-title {
+    font-size: $font-size-20;
+    @include mobile-landscape-and-up() {
+      font-size: $font-size-24;
+    }
     width: 92%;
     max-width: 1200px;
     margin: 0 auto;
@@ -218,8 +232,12 @@
   }
   img {
     position: relative;
-    top: 8px;
+    top: 7px;
   }
+}
+
+.showcase-row.alt .showcase-image img {
+  top: 8px;
 }
 
 .showcase-items {
@@ -228,7 +246,10 @@
   list-style: none;
   margin: 0;
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 0;
+  @include tablet-portrait-and-up() {
+    padding-bottom: 50px;
+  }
   li {
     display: inline-block; 
     margin: 0 25px;
@@ -251,7 +272,10 @@
     }
     a {
       color: $site-wide-color;
-      font-size: $font-size-18;
+      font-size: $font-size-16;
+      @include mobile-landscape-and-up() {
+        font-size: $font-size-18;
+      }
       text-decoration: none;
       &:hover {
         color: $experian-color;
@@ -277,18 +301,54 @@
   max-width: 1200px;
   .showcase-info {
     padding-left: 2%;
+    p {
+      font-size: $font-size-16;
+      @include tablet-portrait-and-up() {
+        font-size: $font-size-22;
+      }
+      @include font-medium();
+    }
+  }
+}
+
+.showcase-row.alt {
+  .s-container {
+    .showcase-info.mobile {
+      display: block;
+      @include tablet-portrait-and-up() {
+        display: none;
+      }
+    }
+    .showcase-info.desktop {
+      display: none;
+      @include tablet-portrait-and-up() {
+        display: block;
+      }
+    }
   }
 }
 
 .showcase-display .content-showcase {
-  border-top: 1px solid #EEE;
+  border-top: none;
+  @include tablet-portrait-and-up() {
+    border-top: 1px solid #EEE;
+  }
 }
 
 .quote-container {
-  width: 80%;
-  margin: 30px auto 80px auto;
+  width: 90%;
+  @include mobile-landscape-and-up() {
+    width: 80%;
+  }
+  margin: 30px auto 30px auto;
+  @include mobile-landscape-and-up() {
+    margin: 30px auto 80px auto;
+  }
   .quote {
-    font-size: $font-size-24;
+    font-size: $font-size-18; 
+    @include mobile-landscape-and-up {
+      font-size: $font-size-24;
+    }
     font-style: italic;
     font-weight: 500;  
     margin-bottom: 15px;
@@ -304,7 +364,7 @@
   }
 }
 
-.pad-bottom {
+.video-showcase-section .pad-bottom {
   padding-bottom: 100px;
 }
 
@@ -322,10 +382,17 @@
 }
 
 .showcase-row.pad {
-  padding-top: 100px;
+  padding-top: 10px;
+  @include tablet-portrait-and-up () {
+    padding-top: 100px;
+  }
 }
 
 .showcase-row {
+  padding-bottom: 50px;
+  @include tablet-portrait-and-up () {
+    padding-bottom: 0;
+  }
   @include clearfix();
   border-bottom: 1px solid #EEE;
   //margin: 10px auto;
@@ -338,9 +405,22 @@
 }
 
 .showcase-row.alt {
-  padding-top: 100px;
+  padding-top: 0;
+  @include tablet-portrait-and-up () {
+    padding-top: 100px;
+  }
+  padding-bottom: 50px;
+  @include tablet-portrait-and-up () {
+    padding-bottom: 0;
+  }
   .showcase-image {
     text-align: right;
+  }
+}
+
+.showcase-row.alt.pad-bottom {
+  @include tablet-portrait-and-up () {
+    padding-bottom: 100px;
   }
 }
 
@@ -378,9 +458,6 @@
     -moz-transition: opacity 500ms ease-in-out;
     transition: opacity 500ms ease-in-out;
   }
-  img {
-    //border: 1px solid #EEE;
-  }
 }
 
 .resource-articles-showcase-section.plus,
@@ -395,6 +472,9 @@
 .all-showcase-section {
   text-align: center;
   img {
-    width: 80%;
+    width: 100%;
+    @include mobile-landscape-and-up {
+      width: 80%;
+    }
   }
 }
