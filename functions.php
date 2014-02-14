@@ -91,6 +91,8 @@ function content365_scripts() {
 
 	wp_enqueue_script( 'content365-backstretch', get_template_directory_uri() . '/js/backstretch.min.js', array('jquery'), '201312008', false );
 
+	wp_enqueue_script( 'content365-photoset', get_template_directory_uri() . '/js/photoset-grid.min.js', array('jquery'), '20141402', false );
+
 	wp_enqueue_script( 'content365-underscore', get_template_directory_uri() . '/js/underscore.min.js', array(), '201312008', false );
 
 	wp_enqueue_script( 'content365-waypoints', get_template_directory_uri() . '/js/waypoints.min.js', array('jquery'), '201312008', false );

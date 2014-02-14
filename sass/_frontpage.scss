@@ -55,7 +55,7 @@
   }
 
   .marketing {
-    padding: 100px 10px 100px 10px;
+    padding: 100px 10px 50px 10px;
     @include mobile-landscape-and-up () {
       padding: 150px 10px 150px 10px;
     }
@@ -610,6 +610,10 @@ ul.pages {
 
 ul.sol-nav {
   list-style: none;
+  padding-bottom: 15px;
+  @include mobile-landscape-and-up() {
+    padding-bottom: 0;
+  }
   li {
     color: #FFF;
     cursor: pointer;
@@ -758,8 +762,12 @@ ul.sol-nav {
       padding: 0;
     }
     padding: 50px 0;
-    width: 95%;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0 0 0 6px;
+    @include mobile-landscape-and-up() {
+      width: 95%;
+      margin: 0 auto;
+    }
     .topic {
       position: relative;
       width: 100%;

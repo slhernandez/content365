@@ -33,7 +33,16 @@
                 <p class="quote">"Demand Media helped us be a resource by building an experience for our customers that gave them authoritative advice, in a format that made the information easy to absorb, and delivered in the unique voice of our brand."</p>
                 <p class="author"><strong>— Brian Hovis</strong>, Vice President of Digital Marketing and Acquisition for Experian Consumer Services</p>
               </div>
-              <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Experian Showcase" title="Experian Showcase" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/experian_content_mosaic_2.jpg">
+              <!--<img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Experian Showcase" title="Experian Showcase" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/experian_content_mosaic_2.jpg">-->
+
+              <div class="photoset-grid-custom" style="visibility:hidden;">
+                <img src="<?php bloginfo('template_directory'); ?>/images/work/experian/feature_grid_1.png" data-highres="http://www.freecreditscore.com/blog/video-what-is-the-safest-way-to-check-your-credit/">
+                <img src="<?php bloginfo('template_directory'); ?>/images/work/experian/feature_grid_2.png" data-highres="http://www.freecreditscore.com/blog/credit-score-vs-credit-report-whats-the-difference/">
+                <img src="<?php bloginfo('template_directory'); ?>/images/work/experian/feature_grid_3.png" data-highres="http://www.freecreditscore.com/blog/infographic-credit-report-a-readers-guide/">
+                <img src="<?php bloginfo('template_directory'); ?>/images/work/experian/feature_grid_4.png" data-highres="http://www.freecreditscore.com/blog/avoid-the-dangers-of-0-interest-credit-cards/">
+                <img src="<?php bloginfo('template_directory'); ?>/images/work/experian/feature_grid_8.png" data-highres="http://www.freecreditscore.com/blog/infographic-dollars-and-sense-emergency-fund-101/">
+                <img src="<?php bloginfo('template_directory'); ?>/images/work/experian/feature_grid_6.png" data-highres="http://www.freecreditscore.com/blog/infographic-setting-retirement-clock/">
+              </div>
             </div>
           </section>
 
