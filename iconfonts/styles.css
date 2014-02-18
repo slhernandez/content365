@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: "streamline-font-1";
-  src:url("fonts/streamline-font-1.eot");
-  src:url("fonts/streamline-font-1.eot?#iefix") format("embedded-opentype"),
-    url("fonts/streamline-font-1.woff") format("woff"),
-    url("fonts/streamline-font-1.ttf") format("truetype"),
-    url("fonts/streamline-font-1.svg#untitled-font-1") format("svg");
+  src:url("streamline-font-1.eot");
+  src:url("streamline-font-1.eot?#iefix") format("embedded-opentype"),
+    url("streamline-font-1.woff") format("woff"),
+    url("streamline-font-1.ttf") format("truetype"),
+    url("streamline-font-1.svg#streamline-font-1") format("svg");
   font-weight: normal;
   font-style: normal;
 
@@ -97,4 +97,7 @@
 }
 .icon-lightbulb-2:before {
   content: "t";
+}
+.icon-play-1:before {
+  content: "u";
 }

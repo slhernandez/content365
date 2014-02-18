@@ -6,7 +6,7 @@
       <div class="partner-logo">
         <img src="<?php bloginfo('template_directory'); ?>/images/work/experian/experian_logo.png"/>
       </div>
-      <div class="partner-btn-container"><a target="_blank" class="partner-btn" href="http://www.freecreditscore.com/blog/video-what-is-the-safest-way-to-check-your-credit/">Explore</a></div>
+      <div class="partner-btn-container"><a target="_blank" class="partner-btn anchorLink" href="#showcase-scroll">Explore</a></div>
     </div>
   </section>
 
@@ -16,7 +16,7 @@
       <img src="<?php bloginfo('template_directory'); ?>/images/work/experian/experian_logo.png"/>
     </div>
     <div class="showcase-container">
-      <h2 class="sc-title">Experian Consumer Services</h2>
+      <h2 id="showcase-scroll" class="sc-title">Experian Consumer Services</h2>
       <ul class="showcase-items">
         <li class="all"><a href="#" class="selected"><span class="showcase-icon" aria-hidden="true" data-icon="s"></span>All</a></li>
         <li class="resource-articles"><a href="#"><span class="showcase-icon" aria-hidden="true" data-icon="g"></span>Articles</a></li>
@@ -33,16 +33,21 @@
                 <p class="quote">"Demand Media helped us be a resource by building an experience for our customers that gave them authoritative advice, in a format that made the information easy to absorb, and delivered in the unique voice of our brand."</p>
                 <p class="author"><strong>— Brian Hovis</strong>, Vice President of Digital Marketing and Acquisition for Experian Consumer Services</p>
               </div>
-              <!--<img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Experian Showcase" title="Experian Showcase" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/experian_content_mosaic_2.jpg">-->
+              <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Experian Showcase" title="Experian Showcase" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/experian_content_mosaic_1.jpg">
 
-              <div class="photoset-grid-custom" style="visibility:hidden;">
-                <img src="<?php bloginfo('template_directory'); ?>/images/work/experian/feature_grid_1.png" data-highres="http://www.freecreditscore.com/blog/video-what-is-the-safest-way-to-check-your-credit/">
-                <img src="<?php bloginfo('template_directory'); ?>/images/work/experian/feature_grid_2.png" data-highres="http://www.freecreditscore.com/blog/credit-score-vs-credit-report-whats-the-difference/">
-                <img src="<?php bloginfo('template_directory'); ?>/images/work/experian/feature_grid_3.png" data-highres="http://www.freecreditscore.com/blog/infographic-credit-report-a-readers-guide/">
-                <img src="<?php bloginfo('template_directory'); ?>/images/work/experian/feature_grid_4.png" data-highres="http://www.freecreditscore.com/blog/avoid-the-dangers-of-0-interest-credit-cards/">
-                <img src="<?php bloginfo('template_directory'); ?>/images/work/experian/feature_grid_8.png" data-highres="http://www.freecreditscore.com/blog/infographic-dollars-and-sense-emergency-fund-101/">
-                <img src="<?php bloginfo('template_directory'); ?>/images/work/experian/feature_grid_6.png" data-highres="http://www.freecreditscore.com/blog/infographic-setting-retirement-clock/">
-              </div>
+              <!--<div id="e-mosaic">
+                <div class="ftg-items">
+                  <div class="tile"><a class="tile-inner" href="http://www.freecreditscore.com/blog/video-what-is-the-safest-way-to-check-your-credit/"><img class="item" src="<?php bloginfo('template_directory'); ?>/images/work/experian/grid/col1-image1-455x209.png"></a></div>
+                  <div class="tile"><a class="tile-inner" href="http://www.freecreditscore.com/blog/credit-score-vs-credit-report-whats-the-difference/"><img class="item" src="<?php bloginfo('template_directory'); ?>/images/work/experian/grid/col2-image1-235x423.png"></a></div>
+                  <div class="tile"><a class="title-inner" href="http://www.freecreditscore.com/blog/infographic-credit-report-a-readers-guide/"><img class="item" src="<?php bloginfo('template_directory'); ?>/images/work/experian/grid/col3-image1-470x423.png"></a></div>
+                  <div class="tile"><a class="title-inner" href=""><img class="item" src="<?php bloginfo('template_directory'); ?>/images/work/experian/grid/col1-image2-455x426.png"></a></div>
+                  <div class="tile"><a class="title-inner" href=""><img class="item" src="<?php bloginfo('template_directory'); ?>/images/work/experian/grid/col2-image2-235x212.png"></a></div>
+                  <div class="tile"><a class="title-inner" href=""><img class="item" src="<?php bloginfo('template_directory'); ?>/images/work/experian/grid/col3-image2-235x212.png"></a></div>
+                  <div class="tile"><a class="title-inner" href=""><img class="item" src="<?php bloginfo('template_directory'); ?>/images/work/experian/grid/col3-image3-235x212.png"></a></div>
+                </div>
+              </div> -->
+
+
             </div>
           </section>
 
@@ -55,6 +60,7 @@
                 <div class="showcase-info">
                   <h2><a href="http://www.freecreditscore.com/" target="_blank">freecreditscore.com™</a></h2>
                   <a href="http://www.freecreditscore.com/blog/how-soon-is-too-soon-to-take-out-a-second-mortgage/" target="_blank"><p>Article: How Soon is Too Soon to Take Out a Second Mortgage? </p></a>
+                  <p class="snippet">Having equity means that your home is worth more than the amount you owe on it. However, just because there’s no waiting period doesn’t mean that it’s a good option for you.</p>
                   <a href="http://www.freecreditscore.com/blog/how-soon-is-too-soon-to-take-out-a-second-mortgage/" target="_blank" class="view-link">View Article</a>
                 </div>
               </div>
@@ -64,6 +70,7 @@
                 <div class="showcase-info desktop">
                   <h2><a href="http://www.freecreditreport.com/" target="_blank">freecreditreport.com™</a></h2>
                   <a href="http://www.freecreditreport.com/blog/how-to-get-approved-for-an-fha-loan/" target="_blank"><p>Article: How to Get Approved for an FHA Loan</p></a>
+                  <p class="snippet">Check your own credit report to make sure there are no surprises when your lender pulls your report. Lenders use a variety of methods to check your credit, but regardless of how they pull your report, you can do yourself a real favor by reviewing your own credit score to get an idea of where you stand.</p>
                   <a href="http://www.freecreditreport.com/blog/how-to-get-approved-for-an-fha-loan/" target="_blank" class="view-link">View Article</a>
                 </div>
                 <div class="showcase-image">
@@ -72,6 +79,7 @@
                 <div class="showcase-info mobile">
                   <h2><a href="http://www.freecreditreport.com/" target="_blank">freecreditreport.com™</a></h2>
                   <a href="http://www.freecreditreport.com/blog/how-to-get-approved-for-an-fha-loan/" target="_blank"><p>Article: How to Get Approved for an FHA Loan</p></a>
+                  <p class="snippet">Check your own credit report to make sure there are no surprises when your lender pulls your report. Lenders use a variety of methods to check your credit, but regardless of how they pull your report, you can do yourself a real favor by reviewing your own credit score to get an idea of where you stand.</p>
                   <a href="http://www.freecreditreport.com/blog/how-to-get-approved-for-an-fha-loan/" target="_blank" class="view-link">View Article</a>
                 </div>
               </div>
@@ -88,6 +96,7 @@
                 <div class="showcase-info">
                   <h2><a href="http://www.freecreditscore.com/" target="_blank">freecreditscore.com™</a></h2>
                   <a href="http://www.freecreditscore.com/blog/credit-score-vs-credit-report-whats-the-difference/" target="_blank"><p>Blog: Credit Score VS. Credit Report - What's the Difference?</p></a>
+                  <p class="snippet">A credit report is a detailed description of the financial decisions you’ve made including any recent credit line that has been opened in your name. </p>
                   <a href="http://www.freecreditscore.com/blog/credit-score-vs-credit-report-whats-the-difference/" target="_blank" class="view-link">View Post</a>
                 </div>
               </div>
@@ -98,6 +107,7 @@
                 <div class="showcase-info desktop">
                   <h2><a href="http://freecreditreport.com" target="_blank">freecreditreport.com™</a></h2>
                   <a href="http://www.freecreditreport.com/blog/who-can-legally-access-my-credit-reports/" target="_blank"><p>Blog: Who Can Legally Access My Credit Reports?</p></a>
+                  <p class="snippet">The main people who need to access your credit report include landlords, mortgage and loan lenders, insurance companies, credit card companies, government bureaus, potential employers, and state or local child-support enforcement agencies.</p>
                   <a href="http://www.freecreditreport.com/blog/who-can-legally-access-my-credit-reports/" target="_blank" class="view-link">View Post</a>
                 </div>
                 <div class="showcase-image">
@@ -106,6 +116,7 @@
                 <div class="showcase-info mobile">
                   <h2><a href="http://freecreditreport.com" target="_blank">freecreditreport.com™</a></h2>
                   <a href="http://www.freecreditreport.com/blog/who-can-legally-access-my-credit-reports/" target="_blank"><p>Blog: Who Can Legally Access My Credit Reports?</p></a>
+                  <p class="snippet">The main people who need to access your credit report include landlords, mortgage and loan lenders, insurance companies, credit card companies, government bureaus, potential employers, and state or local child-support enforcement agencies.</p>
                   <a href="http://www.freecreditreport.com/blog/who-can-legally-access-my-credit-reports/" target="_blank" class="view-link">View Post</a>
                 </div>
               </div>
@@ -115,9 +126,6 @@
           </section>
 
           <section class="tips-showcase-section inactive plus">
-
-
-
             <div class="showcase-row bg">
               <div class="s-container">
                 <div class="showcase-image">
@@ -126,6 +134,7 @@
                 <div class="showcase-info">
                   <h2><a href="http://www.freecreditscore.com/" target="_blank">freecreditscore.com™</a></h2>
                   <a href="http://www.freecreditscore.com/blog/avoid-the-dangers-of-0-interest-credit-cards/" target="_blank"><p>Tips: Avoid the Dangers of 0% Interest Credit Cards</p></a>
+                  <p class="snippet">Seeing an advertisement for credit card with a 0% interest rate doesn’t mean the rate is always going to stay that way or even that you’re going to qualify. Many times, this kind of offer is an introductory rate and doesn’t last very long. Furthermore, unless you have a stellar credit profile, you might not reap the benefits...</p>
                   <a href="http://www.freecreditscore.com/blog/avoid-the-dangers-of-0-interest-credit-cards/" target="_blank"  class="view-link">View Tip</a>
                 </div>
               </div>
@@ -137,6 +146,7 @@
                 <div class="showcase-info desktop">
                   <h2><a href="http://www.freecreditreport.com/" target="_blank">freecreditreport.com™</a></h2>
                   <a href="http://www.freecreditreport.com/blog/how-to-protect-from-online-hackers-credit-card-identity-theft/" target="_blank"><p>Tips: How to Protect from Online Hackers & Credit Card Identity Theft</p></a>
+                  <p class="snippet">Don’t provide your credit card information to a website unless you navigated to the site yourself, rather than clicking a link in an e-mail or text. Make sure a website is secure by looking for a “lock” icon on your browser window or the abbreviation “https,” rather than “http,” at the beginning of the website address...</p>
                   <a href="http://www.freecreditreport.com/blog/how-to-protect-from-online-hackers-credit-card-identity-theft/" target="_blank" class="view-link">View Tip</a>
                 </div>
                 <div class="showcase-image">
@@ -145,6 +155,7 @@
                 <div class="showcase-info mobile">
                   <h2><a href="http://www.freecreditreport.com/" target="_blank">freecreditreport.com™</a></h2>
                   <a href="http://www.freecreditreport.com/blog/how-to-protect-from-online-hackers-credit-card-identity-theft/" target="_blank"><p>Tips: How to Protect from Online Hackers & Credit Card Identity Theft</p></a>
+                  <p class="snippet">Don’t provide your credit card information to a website unless you navigated to the site yourself, rather than clicking a link in an e-mail or text. Make sure a website is secure by looking for a “lock” icon on your browser window or the abbreviation “https,” rather than “http,” at the beginning of the website address...</p>
                   <a href="http://www.freecreditreport.com/blog/how-to-protect-from-online-hackers-credit-card-identity-theft/" target="_blank" class="view-link">View Tip</a>
                 </div>
               </div>
@@ -158,6 +169,7 @@
                 <div class="showcase-info">
                   <h2><a href="http://www.freecreditreport.com/" target="_blank">freecreditreport.com™</a></h2>
                   <a href="http://www.freecreditreport.com/blog/options-for-establishing-your-credit-profile/" target="_blank"><p>Tips: Options for Establishing Your Credit Profile</p></a>
+                  <p class="snippet">One way to establish your credit profile by applying and securing a loan with a creditor that reports your activity to the credit bureaus. Be sure to create a personal budget that accounts for paying the balance due. Paying your creditors on time while avoiding going over one-third of your limit can help toward building a positive credit standing...</p>
                   <a href="http://www.freecreditreport.com/blog/options-for-establishing-your-credit-profile/" target="_blank" class="view-link">View Tip</a>
                 </div>
               </div>
@@ -169,6 +181,7 @@
                 <div class="showcase-info desktop">
                   <h2><a href="http://www.freecreditscore.com/" target="_blank">freecreditscore.com™</a></h2>
                   <a href="http://www.freecreditscore.com/blog/real-estate-open-house-ideas/" target="_blank"><p>Tips: Real Estate Open House Ideas</p></a>
+                  <p class="snippet">Open houses needn’t be humdrum. They can be especially effective if you band together with nearby sellers to create an event. While some real estate agents might encourage sellers to “stage” a home with new furniture or upgraded appliances, with a few simple and affordable details, you can host a very successful open house...</p>
                   <a href="http://www.freecreditscore.com/blog/real-estate-open-house-ideas/" target="_blank" class="view-link">View Tip</a>
                 </div>
                 <div class="showcase-image mobile">
@@ -177,6 +190,7 @@
                 <div class="showcase-info mobile">
                   <h2><a href="http://www.freecreditscore.com/" target="_blank">freecreditscore.com™</a></h2>
                   <a href="http://www.freecreditscore.com/blog/real-estate-open-house-ideas/" target="_blank"><p>Tips: Real Estate Open House Ideas</p></a>
+                  <p class="snippet">Open houses needn’t be humdrum. They can be especially effective if you band together with nearby sellers to create an event. While some real estate agents might encourage sellers to “stage” a home with new furniture or upgraded appliances, with a few simple and affordable details, you can host a very successful open house...</p>
                   <a href="http://www.freecreditscore.com/blog/real-estate-open-house-ideas/" target="_blank" class="view-link">View Tip</a>
                 </div>
               </div>
@@ -196,6 +210,7 @@
                 <div class="showcase-info">
                   <h2><a href="http://www.freecreditscore.com/" target="_blank">freecreditscore.com™</a></h2>
                   <a href="http://www.freecreditscore.com/blog/infographic-credit-report-a-readers-guide/" target="_blank"><p>Infographic: Credit Report – A Reader’s Guide</p></a>
+                  <p class="snippet"></p>
                   <a href="http://www.freecreditscore.com/blog/infographic-credit-report-a-readers-guide/" target="_blank" class="view-link">View Infographic</a>
                 </div>
               </div>
@@ -206,6 +221,7 @@
                 <div class="showcase-info desktop">
                   <h2><a href="http://www.freecreditscore.com/" target="_blank">freecreditscore.com™</a></h2>
                   <a href="http://www.freecreditscore.com/blog/infographic-setting-retirement-clock/" target="_blank"><p>Infographic: Setting Your Retirement Clock</p></a>
+                  <p class="snippet"></p>
                   <a href="http://www.freecreditscore.com/blog/infographic-setting-retirement-clock/" target="_blank" class="view-link">View Infographic</a>
                 </div>
                 <div class="showcase-image">
@@ -214,6 +230,7 @@
                 <div class="showcase-info mobile">
                   <h2><a href="http://www.freecreditscore.com/" target="_blank">freecreditscore.com™</a></h2>
                   <a href="http://www.freecreditscore.com/blog/infographic-setting-retirement-clock/" target="_blank"><p>Infographic: Setting Your Retirement Clock</p></a>
+                  <p class="snippet"></p>
                   <a href="http://www.freecreditscore.com/blog/infographic-setting-retirement-clock/" target="_blank" class="view-link">View Infographic</a>
                 </div>
               </div>
@@ -227,6 +244,7 @@
                 <div class="showcase-info">
                   <h2><a href="http://www.freecreditscore.com/" target="_blank">freecreditscore.com™</a></h2>
                   <a href="http://www.freecreditscore.com/blog/infographic-dollars-and-sense-emergency-fund-101/" target="_blank"><p>Infographic: Dollars and Sense: Emergency Fund 101</p></a>
+                  <p class="snippet"></p>
                   <a href="http://www.freecreditscore.com/blog/infographic-dollars-and-sense-emergency-fund-101/" target="_blank" class="view-link">View Infographic</a>
                 </div>
               </div>
@@ -237,6 +255,7 @@
                 <div class="showcase-info desktop">
                   <h2><a href="http://www.freecreditscore.com/" target="_blank">freecreditscore.com™</a></h2>
                   <a href="http://www.freecreditscore.com/blog/infographic-fighting-online-fraud/" target="_blank"><p>Infographic: Fighting Online Fraud</p></a>
+                  <p class="snippet"></p>
                   <a href="http://www.freecreditscore.com/blog/infographic-fighting-online-fraud/" target="_blank" class="view-link">View Infographic</a>
                 </div>
                 <div class="showcase-image">
@@ -245,6 +264,7 @@
                 <div class="showcase-info mobile">
                   <h2><a href="http://www.freecreditscore.com/" target="_blank">freecreditscore.com™</a></h2>
                   <a href="http://www.freecreditscore.com/blog/infographic-fighting-online-fraud/" target="_blank"><p>Infographic: Fighting Online Fraud</p></a>
+                  <p class="snippet"></p>
                   <a href="http://www.freecreditscore.com/blog/infographic-fighting-online-fraud/" target="_blank" class="view-link">View Infographic</a>
                 </div>
               </div>
