@@ -354,7 +354,7 @@
   }
   margin: 30px auto 30px auto;
   @include mobile-landscape-and-up() {
-    margin: 30px auto 80px auto;
+    margin: 0 auto 80px auto;
   }
   .quote {
     font-size: $font-size-18; 
@@ -490,6 +490,62 @@
     }
   }
 }
+
+#experian-mosaic {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  @include clearfix();
+  width: 100%;
+  @include tablet-landscape-and-up () {
+    width: 80%;
+  }
+  margin: 0 auto;
+
+  .experian-col1 {
+    width: 37%;
+    float: left;
+    margin-right: 5px;
+  }
+  .experian-col2 {
+    width: 19.1%;
+    float: left;
+    margin-right: 5px;
+  }
+  .experian-col3 {
+    width: 40%;
+    float: left;
+  }
+}
+
+.experian-col1,
+.experian-col2,
+.experian-col3 {
+  img {
+    width: 100%;
+    &:hover {
+      -webkit-box-shadow: -1px 0px 3px 3px rgba(0,149,211,.4);
+      -moz-box-shadow: -1px 0px 3px 3px rgba(0,149,211,.4);
+      box-shadow: -1px 0px 3px 3px rgba(0,149,211,.4);
+      -webkit-transition: all 600ms ease;
+      -moz-transition: all 600ms ease;
+      transition: all 600ms ease;
+    }
+  }
+}
+
+.experian-col3-mod {
+  @include clearfix();
+  .mod-tile {
+    width: 50%;
+    float: left;
+    img {
+      width: 87%;
+    }
+  }
+}
+
+
 
 .photoset-grid-custom {
   border: 1px solid #EEE;

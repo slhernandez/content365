@@ -33,19 +33,25 @@
                 <p class="quote">"Demand Media helped us be a resource by building an experience for our customers that gave them authoritative advice, in a format that made the information easy to absorb, and delivered in the unique voice of our brand."</p>
                 <p class="author"><strong>— Brian Hovis</strong>, Vice President of Digital Marketing and Acquisition for Experian Consumer Services</p>
               </div>
-              <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Experian Showcase" title="Experian Showcase" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/experian_content_mosaic_1.jpg">
+              <!--<img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Experian Showcase" title="Experian Showcase" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/experian_content_mosaic_1.jpg">-->
 
-              <!--<div id="e-mosaic">
-                <div class="ftg-items">
-                  <div class="tile"><a class="tile-inner" href="http://www.freecreditscore.com/blog/video-what-is-the-safest-way-to-check-your-credit/"><img class="item" src="<?php bloginfo('template_directory'); ?>/images/work/experian/grid/col1-image1-455x209.png"></a></div>
-                  <div class="tile"><a class="tile-inner" href="http://www.freecreditscore.com/blog/credit-score-vs-credit-report-whats-the-difference/"><img class="item" src="<?php bloginfo('template_directory'); ?>/images/work/experian/grid/col2-image1-235x423.png"></a></div>
-                  <div class="tile"><a class="title-inner" href="http://www.freecreditscore.com/blog/infographic-credit-report-a-readers-guide/"><img class="item" src="<?php bloginfo('template_directory'); ?>/images/work/experian/grid/col3-image1-470x423.png"></a></div>
-                  <div class="tile"><a class="title-inner" href=""><img class="item" src="<?php bloginfo('template_directory'); ?>/images/work/experian/grid/col1-image2-455x426.png"></a></div>
-                  <div class="tile"><a class="title-inner" href=""><img class="item" src="<?php bloginfo('template_directory'); ?>/images/work/experian/grid/col2-image2-235x212.png"></a></div>
-                  <div class="tile"><a class="title-inner" href=""><img class="item" src="<?php bloginfo('template_directory'); ?>/images/work/experian/grid/col3-image2-235x212.png"></a></div>
-                  <div class="tile"><a class="title-inner" href=""><img class="item" src="<?php bloginfo('template_directory'); ?>/images/work/experian/grid/col3-image3-235x212.png"></a></div>
+              <div id="experian-mosaic">
+                <div class="experian-col1">
+                  <a href="http://www.freecreditscore.com/blog/video-what-is-the-safest-way-to-check-your-credit/" target="_blank"><img class="item" src="<?php bloginfo('template_directory'); ?>/images/work/experian/grid/col1-image1-455x209.png" alt="What is the safest way to check your credit." title="What is the safest way to check your credit."></a>
+                  <a href="http://www.freecreditscore.com/blog/infographic-credit-report-a-readers-guide/" target="_blank"><img class="item" src="<?php bloginfo('template_directory'); ?>/images/work/experian/grid/col1-image2-455x426.png" alt="Credit Report – A Reader’s Guide" title="Credit Report – A Reader’s Guide"></a>
                 </div>
-              </div> -->
+                <div class="experian-col2">
+                  <a href="http://www.freecreditscore.com/blog/infographic-fighting-online-fraud/" target="_blank"><img class="item" src="<?php bloginfo('template_directory'); ?>/images/work/experian/grid/col2-image1-235x423.png" alt="Fighting Online Fraud" title="Fighting Online Fraud"></a>
+                  <a href="http://www.freecreditscore.com/blog/infographic-setting-retirement-clock/" target="_blank"><img class="item" src="<?php bloginfo('template_directory'); ?>/images/work/experian/grid/col2-image2-235x212.png" alt="Setting Your Retirement Clock" title="Setting Your Retirement Clock"></a>
+                </div>
+                <div class="experian-col3">
+                  <a href="http://www.freecreditscore.com/blog/credit-score-vs-credit-report-whats-the-difference/" target="_blank"><img class="item" src="<?php bloginfo('template_directory'); ?>/images/work/experian/grid/col3-image1-470x423.png" alt="Credit Score VS. Credit Report - What's the Difference?" title="Credit Score VS. Credit Report - What's the Difference?"></a>
+                  <div class="experian-col3-mod">
+                    <div class="mod-tile"><a href="http://www.freecreditscore.com/blog/video-what-is-the-safest-way-to-check-your-credit/" target="_blank"><img class="item" src="<?php bloginfo('template_directory'); ?>/images/work/experian/grid/col3-image2-235x212.png" alt="What is the safest way to check your credit." title="What is the safest way to check your credit."></a></div>
+                    <div class="mod-tile"><a href="http://www.freecreditscore.com/blog/avoid-the-dangers-of-0-interest-credit-cards/" target="_blank"><img class="item" src="<?php bloginfo('template_directory'); ?>/images/work/experian/grid/col3-image3-235x212.png" alt="Avoid the Dangers of 0% Interest Credit Cards" title="Avoid the Dangers of 0% Interest Credit Cards"></a></div>
+                  </div>
+                </div>
+              </div>
 
 
             </div>

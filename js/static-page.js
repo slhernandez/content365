@@ -299,7 +299,7 @@ jQuery(document).ready(function($) {
 
   function redirectHome(location) {
     var urlRedirect = window.location.origin; 
-    urlRedirect = urlRedirect + '/content365/' + location;
+    urlRedirect = urlRedirect + location;
     //console.log('urlRedirect ... ', urlRedirect);
     window.location.href = urlRedirect;
   }
