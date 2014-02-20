@@ -109,7 +109,7 @@ jQuery(document).ready(function($) {
                      templateUrl + '/images/Content365_Family_3_opt.jpg' ];
 
   var $heroContainer = $('.hero-container');
-  $heroContainer.backstretch( hero_images, { "duration": "10000", "fade": "750" });
+  //$heroContainer.backstretch( hero_images, { "duration": "10000", "fade": "750" });
 
 
   // -------------------------------------
@@ -304,7 +304,7 @@ jQuery(document).ready(function($) {
     window.location.href = urlRedirect;
   }
 
-  // navigation click events for static pages (i.e. experian)
+  // Navigation click events for static pages (i.e. experian)
   $('#page .navContent li').on('click', function(e) {
     e.preventDefault();
     e.stopPropagation();
@@ -317,6 +317,30 @@ jQuery(document).ready(function($) {
     e.stopPropagation();
     var href = $(this).attr('href');
     redirectHome($(this).attr('href'));
+  });
+
+  // Video thumbnail click event
+  $('.video-thumb').on('click', function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    $('.trailer').toggleClass('show').fitVids();
+  });
+
+  $('.trailer').on('click', function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    $('.trailer').toggleClass('show').fitVids();
+  });
+
+
+
+  // Assign FitVids.js to trailer/view for responsiveness
+  //$('.video-container').fitVids();
+
+  $('.video-close').on('click', function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    $('.trailer').removeClass('show');
   });
 
 });

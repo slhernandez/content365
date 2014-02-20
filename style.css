@@ -274,6 +274,18 @@ a.icon-alone:visited {
 .icon-setting-gears-2:before {
   content: "q"; }
 
+.icon-text-wrapping-1:before {
+  content: "r"; }
+
+.icon-thumbnails-1:before {
+  content: "s"; }
+
+.icon-lightbulb-2:before {
+  content: "t"; }
+
+.icon-play-1:before {
+  content: "u"; }
+
 /* Mixins for various font weights */
 h1,
 h2,
@@ -1189,24 +1201,65 @@ object {
         .hero-container .marketing .sub-heading {
           font-size: 0.75em; } }
 
-.action-items:before, .action-items:after {
-  content: "";
-  display: table; }
-.action-items:after {
-  clear: both; }
-.action-items .contact-btn-container,
-.action-items .login-btn-container {
-  display: inline-block; }
-  @media only screen and (max-width: 37.5em) {
-    .action-items .contact-btn-container,
-    .action-items .login-btn-container {
-      display: block; } }
-.action-items .login-btn-container {
-  margin-left: 1em; }
-  @media only screen and (max-width: 37.5em) {
-    .action-items .login-btn-container {
-      margin-left: 0;
-      margin-top: 30px; } }
+.marketing.marketing-vbackground {
+  position: absolute !important;
+  top: 0;
+  left: 4%;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  z-index: 99;
+  padding: 150px 0 0 0; }
+
+.action-items {
+  z-index: 5; }
+  .action-items:before, .action-items:after {
+    content: "";
+    display: table; }
+  .action-items:after {
+    clear: both; }
+  .action-items .contact-btn-container {
+    display: inline-block;
+    position: relative;
+    bottom: 80px;
+    left: -60px; }
+    @media only screen and (max-width: 37.5em) {
+      .action-items .contact-btn-container {
+        display: block;
+        position: static;
+        bottom: 0;
+        left: 0; } }
+  .action-items .login-btn-container {
+    margin-left: 1em; }
+    @media only screen and (max-width: 37.5em) {
+      .action-items .login-btn-container {
+        margin-left: 0;
+        margin-top: 30px; } }
+  .action-items .video-thumb {
+    cursor: pointer;
+    display: inline-block; }
+    .action-items .video-thumb img {
+      width: 75%; }
+    .action-items .video-thumb p {
+      font-size: 0.938em; }
+    .action-items .video-thumb:hover {
+      opacity: .9;
+      -webkit-transition: all 600ms ease;
+      -moz-transition: all 600ms ease;
+      transition: all 600ms ease; }
+
+#feature-movie {
+  width: 100%;
+  position: relative;
+  bottom: -7px; }
+
+.masthead-video-overlay {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0; }
 
 .login-btn {
   background: #bbb;
@@ -2276,33 +2329,82 @@ form {
           float: left;
           width: 32%;
           text-align: left; } }
-    .site-footer .footer-content .footer-menu {
-      float: none;
-      width: 100%; }
+
+.footer-menu {
+  float: none;
+  width: 100%; }
+  @media only screen and (min-width: 30.001em) {
+    .footer-menu {
+      float: left;
+      width: 68%; } }
+  .footer-menu ul {
+    margin: 0;
+    padding: 25px 0;
+    text-align: center; }
+    .footer-menu ul li {
+      margin-left: 0;
+      margin-bottom: .4em;
+      display: block; }
       @media only screen and (min-width: 30.001em) {
-        .site-footer .footer-content .footer-menu {
-          float: left;
-          width: 68%; } }
-      .site-footer .footer-content .footer-menu ul {
-        margin: 0;
-        padding: 25px 0;
-        text-align: center; }
-        .site-footer .footer-content .footer-menu ul li {
-          margin-left: 0;
-          margin-bottom: .4em;
-          display: block; }
-          @media only screen and (min-width: 30.001em) {
-            .site-footer .footer-content .footer-menu ul li {
-              display: inline-block;
-              margin-left: 2em;
-              margin-bottom: 0; } }
-        .site-footer .footer-content .footer-menu ul li a {
-          color: #697178; }
-          .site-footer .footer-content .footer-menu ul li a:hover {
-            color: #7ecd65;
-            -webkit-transition: all .5s ease-in-out;
-            -moz-transition: all .5s ease-in-out;
-            transition: all .5s ease-in-out; }
+        .footer-menu ul li {
+          display: inline-block;
+          margin-left: 2em;
+          margin-bottom: 0; } }
+    .footer-menu ul li a {
+      color: #697178; }
+      .footer-menu ul li a:hover {
+        color: #7ecd65;
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out; }
+
+/* =Content365 Footer 
+----------------------------------------------- */
+.trailer.show {
+  opacity: 1;
+  top: 0;
+  z-index: 122;
+  -webkit-transition: opacity 500ms, top 800ms;
+  -moz-transition: opacity 500ms, top 800ms;
+  transition: opacity 500ms, top 800ms; }
+
+.trailer {
+  background-color: rgba(39, 42, 45, 0.75);
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  -webkit-transition: opacity 500ms, top 800ms;
+  -moz-transition: opacity 500ms, top 800ms;
+  transition: opacity 500ms, top 800ms;
+  z-index: -1; }
+  .trailer p {
+    display: none; }
+
+.video-container {
+  padding: 10px;
+  position: relative;
+  top: 20%;
+  width: 80%;
+  margin: 0 auto;
+  background: #1F1F1F;
+  -webkit-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.6);
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.6); }
+  .video-container .video-close {
+    position: absolute;
+    top: -16px;
+    right: -10px;
+    z-index: 20; }
+    .video-container .video-close span {
+      color: #CCC;
+      font-size: 2.125em; }
 
 .showcase {
   min-height: 1200px; }
@@ -2602,7 +2704,7 @@ form {
   border-top: none; }
   @media only screen and (min-width: 48.001em) {
     .showcase-display .content-showcase {
-      border-top: 1px solid #EEE; } }
+      border-top: 1px solid #cfd6e5; } }
 
 .quote-container {
   width: 90%;
@@ -2651,7 +2753,7 @@ form {
 
 .showcase-row {
   padding-bottom: 50px;
-  border-bottom: 1px solid #EEE; }
+  border-bottom: 1px solid #cfd6e5; }
   @media only screen and (min-width: 48.001em) {
     .showcase-row {
       padding-bottom: 0; } }

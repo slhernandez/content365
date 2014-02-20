@@ -343,7 +343,7 @@
 .showcase-display .content-showcase {
   border-top: none;
   @include tablet-portrait-and-up() {
-    border-top: 1px solid #EEE;
+    border-top: 1px solid #cfd6e5;
   }
 }
 
@@ -406,9 +406,7 @@
     padding-bottom: 0;
   }
   @include clearfix();
-  border-bottom: 1px solid #EEE;
-  //margin: 10px auto;
-  //width: 95%;
+  border-bottom: 1px solid #cfd6e5;
 }
 
 .showcase-row:before {

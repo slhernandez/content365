@@ -4,7 +4,7 @@
       <p>showcase</p>
       <!--<h1>Experian</h1>-->
       <div class="partner-logo">
-        <img src="<?php bloginfo('template_directory'); ?>/images/work/experian/experian_logo.png"/>
+        <img src="<?php bloginfo('template_directory'); ?>/images/work/experian/experian_logo_update.png"/>
       </div>
       <div class="partner-btn-container"><a target="_blank" class="partner-btn anchorLink" href="#showcase-scroll">Explore</a></div>
     </div>
@@ -13,7 +13,7 @@
   <section class="showcase-display">
     <!--<h2 class="showcase-headline">Experian</h2>-->
     <div class="partner-logo-headline">
-      <img src="<?php bloginfo('template_directory'); ?>/images/work/experian/experian_logo.png"/>
+      <img src="<?php bloginfo('template_directory'); ?>/images/work/experian/experian_logo_update.png"/>
     </div>
     <div class="showcase-container">
       <h2 id="showcase-scroll" class="sc-title">Experian Consumer Services</h2>
@@ -61,7 +61,7 @@
             <div class="showcase-row bg">
               <div class="s-container">
                 <div class="showcase-image">
-                  <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="How Soon is Too Soon to Take Out a Second Mortgage?" title="How Soon is Too Soon to Take Out a Second Mortgage?" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/article1u.png">
+                  <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="How Soon is Too Soon to Take Out a Second Mortgage?" title="How Soon is Too Soon to Take Out a Second Mortgage?" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/article1u_opt.png">
                 </div>  
                 <div class="showcase-info">
                   <h2><a href="http://www.freecreditscore.com/" target="_blank">freecreditscore.com™</a></h2>
@@ -80,7 +80,7 @@
                   <a href="http://www.freecreditreport.com/blog/how-to-get-approved-for-an-fha-loan/" target="_blank" class="view-link">View Article</a>
                 </div>
                 <div class="showcase-image">
-                  <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="How to Get Approved for an HFA Loan" title="How to Get Approved for an HFA Loan" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/article2u.png">
+                  <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="How to Get Approved for an HFA Loan" title="How to Get Approved for an HFA Loan" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/article2u_opt.png">
                 </div>  
                 <div class="showcase-info mobile">
                   <h2><a href="http://www.freecreditreport.com/" target="_blank">freecreditreport.com™</a></h2>
@@ -97,7 +97,7 @@
             <div class="showcase-row bg">
               <div class="s-container">
                 <div class="showcase-image">
-                  <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Credit Score VS. Credit Report - What's the Difference?" title="Credit Score VS. Credit Report - What's the Difference?" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/blog1u.png">
+                  <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Credit Score VS. Credit Report - What's the Difference?" title="Credit Score VS. Credit Report - What's the Difference?" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/blog1u_opt.png">
                 </div>  
                 <div class="showcase-info">
                   <h2><a href="http://www.freecreditscore.com/" target="_blank">freecreditscore.com™</a></h2>
@@ -117,7 +117,7 @@
                   <a href="http://www.freecreditreport.com/blog/who-can-legally-access-my-credit-reports/" target="_blank" class="view-link">View Post</a>
                 </div>
                 <div class="showcase-image">
-                  <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Who Can Legally Access My Credit Reports?" title="Who Can Legally Access My Credit Reports?" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/blog2u.png">
+                  <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Who Can Legally Access My Credit Reports?" title="Who Can Legally Access My Credit Reports?" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/blog2u_opt.png">
                 </div>  
                 <div class="showcase-info mobile">
                   <h2><a href="http://freecreditreport.com" target="_blank">freecreditreport.com™</a></h2>
@@ -135,7 +135,7 @@
             <div class="showcase-row bg">
               <div class="s-container">
                 <div class="showcase-image">
-                  <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Avoid the Dangers of 0% Interest Credit Cards" title="Avoid the Dangers of 0% Interest Credit Cards" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/Tips1.png">
+                  <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Avoid the Dangers of 0% Interest Credit Cards" title="Avoid the Dangers of 0% Interest Credit Cards" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/Tips1_opt.png">
                 </div>  
                 <div class="showcase-info">
                   <h2><a href="http://www.freecreditscore.com/" target="_blank">freecreditscore.com™</a></h2>
@@ -156,7 +156,7 @@
                   <a href="http://www.freecreditreport.com/blog/how-to-protect-from-online-hackers-credit-card-identity-theft/" target="_blank" class="view-link">View Tip</a>
                 </div>
                 <div class="showcase-image">
-                  <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="How to Protect from Online Hackers & Credit Card Identity Theft" title="How to Protect from Online Hackers & Credit Card Identity Theft" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/Tips2.png">
+                  <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="How to Protect from Online Hackers & Credit Card Identity Theft" title="How to Protect from Online Hackers & Credit Card Identity Theft" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/Tips2_opt.png">
                 </div>  
                 <div class="showcase-info mobile">
                   <h2><a href="http://www.freecreditreport.com/" target="_blank">freecreditreport.com™</a></h2>
@@ -170,7 +170,7 @@
             <div class="showcase-row bg pad">
               <div class="s-container">
                 <div class="showcase-image">
-                  <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Options for Establishing Your Credit Profile" title="Options for Establishing Your Credit Profile" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/Tips3.png">
+                  <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Options for Establishing Your Credit Profile" title="Options for Establishing Your Credit Profile" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/Tips3_opt.png">
                 </div>  
                 <div class="showcase-info">
                   <h2><a href="http://www.freecreditreport.com/" target="_blank">freecreditreport.com™</a></h2>
@@ -191,7 +191,7 @@
                   <a href="http://www.freecreditscore.com/blog/real-estate-open-house-ideas/" target="_blank" class="view-link">View Tip</a>
                 </div>
                 <div class="showcase-image mobile">
-                  <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Real Estate Open House Ideas" title="Real Estate Open House Ideas" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/Tips4.png">
+                  <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Real Estate Open House Ideas" title="Real Estate Open House Ideas" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/Tips4_opt.png">
                 </div>  
                 <div class="showcase-info mobile">
                   <h2><a href="http://www.freecreditscore.com/" target="_blank">freecreditscore.com™</a></h2>
@@ -211,7 +211,7 @@
             <div class="showcase-row bg">
               <div class="s-container">
                 <div class="showcase-image">
-                  <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Credit Report – A Reader’s Guide" title="Credit Report – A Reader’s Guide" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/info1.png">
+                  <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Credit Report – A Reader’s Guide" title="Credit Report – A Reader’s Guide" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/info1_opt.png">
                 </div>  
                 <div class="showcase-info">
                   <h2><a href="http://www.freecreditscore.com/" target="_blank">freecreditscore.com™</a></h2>
@@ -231,7 +231,7 @@
                   <a href="http://www.freecreditscore.com/blog/infographic-setting-retirement-clock/" target="_blank" class="view-link">View Infographic</a>
                 </div>
                 <div class="showcase-image">
-                  <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Setting Your Retirement Clock" title="Setting Your Retirement Clock" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/info2.png">
+                  <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Setting Your Retirement Clock" title="Setting Your Retirement Clock" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/info2_opt.png">
                 </div>  
                 <div class="showcase-info mobile">
                   <h2><a href="http://www.freecreditscore.com/" target="_blank">freecreditscore.com™</a></h2>
@@ -245,7 +245,7 @@
              <div class="showcase-row bg pad">
               <div class="s-container">
                 <div class="showcase-image">
-                  <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Dollars and Sense: Emergency Fund 101" title="Dollars and Sense: Emergency Fund 101" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/info3.png">
+                  <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Dollars and Sense: Emergency Fund 101" title="Dollars and Sense: Emergency Fund 101" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/info3_opt.png">
                 </div>  
                 <div class="showcase-info">
                   <h2><a href="http://www.freecreditscore.com/" target="_blank">freecreditscore.com™</a></h2>
@@ -265,7 +265,7 @@
                   <a href="http://www.freecreditscore.com/blog/infographic-fighting-online-fraud/" target="_blank" class="view-link">View Infographic</a>
                 </div>
                 <div class="showcase-image">
-                  <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Fighting Online Fraud" title="Fighting Online Fraud" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/info4.png">
+                  <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="Fighting Online Fraud" title="Fighting Online Fraud" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/work/experian/info4_opt.png">
                 </div>  
                 <div class="showcase-info mobile">
                   <h2><a href="http://www.freecreditscore.com/" target="_blank">freecreditscore.com™</a></h2>
@@ -279,8 +279,6 @@
           </section>
 
           <section class="video-showcase-section inactive plus">
-
-
 
             <div class="showcase-row bg pad-bottom">
               <div class="s-container">

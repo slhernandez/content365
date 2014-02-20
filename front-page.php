@@ -11,18 +11,22 @@ get_header(); ?>
 
 <div class="siteWrapper">
   <section class="hero-container">
-    <!--<h1 class="hero-heading">Providing Partners Comprehensive <span class="highlight">Content</span> Offerings To Attract And Engage Intent Driven Audiences</h1>-->
-    <div class="marketing">
+    <div class="marketing marketing-vbackground ">
       <h2>Let <span class="highlight">content</span> tell your story.</h2>
       <p>Compelling storytelling can help build stronger relationships. Our diverse Content Solutions offerings help partners create unique story lines for varying needs.</p>
-      <!-- <p>Providing partners with offerings to attract and engage intent-driven audiences.</p> -->
       <p class="sub-heading">Start leveraging our robust team of expert contributors to attract and engage your audience with content for real life.</p> 
       <div class="action-items">
+        <div class="video-thumb"><img src="<?php bloginfo('template_directory'); ?>/images/VideoThumbnail2.png"><p>Watch Our Trailer</p></div>
         <div class="contact-btn-container"><a class="contact-btn anchorLink" href="#contact">Tell Me More</a></div>
-        <!--<div class="login-btn-container"><a target="_blank" class="login-btn" href="http://dm.dmpartnercontent.com">Already a member</a></div>-->
       </div>
     </div>
-    <!--<span class="hero-overlay"></span>-->
+    <div class="masthead-video-overlay"></div>
+    <video id="feature-movie" autoplay="autoplay" loop="loop" muted="muted"> 
+      <!-- <source src="pr6.webm" type="video/webm; codecs=vp8,vorbis"> -->
+      <source src="<?php bloginfo('template_directory'); ?>/assets/videos/cs_reel.mp4" type="video/mp4; codecs=avc1.42E01E,mp4a.40.2"/>
+      <source src="<?php bloginfo('template_directory'); ?>/assets/videos/cs_reel.webm" type="video/webm"/>
+      <source src="<?php bloginfo('template_directory'); ?>/assets/videos/cs_reel.oggtheora.ogv"  type="video/ogv; codecs=theora,vorbis">
+    </video>
   </section>
 
   <section id="our-content" class="our-content">
@@ -357,6 +361,14 @@ get_header(); ?>
   </section> <!-- end of contact -->
 
 </div> <!-- end of siteWrapper -->
+<div class="trailer">
+  <div class="video-container">
+    <div class="video-close"><span aria-hidden="true" data-icon="m"></span></div>
+    <!--<iframe src="//player.vimeo.com/video/34017777" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/34017777">Wilson Miner - When We Build</a> from <a href="http://vimeo.com/build">Build</a> on <a href="https://vimeo.com">Vimeo</a>.</p> -->
+    <iframe src="//player.vimeo.com/video/86321584" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/86321584">Roadshow Reel 2014 EDIT05</a> from <a href="http://vimeo.com/demandstudios">Demand Media Studios</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+    <p>Content Solutions</p>
+  </div>
+</div>
 
 <script id="category-contributors" type="text/html">
   <a href="#" class="close-contributor-panel"><span aria-hidden="true" data-icon="m"></span></a> 
