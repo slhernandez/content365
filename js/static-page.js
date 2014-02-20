@@ -109,7 +109,7 @@ jQuery(document).ready(function($) {
                      templateUrl + '/images/Content365_Family_3_opt.jpg' ];
 
   var $heroContainer = $('.hero-container');
-  //$heroContainer.backstretch( hero_images, { "duration": "10000", "fade": "750" });
+  $heroContainer.backstretch( hero_images, { "duration": "10000", "fade": "750" });
 
 
   // -------------------------------------
