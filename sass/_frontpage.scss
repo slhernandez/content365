@@ -8,7 +8,7 @@
 /* =Content365 Hero 
 ----------------------------------------------- */
 .hero-container {
-  background-color: $site-wide-color;
+  //background-color: $site-wide-color;
   //background-image: url('images/family2tablet1_low.jpg');
   //background-size: cover;
   //background-repeat: no-repeat;
@@ -55,6 +55,7 @@
   }
 
   .marketing {
+    display:none;
     padding: 100px 10px 50px 10px;
     @include mobile-landscape-and-up () {
       padding: 150px 10px 150px 10px;
@@ -172,8 +173,6 @@
 
 #feature-movie {
   width: 100%;
-  position: relative;
-  bottom: -7px;
 }
 
 .masthead-video-overlay {

@@ -1113,7 +1113,6 @@ object {
 /* =Content365 Hero 
 ----------------------------------------------- */
 .hero-container {
-  background-color: #51575d;
   position: relative; }
   @media only screen and (min-width: 48.001em) {
     .hero-container {
@@ -1143,6 +1142,7 @@ object {
     .hero-container h2.hero-heading .highlight {
       color: #7ecd65; }
   .hero-container .marketing {
+    display: none;
     padding: 100px 10px 50px 10px;
     max-width: 1200px;
     width: 92%;
@@ -1249,9 +1249,7 @@ object {
       transition: all 600ms ease; }
 
 #feature-movie {
-  width: 100%;
-  position: relative;
-  bottom: -7px; }
+  width: 100%; }
 
 .masthead-video-overlay {
   width: 100%;
