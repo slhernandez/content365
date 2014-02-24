@@ -29,6 +29,7 @@ module.exports = function(grunt) {
           'style.css':'sass/_frontpage.scss',
           'style.css':'sass/_showcasepage.scss',
           'style.css':'sass/_error404.scss',
+          'style.css':'sass/_work.scss',
           'style.css':'sass/style.scss'
         }
       }

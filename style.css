@@ -1221,7 +1221,7 @@ object {
   .action-items .contact-btn-container {
     display: inline-block;
     position: relative;
-    bottom: 80px;
+    bottom: 60px;
     left: -60px; }
     @media only screen and (max-width: 37.5em) {
       .action-items .contact-btn-container {
@@ -1247,6 +1247,9 @@ object {
       -webkit-transition: all 600ms ease;
       -moz-transition: all 600ms ease;
       transition: all 600ms ease; }
+    .action-items .video-thumb:active {
+      position: relative;
+      top: 1px; }
 
 #feature-movie {
   width: 100%;
@@ -2924,3 +2927,11 @@ form {
     width: 100%; }
   .experian-custom-grid .row-one-h img {
     height: 258px; }
+
+.work {
+  min-height: 800px;
+  margin: 100px 0; }
+  .work h1 {
+    text-align: center;
+    padding: 40px 0;
+    text-transform: uppercase; }

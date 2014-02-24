@@ -39,10 +39,14 @@ jQuery(document).ready(function($) {
     $('.headerAndNavContainer.sticky').css({ position: 'absolute' });
   }
 
+  if (isWorkPage()) {
+    $('.headerAndNavContainer').css('background', '#51575D');
+  }
+
   if (isErrorPage()) {
     $('.headerAndNavContainer.sticky').css({ 
-        position: 'static',
-        background: '#51575D'
+      position: 'static',
+      background: '#51575D'
     });
   }
 
@@ -70,11 +74,11 @@ jQuery(document).ready(function($) {
   // Display an opaque background for the nav menu when 
   // scrolling down. Remove it when scrolling up.
   $('.marketing h2').waypoint( function(direction) {
-      if (direction == 'down') {
-        $('.headerAndNavContainer').css('background', 'rgba(81, 87, 93, 0.7)');
-      } else if (direction === 'up') {
-        $('.headerAndNavContainer').css('background', 'rgba(81, 87, 93, 0.0)');
-      }
+    if (direction == 'down') {
+      $('.headerAndNavContainer').css('background', 'rgba(81, 87, 93, 0.7)');
+    } else if (direction === 'up') {
+      $('.headerAndNavContainer').css('background', 'rgba(81, 87, 93, 0.0)');
+    }
   });
 
   // Mobile menu
@@ -157,8 +161,10 @@ jQuery(document).ready(function($) {
     numItem.css('background', '#555');
   }
 
-  // WAYPOINT (scroll detection)
-  // ----------------------------------
+  /** 
+   * WAYPOINT (scroll detection) 
+   *
+   */
   var navHeading = $('.navHeading');
   var nav = $('.navContainer');
   
@@ -192,9 +198,11 @@ jQuery(document).ready(function($) {
     offset: '10%'
   });
   
-  // Content selection 
-  // ----------------------------------
-
+  /** 
+   * CONTENT SELECTION - Our Content Section
+   * Click handler for navigation menu located in the "Our Content" section.
+   *
+   */
   $('.content-items li a').on('click', function(e) {
     e.preventDefault();
     e.stopPropagation();
@@ -270,16 +278,25 @@ jQuery(document).ready(function($) {
     return;
   });
 
-  // Check if body tag has class attribute named page
+  // check if body tag has class attribute named page
   function isPage() {
     return $('body').hasClass('page');
   }
 
+  // check if the error page is loaded.
   function isErrorPage() {
     return $('body').hasClass('error404');
   }
 
-  // This handles the slideshow for the solution section
+  // check if the work page is loaded.
+  function isWorkPage() {
+    return $('.siteWrapper').hasClass('work');
+  }
+
+  /** 
+   * SOLUTION SECTION - SLIDESHOW
+   *
+   */
   $('#solutions').on("backstretch.show", function (e, instance) { 
     var imageitem = instance.images[instance.index];
     if (instance.$container.attr('class') === 'solutions-container') {
@@ -297,14 +314,18 @@ jQuery(document).ready(function($) {
     }
   });
 
+  /** 
+   * EXPERIAN STATIC PAGE: Should be used in future showcase (customer) pages.
+   *
+   * Click events for navigation.  Clicking on nav links should redirect 
+   * the user back to the homepage and scroll to the correct anchor.
+   */
   function redirectHome(location) {
     var urlRedirect = window.location.origin; 
     urlRedirect = urlRedirect + location;
-    //console.log('urlRedirect ... ', urlRedirect);
     window.location.href = urlRedirect;
-  }
+  }  
 
-  // Navigation click events for static pages (i.e. experian)
   $('#page .navContent li').on('click', function(e) {
     e.preventDefault();
     e.stopPropagation();
@@ -319,7 +340,12 @@ jQuery(document).ready(function($) {
     redirectHome($(this).attr('href'));
   });
 
-  // Video thumbnail click event
+  /** 
+   * VIDEO: Click events.
+   *
+   * Loads/closes the modal window to display the Content Solutions reel.
+   * fitVids is used for responsiveness.
+   */
   $('.video-thumb').on('click', function(e) {
     e.preventDefault();
     e.stopPropagation();
@@ -332,11 +358,6 @@ jQuery(document).ready(function($) {
     $('.trailer').toggleClass('show').fitVids();
   });
 
-
-
-  // Assign FitVids.js to trailer/view for responsiveness
-  //$('.video-container').fitVids();
-
   $('.video-close').on('click', function(e) {
     e.preventDefault();
     e.stopPropagation();
@@ -344,6 +365,7 @@ jQuery(document).ready(function($) {
   });
 
 });
+
 
 
 
