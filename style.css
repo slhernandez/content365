@@ -2583,6 +2583,7 @@ form {
       font-size: 0.875em; } }
   .showcase-info .view-link:hover {
     text-decoration: none;
+    background: #0095D3;
     background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#00a1e4), to(#0095d3));
     background-image: -moz-linear-gradient(0 100% 90deg, #00a1e4, #0095d3);
     -webkit-transition: all 500ms ease-in-out;
@@ -2935,3 +2936,33 @@ form {
     text-align: center;
     padding: 40px 0;
     text-transform: uppercase; }
+
+.work-items {
+  text-align: center;
+  width: 100%;
+  cursor: pointer; }
+  .work-items a {
+    text-decoration: none; }
+
+.work-item {
+  cursor: pointer;
+  margin: 0 auto;
+  width: 350px; }
+  .work-item img {
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+    position: relative;
+    top: 7px; }
+  .work-item p {
+    background: #f3f3f3;
+    padding: 10px 0;
+    border-color: #CCC;
+    border-style: solid;
+    border-width: 0 1px 1px 1px;
+    border-radius: 0 0 4px 4px; }
+    .work-item p:hover {
+      color: #7ecd65;
+      -webkit-transition: all 600ms ease;
+      -moz-transition: all 600ms ease;
+      transition: all 600ms ease; }
