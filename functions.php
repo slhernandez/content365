@@ -79,7 +79,8 @@ function content365_scripts() {
 
 	wp_enqueue_style( 'content365-style', get_stylesheet_uri() );
 
-	wp_enqueue_style( 'gothamfont', 'http://cloud.typography.com/6676432/688122/css/fonts.css' );
+	/*wp_enqueue_style( 'gothamfont', 'http://cloud.typography.com/6676432/688122/css/fonts.css' );*/
+	wp_enqueue_style( 'gothamfont', 'http://cloud.typography.com/7722472/751784/css/fonts.css' );
 
 	/*wp_enqueue_script( 'googlemaps', 'http://maps.googleapis.com/maps/api/js?sensor=false', array(), false );*/
 
@@ -95,7 +96,7 @@ function content365_scripts() {
 
 	wp_enqueue_script( 'content365-photoset', get_template_directory_uri() . '/js/photoset-grid.min.js', array('jquery'), '20141402', false );
 
-	wp_enqueue_script( 'content365-underscore', get_template_directory_uri() . '/js/underscore.min.js', array(), '201312008', false );
+	wp_enqueue_script( 'content365-underscore', get_template_directory_uri() . '/js/underscore.min.js', array(), '20140225', false );
 
 	wp_enqueue_script( 'content365-waypoints', get_template_directory_uri() . '/js/waypoints.min.js', array('jquery'), '201312008', false );
 
