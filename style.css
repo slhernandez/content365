@@ -730,6 +730,8 @@ a:visited {
         color: #FFF; }
         .navContent a:hover {
           color: #7ecd65;
+          -webkit-transition: all .5s ease-in-out;
+          -moz-transition: all .5s ease-in-out;
           transition: all .5s ease-in-out; } }
     .navContent a:hover {
       color: #7ecd65;
@@ -739,6 +741,8 @@ a:visited {
     @media only screen and (min-width: 51.563em) {
       .navContent a {
         font-size: 1.125em; } }
+    .navContent a.n-contact.active {
+      border: 1px solid #7ecd65; }
     @media only screen and (min-width: 47.5em) {
       .navContent a.n-contact {
         border: 1px solid #fff;
@@ -1144,18 +1148,24 @@ object {
       color: #7ecd65; }
   .hero-container .marketing {
     padding: 100px 10px 50px 10px;
+    /*@include mobile-landscape-and-up () {
+      padding: 150px 10px 150px 10px;
+    }
+    @include tablet-portrait-and-up() {
+      padding: 200px 10px 200px 10px;
+    }
+    @include desktop-and-up() {
+      padding: 250px 10px 250px 10px;
+    }*/
     max-width: 1200px;
     width: 92%;
     margin: 0 auto; }
-    @media only screen and (min-width: 30.001em) {
+    @media only screen and (min-width: 30.001em) and (max-width: 48em) {
       .hero-container .marketing {
-        padding: 150px 10px 150px 10px; } }
+        padding: 120px 10px 120px 10px; } }
     @media only screen and (min-width: 48.001em) {
       .hero-container .marketing {
-        padding: 200px 10px 200px 10px; } }
-    @media only screen and (min-width: 64.001em) {
-      .hero-container .marketing {
-        padding: 250px 10px 250px 10px; } }
+        padding: 220px 10px 220px 10px; } }
     .hero-container .marketing .highlight {
       color: #7ecd65; }
     .hero-container .marketing h2 {
@@ -1228,7 +1238,8 @@ object {
         display: block;
         position: static;
         bottom: 0;
-        left: 0; } }
+        left: 0;
+        margin-top: 15px; } }
   .action-items .login-btn-container {
     margin-left: 1em; }
     @media only screen and (max-width: 37.5em) {
@@ -1754,8 +1765,9 @@ ul.sol-nav {
     .contributors-container {
       width: 100%;
       padding: 0; } }
-  .contributors-container .contributor-showcase {
-    min-height: 658px; }
+  @media only screen and (min-width: 30.001em) {
+    .contributors-container .contributor-showcase {
+      min-height: 658px; } }
   .contributors-container h2 {
     text-transform: uppercase;
     padding: 20px 0 20px 0; }
@@ -1799,7 +1811,11 @@ ul.sol-nav {
         -moz-transition: all 300ms ease-in-out;
         transition: all 300ms ease-in-out; }
   .contributors-container .contributor-meta {
+    display: none;
     margin-bottom: 20px; }
+    @media only screen and (min-width: 30.001em) {
+      .contributors-container .contributor-meta {
+        display: block; } }
     .contributors-container .contributor-meta h3 {
       text-transform: none; }
     .contributors-container .contributor-meta p {
@@ -1818,8 +1834,18 @@ ul.sol-nav {
       display: table; }
     .contributors-container .contributor-bios:after {
       clear: both; }
+    .contributors-container .contributor-bios .col1of3 {
+      margin-bottom: 1em; }
+      @media only screen and (min-width: 30.001em) {
+        .contributors-container .contributor-bios .col1of3 {
+          margin-bottom: 0; } }
     .contributors-container .contributor-bios img {
-      width: 60%; }
+      display: none;
+      width: 60%;
+      margin: 0 auto 20px auto; }
+      @media only screen and (min-width: 30.001em) {
+        .contributors-container .contributor-bios img {
+          display: block; } }
     .contributors-container .contributor-bios .bio {
       font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: 300;
@@ -1911,14 +1937,11 @@ ul.sol-nav {
         z-index: 1;
         text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
         margin: 0;
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%); }
+        position: absolute;
+        top: 40%;
+        width: 100%; }
         @media only screen and (max-width: 30em) {
           .contributors-container .topics .topic a .t-overlay .t-label {
-            position: static;
             -webkit-transform: none;
             -ms-transform: none;
             transform: none; } }
@@ -2106,6 +2129,7 @@ ul.sol-nav {
     @media only screen and (max-width: 48.001em) {
       .about-meta-container .about-intro {
         float: none;
+        text-align: center;
         width: 100%; } }
   .about-meta-container .a-contact {
     float: left;
@@ -2408,6 +2432,11 @@ form {
     .video-container .video-close span {
       color: #CCC;
       font-size: 2.125em; }
+      .video-container .video-close span:hover {
+        color: #7ecd65;
+        -webkit-transition: opacity 500ms, top 800ms;
+        -moz-transition: opacity 500ms, top 800ms;
+        transition: opacity 500ms, top 800ms; }
 
 .showcase {
   min-height: 1200px; }
@@ -2621,7 +2650,7 @@ form {
     top: 7px; }
 
 .showcase-row.alt .showcase-image img {
-  top: 8px; }
+  top: 7px; }
 
 .showcase-items {
   background: #FFF;

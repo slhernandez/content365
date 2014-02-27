@@ -56,7 +56,7 @@
 
   .marketing {
     padding: 100px 10px 50px 10px;
-    @include mobile-landscape-and-up () {
+    /*@include mobile-landscape-and-up () {
       padding: 150px 10px 150px 10px;
     }
     @include tablet-portrait-and-up() {
@@ -64,6 +64,12 @@
     }
     @include desktop-and-up() {
       padding: 250px 10px 250px 10px;
+    }*/
+    @include tablet-portrait-only() {
+      padding: 120px 10px 120px 10px;
+    }
+    @include tablet-portrait-and-up () {
+      padding: 220px 10px 220px 10px;
     }
     max-width: 1200px;
     width: 92%;
@@ -141,6 +147,7 @@
       position: static;
       bottom: 0;
       left: 0;
+      margin-top: 15px;
     }
   }
 
@@ -712,7 +719,9 @@ ul.sol-nav {
   padding: 50px 0;
 
   .contributor-showcase {
-    min-height: 658px;
+    @include mobile-landscape-and-up() {
+      min-height: 658px;
+    }
   }
 
   h2 {
@@ -771,6 +780,10 @@ ul.sol-nav {
   }
 
   .contributor-meta {
+    display: none;
+    @include mobile-landscape-and-up() {
+      display: block;
+    }
     margin-bottom: 20px;
     h3 {
       text-transform: none;
@@ -789,8 +802,20 @@ ul.sol-nav {
     padding: 20px;
     text-align: center;
 
+    .col1of3 {
+      margin-bottom: 1em;
+      @include mobile-landscape-and-up() {
+        margin-bottom: 0;
+      }
+    }
+
     img {
+      display: none;
+      @include mobile-landscape-and-up() {
+        display: block;
+      }
       width: 60%;
+      margin: 0 auto 20px auto;
     }
 
     .bio {
@@ -883,9 +908,11 @@ ul.sol-nav {
         z-index: 1;
         text-shadow: 0 1px 1px rgba(0,0,0,0.3);
         margin: 0;
-        @include vertical-align();
+        //@include vertical-align();
+        position: absolute;
+        top: 40%;
+        width: 100%;
         @include mobile-landscape-and-below() {
-          position: static;
           -webkit-transform: none;
           -ms-transform: none;
           transform: none;
@@ -1089,6 +1116,7 @@ ul.sol-nav {
     width: 75%; 
     @include tablet-portrait-and-below() {
       float: none;
+      text-align: center;
       width: 100%;
     }
   }
@@ -1450,6 +1478,12 @@ form {
     span {
       color: #CCC;
       font-size: $font-size-34;
+      &:hover {
+        color: $highlight-color;
+        -webkit-transition: opacity 500ms, top 800ms;
+        -moz-transition: opacity 500ms, top 800ms;
+        transition: opacity 500ms, top 800ms;
+      }
     }
   }
 }

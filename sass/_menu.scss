@@ -208,7 +208,9 @@
 			color: #FFF;
 			&:hover {
 				color: $highlight-color;	
-				transition:all .5s ease-in-out;
+				-webkit-transition: all .5s ease-in-out;
+				-moz-transition: all .5s ease-in-out;
+				transition: all .5s ease-in-out;
 			}
 		}
 
@@ -232,6 +234,9 @@
 		text-shadow: 0 1px 1px rgba(0,0,0,0.6);
 
 		&.n-contact {
+			&.active {
+				border: 1px solid $highlight-color;
+			}
 			@include tablet-custom-760-up() {
 				border: 1px solid #fff;
 				padding: 5px 10px 5px 10px;
