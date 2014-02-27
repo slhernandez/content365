@@ -134,7 +134,7 @@
                 <div class="showcase-info">
                   <h2><a href="http://www.freecreditscore.com/" target="_blank" rel="nofollow">freecreditscore.com™</a></h2>
                   <a href="http://www.freecreditscore.com/blog/avoid-the-dangers-of-0-interest-credit-cards/" target="_blank" rel="nofollow"><p>Tips: Avoid the Dangers of 0% Interest Credit Cards</p></a>
-                  <p class="snippet">Seeing an advertisement for credit card with a 0% interest rate doesn’t mean the rate is always going to stay that way or even that you’re going to qualify. Many times, this kind of offer is an introductory rate and doesn’t last very long. Furthermore, unless you have a stellar credit profile, you might not reap the benefits...</p>
+                  <p class="snippet">Seeing an advertisement for credit card with a 0% interest rate doesn’t mean the rate is always going to stay that way or even that you’re going to qualify. Many times, this kind of offer is an introductory rate and doesn’t last very long...</p>
                   <a href="http://www.freecreditscore.com/blog/avoid-the-dangers-of-0-interest-credit-cards/" target="_blank"  class="view-link" rel="nofollow">View Tip</a>
                 </div>
               </div>
@@ -144,7 +144,7 @@
                 <div class="showcase-info desktop">
                   <h2><a href="http://www.freecreditreport.com/" target="_blank" rel="nofollow">freecreditreport.com™</a></h2>
                   <a href="http://www.freecreditreport.com/blog/how-to-protect-from-online-hackers-credit-card-identity-theft/" target="_blank" rel="nofollow"><p>Tips: How to Protect from Online Hackers & Credit Card Identity Theft</p></a>
-                  <p class="snippet">Don’t provide your credit card information to a website unless you navigated to the site yourself, rather than clicking a link in an e-mail or text. Make sure a website is secure by looking for a “lock” icon on your browser window or the abbreviation “https,” rather than “http,” at the beginning of the website address...</p>
+                  <p class="snippet">Don’t provide your credit card information to a website unless you navigated to the site yourself, rather than clicking a link in an e-mail or text. Make sure a website is secure by looking for a “lock” icon on your browser window...</p>
                   <a href="http://www.freecreditreport.com/blog/how-to-protect-from-online-hackers-credit-card-identity-theft/" target="_blank" class="view-link" rel="nofollow">View Tip</a>
                 </div>
                 <div class="showcase-image">
@@ -153,7 +153,7 @@
                 <div class="showcase-info mobile">
                   <h2><a href="http://www.freecreditreport.com/" target="_blank" rel="nofollow">freecreditreport.com™</a></h2>
                   <a href="http://www.freecreditreport.com/blog/how-to-protect-from-online-hackers-credit-card-identity-theft/" target="_blank" rel="nofollow"><p>Tips: How to Protect from Online Hackers & Credit Card Identity Theft</p></a>
-                  <p class="snippet">Don’t provide your credit card information to a website unless you navigated to the site yourself, rather than clicking a link in an e-mail or text. Make sure a website is secure by looking for a “lock” icon on your browser window or the abbreviation “https,” rather than “http,” at the beginning of the website address...</p>
+                  <p class="snippet">Don’t provide your credit card information to a website unless you navigated to the site yourself, rather than clicking a link in an e-mail or text. Make sure a website is secure by looking for a “lock” icon on your browser window...</p>
                   <a href="http://www.freecreditreport.com/blog/how-to-protect-from-online-hackers-credit-card-identity-theft/" target="_blank" class="view-link" rel="nofollow">View Tip</a>
                 </div>
               </div>
@@ -166,7 +166,7 @@
                 <div class="showcase-info">
                   <h2><a href="http://www.freecreditreport.com/" target="_blank" rel="nofollow">freecreditreport.com™</a></h2>
                   <a href="http://www.freecreditreport.com/blog/options-for-establishing-your-credit-profile/" target="_blank" rel="nofollow"><p>Tips: Options for Establishing Your Credit Profile</p></a>
-                  <p class="snippet">One way to establish your credit profile by applying and securing a loan with a creditor that reports your activity to the credit bureaus. Be sure to create a personal budget that accounts for paying the balance due. Paying your creditors on time while avoiding going over one-third of your limit can help toward building a positive credit standing...</p>
+                  <p class="snippet">One way to establish your credit profile by applying and securing a loan with a creditor that reports your activity to the credit bureaus. Be sure to create a personal budget that accounts for paying the balance due...</p>
                   <a href="http://www.freecreditreport.com/blog/options-for-establishing-your-credit-profile/" target="_blank" class="view-link" rel="nofollow">View Tip</a>
                 </div>
               </div>
@@ -176,7 +176,7 @@
                 <div class="showcase-info desktop">
                   <h2><a href="http://www.freecreditscore.com/" target="_blank" rel="nofollow">freecreditscore.com™</a></h2>
                   <a href="http://www.freecreditscore.com/blog/real-estate-open-house-ideas/" target="_blank" rel="nofollow"><p>Tips: Real Estate Open House Ideas</p></a>
-                  <p class="snippet">Open houses needn’t be humdrum. They can be especially effective if you band together with nearby sellers to create an event. While some real estate agents might encourage sellers to “stage” a home with new furniture or upgraded appliances, with a few simple and affordable details, you can host a very successful open house...</p>
+                  <p class="snippet">Open houses needn’t be humdrum. They can be especially effective if you band together with nearby sellers to create an event. While some real estate agents might encourage sellers to “stage” a home with new furniture or upgraded appliances...</p>
                   <a href="http://www.freecreditscore.com/blog/real-estate-open-house-ideas/" target="_blank" class="view-link" rel="nofollow">View Tip</a>
                 </div>
                 <div class="showcase-image mobile">
@@ -185,7 +185,7 @@
                 <div class="showcase-info mobile">
                   <h2><a href="http://www.freecreditscore.com/" target="_blank" rel="nofollow">freecreditscore.com™</a></h2>
                   <a href="http://www.freecreditscore.com/blog/real-estate-open-house-ideas/" target="_blank" rel="nofollow"><p>Tips: Real Estate Open House Ideas</p></a>
-                  <p class="snippet">Open houses needn’t be humdrum. They can be especially effective if you band together with nearby sellers to create an event. While some real estate agents might encourage sellers to “stage” a home with new furniture or upgraded appliances, with a few simple and affordable details, you can host a very successful open house...</p>
+                  <p class="snippet">Open houses needn’t be humdrum. They can be especially effective if you band together with nearby sellers to create an event. While some real estate agents might encourage sellers to “stage” a home with new furniture or upgraded appliances...</p>
                   <a href="http://www.freecreditscore.com/blog/real-estate-open-house-ideas/" target="_blank" class="view-link" rel="nofollow">View Tip</a>
                 </div>
               </div>

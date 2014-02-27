@@ -225,23 +225,39 @@ jQuery(document).ready(function($) {
     }
   });
 
-  // Click event for contributor tiles.
+  /** 
+   * CREATIVE COMMUNITY  
+   * Click event for contributor tiles.
+   *
+   */
   $('.topic').on('click', function(e) {
     e.stopPropagation();
     e.preventDefault();
     // Strip out any white space in the title
     var topic = $(this).find('p').text().replace(/\s+/g, '');
+    var $categoryContributors = $('.category-contributors');
 
     // Make sure that category contributors is alway empty/removed
-    $('.category-contributors').empty();
+    $categoryContributors.empty();
 
     // Load template for category contributors
-    $('.category-contributors').append(_.template($('#category-contributors').html(), { info: CONFIG.contributorInfo[topic] }));
+    $categoryContributors.append(_.template($('#category-contributors').html(), { info: CONFIG.contributorInfo[topic] }));
 
     // Display category contributors
-    $('.category-contributors').removeClass('inactive').addClass('active');
+    $categoryContributors.removeClass('inactive').addClass('active');
+
     // Hide category grid
     $(this).closest('.topics').removeClass('active').addClass('inactive');
+
+    // Scroll top to section container
+    $categoryContributors.scrollTop = 0;
+
+    var $body = $('html, body');
+
+    var $community = $("#contributors");
+
+    $body.animate({ scrollTop: $community.offset().top }, 800);
+
   });
 
   // Click event for closing category contributor

@@ -13,6 +13,7 @@
   width: 100%;
   cursor: pointer;
   a {
+    color: $site-wide-color;
     text-decoration: none; 
   }
 }  
@@ -20,7 +21,7 @@
 .work-item {
   cursor: pointer;
   margin: 0 auto;
-  width: 350px;
+  width: 300px;
   img {
     -webkit-border-radius: 4px 4px 0 0;
     -moz-border-radius: 4px 4px 0 0;

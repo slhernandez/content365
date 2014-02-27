@@ -1565,9 +1565,6 @@ video {
 
 /* =Content365 Solutions 
 ----------------------------------------------- */
-.solutions {
-  background: #51575d; }
-
 .solutions-container {
   width: 100%;
   margin: 0 auto;
@@ -1614,7 +1611,7 @@ video {
     color: #FFF; }
     @media (max-width: 20em) {
       .solutions-content h2 {
-        padding: 15px 20px 10px 0;
+        padding: 15px 20px 0 0;
         font-size: 1em; } }
   .solutions-content .content {
     color: #FFF;
@@ -1633,7 +1630,7 @@ video {
         width: 80%; } }
     .solutions-content .content h3 {
       color: #7ecd65;
-      margin: 20px 0 40px 0;
+      margin: 20px 0 20px 0;
       text-align: center;
       text-transform: uppercase;
       font-size: 1em; }
@@ -1656,7 +1653,7 @@ video {
         .solutions-content .content h2 {
           font-size: 4em; } }
     .solutions-content .content .target-message {
-      font-size: 1.125em;
+      font-size: 1.5em;
       font-weight: 500;
       text-transform: uppercase;
       line-height: 1.2em;
@@ -1665,13 +1662,13 @@ video {
       @media (max-width: 20em) {
         .solutions-content .content .target-message {
           font-size: 0.75em;
-          margin: 10px 0 10px 0; } }
+          margin: 10px 0 0 0; } }
       @media only screen and (min-width: 48.001em) {
         .solutions-content .content .target-message {
           font-size: 1.75em; } }
     .solutions-content .content .secondary-message {
       font-weight: 300;
-      font-size: 0.875em;
+      font-size: 1.25em;
       text-align: center;
       line-height: 1.4em;
       margin: 10px 0 25px 0; }
@@ -2562,9 +2559,12 @@ form {
     top: 7px; }
 
 .showcase-info h2 {
-  font-size: 1.125em;
+  font-size: 1em;
   text-transform: none;
   padding-bottom: 0; }
+  @media only screen and (min-width: 64.001em) {
+    .showcase-info h2 {
+      font-size: 1.125em; } }
   .showcase-info h2 a {
     text-decoration: none;
     color: #0095d3; }
@@ -2579,8 +2579,12 @@ form {
 
 .s-container .showcase-info p.snippet {
   font-weight: 300;
-  font-size: 1.125em;
-  margin-bottom: 2.5em; }
+  font-size: 0.875em;
+  margin-bottom: 1em; }
+  @media only screen and (min-width: 64.001em) {
+    .s-container .showcase-info p.snippet {
+      font-size: 1.125em;
+      margin-bottom: 2.5em; } }
 
 .showcase-info a {
   color: #51575d;
@@ -2718,9 +2722,9 @@ form {
       font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: 500;
       font-style: normal; }
-      @media only screen and (min-width: 48.001em) {
+      @media only screen and (min-width: 64.001em) {
         .s-container .showcase-info p {
-          font-size: 1.375em; } }
+          font-size: 1.25em; } }
 
 .showcase-row.alt .s-container .showcase-info.mobile {
   display: block; }
@@ -2971,12 +2975,13 @@ form {
   width: 100%;
   cursor: pointer; }
   .work-items a {
+    color: #51575d;
     text-decoration: none; }
 
 .work-item {
   cursor: pointer;
   margin: 0 auto;
-  width: 350px; }
+  width: 300px; }
   .work-item img {
     -webkit-border-radius: 4px 4px 0 0;
     -moz-border-radius: 4px 4px 0 0;
