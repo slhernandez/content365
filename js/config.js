@@ -11,7 +11,7 @@ var CONFIG = (function() {
                       ],
     "solutionSecondaryMsg": [ "Demand's proprietary algorithm analyzes millions of user-intent data to suggest titles optimized to perform on desktop and mobile.",
                               "Demand Media Studios employs a network of contributors to create professional and engaging content in a myriad of innovative formats that captures your audience.",
-                              "Demand Media's network of sites and digitally native talent allow our partners to reach new audiences.",
+                              "Demand Media's network of digitally native talent allows partners to reach new audiences.",
                               "Demand Media Analytics team monitors and tests core metrics to optimize content performance."
                             ]
   }

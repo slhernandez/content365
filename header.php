@@ -11,6 +11,8 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Let content tell your story. Compelling storytelling can help build stronger relationships. Our diverse Content Solutions offering help partners create unique story lines for varying needs. Start leveraging our robust team of expert contributors to attract and engage your audience with content for real life.">
+
 <meta property="og:url" content="http://contentsolutions.demandstudios.com/">
 <meta property="og:description" content="Let content tell your story. Compelling storytelling can help build stronger relationships. Our diverse Content Solutons offerings help partners create unique story lines for varying needs.">
 <meta property="og:type" content="website">
