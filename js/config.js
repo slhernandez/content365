@@ -40,7 +40,7 @@ var CONFIG = (function() {
     },
     "RealEstate": {
       "category": "Real Estate",
-      "meta": ["75+ real estate experts", "40+ real estate writers", "All are qualified real estate agents, brokers, renters, property managers, etc..."],
+      "meta": ["75+ real estate experts", "40+ real estate writers", "All are qualified real estate agents, brokers, property owners, etc..."],
       "bios": [
          {
           "name": "Jack McLaughlin",
@@ -61,7 +61,7 @@ var CONFIG = (function() {
     },
     "Business&Finance": {
       "category": "Personal Finance",
-      "meta": ["100+ personal finance experts", "170+ Fitness writers", "All are qualified CPAs, Certified Financial Planners, financial advisors, entrepreneurs, accountants, etc."],
+      "meta": ["100+ personal finance experts", "170+ business writers", "All are qualified CPAs, Certified Financial Planners, financial advisors, entrepreneurs, accountants, etc."],
       "bios": [
          {
           "name": "Karen Lee",
@@ -370,7 +370,7 @@ var CONFIG = (function() {
         {
           "name": "Dr. Jennifer Jones, Ph.D.",
           "img": "relationships_jennifer.png",
-          "bio": "is a psychologist, speaker and writer specializing in love, sex and happiness. Dr. Jones received her education and training from UCLA Neuropsychiatric Institute, University of Oregon."
+          "bio": "Dr. Jones received her education and training from UCLA Neuropsychiatric Institute, Alliant University, The Children's Hospital, University of Oregon, Harbor UCLA Medical Center, San Bernardino County Mental Health, The Children's Collective, and St. John's Hospital. She has been practicing psychology for 13 years."
         }
       ]
     },

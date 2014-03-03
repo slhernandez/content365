@@ -1033,12 +1033,18 @@ ul.sol-nav {
     }
   }  
   .about-intro {
+    font-size: $font-size-22;
+    font-weight: 400;
+    text-transform: uppercase;
+    @include tablet-custom-600-up() {
+      font-size: $font-size-26;
+    }
     margin: 0 auto 20px auto;
   }
   h3 {
     text-align: center;
     font-size: $font-size-20;
-    font-weight: 300;
+    font-weight: 500;
     padding-bottom: 10px;
   }
 }
@@ -1094,12 +1100,12 @@ ul.sol-nav {
 
 .about-meta-container {
   @include clearfix();
-  background: #f3f3f3;
+  //background: #f3f3f3;
   padding-top: 20px;
   padding-left: 35px;
   margin-bottom: 20px;
-  border: 1px solid #EEE;
-  border-radius: 20px;
+  //border: 1px solid #EEE;
+  //border-radius: 20px;
   @include tablet-portrait-and-below() {
     background: transparent;
     border: none;
@@ -1109,12 +1115,15 @@ ul.sol-nav {
   }
 
   .about-intro {
-    float: left;
-    width: 75%; 
+    //float: left;
+    //width: 75%; 
+    max-width: 750px;
+    width: 80%;
+    text-align: center;
     @include tablet-portrait-and-below() {
-      float: none;
-      text-align: center;
       width: 100%;
+      //float: none;
+      //width: 100%;
     }
   }
 

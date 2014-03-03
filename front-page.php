@@ -290,7 +290,7 @@ get_header(); ?>
         <div class="col1of3">
           <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="video" title="video" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/tips/video.png">
           <div class="t-num video-num">2x</div>
-          <p class="video-copy">the amount of more time spent by viewers on pages that have videos</p>
+          <p class="video-copy">time spent by viewers on pages that have videos</p>
         </div>
       </div>
     </div> <!-- end of tips-container -->
@@ -301,8 +301,9 @@ get_header(); ?>
       <!--<div class="a-contact"><a href="#contact" class="anchorLink">Contact Us</a></div>-->
       <h2>About Us</h2>
       <div class="about-meta-container">
-        <p class="about-intro">We create content for real life, because we deliver the right content, in the right format, right when people need it most. These formats range from step-by-step articles and knowledge-based videos to original photography, custom infographics, social tips, blogs and more.</p>
-        <div class="a-contact"><a href="#contact" class="anchorLink">Contact Us</a></div>
+        <!--<p class="about-intro">We create content for real life, because we deliver the right content, in the right format, right when people need it most.</p>
+        <div class="a-contact"><a href="#contact" class="anchorLink">Contact Us</a></div>-->
+        <p class="about-intro">We deliver the right content, in the right format, right when people need it most.</p>
       </div>
       <div class="about-grid">
         <div class="col-1-2">
