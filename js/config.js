@@ -17,7 +17,7 @@ var CONFIG = (function() {
   }
 
   my.contributorInfo = {
-     "Pets":{
+   "Pets":{
       "category": "Pets",
       "meta": ["50+ Animal/Pet experts", "100+ Pet writers", "Contributors include qualified vets, vet techs, breed/animal nutrition specialist, or trainers."],
       "bios": [
@@ -61,7 +61,7 @@ var CONFIG = (function() {
     },
     "Business&Finance": {
       "category": "Personal Finance",
-      "meta": ["100+ Personal finance experts", "170+ Business writers", "Contributors include qualified CPAs, Certified Financial Planners, financial advisors, entrepreneurs and accountants."],
+      "meta": ["100+ Personal Finance experts", "170+ Business and Finance writers", "Contributors include qualified CPAs, Certified Financial Planners, financial advisors, entrepreneurs and accountants."],
       "bios": [
          {
           "name": "Karen Lee",
@@ -103,7 +103,7 @@ var CONFIG = (function() {
     },
     "Parenting": {
       "category": "Parenting",
-      "meta": ["75+ Parenting experts", "100+ Parenting writers", "Experts include therapists, lifestyle bloggers, doulas, psychologists and nurses."],
+      "meta": ["75+ Parenting experts", "100+ Parenting writers", "Contributors include therapists, lifestyle bloggers, doulas, psychologists and nurses."],
       "bios": [
          {
           "name": "Kathleen Sullivan",
@@ -139,7 +139,7 @@ var CONFIG = (function() {
         {
           "name": "Erick Nathan",
           "img": "home_erick.png",
-          "bio": "works for Master Floor Service, a family-run hardwood flooring business that started on the North Shore of Chicago. He opened a division in Los Angeles about 20 years ago, and has specialized in luxary home his entire career."
+          "bio": "works for Master Floor Service, a family-run hardwood flooring business that started on the North Shore of Chicago. He opened a division in Los Angeles about 20 years ago, and has specialized in luxury home his entire career."
         }
       ]
     },
@@ -208,7 +208,7 @@ var CONFIG = (function() {
     },
     "Food": {
       "category": "Food",
-      "meta": ["1000+ Food talent", "100+ Food writers", "Contributors include professional chefs, caterers, restaurant owners, food reality TV contestants and pastry chefs. "],
+      "meta": ["1000+ Food experts", "100+ Food writers", "Contributors include professional chefs, caterers, restaurant owners, food reality TV contestants and pastry chefs. "],
       "bios": [
          {
           "name": "Doreen Fang",
@@ -250,7 +250,7 @@ var CONFIG = (function() {
     },
     "Legal": {
       "category": "Legal",
-      "meta": ["25+ Legal experts", "100+ Legal writers", "The writer community is comprised of JDs, attorneys and paralegals.", "Areas of expertise include civil litigation, family law, trusts and estates, corporate law, medical patents, legal research and social security/disability"],
+      "meta": ["25+ Legal experts", "100+ Legal writers", "Contributor's areas of expertise include civil litigation, family law, trusts and estates, corporate law, medical patents, legal research and social security/disability."],
       "bios": [
          {
           "name": "Robert Todd",
@@ -292,7 +292,7 @@ var CONFIG = (function() {
     },
     "Fitness&Well-being": {
       "category": "Fitness & Well-being",
-      "meta": ["500+ Fitness experts", "250+ Fitness writers", "Backgrounds include personal trainers, yoga teachers, Pilates instructors and fitness models."],
+      "meta": ["500+ Fitness experts", "250+ Fitness writers", "Contributors include personal trainers, yoga teachers, Pilates instructors and fitness models."],
       "bios": [
          {
           "name": "Robert Brace",
@@ -334,7 +334,7 @@ var CONFIG = (function() {
     },
     "Education": {
       "category": "Education",
-      "meta": ["200+ Education experts", "90+ Education writers", "Contributors include teachers, professors, tutors, or industry-specific professionals (scientists and mathematicians.)"],
+      "meta": ["200+ Education experts", "90+ Education writers", "Contributors include teachers, professors, tutors, or industry-specific professionals (scientists and mathematicians)."],
       "bios": [
         {
           "name": "Dupe´ Aleru",
@@ -355,7 +355,7 @@ var CONFIG = (function() {
     },
     "Family&Relationships": {
       "category": "Family & Relationships",
-      "meta": ["50+ Relationship experts", "75+ Relationship writers", "Experts include therapists, couples specialists, lifestyle bloggers, dating coaches, etiquette teachers, mediators and psychologists."],
+      "meta": ["50+ Relationship experts", "75+ Relationship writers", "Contributors include therapists, couples specialists, lifestyle bloggers, dating coaches, etiquette teachers, mediators and psychologists."],
       "bios": [
         {
           "name": "Dr. Cindy Bunin",
@@ -376,7 +376,7 @@ var CONFIG = (function() {
     },
     "Travel": {
       "category": "Travel",
-      "meta": ["30 Travel talent", "60 Travel writers", "Backgrounds in travel blogging and travel industry professionals."],
+      "meta": ["30 Travel talent", "60 Travel writers", "Contributors have backgrounds ranging from travel blogging to professional work experience in the travel industry."],
       "bios": [
         {
           "name": "Carolyn Paddock",
