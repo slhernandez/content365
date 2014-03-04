@@ -13,7 +13,7 @@ get_header(); ?>
   <section class="hero-container">
     <div class="marketing">
       <h2>Let <span class="highlight">content</span> tell your story.</h2>
-      <p>Compelling storytelling can help build stronger relationships. Our diverse Content Solutions offerings help partners create unique story lines for varying needs.</p>
+      <!--<p>Compelling storytelling can help build stronger relationships. Our diverse Content Solutions offerings help partners create unique story lines for varying needs.</p>-->
       <p class="sub-heading">Start leveraging our robust team of expert contributors to attract and engage your audience with content for real life.</p> 
       <div class="action-items">
         <div class="video-thumb"><img src="<?php bloginfo('template_directory'); ?>/images/VideoThumbnail2.png"><!--<p>Watch Our Trailer</p>--></div>
@@ -290,7 +290,7 @@ get_header(); ?>
         <div class="col1of3">
           <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="video" title="video" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/tips/video.png">
           <div class="t-num video-num">2x</div>
-          <p class="video-copy">time spent by viewers on pages that have videos</p>
+          <p class="video-copy">additional time viewers spend on pages with video</p>
         </div>
       </div>
     </div> <!-- end of tips-container -->
@@ -358,8 +358,7 @@ get_header(); ?>
 <div class="trailer">
   <div class="video-container">
     <div class="video-close"><span aria-hidden="true" data-icon="m"></span></div>
-    <!--<iframe src="//player.vimeo.com/video/34017777" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/34017777">Wilson Miner - When We Build</a> from <a href="http://vimeo.com/build">Build</a> on <a href="https://vimeo.com">Vimeo</a>.</p> -->
-    <iframe src="//player.vimeo.com/video/86321584" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/86321584">Roadshow Reel 2014 EDIT05</a> from <a href="http://vimeo.com/demandstudios">Demand Media Studios</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+    <iframe id="videoIframe" src="//player.vimeo.com/video/88025704?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     <p>Content Solutions</p>
   </div>
 </div>

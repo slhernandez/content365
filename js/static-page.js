@@ -372,12 +372,22 @@ jQuery(document).ready(function($) {
     e.preventDefault();
     e.stopPropagation();
     $('.trailer').toggleClass('show').fitVids();
+    // sets the source to nothing, stopping the video
+    $('#videoIframe').attr('src', '');
+
+    // sets it back to the correct link so that it reloads immediately on the next window display.
+    $('#videoIframe').attr('src', '//player.vimeo.com/video/88025704?title=0&amp;byline=0&amp;portrait=0');
   });
 
   $('.video-close').on('click', function(e) {
     e.preventDefault();
     e.stopPropagation();
     $('.trailer').removeClass('show');
+    // sets the source to nothing, stopping the video
+    $('#videoIframe').attr('src', '');
+
+    // sets it back to the correct link so that it reloads immediately on the next window display.
+    $('#videoIframe').attr('src', '//player.vimeo.com/video/88025704?title=0&amp;byline=0&amp;portrait=0');
   });
 
 });

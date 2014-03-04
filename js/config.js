@@ -19,7 +19,7 @@ var CONFIG = (function() {
   my.contributorInfo = {
      "Pets":{
       "category": "Pets",
-      "meta": ["50+ animal/pet experts", "100+ pet writers", "All are qualified vets, vet techs, breed/animal nutrition specialist, or trainers."],
+      "meta": ["50+ Animal/Pet experts", "100+ Pet writers", "Contributors include qualified vets, vet techs, breed/animal nutrition specialist, or trainers."],
       "bios": [
          {
           "name": "Dr. Jena Questen",
@@ -40,7 +40,7 @@ var CONFIG = (function() {
     },
     "RealEstate": {
       "category": "Real Estate",
-      "meta": ["75+ real estate experts", "40+ real estate writers", "All are qualified real estate agents, brokers, property owners, etc..."],
+      "meta": ["75+ Real estate experts", "40+ Real estate writers", "Contributors include qualified real estate agents, brokers and property owners."],
       "bios": [
          {
           "name": "Jack McLaughlin",
@@ -50,7 +50,7 @@ var CONFIG = (function() {
         {
           "name": "Herman Chan",
           "img": "realestate_herman.png",
-          "bio": "is a real estate personality, broker, writer, speaker, and video blogger. You've seen him on HGTV, speaking circuits, radio and countless print outlets pontificating about all things home & garden."
+          "bio": "is a real estate personality, broker, writer, speaker and video blogger. You've seen him on HGTV, speaking circuits, radio and countless print outlets pontificating about all things home & garden."
         },
         {
           "name": "Karina Hernandez",
@@ -61,7 +61,7 @@ var CONFIG = (function() {
     },
     "Business&Finance": {
       "category": "Personal Finance",
-      "meta": ["100+ personal finance experts", "170+ business writers", "All are qualified CPAs, Certified Financial Planners, financial advisors, entrepreneurs, accountants, etc."],
+      "meta": ["100+ Personal finance experts", "170+ Business writers", "Contributors include qualified CPAs, Certified Financial Planners, financial advisors, entrepreneurs and accountants."],
       "bios": [
          {
           "name": "Karen Lee",
@@ -71,7 +71,7 @@ var CONFIG = (function() {
         {
           "name": "Hunkar Ozyasar",
           "img": "finance_hunkar.png",
-          "bio": "is the former high-yield bond strategist for Deutsche Bank. He has been quoted in publications including 'Financial Times' and the 'Wall Street Journal.'"
+          "bio": "is the former high-yield bond strategist for Deutsche Bank. He has been quoted in publications including 'Financial Times' and 'The Wall Street Journal.'"
         },
         {
           "name": "Lisa McQuerrey",
@@ -82,17 +82,17 @@ var CONFIG = (function() {
     },
     "Arts&Crafts": {
       "category": "Crafts",
-      "meta": ["100+ craft experts", "All are qualified craft teachers, bloggers, etc."],
+      "meta": ["100+ Craft experts", "Contributors include qualified craft teachers, and bloggers."],
       "bios": [
          {
           "name": "Tracy Metro",
           "img": "crafts_tracy.png",
-          "bio": "has appeared on Oprah Winfrey Network's Home Made Simple, TLC's Designing Spaces, HGTV's Posh Pets and the Today Show."
+          "bio": "has appeared on Oprah Winfrey Network's Home Made Simple, TLC's Designing Spaces, HGTV's Posh Pets and the TODAY Show."
         },
         {
           "name": "Linda Facci",
           "img": "crafts_linda.png",
-          "bio": "has been featured on two television shows for HGTV, showcased in several magazines for her jewelry, home and craft projects, and was featured in 'Design Sponge at Home book.'"
+          "bio": "has been featured on two television shows for HGTV, showcased in several magazines for her jewelry, home and craft projects, and was featured in 'Design Sponge at Home.'"
         },
         {
           "name": "Deborah Stumm",
@@ -103,17 +103,17 @@ var CONFIG = (function() {
     },
     "Parenting": {
       "category": "Parenting",
-      "meta": ["75+ parenting experts", "100 parenting writers", "Experts are therapists, lifestyle bloggers, doulas, psychologists and nurses."],
+      "meta": ["75+ Parenting experts", "100+ Parenting writers", "Experts include therapists, lifestyle bloggers, doulas, psychologists and nurses."],
       "bios": [
          {
           "name": "Kathleen Sullivan",
           "img": "parenting_kathleen.png",
-          "bio": "knows what your baby needs even before he does. She is a doula in Los Angeles, and an active member of the National Association of Postpartum Care Services and the Child Birth and Postpartum Association."
+          "bio": "knows what your baby needs even before he does. She is a doula in Los Angeles and an active member of the National Association of Postpartum Care Services and the Child Birth and Postpartum Association."
         },
         {
           "name": "Tara West",
           "img": "parenting_tara.png",
-          "bio": "specializes in parenting topics. She's a regular contributor at SocialMoms.com and has been featured on Reading Rainbow."
+          "bio": "specializes in parenting topics. She's a regular contributor for SocialMoms.com and has been featured on 'Reading Rainbow.'"
         },
         {
           "name": "Bill Corbett",
@@ -124,12 +124,12 @@ var CONFIG = (function() {
     },
     "Home": {
       "category": "Home",
-      "meta": ["100+ home DIY experts", "60 Home writers", "All are certified carpenters, contractors, painters, appliance experts or cleaning specialists."],
+      "meta": ["100+ Home DIY experts", "60+ Home writers", "Contributors include certified carpenters, contractors, painters, appliance experts and cleaning specialists."],
       "bios": [
         {
-          "name": "Nick Iarocci",
+          "name": "Nick Laorocci",
           "img": "home_nick.png",
-          "bio": "has over 25 years of experience in all mediums of construction. Unlike most construction professionals, larocci started in a shop with a very detailed concentration and graduated to less-demanding forms of the trade."
+          "bio": "has over 25 years of experience in all mediums of construction. Unlike most construction professionals, Laorocci started in a shop with a very detailed concentration and graduated to less-demanding forms of the trade."
         },
         {
           "name": "Monica D. Higgins",
@@ -139,13 +139,13 @@ var CONFIG = (function() {
         {
           "name": "Erick Nathan",
           "img": "home_erick.png",
-          "bio": "works for Master Floor Service, a family-run hardwood flooring business that started on the North Shore of Chicago. He opened a division in Los Angeles about 20 years ago, and has done luxury homes his entire career."
+          "bio": "works for Master Floor Service, a family-run hardwood flooring business that started on the North Shore of Chicago. He opened a division in Los Angeles about 20 years ago, and has specialized in luxary home his entire career."
         }
       ]
     },
     "Garden": {
       "category": "Garden",
-      "meta": ["130 Garden experts", "100+ garden writers", "All are certified landscapers, gardeners, horticulturalists, etc..."],
+      "meta": ["130 Gardening experts", "100+ Garden writers", "Contributors include certified landscapers, gardeners and horticulturalists. "],
       "bios": [
         {
           "name": "Angela Price",
@@ -166,7 +166,7 @@ var CONFIG = (function() {
     },
     "HomeDécor": {
       "category": "Home Décor",
-      "meta": ["350+ Interior Design experts", "200+ home décor writers", "All are interior designers, professional organizers, etc..."],
+      "meta": ["350+ Interior design experts", "200+ Home décor writers", "Contributors include interior designers and professional organizers."],
       "bios": [
          {
           "name": "Kelli Ellis",
@@ -176,7 +176,7 @@ var CONFIG = (function() {
         {
           "name": "Leslie Ezelle",
           "img": "home_leslie.png",
-          "bio": "is an acclaimed interior designer who was HGTV's first ever Design Star All-Stars winner. She is also a cancer survivor, and owner of Leslie Christine Designs."
+          "bio": "is an acclaimed interior designer who was HGTV's first ever Design Star All-Stars winner. She is also the owner of Leslie Christine Designs."
         },
         {
           "name": "Yvette Mullings",
@@ -187,7 +187,7 @@ var CONFIG = (function() {
     },
     "Style": {
       "category": "Style",
-      "meta": ["500+ style experts", "75+ Style writers", "All are makeup artists, hair stylists, colorists, dermatologists, or manicurists."],
+      "meta": ["500+ Style experts", "75+ Style writers", "Contributors include makeup artists, hair stylists, colorists, dermatologists and manicurists."],
       "bios": [
          {
           "name": "Danny Agnew",
@@ -208,7 +208,7 @@ var CONFIG = (function() {
     },
     "Food": {
       "category": "Food",
-      "meta": ["1000+ Food Talent", "100+ Food writers", "All are professional chefs, caterers, restaurant owners, food reality TV contestants, pastry chefs, etc..."],
+      "meta": ["1000+ Food talent", "100+ Food writers", "Contributors include professional chefs, caterers, restaurant owners, food reality TV contestants and pastry chefs. "],
       "bios": [
          {
           "name": "Doreen Fang",
@@ -229,7 +229,7 @@ var CONFIG = (function() {
     },
     "Nutrition": {
       "category": "Nutrition",
-      "meta": ["200+ healthy food experts", "100+ Nutrition writers", "All are registered dietitians, nutrition consultants, professional chefs, gluten-free/vegan/dairy-free specialists."],
+      "meta": ["200+ Healthy food experts", "100+ Nutrition writers", "Contributors include registered dietitians, nutrition consultants, professional chefs, gluten-free/vegan/dairy-free specialists."],
       "bios": [
          {
           "name": "Diane Hoch",
@@ -250,7 +250,7 @@ var CONFIG = (function() {
     },
     "Legal": {
       "category": "Legal",
-      "meta": ["25+ Legal experts", "Writers include 20 JDs and attorneys as well as 3 paralegals.", "Areas of expertise include civil litigation, family law, trusts and estates, corporate law, medical patents, legal research and social security/disability"],
+      "meta": ["25+ Legal experts", "100+ Legal writers", "The writer community is comprised of JDs, attorneys and paralegals.", "Areas of expertise include civil litigation, family law, trusts and estates, corporate law, medical patents, legal research and social security/disability"],
       "bios": [
          {
           "name": "Robert Todd",
@@ -271,7 +271,7 @@ var CONFIG = (function() {
     },
     "Health": {
       "category": "Health",
-      "meta": ["75+ Health experts", "50+ Medical writers", "All are doctors, registered nurses, chiropractors, pharmacists, gynecologists, naturopathic physicians, EMTs, etc..."],
+      "meta": ["75+ Health experts", "50+ Medical writers", "Contributors include doctors, registered nurses, chiropractors, pharmacists, gynecologists, naturopathic physicians and EMTs."],
       "bios": [
          {
           "name": "Dr. Holly Lucille",
@@ -281,18 +281,18 @@ var CONFIG = (function() {
         {
           "name": "Dr. Alice Holland",
           "img": "health_alice.png",
-          "bio": "has a Doctorate in Physcial Therapy from USC. She now runs Stride Strong Physcial Therapy, a runner's physical therapy clinic."
+          "bio": "has a Doctorate in Physical Therapy from USC. She now runs Stride Strong Physical Therapy, a runner's physical therapy clinic."
         },
         {
           "name": "Dr. Robert R. Pomahac",
           "img": "health_robert.png",
-          "bio": "was named the Top Chiropractor in the country and the Top Sports Physician in Los Angeles. He is the only chiropractor in Los Angeles certified in Chiropractic BioPhysics, and the owner of MaxHealth Center in Los Angeles."
+          "bio": "was named the Top Chiropractor in the country and the Top Sports Physician in Los Angeles. He is the only chiropractor in Los Angeles certified in Chiropractic BioPhysics and the owner of MaxHealth Center in Los Angeles."
         }
       ] 
     },
     "Fitness&Well-being": {
       "category": "Fitness & Well-being",
-      "meta": ["500+ Fitness experts", "250+ Fitness Writers", "Backgrounds include personal trainers, yoga teachers, Pilates instructors, fitness models, etc..."],
+      "meta": ["500+ Fitness experts", "250+ Fitness writers", "Backgrounds include personal trainers, yoga teachers, Pilates instructors and fitness models."],
       "bios": [
          {
           "name": "Robert Brace",
@@ -313,7 +313,7 @@ var CONFIG = (function() {
     },
     "Technology": {
       "category": "Technology",
-      "meta": ["200+ Tech Talent", "120+ Tech Writers", "All are computer technicians, IT technicians, web developers, Apple specialists, electronic gurus, social media experts, etc..."],
+      "meta": ["200+ Technology experts", "120+ Technology writers", "Contributors include computer technicians, IT technicians, web developers, Apple specialists, electronic gurus and social media experts."],
       "bios": [
          {
           "name": "Ali Rittenhous",
@@ -328,13 +328,13 @@ var CONFIG = (function() {
         {
           "name": "David Nield",
           "img": "tech_david.png",
-          "bio": "is an information technology journalist since 2002, writing about web technology, hardware and software. He is an experienced editor, proofreader and copywriter for online publications such as CNET, TechRadar and Gizmodo."
+          "bio": "is an information technology journalist, who has been writing about Web technology, hardware and software since 2002."
         }
       ] 
     },
     "Education": {
       "category": "Education",
-      "meta": ["200+ education experts", "90 education writers", "All are teachers, professors, tutors, or industry-specific professionals (scientists, mathematicians, etc...)"],
+      "meta": ["200+ Education experts", "90+ Education writers", "Contributors include teachers, professors, tutors, or industry-specific professionals (scientists and mathematicians.)"],
       "bios": [
         {
           "name": "Dupe´ Aleru",
@@ -344,7 +344,7 @@ var CONFIG = (function() {
         {
           "name": "James Lincoln",
           "img": "education_james.png", 
-          "bio": "is a UCLA physicist, high school educator and appears in many physics and science videos. He has a Masters degree in physics and a Masters degree in education."
+          "bio": "is a UCLA physicist, high school educator and appears in many physics and science videos. He has a master's degree in physics and a master's degree in education."
         },
         {
           "name": "Chelsea Duggan",
@@ -355,7 +355,7 @@ var CONFIG = (function() {
     },
     "Family&Relationships": {
       "category": "Family & Relationships",
-      "meta": ["50 relationship experts", "75+ relationship writers", "Experts include therapists, couples specialists, lifestyle bloggers, dating coaches, etiquette teachers, mediators and psychologists."],
+      "meta": ["50+ Relationship experts", "75+ Relationship writers", "Experts include therapists, couples specialists, lifestyle bloggers, dating coaches, etiquette teachers, mediators and psychologists."],
       "bios": [
         {
           "name": "Dr. Cindy Bunin",
@@ -365,7 +365,7 @@ var CONFIG = (function() {
         {
           "name": "David Simonsen, Ph.D.",
           "img": "relationships_david.png",
-          "bio": "has been a practicing therapist for 12 years. He appeared as a relationship expert on the Oprah Winfrey network, and also filmed a TV pilot for the A&E network about stepfamilies. Simonsen has an M.S. in Marriage & Family Therapy."
+          "bio": "has been a practicing therapist for 12 years. He appeared as a relationship expert on the Oprah Winfrey network and also filmed a TV pilot for the A&E network about stepfamilies. Simonsen has an M.S. in Marriage & Family Therapy."
         },
         {
           "name": "Dr. Jennifer Jones, Ph.D.",
@@ -376,12 +376,12 @@ var CONFIG = (function() {
     },
     "Travel": {
       "category": "Travel",
-      "meta": ["30 Travel Talent", "60 Travel Writers", "Backgrounds in travel blogging, extensive travel experience, lifestyle review writers, etc..."],
+      "meta": ["30 Travel talent", "60 Travel writers", "Backgrounds in travel blogging and travel industry professionals."],
       "bios": [
         {
           "name": "Carolyn Paddock",
           "img": "travel_carolyn.png",
-          "bio": "is a travel expert and the Founder and CEO of In-Flight Insider, the essential resource for traveling well. She has contributed her travel expertise to a range of national medial outlets, including The Washington Post, MSNBC.com, USA Today, CNBC.com, The Huffington Post and CNN."
+          "bio": "is a travel expert and the Founder and CEO of In-Flight Insider, the essential resource for traveling well. Her travel expertise has been featured in The Washington Post, MSNBC.com, USA Today, CNBC.com, The Huffington Post and CNN."
         },
         {
           "name": "Leslie Willmott",
