@@ -71,7 +71,7 @@ jQuery(document).ready(function($) {
   // scrolling down. Remove it when scrolling up.
   $('.marketing h2').waypoint( function(direction) {
       if (direction == 'down') {
-        $('.headerAndNavContainer').css('background', 'rgba(81, 87, 93, 0.7)');
+        //$('.headerAndNavContainer').css('background', 'rgba(81, 87, 93, 0.7)');
       } else if (direction === 'up') {
         $('.headerAndNavContainer').css('background', 'rgba(81, 87, 93, 0.0)');
       }
