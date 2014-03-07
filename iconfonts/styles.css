@@ -1,19 +1,19 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: "streamline-font-1";
-  src:url("streamline-font-1.eot");
-  src:url("streamline-font-1.eot?#iefix") format("embedded-opentype"),
-    url("streamline-font-1.woff") format("woff"),
-    url("streamline-font-1.ttf") format("truetype"),
-    url("streamline-font-1.svg#streamline-font-1") format("svg");
+  font-family: "demandmedia-font-1";
+  src:url("demandmedia-font-1.eot");
+  src:url("demandmedia-font-1.eot?#iefix") format("embedded-opentype"),
+    url("demandmedia-font-1.woff") format("woff"),
+    url("demandmedia-font-1.ttf") format("truetype"),
+    url("demandmedia-font-1.svg#demandmedia-font-1") format("svg");
   font-weight: normal;
   font-style: normal;
 
 }
 
 [data-icon]:before {
-  font-family: "streamline-font-1" !important;
+  font-family: "demandmedia-font-1" !important;
   content: attr(data-icon);
   font-style: normal !important;
   font-weight: normal !important;
@@ -27,7 +27,7 @@
 
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
-  font-family: "streamline-font-1" !important;
+  font-family: "demandmedia-font-1" !important;
   font-style: normal !important;
   font-weight: normal !important;
   font-variant: normal !important;
@@ -100,4 +100,40 @@
 }
 .icon-play-1:before {
   content: "u";
+}
+.icon-content-format:before {
+  content: "v";
+}
+.icon-insights:before {
+  content: "w";
+}
+.icon-layer-1:before {
+  content: "x";
+}
+.icon-layer-7:before {
+  content: "y";
+}
+.icon-layer-8:before {
+  content: "z";
+}
+.icon-layer-9:before {
+  content: "A";
+}
+.icon-layer-10:before {
+  content: "B";
+}
+.icon-layer-11:before {
+  content: "C";
+}
+.icon-layer-12:before {
+  content: "D";
+}
+.icon-services:before {
+  content: "E";
+}
+.icon-studio-network:before {
+  content: "F";
+}
+.icon-animated-gif:before {
+  content: "G";
 }

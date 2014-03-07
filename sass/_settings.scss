@@ -21,18 +21,6 @@ $vspacing: 1.5em;
 /* =Content365 Load icon fonts 
 ----------------------------------------------- */
 
-[data-air-icon]:before {
-  font-family: "SSAir";
-  content: attr(data-air-icon);
-  speak: none;
-}
-
-/*[data-icon]:before {
-  font-family: "";
-  content: attr(data-icon);
-  speak: none;
-}*/
-
 .icon-alone {
   display: inline-block;
   text-decoration: none;

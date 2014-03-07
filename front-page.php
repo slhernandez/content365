@@ -27,12 +27,12 @@ get_header(); ?>
       <h2>Our Content</h2>
       <ul class="content-items">
         <li class="all"><a href="#" class="selected">All</a></li>
-        <li class="text"><a href="#"><span aria-hidden="true" data-icon="g"></span>Text</a></li>
-        <li class="video"><a href="#"><span aria-hidden="true" data-icon="d"></span>Video</a></li>
-        <li class="animated-gif"><a href="#"><span aria-hidden="true" data-icon="c"></span>Animated Gif</a></li>
-        <li class="infographics"><a href="#"><span aria-hidden="true" data-icon="j"></span> Infographics</a></li>
-        <li class="photography"><a href="#"><span aria-hidden="true" data-icon="b"></span>Photography</a></li>
-        <li class="quiz"><a href="#"><span aria-hidden="true" data-icon="f"></span>Quiz</a></li>
+        <li class="text"><a href="#"><span aria-hidden="true" data-icon="C"></span>Text</a></li>
+        <li class="video"><a href="#"><span aria-hidden="true" data-icon="y"></span>Video</a></li>
+        <li class="animated-gif"><a href="#"><span aria-hidden="true" data-icon="G"></span>Animated Gif</a></li>
+        <li class="infographics"><a href="#"><span aria-hidden="true" data-icon="z"></span> Infographics</a></li>
+        <li class="photography"><a href="#"><span aria-hidden="true" data-icon="A"></span>Photography</a></li>
+        <li class="quiz"><a href="#"><span aria-hidden="true" data-icon="B"></span>Quiz</a></li>
       </ul>
       <div class="content-showcase">
         <div class="showcase-all">
@@ -307,24 +307,24 @@ get_header(); ?>
       </div>
       <div class="about-grid">
         <div class="col-1-2">
-          <div class="about-icon"><span aria-hidden="true" data-icon="p"></span></div>
+          <div class="about-icon"><span aria-hidden="true" data-icon="w"></span></div>
           <h3>Insights</h3>
           <p>Everything starts by listening to the consumer through our billions of proprietary signals.  We create content based on a rich data set of queues from the internet audience.</p>
         </div>
         <div class="col-1-2">
-          <div class="about-icon"><span aria-hidden="true" data-icon="o"></span></div>
+          <div class="about-icon"><span aria-hidden="true" data-icon="F"></span></div>
           <h3>Studio Network</h3>
           <p>We have a network of thousands of highly qualified creators, talent and experts, who specialize in 22 niche categories, respectively.</p>
         </div>
       </div>
       <div class="about-grid">
         <div class="col-1-2">
-          <div class="about-icon"><span aria-hidden="true" data-icon="n"></span></div>
+          <div class="about-icon"><span aria-hidden="true" data-icon="v"></span></div>
           <h3>Content Formats</h3>
           <p>We have a myriad of evolving content formats such as how-to articles and knowledge-based videos to help people in their daily lives. We've optimized those formats for social and mobile platforms, and evolved our formats to include photography, infographics and blogs.</p>
         </div>
         <div class="col-1-2">
-          <div class="about-icon"><span aria-hidden="true" data-icon="q"></span></div>
+          <div class="about-icon"><span aria-hidden="true" data-icon="E"></span></div>
           <h3>Services</h3>
           <p>We have a seasoned publishing platform, inclusive of Demand Media's best-in-class SEO and social strategists.</p>
         </div>
