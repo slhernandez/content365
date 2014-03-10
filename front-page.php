@@ -356,8 +356,8 @@ get_header(); ?>
 
 </div> <!-- end of siteWrapper -->
 <div class="trailer">
+  <div class="video-close"><span aria-hidden="true" data-icon="m"></span></div>
   <div class="video-container">
-    <div class="video-close"><span aria-hidden="true" data-icon="m"></span></div>
     <iframe id="videoIframe" src="//player.vimeo.com/video/88025704?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     <p>Content Solutions</p>
   </div>
