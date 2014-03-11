@@ -12,9 +12,7 @@ get_header(); ?>
 <div class="siteWrapper">
   <section class="hero-container">
     <div class="marketing">
-      <h2>Let <span class="highlight">content</span> tell your story.</h2>
-      <!--<p>Compelling storytelling can help build stronger relationships. Our diverse Content Solutions offerings help partners create unique story lines for varying needs.</p>-->
-      <p class="sub-heading">Start leveraging our robust team of expert contributors to attract and engage your audience with content for real life.</p> 
+      <h2><span class="highlight">Content</span> with a purpose.</h2>
       <div class="action-items">
         <div class="video-thumb"><img src="<?php bloginfo('template_directory'); ?>/images/VideoThumbnail2.png"><!--<p>Watch Our Trailer</p>--></div>
         <div class="contact-btn-container"><a class="contact-btn anchorLink" href="#contact">Tell Me More</a></div>
@@ -24,7 +22,7 @@ get_header(); ?>
 
   <section id="our-content" class="our-content">
     <div class="our-content-container">
-      <h2>Our Content</h2>
+      <h2>Content</h2>
       <ul class="content-items">
         <li class="all"><a href="#" class="selected">All</a></li>
         <li class="text"><a href="#"><span aria-hidden="true" data-icon="C"></span>Text</a></li>
@@ -43,11 +41,11 @@ get_header(); ?>
 
           <section class="text-section inactive">
             <div class="showcase-image">
-              <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="text example" title="text example" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/content/text-image3.png">
+              <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="text example" title="text example" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/content/text-grid-800-opt.jpg">
             </div>  
             <div class="showcase-info">
               <h2>Text</h2>
-              <p>Build your content offerings with diverse formats, such as informational articles, blogs, recipes and more.</p>
+              <p>Develop your voice and engage new readers with informational articles, expert blogs, recipes, and more.</p>
             </div>
           </section>
 
@@ -62,11 +60,13 @@ get_header(); ?>
             </div>  
             <div class="showcase-info">
               <h2>Video</h2>
-              <p>Tell your story with customized videos.</p>
+              <p>Captivate and entertain with the sight, sound, and motion of original video programming.</p>
             </div>
           </section>
 
-          <section class="animated-gif-section inactive"></section> 
+          <section class="animated-gif-section inactive">
+            <!-- Animated GIF section is located at the bottom of the page. Officially, it's a template. -->
+          </section> 
 
           <section class="infographics-section inactive">
             <div class="showcase-image">
@@ -74,7 +74,7 @@ get_header(); ?>
             </div>  
             <div class="showcase-info">
               <h2>Infographics</h2>
-              <p>Educate your audiences with data visualization and awesome graphics.</p>
+              <p>Data is beautiful and the visual web is here. Educate and enlighten your audience with fully-customized infographics.</p>
             </div>
           </section>
 
@@ -84,7 +84,7 @@ get_header(); ?>
             </div>  
             <div class="showcase-info">
               <h2>Photography</h2>
-              <p>Increase your page views 5x with slide shows.</p>
+              <p>Bring your story to life with dazzling original photography.</p>
             </div>
           </section>
 
@@ -94,7 +94,7 @@ get_header(); ?>
             </div>  
             <div class="showcase-info">
               <h2>Quiz</h2>
-              <p>Get your community talking with quizzes, debates and polls.</p>
+              <p>Get your community talking with quizzes, polls, and debates.</p>
             </div>
           </section>
 
@@ -109,7 +109,6 @@ get_header(); ?>
       <div class="solutions-content">
         <h2>Solutions</h2>
         <div class="content">
-          <h3>Unleash your content strategy using the Demand Media Platform to:</h3>
           <h2></h2>
           <p class="target-message"></p>
           <p class="secondary-message"></p>
@@ -275,17 +274,17 @@ get_header(); ?>
 
   <section id="trending" class="insights">
     <div class="insights-container">
-      <h2>Trending</h2>
+      <h2>Content Matters</h2>
       <div class="insights-wrap">
         <div class="col1of3">
           <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="mobile" title="mobile" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/tips/mobile.png">
           <div class="t-num">78%</div>
-          <p>of consumers believe companies providing custom content are interested in building good relationships</p>
+          <p>of consumers believe that organizations providing custom content are interested in building good relationships (TMG Custom Media, Dec 2013)</p>
         </div>
         <div class="col1of3">
           <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="picture" title="picture" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/tips/picture.png">
           <div class="t-num picture-num">44%</div>
-          <p class="picture-copy">of people are more likely to engage with content on social media that contain pictures</p>
+          <p class="picture-copy">44% of people are more likely to engage with social media content that contains pictures (Performics, July 2012)</p>
         </div>
         <div class="col1of3">
           <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="video" title="video" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/tips/video.png">
@@ -303,24 +302,24 @@ get_header(); ?>
       <div class="about-meta-container">
         <!--<p class="about-intro">We create content for real life, because we deliver the right content, in the right format, right when people need it most.</p>
         <div class="a-contact"><a href="#contact" class="anchorLink">Contact Us</a></div>-->
-        <p class="about-intro">We deliver the right content, in the right format, right when people need it most.</p>
+        <p class="about-intro">We create content for real life, because we deliver the right content, in the right format, right when people need it most. These formats range from step-by-step articles and knowledge-based videos to original photography, custom infographics, social tips, blogs and more.</p>
       </div>
       <div class="about-grid">
         <div class="col-1-2">
           <div class="about-icon"><span aria-hidden="true" data-icon="w"></span></div>
-          <h3>Insights</h3>
+          <h3>Data</h3>
           <p>Everything starts by listening to the consumer through our billions of proprietary signals.  We create content based on a rich data set of queues from the internet audience.</p>
         </div>
         <div class="col-1-2">
-          <div class="about-icon"><span aria-hidden="true" data-icon="F"></span></div>
-          <h3>Studio Network</h3>
+          <div class="about-icon network-icon"><span aria-hidden="true" data-icon="F"></span></div>
+          <h3>Creators</h3>
           <p>We have a network of thousands of highly qualified creators, talent and experts, who specialize in 22 niche categories, respectively.</p>
         </div>
       </div>
       <div class="about-grid">
         <div class="col-1-2">
           <div class="about-icon"><span aria-hidden="true" data-icon="v"></span></div>
-          <h3>Content Formats</h3>
+          <h3>Formats</h3>
           <p>We have a myriad of evolving content formats such as how-to articles and knowledge-based videos to help people in their daily lives. We've optimized those formats for social and mobile platforms, and evolved our formats to include photography, infographics and blogs.</p>
         </div>
         <div class="col-1-2">
@@ -406,7 +405,7 @@ get_header(); ?>
   </div>  
   <div class="showcase-info inactive">
     <h2>Animated Gifs</h2>
-    <p>Set your brand in motion with Animated GIFs.</p>
+    <p>Spring your social story into action with instantly shareable animated GIFs.</p>
   </div>
 </script>
 

@@ -3,16 +3,16 @@ var CONFIG = (function() {
   var my = {};
 
   my.solutionCopy = {
-    "solutionHeading": [ "Listen", "Create", "Distribute", "Measure" ],
-    "solutionTgtMsg": [ "To what content your audience wants",
-                        "Content written by experts that attract and engage your target audience",
-                        "Your content strategically to create search + social traffic",
-                        "Your content marketing ROI"
+    "solutionHeading": [ "Listen", "Create", "Connect", "Optimize" ],
+    "solutionTgtMsg": [ "to what content your audience wants",
+                        "valuable content by authentic experts",
+                        "your content to your audience, wherever they are",
+                        "your content performance"
                       ],
-    "solutionSecondaryMsg": [ "Demand's proprietary algorithm analyzes millions of user-intent data to suggest titles optimized to perform on desktop and mobile.",
-                              "Demand Media Studios employs a network of contributors to create professional and engaging content in a myriad of innovative formats that captures your audience.",
-                              "Demand Media's network of digitally native talent allows partners to reach new audiences.",
-                              "Demand Media Analytics team monitors and tests core metrics to optimize content performance."
+    "solutionSecondaryMsg": [ "Take advantage of our unique insights on content needs, consumption habits, and format preferences across every screen.",
+                              "60 percent of our contributors have 7+ years of hands-on experience in their area of expertise, and all of our editors pass rigorous knowledge tests to ensure quality.",
+                              "We're a publisher reaching nearly 1 in 3 Americans every month. Tap into our expertise with strategies to match your content to the right person, in the right place, at the right time.",
+                              "Our analytics team constantly monitors core content engagement metrics measure performance against your unique KPIs."
                             ]
   }
 
@@ -370,7 +370,7 @@ var CONFIG = (function() {
         {
           "name": "Dr. Jennifer Jones, Ph.D.",
           "img": "relationships_jennifer.png",
-          "bio": "Dr. Jones received her education and training from UCLA Neuropsychiatric Institute, Alliant University, The Children's Hospital, University of Oregon, Harbor UCLA Medical Center, San Bernardino County Mental Health, The Children's Collective, and St. John's Hospital. She has been practicing psychology for 13 years."
+          "bio": "Dr. Jones received a degree from the University of Oregon and advanced training from the UCLA Neuropsychiatric Institute. She has been practicing psychology for 13 years."
         }
       ]
     },
