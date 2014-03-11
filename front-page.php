@@ -12,7 +12,7 @@ get_header(); ?>
 <div class="siteWrapper">
   <section class="hero-container">
     <div class="marketing">
-      <h2><span class="highlight">Content</span> with a purpose.</h2>
+      <h2><span class="highlight">Content</span> with a purpose</h2>
       <div class="action-items">
         <div class="video-thumb"><img src="<?php bloginfo('template_directory'); ?>/images/VideoThumbnail2.png"><!--<p>Watch Our Trailer</p>--></div>
         <div class="contact-btn-container"><a class="contact-btn anchorLink" href="#contact">Tell Me More</a></div>
@@ -284,7 +284,7 @@ get_header(); ?>
         <div class="col1of3">
           <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="picture" title="picture" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/tips/picture.png">
           <div class="t-num picture-num">44%</div>
-          <p class="picture-copy">44% of people are more likely to engage with social media content that contains pictures (Performics, July 2012)</p>
+          <p class="picture-copy">of people are more likely to engage with social media content that contains pictures (Performics, July 2012)</p>
         </div>
         <div class="col1of3">
           <img src="<?php bloginfo('template_directory'); ?>/images/blank.gif" alt="video" title="video" data-lazy-src="<?php bloginfo('template_directory'); ?>/images/tips/video.png">

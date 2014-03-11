@@ -72,7 +72,7 @@
 	cursor: pointer;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max -width: 600px) {
   .menu-toggle,
   .main-navigation.toggled .nav-menu {
     display: block;
@@ -235,9 +235,6 @@
 		text-shadow: 0 1px 1px rgba(0,0,0,0.6);
 
 		&.n-contact {
-			&.active {
-				border: 1px solid $highlight-color;
-			}
 			@include tablet-custom-760-up() {
 				border: 1px solid #fff;
 				padding: 5px 10px 5px 10px;

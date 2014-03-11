@@ -78,6 +78,7 @@
     }
     h2 {
       color: #FFF;
+      text-transform: uppercase;
       @include mobile-landscape-and-below() {
         font-size: $font-size-20;
       }
@@ -116,7 +117,7 @@
       @include mobile-landscape-and-below() {
         font-size: $font-size-12;
       }
-      font-weight: 300;
+      font-weight: 500;
       font-style: italic;
       padding-bottom: 15px;
     }
@@ -237,8 +238,6 @@
   @include tablet-custom-600-below() {
     font-size: $font-size-16;  
   }
-
-  @include font-light();
 
   text-shadow: 0 1px 1px rgba(0,0,0,0.5);
   &:hover,
@@ -474,7 +473,6 @@ video {
   }
   p {
     font-size: 20px;
-    font-weight: 200;
   }
 }
 
@@ -613,7 +611,7 @@ video {
       @include mobile-landscape-and-below() {
         display: none;
       }
-      font-weight: 300;
+      font-weight: 500;
       font-size: $font-size-20;
       @include tablet-portrait-and-up {
         font-size: $font-size-28;
@@ -652,7 +650,6 @@ ul.pages {
       margin: 0;
       position: relative;
       top: 7px;
-      @include font-light();
     }
     &:hover,
     &:active {
@@ -788,7 +785,6 @@ ul.sol-nav {
     p {
       padding: 0;
       margin: 0;
-      @include font-light();
       font-size: $font-size-16;
       text-transform: none;
     }
@@ -816,7 +812,6 @@ ul.sol-nav {
     }
 
     .bio {
-      @include font-light();
       margin: 0 auto;
       text-transform: none;
       text-align: left;
@@ -1002,7 +997,6 @@ ul.sol-nav {
     }
     p {
       color: #FFF;
-      @include font-light();
       @include mobile-portrait-and-below {
         font-size: $font-size-16;
       }
@@ -1203,7 +1197,6 @@ ul.sol-nav {
         font-size: $font-size-20;
         position: relative;
         top: 5px;
-        font-weight: 100;
         &:hover {
           color: $highlight-color;
           -webkit-transition:all .5s ease-in-out;

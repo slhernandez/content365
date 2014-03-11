@@ -172,7 +172,6 @@
 }
 
 .s-container .showcase-info p.snippet {
-  font-weight: 300;
   @include tablet-landscape-and-up() {
     font-size: $font-size-18;
     margin-bottom: 2.5em;

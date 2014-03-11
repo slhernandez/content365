@@ -62,8 +62,8 @@ $header-font: $base-font; // you can refer to other variables
 
 // Basic colors are set here
 // --------------------------- //
-$body-copy-color: #333;
-$heading-color: $site-wide-color;
+$body-copy-color: #666E75;
+$heading-color: #666E75;
 
 // Font sizes -- 16px is 1em
 
@@ -125,8 +125,8 @@ button,
 input,
 select,
 textarea {
-	color: #404040;
-	font-family: $base-font;
+	color: #666E75;
+	@include gotham-rounded-medium();
 	font-size: 16px;
 	font-size: 1.6rem;
 	line-height: 1.5;
