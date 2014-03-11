@@ -81,7 +81,7 @@ var CONFIG = (function() {
       ] 
     },
     "Arts&Crafts": {
-      "category": "Crafts",
+      "category": "Arts & Crafts",
       "meta": ["100+ Craft experts", "Contributors include qualified craft teachers, and bloggers."],
       "bios": [
          {

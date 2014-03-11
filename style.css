@@ -318,7 +318,7 @@ h2,
 h3,
 h4 {
   color: #51575d;
-  font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Gotham Rounded A", "Gotham Rounded B";
   font-weight: 500;
   font-style: normal; }
 
@@ -343,14 +343,14 @@ input,
 select,
 textarea {
   color: #404040;
-  font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Gotham Rounded A", "Gotham Rounded B";
   font-size: 16px;
   font-size: 1.6rem;
   line-height: 1.5; }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Gotham Rounded A", "Gotham Rounded B";
   clear: both; }
 
 hr {
@@ -717,7 +717,10 @@ a:visited {
     display: inline-block; } }
 
 .navContent {
-  display: none; }
+  display: none;
+  font-family: "Gotham Rounded A", "Gotham Rounded B";
+  font-weight: 700;
+  font-style: normal; }
   .navContent ul {
     list-style: none;
     margin: 0;
@@ -754,9 +757,6 @@ a:visited {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1em;
-    font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 400;
-    font-style: normal;
     -webkit-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
     -moz-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6); }
@@ -1158,9 +1158,6 @@ object {
     .hero-container {
       margin-top: 0; } }
   .hero-container h2.hero-heading {
-    font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 700;
-    font-style: normal;
     color: #FFF;
     font-size: 1.75em;
     text-align: center;
@@ -1207,8 +1204,8 @@ object {
       color: #FFF;
       font-size: 1.875em;
       margin-bottom: 20px;
-      font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-weight: 300;
+      font-family: "Gotham Rounded A", "Gotham Rounded B";
+      font-weight: 500;
       font-style: normal;
       -webkit-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
       -moz-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
@@ -1341,7 +1338,7 @@ object {
   color: #FFF;
   padding: 15px 20px;
   font-size: 1.25em;
-  font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Gotham Rounded A", "Gotham Rounded B";
   font-weight: 300;
   font-style: normal;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); }
@@ -1427,8 +1424,8 @@ object {
         text-decoration: none;
         text-transform: uppercase;
         color: #51575d;
-        font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-weight: 400;
+        font-family: "Gotham Rounded A", "Gotham Rounded B";
+        font-weight: 500;
         font-style: normal;
         font-size: 0.875em; }
         @media only screen and (min-width: 48.001em) {
@@ -1743,7 +1740,7 @@ ul.pages {
       margin: 0;
       position: relative;
       top: 7px;
-      font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Gotham Rounded A", "Gotham Rounded B";
       font-weight: 300;
       font-style: normal; }
     ul.pages li:hover, ul.pages li:active {
@@ -1858,7 +1855,7 @@ ul.sol-nav {
     .contributors-container .contributor-meta p {
       padding: 0;
       margin: 0;
-      font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Gotham Rounded A", "Gotham Rounded B";
       font-weight: 300;
       font-style: normal;
       font-size: 1em;
@@ -1884,7 +1881,7 @@ ul.sol-nav {
         .contributors-container .contributor-bios img {
           display: block; } }
     .contributors-container .contributor-bios .bio {
-      font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Gotham Rounded A", "Gotham Rounded B";
       font-weight: 300;
       font-style: normal;
       margin: 0 auto;
@@ -1894,7 +1891,7 @@ ul.sol-nav {
       font-size: 0.875em; }
       .contributors-container .contributor-bios .bio .bio-name {
         color: #51575d;
-        font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family: "Gotham Rounded A", "Gotham Rounded B";
         font-weight: 500;
         font-style: normal;
         margin-right: 5px; }
@@ -1966,7 +1963,7 @@ ul.sol-nav {
         opacity: 1.0;
         color: #FFF;
         font-size: 1em;
-        font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family: "Gotham Rounded A", "Gotham Rounded B";
         font-weight: 500;
         font-style: normal;
         text-align: center;
@@ -2045,7 +2042,7 @@ ul.sol-nav {
           padding: 20px 20px; } }
     .insights-wrap .col1of3 .t-num {
       position: relative;
-      font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Gotham Rounded A", "Gotham Rounded B";
       font-weight: 700;
       font-style: normal;
       color: #FFF;
@@ -2060,7 +2057,7 @@ ul.sol-nav {
         bottom: 3px; }
     .insights-wrap .col1of3 p {
       color: #FFF;
-      font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Gotham Rounded A", "Gotham Rounded B";
       font-weight: 300;
       font-style: normal;
       margin: 0 auto; }
@@ -2215,8 +2212,8 @@ ul.sol-nav {
         text-decoration: none;
         word-break: break-all;
         color: #32d17e;
-        font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-weight: 400;
+        font-family: "Gotham Rounded A", "Gotham Rounded B";
+        font-weight: 500;
         font-style: normal;
         font-size: 0.938em; }
         .contact-info ul li a:hover {
@@ -2291,8 +2288,8 @@ form {
   form label {
     color: #FFF;
     font-size: 1.25em;
-    font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 400;
+    font-family: "Gotham Rounded A", "Gotham Rounded B";
+    font-weight: 500;
     font-style: normal;
     display: block;
     margin: 0 0 5px 0; }
@@ -2302,6 +2299,9 @@ form {
     width: 90% !important;
     padding: 10px !important;
     font-size: 1.125em !important;
+    font-family: "Gotham Rounded A", "Gotham Rounded B";
+    font-weight: 500;
+    font-style: normal;
     border: 1px solid #ddd;
     background: #f3f3f3;
     -webkit-border-radius: 0 !important;
@@ -2339,7 +2339,7 @@ form {
     -o-text-shadow: none;
     text-shadow: none;
     display: inline-block;
-    font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Gotham Rounded A", "Gotham Rounded B";
     font-weight: 500;
     font-style: normal;
     width: 200px !important; }
@@ -2408,7 +2408,10 @@ form {
   .footer-menu ul {
     margin: 0;
     padding: 25px 0;
-    text-align: center; }
+    text-align: center;
+    font-family: "Gotham Rounded A", "Gotham Rounded B";
+    font-weight: 500;
+    font-style: normal; }
     .footer-menu ul li {
       margin-left: 0;
       margin-bottom: .4em;
@@ -2604,17 +2607,17 @@ form {
     position: relative;
     top: 7px; }
 
-.showcase-info h2 {
+.s-container .showcase-info h2 {
   font-size: 1em;
   text-transform: none;
   padding-bottom: 0; }
   @media only screen and (min-width: 64.001em) {
-    .showcase-info h2 {
+    .s-container .showcase-info h2 {
       font-size: 1.125em; } }
-  .showcase-info h2 a {
+  .s-container .showcase-info h2 a {
     text-decoration: none;
     color: #0095d3; }
-    .showcase-info h2 a:hover {
+    .s-container .showcase-info h2 a:hover {
       color: #0095d3;
       -webkit-transition: all .5s ease-in-out;
       -moz-transition: all .5s ease-in-out;
@@ -2707,7 +2710,10 @@ form {
   list-style: none;
   margin: 0;
   text-align: center;
-  padding-bottom: 0; }
+  padding-bottom: 0;
+  font-family: "Gotham Rounded A", "Gotham Rounded B";
+  font-weight: 500;
+  font-style: normal; }
   .showcase-items:before, .showcase-items:after {
     content: "";
     display: table; }
@@ -2765,7 +2771,7 @@ form {
     padding-left: 2%; }
     .s-container .showcase-info p {
       font-size: 1em;
-      font-family: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Gotham Rounded A", "Gotham Rounded B";
       font-weight: 500;
       font-style: normal; }
       @media only screen and (min-width: 64.001em) {

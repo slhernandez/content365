@@ -1,6 +1,7 @@
 $gotham: "Gotham A", "Gotham B", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+$gotham-rounded: "Gotham Rounded A", "Gotham Rounded B"; 
 
-$base-font: $gotham; 
+$base-font: $gotham-rounded; 
 $header-font: $base-font; // you can refer to other variables
 
 /* Mixins for various font weights */
@@ -41,6 +42,24 @@ $header-font: $base-font; // you can refer to other variables
 	font-style: italic;
 }
 
+@mixin gotham-rounded-book() {
+	font-family: $gotham-rounded;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@mixin gotham-rounded-medium() {
+	font-family: $gotham-rounded;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@mixin gotham-rounded-bold() {
+	font-family: $gotham-rounded;
+	font-weight: 700;
+	font-style: normal;
+}
+
 // Basic colors are set here
 // --------------------------- //
 $body-copy-color: #333;
@@ -76,7 +95,7 @@ h2,
 h3,
 h4 {
   color: $heading-color;
-  @include font-medium();
+  @include gotham-rounded-medium();
 }
 
 

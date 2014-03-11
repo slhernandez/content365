@@ -25,7 +25,6 @@
   position: relative;
 
   h2.hero-heading {
-    @include font-bold();
     color: #FFF;
     font-size: $font-size-28;
     text-align: center;
@@ -84,7 +83,7 @@
       }
       font-size: $font-size-30;
       margin-bottom: 20px;
-      @include font-light();
+      @include gotham-rounded-medium();
       @include tablet-custom-600-up() {
         font-size: $font-size-44;
       }
@@ -333,7 +332,8 @@
         text-decoration: none;
         text-transform: uppercase;
         color: $site-wide-color;
-        @include font-book();
+        //@include font-book();
+        @include gotham-rounded-medium();
         font-size: $font-size-14;
         @include tablet-portrait-and-up() {
           font-size: $font-size-18;
@@ -487,10 +487,7 @@ video {
 }
 
 .showcase-all > section {
-  //@include tablet-portrait-and-up() {
   display: block;
-  //}
-  //display: none;
 }
 
 /* =Content365 Solutions 
@@ -827,7 +824,8 @@ ul.sol-nav {
       font-size: $font-size-14;
       .bio-name {
         color: $site-wide-color;
-        @include font-medium();
+        //@include font-medium();
+        @include gotham-rounded-medium();
         margin-right: 5px;
       }
     }
@@ -902,7 +900,8 @@ ul.sol-nav {
         opacity: 1.0;
         color: #FFF;
         font-size: $font-size-16;
-        @include font-medium();
+        //@include font-medium();
+        @include gotham-rounded-medium();
         text-align: center;
         text-transform: uppercase;
         z-index: 1;
@@ -985,7 +984,8 @@ ul.sol-nav {
     }
     .t-num {
       position: relative;
-      @include font-bold();
+      //@include font-bold();
+      @include gotham-rounded-bold();
       color: #FFF;
       font-size: 6.5em;
       @include tablet-portrait-and-below {
@@ -1183,7 +1183,8 @@ ul.sol-nav {
         text-decoration: none;
         word-break: break-all;
         color: $highlight-color;
-        @include font-book();
+        //@include font-book();
+        @include gotham-rounded-medium();
         font-size: $font-size-15;
         &:hover {
           color: darken($highlight-color, 10%);
@@ -1273,7 +1274,8 @@ form {
   label {
     color: #FFF;
     font-size: $font-size-20;
-    @include font-book();
+    //@include font-book();
+    @include gotham-rounded-medium();
     display: block;
     margin: 0 0 5px 0;
   }
@@ -1287,6 +1289,7 @@ form {
     }
     padding: 10px !important;
     font-size: $font-size-18 !important;
+    @include gotham-rounded-medium();
     border: 1px solid #ddd;
     background: #f3f3f3;
     -webkit-border-radius: 0 !important;
@@ -1328,7 +1331,8 @@ form {
     -o-text-shadow: none;
     text-shadow: none;
     display: inline-block;
-    @include font-medium();
+    //@include font-medium();
+    @include gotham-rounded-medium();
     width: 200px !important;
   }
 
@@ -1414,6 +1418,7 @@ form {
     margin: 0;
     padding: 25px 0;
     text-align: center;
+    @include gotham-rounded-medium();
     li {
       @include mobile-landscape-and-up() {
         display: inline-block;

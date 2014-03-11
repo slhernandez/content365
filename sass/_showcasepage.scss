@@ -144,21 +144,23 @@
   }
 }
 
-.showcase-info h2 {
-  font-size: $font-size-16;
-  @include tablet-landscape-and-up() {
-    font-size: $font-size-18;
-  }
-  text-transform: none;
-  padding-bottom: 0;
-  a {
-    text-decoration: none;
-    color: $experian-color;
-    &:hover {
+.s-container {
+  .showcase-info h2 {
+    font-size: $font-size-16;
+    @include tablet-landscape-and-up() {
+      font-size: $font-size-18;
+    }
+    text-transform: none;
+    padding-bottom: 0;
+    a {
+      text-decoration: none;
       color: $experian-color;
-      -webkit-transition:all .5s ease-in-out;
-      -moz-transition:all .5s ease-in-out;
-      transition:all .5s ease-in-out;
+      &:hover {
+        color: $experian-color;
+        -webkit-transition:all .5s ease-in-out;
+        -moz-transition:all .5s ease-in-out;
+        transition:all .5s ease-in-out;
+      }
     }
   }
 }
@@ -267,6 +269,7 @@
   margin: 0;
   text-align: center;
   padding-bottom: 0;
+  @include gotham-rounded-medium();
   @include tablet-portrait-and-up() {
     padding-bottom: 50px;
   }
@@ -326,7 +329,7 @@
       @include tablet-landscape-and-up() {
         font-size: $font-size-20;
       }
-      @include font-medium();
+      @include gotham-rounded-medium();
     }
   }
 }
