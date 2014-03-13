@@ -79,10 +79,7 @@ function content365_scripts() {
 
 	wp_enqueue_style( 'content365-style', get_stylesheet_uri() );
 
-	/*wp_enqueue_style( 'gothamfont', 'http://cloud.typography.com/6676432/688122/css/fonts.css' );*/
 	wp_enqueue_style( 'gothamfont', 'http://cloud.typography.com/7722472/751784/css/fonts.css' );
-
-	/*wp_enqueue_script( 'googlemaps', 'http://maps.googleapis.com/maps/api/js?sensor=false', array(), false );*/
 
 	wp_enqueue_script( 'content365-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', false );
 
@@ -93,8 +90,6 @@ function content365_scripts() {
 	wp_enqueue_script( 'content365-backstretch', get_template_directory_uri() . '/js/backstretch.min.js', array('jquery'), '201312008', false );
 
 	wp_enqueue_script( 'content365-fitvids', get_template_directory_uri() . '/js/jquery.fitvids.js', array('jquery'), '20140219', false );
-
-	wp_enqueue_script( 'content365-photoset', get_template_directory_uri() . '/js/photoset-grid.min.js', array('jquery'), '20141402', false );
 
 	wp_enqueue_script( 'content365-underscore', get_template_directory_uri() . '/js/underscore.min.js', array(), '20140225', false );
 

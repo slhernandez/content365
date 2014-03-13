@@ -11,13 +11,20 @@ get_header(); ?>
 
 <div class="siteWrapper">
   <section class="hero-container">
-    <div class="marketing">
+    <div class="marketing marketing-vbackground">
       <h2><span class="highlight">Content</span> with a purpose</h2>
       <div class="action-items">
-        <div class="video-thumb"><img src="<?php bloginfo('template_directory'); ?>/images/VideoThumbnail2.png"><!--<p>Watch Our Trailer</p>--></div>
+        <div class="play-btn-container video-thumb"><a class="play-btn"><span aria-hidden="true" data-icon="u"></span>Play Video</a></div>
         <div class="contact-btn-container"><a class="contact-btn anchorLink" href="#contact">Tell Me More</a></div>
       </div>
     </div>
+    <div class="masthead-video-overlay"></div>
+    <video id="feature-movie" autoplay="autoplay" loop="loop" poster="<?php bloginfo('template_directory'); ?>/assets/videos/reel_poster1.png" muted="muted"> 
+      <!-- <source src="pr6.webm" type="video/webm; codecs=vp8,vorbis"> -->
+      <source src="<?php bloginfo('template_directory'); ?>/assets/videos/roadshow_feature.mp4" type="video/mp4; codecs=avc1.42E01E,mp4a.40.2"/>
+      <source src="<?php bloginfo('template_directory'); ?>/assets/videos/roadshow_feature.webmsd.webm" type="video/webm"/>
+      <source src="<?php bloginfo('template_directory'); ?>/assets/videos/roadshow_feature.oggtheora.ogv"  type="video/ogv; codecs=theora,vorbis">
+    </video>
   </section>
 
   <section id="our-content" class="our-content">

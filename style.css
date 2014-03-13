@@ -1152,7 +1152,6 @@ object {
 /* =Content365 Hero 
 ----------------------------------------------- */
 .hero-container {
-  background-color: #51575d;
   position: relative; }
   @media only screen and (min-width: 48.001em) {
     .hero-container {
@@ -1164,40 +1163,27 @@ object {
     position: absolute;
     top: 0;
     left: 0;
-    margin: 100px 40px;
     text-transform: uppercase;
     z-index: 1; }
     @media only screen and (max-width: 30em) {
       .hero-container h2.hero-heading {
-        font-size: 1.625em;
-        margin: 50px 30px;
-        margin: 40px 30px; } }
+        font-size: 1.625em; } }
     @media only screen and (min-width: 48.001em) {
       .hero-container h2.hero-heading {
-        font-size: 2.125em;
-        margin: 220px 90px; } }
+        font-size: 2.125em; } }
     .hero-container h2.hero-heading .highlight {
       color: #32d17e; }
   .hero-container .marketing {
-    padding: 100px 10px 50px 10px;
-    /*@include mobile-landscape-and-up () {
-      padding: 150px 10px 150px 10px;
+    /*padding: 100px 10px 50px 10px;
+    @include tablet-portrait-only() {
+      padding: 120px 10px 120px 10px;
     }
-    @include tablet-portrait-and-up() {
-      padding: 200px 10px 200px 10px;
-    }
-    @include desktop-and-up() {
-      padding: 250px 10px 250px 10px;
+    @include tablet-portrait-and-up () {
+      padding: 220px 10px 220px 10px;
     }*/
     max-width: 1200px;
     width: 92%;
     margin: 0 auto; }
-    @media only screen and (min-width: 30.001em) and (max-width: 48em) {
-      .hero-container .marketing {
-        padding: 120px 10px 120px 10px; } }
-    @media only screen and (min-width: 48.001em) {
-      .hero-container .marketing {
-        padding: 220px 10px 220px 10px; } }
     .hero-container .marketing .highlight {
       color: #32d17e; }
     .hero-container .marketing h2 {
@@ -1245,69 +1231,112 @@ object {
         .hero-container .marketing .sub-heading {
           font-size: 0.75em; } }
 
-.marketing.marketing-vbackground {
-  position: absolute !important;
-  top: 0;
-  left: 4%;
-  width: 100%;
-  height: 100%;
-  bottom: 0;
-  z-index: 99;
-  padding: 150px 0 0 0; }
-
 .action-items {
-  z-index: 5; }
+  z-index: 5;
+  /*.video-thumb {
+    cursor: pointer;
+    display: inline-block;
+    img {
+      width: 75%;
+    }
+    p {
+      font-size: $font-size-15;
+    }
+    &:hover {
+      opacity: .9;
+      -webkit-transition: all 600ms ease;
+      -moz-transition: all 600ms ease;
+      transition: all 600ms ease;
+    }
+    &:active {
+      position: relative;
+      top: 1px;
+    }
+  }*/ }
   .action-items:before, .action-items:after {
     content: "";
     display: table; }
   .action-items:after {
     clear: both; }
-  .action-items .contact-btn-container {
-    display: inline-block;
-    position: relative;
-    bottom: 60px;
-    left: -60px; }
+  .action-items .contact-btn-container,
+  .action-items .play-btn-container {
+    display: inline-block; }
     @media only screen and (max-width: 37.5em) {
-      .action-items .contact-btn-container {
-        display: block;
+      .action-items .contact-btn-container,
+      .action-items .play-btn-container {
         position: static;
         bottom: 0;
-        left: 0;
-        margin-top: 15px; } }
+        left: 0; } }
+  .action-items .contact-btn-container {
+    margin-left: 0.5em; }
   .action-items .login-btn-container {
     margin-left: 1em; }
     @media only screen and (max-width: 37.5em) {
       .action-items .login-btn-container {
         margin-left: 0;
         margin-top: 30px; } }
-  .action-items .video-thumb {
-    cursor: pointer;
-    display: inline-block; }
-    .action-items .video-thumb img {
-      width: 75%; }
-    .action-items .video-thumb p {
-      font-size: 0.938em; }
-    .action-items .video-thumb:hover {
-      opacity: .9;
-      -webkit-transition: all 600ms ease;
-      -moz-transition: all 600ms ease;
-      transition: all 600ms ease; }
-    .action-items .video-thumb:active {
-      position: relative;
-      top: 1px; }
+
+.play-btn {
+  cursor: pointer;
+  color: #FFF !important;
+  border: 1px solid #FFF;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  text-decoration: none;
+  background: transparent;
+  padding: 14px 20px;
+  font-size: 1.25em;
+  font-family: "Gotham Rounded A", "Gotham Rounded B";
+  font-weight: 300;
+  font-style: normal;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); }
+  @media only screen and (max-width: 30em) {
+    .play-btn {
+      padding: 10px;
+      font-size: 0.875em; } }
+  @media only screen and (max-width: 37.5em) {
+    .play-btn {
+      font-size: 1em; } }
+  .play-btn span {
+    display: inline-block;
+    position: relative;
+    left: -8px;
+    top: 3px;
+    margin-left: 5px; }
+  .play-btn:hover, .play-btn:active {
+    background: rgba(0, 0, 0, 0.3);
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out; }
 
 #feature-movie {
+  width: 100%; }
+  #feature-movie:after {
+    content: "#";
+    width: 100%;
+    height: 99%;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(51, 51, 51, 0.3); }
+
+.marketing.marketing-vbackground {
+  position: absolute;
+  left: 4%;
   width: 100%;
-  position: relative;
-  bottom: -7px; }
+  bottom: 10%;
+  z-index: 99; }
 
 .masthead-video-overlay {
   width: 100%;
-  height: 100%;
+  height: 99%;
   z-index: 2;
   position: absolute;
   top: 0;
-  left: 0; }
+  left: 0;
+  background: rgba(51, 51, 51, 0.3); }
 
 .login-btn {
   background: #bbb;
